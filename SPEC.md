@@ -1,6 +1,6 @@
 # Satoshi's Most Wanted — Sprint 0 Product Spec
 
-> Status: DRAFT — awaiting owner approval. Nothing ships, deploys, or posts
+> Status: APPROVED 2026-10-22 (owner; The Young Gun confirmed). Nothing ships, deploys, or posts
 > without the owner's gate (constitution §4).
 
 ## One-liner
@@ -16,9 +16,9 @@ The platforms are silos; we're the wall they all get pinned to.
   Ranked by opportunity score (below). Each poster: title, sats purse, source,
   badges, and a one-line "why it's on the wall."
 - **The Young Gun** — one slot for the freshest clean listing (new,
-  uncontested, alive repo). Flavor option: each pick gets a rotating outlaw
-  nickname ("Babyface Jack just rode in — 20k sats, nobody's on it").
-  Plain "Fresh & Clean" label acceptable if nicknames feel like over-marketing.
+  uncontested, alive repo). Each pick gets a rotating outlaw nickname
+  ("Babyface Jack just rode in — 20k sats, nobody's on it").
+  (Owner-confirmed 2026-10-22.)
 
 ## The wall (scroll content)
 
