@@ -1,0 +1,7 @@
+deliverables/
+state/
+*.log
+.env
+__pycache__/
+node_modules/
+dist/
