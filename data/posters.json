@@ -1,0 +1,3071 @@
+{
+  "posters": [
+    {
+      "id": "lightning_bounties-2461505d5e365291",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-2581-lnbits/lnbits",
+      "title": "Support sending to BOLT12 offer",
+      "url": "https://github.com/lnbits/lnbits/issues/2581",
+      "kind": "opportunity",
+      "sats": 20000,
+      "escrow": true,
+      "rewarder": "sbddesign",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "lnbits/lnbits",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 8,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "lnbits/lnbits",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #4255",
+          "issue #4251"
+        ]
+      },
+      "score": 80.0,
+      "score_breakdown": {
+        "purse": 20.0,
+        "uncontested": 30.0,
+        "repo_freshness": 10.0,
+        "responder": 10.0,
+        "escrow": 10.0
+      },
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "honest_work",
+      "bar_pass_reasons": [
+        "purse 20000 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
+      "id": "lightning_bounties-acd052f3b71b01b6",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-128-CodyTseng/jumble",
+      "title": "Show a confirmation popup message asking if I really want to close Jumble",
+      "url": "https://github.com/CodyTseng/jumble/issues/128",
+      "kind": "opportunity",
+      "sats": 3000,
+      "escrow": true,
+      "rewarder": "SonnyMonroe",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "CodyTseng/jumble",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 56,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "CodyTseng/jumble",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "issue #884",
+          "issue #876",
+          "issue #875",
+          "issue #874",
+          "issue #873",
+          "issue #871",
+          "issue #868",
+          "issue #867"
+        ]
+      },
+      "score": 63.0,
+      "score_breakdown": {
+        "purse": 3.0,
+        "uncontested": 30.0,
+        "repo_freshness": 10.0,
+        "responder": 10.0,
+        "escrow": 10.0
+      },
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "honest_work",
+      "bar_pass_reasons": [
+        "purse 3000 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
+      "id": "lightning_bounties-270e49491d8d3b3c",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-206-PrimalHQ/primal-ios-app",
+      "title": "Feature: Translate notes to user's preferred language",
+      "url": "https://github.com/PrimalHQ/primal-ios-app/issues/206",
+      "kind": "unranked",
+      "sats": 50010,
+      "escrow": true,
+      "rewarder": "onlybugs05",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "swift",
+      "repo": "PrimalHQ/primal-ios-app",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-19",
+      "contested_prs": 8,
+      "contest_detail": [
+        {
+          "number": 224,
+          "title": "feat: translate notes to user's preferred language (#206)",
+          "user": "ehfcnate",
+          "age_days": 25
+        },
+        {
+          "number": 222,
+          "title": "#206 Feature: Translate notes to user's preferred language FIXED",
+          "user": "felladaniel36-hash",
+          "age_days": 38
+        },
+        {
+          "number": 221,
+          "title": "feat: translate notes to the user's preferred language (#206)",
+          "user": "UniSyncInc2212",
+          "age_days": 40
+        },
+        {
+          "number": 214,
+          "title": "feat: translate notes to user's preferred language (#206)",
+          "user": "indrad3v4",
+          "age_days": 78
+        },
+        {
+          "number": 212,
+          "title": "feat: inline note translation with LibreTranslate (closes #206)",
+          "user": "cornerblue",
+          "age_days": 94
+        },
+        {
+          "number": 223,
+          "title": "Translate notes to user's preferred language",
+          "user": "albertotranquilli-cmyk",
+          "age_days": 30
+        },
+        {
+          "number": 207,
+          "title": "Add translate action to note menu",
+          "user": "thecosmicskye",
+          "age_days": 122
+        },
+        {
+          "number": 208,
+          "title": "Add inline note translation",
+          "user": "sato820",
+          "age_days": 114
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 39,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "PrimalHQ/primal-ios-app",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "issue #225",
+          "issue #218"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 50010 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 4d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "contested by 8 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-905b02a92c981175",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-1055-PrimalHQ/primal-android-app",
+      "title": "Feature: Translate notes to user's preferred language",
+      "url": "https://github.com/PrimalHQ/primal-android-app/issues/1055",
+      "kind": "unranked",
+      "sats": 50000,
+      "escrow": true,
+      "rewarder": "cortexuvula",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "kotlin",
+      "repo": "PrimalHQ/primal-android-app",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-19",
+      "contested_prs": 9,
+      "contest_detail": [
+        {
+          "number": 1111,
+          "title": "feat: translate notes to user preferred language (#1055)",
+          "user": "UniSyncInc2212",
+          "age_days": 40
+        },
+        {
+          "number": 1113,
+          "title": "feat: translate notes to user's preferred language (#1055)",
+          "user": "ehfcnate",
+          "age_days": 25
+        },
+        {
+          "number": 1102,
+          "title": "feat: translate notes to user's preferred language (#1055)",
+          "user": "indrad3v4",
+          "age_days": 78
+        },
+        {
+          "number": 1112,
+          "title": "Translate notes to user's preferred language",
+          "user": "albertotranquilli-cmyk",
+          "age_days": 30
+        },
+        {
+          "number": 1095,
+          "title": "feat: hybrid on-device + LibreTranslate note translation (closes #1055)",
+          "user": "cornerblue",
+          "age_days": 94
+        },
+        {
+          "number": 1104,
+          "title": "Add note translation action",
+          "user": "ParsaHajiAshrafi",
+          "age_days": 59
+        },
+        {
+          "number": 1091,
+          "title": "Add native note translation with browser fallback",
+          "user": "silentpatch-agent",
+          "age_days": 102
+        },
+        {
+          "number": 1056,
+          "title": "Add Translate Note menu action",
+          "user": "thecosmicskye",
+          "age_days": 122
+        },
+        {
+          "number": 1094,
+          "title": "Add inline on-device note translation",
+          "user": "ewbd09-svg",
+          "age_days": 97
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 5,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "PrimalHQ/primal-android-app",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "issue #1115",
+          "issue #1110",
+          "issue #1103"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 50000 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 4d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "contested by 9 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-32bdcb1a314cf45c",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-133-PrimalHQ/primal-web-app",
+      "title": "Translate post to user language",
+      "url": "https://github.com/PrimalHQ/primal-web-app/issues/133",
+      "kind": "unranked",
+      "sats": 50000,
+      "escrow": true,
+      "rewarder": "cortexuvula",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "PrimalHQ/primal-web-app",
+      "repo_archived": false,
+      "repo_last_push": "2026-08-27",
+      "contested_prs": 19,
+      "contest_detail": [
+        {
+          "number": 226,
+          "title": "feat: fail-closed inline note translation (#133)",
+          "user": "UniSyncInc2212",
+          "age_days": 40
+        },
+        {
+          "number": 232,
+          "title": "feat: translate notes to user preferred language (#133)",
+          "user": "ehfcnate",
+          "age_days": 25
+        },
+        {
+          "number": 230,
+          "title": "Feat: Translate posts to user's preferred language (closes #133)",
+          "user": "AmirabbasDorasay",
+          "age_days": 28
+        },
+        {
+          "number": 208,
+          "title": "feat: configurable inline note translation (closes #133)",
+          "user": "cornerblue",
+          "age_days": 94
+        },
+        {
+          "number": 212,
+          "title": "feat: translate posts to user's preferred language (#133)",
+          "user": "indrad3v4",
+          "age_days": 78
+        },
+        {
+          "number": 231,
+          "title": "Translate post to user language",
+          "user": "jounaid-dev",
+          "age_days": 27
+        },
+        {
+          "number": 228,
+          "title": "feat: integrate community note translation engine hooks",
+          "user": "Malek-121s",
+          "age_days": 31
+        },
+        {
+          "number": 223,
+          "title": "feat: add translate button to notes using LibreTranslate",
+          "user": "gar-uda",
+          "age_days": 54
+        },
+        {
+          "number": 213,
+          "title": "Add on-demand translation for posts",
+          "user": "paducklightning",
+          "age_days": 71
+        },
+        {
+          "number": 229,
+          "title": "Translate post to user language",
+          "user": "albertotranquilli-cmyk",
+          "age_days": 30
+        },
+        {
+          "number": 221,
+          "title": "Translate posts to the user language",
+          "user": "nonoplzno",
+          "age_days": 56
+        },
+        {
+          "number": 209,
+          "title": "feat: add configurable note translation",
+          "user": "iamtherustyone",
+          "age_days": 94
+        },
+        {
+          "number": 201,
+          "title": "Add translate action to note context menu",
+          "user": "thecosmicskye",
+          "age_days": 122
+        },
+        {
+          "number": 206,
+          "title": "feat: inline note translation with LibreTranslate support",
+          "user": "funnywar605",
+          "age_days": 109
+        },
+        {
+          "number": 204,
+          "title": "feat: add configurable inline note translation",
+          "user": "sato820",
+          "age_days": 115
+        },
+        {
+          "number": 218,
+          "title": "Add note translation action",
+          "user": "ParsaHajiAshrafi",
+          "age_days": 59
+        },
+        {
+          "number": 207,
+          "title": "Add configurable note translation (settings-driven providers, sanitized content,",
+          "user": "larkinworksagent-dev",
+          "age_days": 97
+        },
+        {
+          "number": 203,
+          "title": "feat: inline note translation via cache protocol with kind:1051 bootstrap",
+          "user": "KakashiTech",
+          "age_days": 116
+        },
+        {
+          "number": 205,
+          "title": "Add note translation support",
+          "user": "Anthonyushie",
+          "age_days": 115
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 15,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "PrimalHQ/primal-web-app",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "issue #236",
+          "issue #235",
+          "issue #233"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 50000 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 57d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "contested by 19 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-e245aa0100311ec5",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-254-MagnivOrg/prompt-layer-library",
+      "title": "Client fails to fetch prompts with names containing slash",
+      "url": "https://github.com/MagnivOrg/prompt-layer-library/issues/254",
+      "kind": "unranked",
+      "sats": 5200,
+      "escrow": true,
+      "rewarder": "SonnyMonroe",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "MagnivOrg/prompt-layer-library",
+      "repo_archived": false,
+      "repo_last_push": "2026-08-19",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 143,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "MagnivOrg/prompt-layer-library",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "issue #358",
+          "issue #357",
+          "issue #355"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 5200 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 65d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "last reply 143d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-52a71271b0db5ef9",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-283-CodyTseng/jumble",
+      "title": "Be able to mention and autocomplete all profiles from a Nostr list when writing a note.",
+      "url": "https://github.com/CodyTseng/jumble/issues/283",
+      "kind": "unranked",
+      "sats": 10200,
+      "escrow": true,
+      "rewarder": "SonnyMonroe",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "CodyTseng/jumble",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 764,
+          "title": "Mention: autocomplete Nostr people lists",
+          "user": "Chewy-b0t",
+          "age_days": 210
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 56,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "CodyTseng/jumble",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "issue #884",
+          "issue #876",
+          "issue #875",
+          "issue #874",
+          "issue #873",
+          "issue #871",
+          "issue #868",
+          "issue #867"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 10200 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "1 open PR but 210d old (> 30d)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-39930c41d6279de2",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-157-CodyTseng/jumble",
+      "title": "Option to not show posts of people I'm following when browsing a specific relay set",
+      "url": "https://github.com/CodyTseng/jumble/issues/157",
+      "kind": "unranked",
+      "sats": 2000,
+      "escrow": true,
+      "rewarder": "lb-founders",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "CodyTseng/jumble",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 713,
+          "title": "feat: add per-relay toggle to hide posts from followed users",
+          "user": "jaronhelianthes",
+          "age_days": 298
+        },
+        {
+          "number": 836,
+          "title": "fix: sign with the correct account when a NIP-07 extension holds multiple accoun",
+          "user": "Anderson-Juhasc",
+          "age_days": 85
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 39,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "CodyTseng/jumble",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "issue #884",
+          "issue #876",
+          "issue #875",
+          "issue #874",
+          "issue #873",
+          "issue #871",
+          "issue #868",
+          "issue #867"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 2000 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-748d7c021d7e9a5b",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-83-CodyTseng/jumble",
+      "title": "Reply on a thread on mobile is not showing the post window on the correct position",
+      "url": "https://github.com/CodyTseng/jumble/issues/83",
+      "kind": "unranked",
+      "sats": 3000,
+      "escrow": true,
+      "rewarder": "bitcoinuser",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "CodyTseng/jumble",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 303,
+          "title": "Threadmobile",
+          "user": "Wutche",
+          "age_days": 545
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 538,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "CodyTseng/jumble",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "issue #884",
+          "issue #876",
+          "issue #875",
+          "issue #874",
+          "issue #873",
+          "issue #871",
+          "issue #868",
+          "issue #867"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 3000 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "last reply 538d ago (> 60d)",
+        "1 open PR but 545d old (> 30d)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-05a8132c00314c96",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-98-BrantaOps/branta-core",
+      "title": "Integrate Snitch to CI",
+      "url": "https://github.com/BrantaOps/branta-core/issues/98",
+      "kind": "unranked",
+      "sats": 2063,
+      "escrow": true,
+      "rewarder": "lightning-bounties-system",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "BrantaOps/branta-core",
+      "repo_archived": true,
+      "repo_last_push": "2026-03-02",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 233,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "BrantaOps/branta-core",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 2063 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "repo archived (payout was never coming)",
+        "last reply 233d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-553e860db4691fd6",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-55-BrantaOps/branta-core",
+      "title": "Design Overhaul: Critique & Recommendations",
+      "url": "https://github.com/BrantaOps/branta-core/issues/55",
+      "kind": "unranked",
+      "sats": 4286,
+      "escrow": true,
+      "rewarder": "sutt",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "BrantaOps/branta-core",
+      "repo_archived": true,
+      "repo_last_push": "2026-03-02",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 254,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "BrantaOps/branta-core",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 4286 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "repo archived (payout was never coming)",
+        "last reply 254d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-cb2615b6a7cad2cc",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-343-chainwayxyz/clementine",
+      "title": "Implement Verifier Nonce Gen",
+      "url": "https://github.com/chainwayxyz/clementine/issues/343",
+      "kind": "unranked",
+      "sats": 6500,
+      "escrow": true,
+      "rewarder": "octoberjackie",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "chainwayxyz/clementine",
+      "repo_archived": false,
+      "repo_last_push": "2026-07-14",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 717,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "chainwayxyz/clementine",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "SECURITY.md",
+          "issue #1277"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 6500 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "repo last push 101d ago (> 90d)",
+        "last reply 717d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-51e4035df8c7eaa1",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-20-BrantaOps/branta-core",
+      "title": "Sync preferences via nsec",
+      "url": "https://github.com/BrantaOps/branta-core/issues/20",
+      "kind": "unranked",
+      "sats": 17990,
+      "escrow": true,
+      "rewarder": "keith-gardner",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "BrantaOps/branta-core",
+      "repo_archived": true,
+      "repo_last_push": "2026-03-02",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 255,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "BrantaOps/branta-core",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 17990 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "repo archived (payout was never coming)",
+        "last reply 255d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-656362e0e378acce",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#114",
+      "title": "Add Blink Wallet connector",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/114",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 381,
+          "title": "fix: don't show 'connected to' on connection error",
+          "user": "Pyiner",
+          "age_days": 209
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "1 open PR but 209d old (> 30d)"
+      ]
+    },
+    {
+      "id": "getalby-5d32d0890f36015b",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#151",
+      "title": "Implement extra WebLN methods for LNC connector (e.g. makeInvoice)",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/151",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 4,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)"
+      ]
+    },
+    {
+      "id": "getalby-03784f44a10d9785",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/lightning-browser-extension#1161",
+      "title": "Export modal for (Zeus/BlueWallet) accounts: Link to docs",
+      "url": "https://github.com/getAlby/lightning-browser-extension/issues/1161",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/lightning-browser-extension",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 12,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/lightning-browser-extension",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md",
+          "issue #3635"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)"
+      ]
+    },
+    {
+      "id": "getalby-b3f1ae348e9f227e",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#117",
+      "title": "Fix classes are set directly into the svg icons",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/117",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 397,
+          "title": "fix: move hard-coded SVG classes to icon callers",
+          "user": "yangToT",
+          "age_days": 42
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 42,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "1 open PR but 42d old (> 30d)"
+      ]
+    },
+    {
+      "id": "getalby-8bc318f841bed7ff",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#111",
+      "title": "Fix modal jumping when height changes",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/111",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 68,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 68d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-53c948aabd1046ae",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#159",
+      "title": "Dedicated documentation site",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/159",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 68,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 68d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-ae883520a55908f1",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/lightning-browser-extension#2984",
+      "title": "[Feature] Support LUD-17 keyauth scheme",
+      "url": "https://github.com/getAlby/lightning-browser-extension/issues/2984",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/lightning-browser-extension",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 68,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/lightning-browser-extension",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md",
+          "issue #3635"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 68d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-4470c244987769ee",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#174",
+      "title": "Don't show \"connected to\" on connection error",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/174",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 381,
+          "title": "fix: don't show 'connected to' on connection error",
+          "user": "Pyiner",
+          "age_days": 209
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 209,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 209d ago (> 60d)",
+        "1 open PR but 209d old (> 30d)"
+      ]
+    },
+    {
+      "id": "getalby-a2aabe4e23f6e1c5",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#84",
+      "title": "Add proper connection page for LNC connect",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/84",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 392,
+          "title": "Update all Yarn dependencies (2026-05-25)",
+          "user": "depfu[bot]",
+          "age_days": 151
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 213,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 213d ago (> 60d)",
+        "1 open PR but 151d old (> 30d)"
+      ]
+    },
+    {
+      "id": "getalby-532db173c7b4ceb1",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/hub#979",
+      "title": "Zapplanner - change icon?",
+      "url": "https://github.com/getAlby/hub/issues/979",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "go",
+      "repo": "getAlby/hub",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 222,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/hub",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 222d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-e231fdf4c8f5b7c2",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/hub#1001",
+      "title": "Provide and display more info about LSPs",
+      "url": "https://github.com/getAlby/hub/issues/1001",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "go",
+      "repo": "getAlby/hub",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 399,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/hub",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 399d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-a3f30dfb2ee67209",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/pos#40",
+      "title": "Add support for NIP-47 notifications",
+      "url": "https://github.com/getAlby/pos/issues/40",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/pos",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/pos",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "issue #46",
+          "issue #42",
+          "issue #40",
+          "issue #39",
+          "issue #30",
+          "issue #24"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "no responder signal on the thread"
+      ]
+    },
+    {
+      "id": "getalby-124f246ad017e84f",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/ZapPlanner#46",
+      "title": "Add github link on website footer",
+      "url": "https://github.com/getAlby/ZapPlanner/issues/46",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/ZapPlanner",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-22",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/ZapPlanner",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "issue #84",
+          "issue #71",
+          "issue #70",
+          "issue #69",
+          "issue #60",
+          "issue #55"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 1d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "no responder signal on the thread"
+      ]
+    },
+    {
+      "id": "getalby-ab7f7e19d1d92d4a",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/ZapPlanner#69",
+      "title": "Creation of payment schedule needs exit/finish",
+      "url": "https://github.com/getAlby/ZapPlanner/issues/69",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/ZapPlanner",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-22",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 94,
+          "title": "add: end-date in recurring payments",
+          "user": "krrish-sehgal",
+          "age_days": 389
+        }
+      ],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/ZapPlanner",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "issue #84",
+          "issue #71",
+          "issue #70",
+          "issue #69",
+          "issue #60",
+          "issue #55"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 1d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "no responder signal on the thread",
+        "1 open PR but 389d old (> 30d)"
+      ]
+    },
+    {
+      "id": "getalby-4d039a5258b51582",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#118",
+      "title": "Add pagination",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/118",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 648,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 648d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-4bf21306d639eb13",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#132",
+      "title": "Re-add slide up/down animation on the modal for mobile on open/close",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/132",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 650,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 650d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-4cad71b6a9c796f2",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#144",
+      "title": "Minor borders/transparency update",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/144",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 662,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 662d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-c7175644d0b6c00a",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#122",
+      "title": "Create templates on Replit",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/122",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "no responder signal on the thread"
+      ]
+    },
+    {
+      "id": "getalby-ea22eaaf0e1935ca",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/lightning-browser-extension#1971",
+      "title": "[Feature] Suggest LN addresses when making a payment",
+      "url": "https://github.com/getAlby/lightning-browser-extension/issues/1971",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/lightning-browser-extension",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 885,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/lightning-browser-extension",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md",
+          "issue #3635"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 885d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-1c95749593425097",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#131",
+      "title": "Disconnect button draws view / UX issues with connected modal",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/131",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 393,
+          "title": "\ud83d\udea8 [security] Update esbuild 0.25.12 \u2192 0.28.1 (major)",
+          "user": "depfu[bot]",
+          "age_days": 133
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1047,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 1047d ago (> 60d)",
+        "1 open PR but 133d old (> 30d)"
+      ]
+    },
+    {
+      "id": "getalby-5436d72ca8d7ad9f",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/lightning-browser-extension#2573",
+      "title": "Add missing labels to increase accessibility",
+      "url": "https://github.com/getAlby/lightning-browser-extension/issues/2573",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/lightning-browser-extension",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 2960,
+          "title": "feat: add screen reader labels for better accessibility",
+          "user": "volfiros",
+          "age_days": 1035
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1038,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/lightning-browser-extension",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md",
+          "issue #3635"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 1038d ago (> 60d)",
+        "1 open PR but 1035d old (> 30d)"
+      ]
+    },
+    {
+      "id": "getalby-9675733c3c3e0c68",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/nostr-wallet-connect#86",
+      "title": "Millisat payments cause \"Payment failed Bad arguments\"",
+      "url": "https://github.com/getAlby/nostr-wallet-connect/issues/86",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "go",
+      "repo": "getAlby/nostr-wallet-connect",
+      "repo_archived": false,
+      "repo_last_push": "2024-09-18",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/nostr-wallet-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "issue #275",
+          "issue #271",
+          "issue #246"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "repo last push 765d ago (> 90d)",
+        "no responder signal on the thread"
+      ]
+    },
+    {
+      "id": "getalby-558442e8c0696e5a",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/nostr-wallet-connect#156",
+      "title": "\"Never budget\" in permissions screen",
+      "url": "https://github.com/getAlby/nostr-wallet-connect/issues/156",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "go",
+      "repo": "getAlby/nostr-wallet-connect",
+      "repo_archived": false,
+      "repo_last_push": "2024-09-18",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/nostr-wallet-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "issue #275",
+          "issue #271",
+          "issue #246"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "repo last push 765d ago (> 90d)",
+        "no responder signal on the thread"
+      ]
+    },
+    {
+      "id": "getalby-7453c51e5aa83644",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#45",
+      "title": "Reduce bundle size",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/45",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "no responder signal on the thread"
+      ]
+    },
+    {
+      "id": "getalby-c2c0fd71eb2b149a",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#66",
+      "title": "Make it easier for components to be fully customized",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/66",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "no responder signal on the thread"
+      ]
+    },
+    {
+      "id": "getalby-605782f577699a5c",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#81",
+      "title": "Disconnect button does not actually disconnect window.webln",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/81",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 392,
+          "title": "Update all Yarn dependencies (2026-05-25)",
+          "user": "depfu[bot]",
+          "age_days": 151
+        },
+        {
+          "number": 393,
+          "title": "\ud83d\udea8 [security] Update esbuild 0.25.12 \u2192 0.28.1 (major)",
+          "user": "depfu[bot]",
+          "age_days": 133
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1100,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 3d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 1100d ago (> 60d)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "getalby-a29893c1ede252ab",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/nostr-wallet-connect#157",
+      "title": "Bug: no event is fired if window.opener does not exist",
+      "url": "https://github.com/getAlby/nostr-wallet-connect/issues/157",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "go",
+      "repo": "getAlby/nostr-wallet-connect",
+      "repo_archived": false,
+      "repo_last_push": "2024-09-18",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/nostr-wallet-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "issue #275",
+          "issue #271",
+          "issue #246"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "repo last push 765d ago (> 90d)",
+        "no responder signal on the thread"
+      ]
+    },
+    {
+      "id": "getalby-ae14585b98604389",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/ZapPlanner#37",
+      "title": "Deeplink editor",
+      "url": "https://github.com/getAlby/ZapPlanner/issues/37",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/ZapPlanner",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-22",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 94,
+          "title": "add: end-date in recurring payments",
+          "user": "krrish-sehgal",
+          "age_days": 389
+        }
+      ],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1113,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/ZapPlanner",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "README.md",
+          "issue #84",
+          "issue #71",
+          "issue #70",
+          "issue #69",
+          "issue #60",
+          "issue #55"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 1d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 1113d ago (> 60d)",
+        "1 open PR but 389d old (> 30d)"
+      ]
+    },
+    {
+      "id": "getalby-58894c336d855fcb",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/lightning-browser-extension#46",
+      "title": "transactionsList: implement incoming transactions on all connectors",
+      "url": "https://github.com/getAlby/lightning-browser-extension/issues/46",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/lightning-browser-extension",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1295,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/lightning-browser-extension",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md",
+          "issue #3635"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 1295d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "getalby-03101b97dc09307c",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/lightning-browser-extension#1960",
+      "title": "[Feature] Add success screen confirmation when paying webln invoices",
+      "url": "https://github.com/getAlby/lightning-browser-extension/issues/1960",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/lightning-browser-extension",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1285,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/lightning-browser-extension",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md",
+          "issue #3635"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-23",
+      "last_checked": "2026-10-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "negotiated lane (D6: excluded from the wall)",
+        "no sats purse (negotiable/unknown)",
+        "last reply 1285d ago (> 60d)"
+      ]
+    }
+  ]
+}
