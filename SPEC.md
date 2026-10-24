@@ -1,107 +1,102 @@
-# Satoshi's Most Wanted — Sprint 0 Product Spec
+# Satoshi's Most Wanted — Product Spec (v2)
 
-> Status: APPROVED 2026-10-22 (owner; The Young Gun confirmed). Nothing ships, deploys, or posts
-> without the owner's gate (constitution §4).
+> Status: v2 — north star (three doors) owner-confirmed 2026-10-24.
+> Evidence base: RESEARCH.md. Shape decisions: DECISIONS.md.
+> Open items marked OPEN (D6) — resolved before sprint gates.
 
-## One-liner
+## Identity
 
-The sheriff's office wall for every sats-paying dev opportunity — verified,
-badged with honest signal, free for the whole town. The gap we fill: nobody
-aggregates across platforms AND tells you if a bounty is worth your time.
-The platforms are silos; we're the wall they all get pinned to.
+We protect a niche market: people (and the agents they fire at GitHub) who
+want to *really contribute or learn* — by highlighting projects that pay
+real sats, and exposing the traps set for them. Free, open data,
+donation-funded. Openly agent-run infrastructure under human ownership
+(exact voice: OPEN, D6).
 
-## Front page (first thing you see)
+**Ethos (Krillion study, RESEARCH.md):** one engine, many doors — each door
+owns exactly one job and states honestly what it is. The engine and the
+outcomes database are the assets; doors are acquisition surfaces we can add
+or retire without re-architecting.
 
-- **TOP 5 MOST WANTED** — big type, poster-style, straight to the point.
-  Ranked by opportunity score (below). Each poster: title, sats purse, source,
-  badges, and a one-line "why it's on the wall."
-- **The Young Gun** — one slot for the freshest clean listing (new,
-  uncontested, alive repo). Each pick gets a rotating outlaw nickname
-  ("Babyface Jack just rode in — 20k sats, nobody's on it").
-  (Owner-confirmed 2026-10-22.)
+## North star — the three doors
 
-## The wall (scroll content)
+| Door | Job | Ranks by |
+|---|---|---|
+| **Most Wanted** | the worst traps — exposure | scanner severity + victim count |
+| **Honest Work** | verified clean opportunities | opportunity score (+ The Young Gun) |
+| **The Assay** | rewarder report cards, best→worst leaderboard | paid ratio, time-to-award, totals |
 
-- Full listing, newest-check first, poster cards with sats, source, badges,
-  age, language.
-- Filters: source, badge, language, sats range, escrow status.
-- Keyword search (client-side, no search infra).
-- Click-through goes straight to the GitHub issue / SN post / platform page.
+Front page: Top 5 Most Wanted + The Young Gun (freshest clean listing, outlaw
+nickname). Filters + keyword search per door. Click-through to the source.
 
-## Badges (the honest-signal layer — the moat)
+## Engine (Sprint 1 — the product IS the data)
 
-| Badge | Meaning |
-|---|---|
-| 🔒 Purse Locked | reward escrowed on-platform (Lightning Bounties) |
-| ⚠ Contested | N open PRs already chasing it |
-| 💀 Ghost Town | repo archived or stale — payout unlikely |
-| 🚩 Short Trail | rewarder with thin/no payout history (low trust) |
-| 🤝 Negotiable | contact-first, terms TBD (Alby-style programs) |
-| ✅ Pays Out | rewarder has verified paid history (stretch goal) |
+- **Unified poster schema** (open JSON, committed in-repo): id, source, title,
+  url, sats (or `negotiable`), escrow, contested_prs (+ contest quality),
+  repo_last_push, maintainer_response (last maintainer reply age),
+  rewarder, rewarder_trust, language, first_seen, last_checked, score,
+  score_breakdown, trap_verdict, trap_findings (rule IDs + severities,
+  evidence kept separate), claim_mechanics (per-platform "how you actually
+  get paid").
+- **Trap rules vendored with attribution** (from agentatwork/trapcheck, MIT;
+  rule IDs preserved — provenance honesty). Verdicts published WITH evidence
+  and the tool's stated limits. Severity-40 rule = never listed on Honest
+  Work; traps feed Most Wanted.
+- **Outcomes ledger from day one:** every ingested listing tracked to its
+  end — awarded? paid? time-to-award? rewarder? Compounds into The Assay's
+  report cards (nobody else has this data).
+- **Signals (deterministic only):** escrow status, open-PR contest count +
+  junk-PR quality, repo freshness, maintainer responsiveness, rewarder
+  history. No agent improvisation in the data path.
+- **Exclusions (never listed):** HUMAN_ONLY / bank-card "agent" lanes; SN
+  micro-contest bounties (2–5k content/gaming — not dev work); archived or
+  stale repos; TRAP-verdict repos.
 
-## Poster data schema (open JSON, committed in-repo)
+## Ethics guardrails (binding, constitution §2)
 
-`id, source, title, url, sats (or "negotiable"), escrow, contested_prs,
-repo_last_push, rewarder, rewarder_trust, language, first_seen, last_checked,
-score, score_breakdown`
+Evidence-first posters (verdict + rules + quoted findings + limits);
+repos/orgs/behavior, never persons; posters come DOWN when the repo changes
+(re-check cadence); public dispute path for maintainers; attribution on
+every verdict. "SUSPICIOUS" is a score, not an accusation.
 
-## Sources — v1 (owner decision 2026-10-22)
+## Sources — v1 (D2)
 
-GitHub + Stacker News lane, chosen for verified-pay density over breadth:
+Lightning Bounties feed, Stacker News repo bounty issues (episodic — lane
+verified empty 2026-10-23), SN community bounty posts (SN GraphQL), org
+bounty boards (getAlby `good first issue` + Flash-style labeled issues —
+pattern generalizes). Growth toward everything-sats only while quality
+holds.
 
-1. Lightning Bounties feed (existing scout source)
-2. Stacker News repo bounty issues — difficulty/priority labels (existing)
-3. Stacker News community bounty posts — via SN public GraphQL API (new)
-4. Org bounty boards — getAlby `good first issue` (existing) + Flash-style
-   GitHub-labeled bounty issues (new, pattern generalizes to any org)
+## Donations (D2)
 
-Growth path (owner-approved direction, quality-gated): nostr-native bounties
-(Catalax etc.) → eventually everything sats-earning. Add sources only while
-v1 quality stays high — no rush.
+Plain tip jar: `littlecamel691929@getalby.com` (verified E2E 2026-10-23,
+ledger txn 53) + nostr zaps when the bot exists. Upgrade path: branded
+handle on the `satsmostwanted` sub-wallet (Alby Pro, parked).
 
-## Ranking — opportunity score
+## Infrastructure
 
-`score = f(sats, uncontested, repo_activity, escrow)` — weights documented in
-the repo, breakdown shown per poster (no black box). A big contested
-ghost-town purse loses to a smaller clean one. That judgment IS the product.
+Deterministic scripts; GitHub Actions cron (3h) — never the owner's laptop;
+fly.io static site (bertoforthepeople account); `health.py` monitoring →
+Telegram from day one; self-hosted stats only.
 
-## Donations (owner decision: plain tip jar)
+## Sprints (owner gate at every end)
 
-Zap QR + lightning address on the site; nostr zaps on auto-posted notes.
-No goal bar, no tiers. Rails blocked until Alby Hub is back (dedicated
-sub-wallet, Phase 2). Zero take-rate, forever.
+- **S1 — Engine + reviewable data artifacts:** schema, vendored trap rules,
+  source adapters, outcomes ledger, tests. Deliverable for review: JSON +
+  rendered markdown reports of all three doors (review the DATA before any
+  chrome). Bar for Honest Work listings + negotiated-lane handling: OPEN (D6).
+- **S2 — Site:** Astro static board on fly, the three doors, search/filters,
+  evidence popouts. Trap scanner spin-out decision (D4) lands here.
+- **S3 — Distribution (each action owner-gated):** nostr bot, public TG
+  channel, RSS, listings, SN launch post.
+- **S4 — Monitoring + public stats:** health.py, outcomes dashboard,
+  "what we track / how many paid" transparency page.
 
-## Infrastructure & scheduling (lesson-driven design)
+## NOT building in v1
 
-- Pipeline: deterministic scripts (scout.py extended to unified schema),
-  no agent improvisation in the data path
-- Scheduler: **GitHub Actions cron (every 3h)** — NOT the owner's laptop;
-  commits updated JSON + triggers rebuild
-- Site: **Astro** static build on **fly.io** (proven deploy pattern)
-- Data: listings JSON committed in-repo = open data, beacon ethos
-- Monitoring from day one: `health.py` — pipeline freshness, site up,
-  hub node status (when back) → Telegram alert. The 7-weeks-dark failure
-  mode must be structurally impossible.
+Accounts, escrow, claims, comments, auto-submission. Pure signal, zero
+liability.
 
-## Distribution (later sprint, each external action owner-gated)
+## Dependencies
 
-Nostr bot (every fresh clean bounty → zappable note), public Telegram
-channel (existing bot goes public), RSS, listings on nostr.net / BOLT.fun /
-gigs.sh, SN launch post.
-
-## Metrics
-
-Listings/day by source, % with clean badges, alert latency (found→posted),
-tip jar sats (when live), self-hosted traffic stats only (no trackers).
-
-## NOT building in v1 (prudence)
-
-No accounts, no escrow, no claims, no comments, no auto-submission.
-Pure signal, zero liability. Those are where competitors die.
-
-## Owner gates
-
-Spec approval (now) → each sprint review → anything external (deploys,
-posts, listings). Pending dependencies: Alby Hub re-auth (donation rail +
-balance verify), fly SSO (board deploy; also ReviewDesk teardown decision),
-GitHub PAT rotation (pipeline secret for Actions).
+GitHub PAT rotation (pipeline secret), public repo creation (owner gate,
+OPEN D6), fly deploy at S2, hub uptime for tip-jar liveness.

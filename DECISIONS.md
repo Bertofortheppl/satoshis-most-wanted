@@ -4,7 +4,7 @@
 > the trigger to revisit. Append-only; new entries on top. Owner sign-off
 > recorded per entry. Ties to RESEARCH.md evidence by section.
 
-## D5 — Flip "Most Wanted" to the traps; split best/worst — PROPOSED (2026-10-24)
+## D5 — Flip "Most Wanted" to the traps; split best/worst — DECIDED (owner 2026-10-24, "the table is our north star")
 
 **Context:** Owner observation (2026-10-24): the old-west theme fits *outlaws*
 better than job openings; research (RESEARCH.md "BAD opportunities") shows the
@@ -40,7 +40,7 @@ beacon ethos; evidence-first shame keeps it honest, not cruel.
 **Revisit trigger:** legal/conduct friction, or scanner false-positive rate
 materially damages an innocent repo.
 
-## D4 — Trap scanner strategy: adopt + improve, spin out as a tool — PROPOSED (2026-10-24)
+## D4 — Trap scanner strategy: adopt + improve, spin out as a tool — DECIDED (owner 2026-10-24)
 
 **Context:** RESEARCH.md (trapcheck find). The scanner is arguably "the real
 gem" (owner's words) alongside the outcomes ledger. Options: adapt inside the
@@ -58,7 +58,7 @@ credibility the boards can't; upstream contribution is the beacon ethos.
 **Revisit trigger:** if tool maintenance distracts from the board for 2+
 sprints, freeze the fork and vendor-snapshot instead.
 
-## D3 — Venture architecture: morph, don't split — PROPOSED (2026-10-24)
+## D3 — Venture architecture: morph, don't split — DECIDED (owner 2026-10-24, "keep with the krillion ethos")
 
 **Context:** Product grew from "bounty board" to three interlocking products
 (trap wall, honest-work board, outcomes/report cards) + one engine. Question:
