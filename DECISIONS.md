@@ -4,6 +4,37 @@
 > the trigger to revisit. Append-only; new entries on top. Owner sign-off
 > recorded per entry. Ties to RESEARCH.md evidence by section.
 
+## D7 — Battle scars + conditional negotiated lanes — DECIDED (owner 2026-10-24)
+
+**Context:** First live run review. The strict wall held 2 posters of 43;
+the lnbits#2581 flag exposed contest-blindness to attempt history. D6's
+negotiated-lane revisit-trigger fired with live data in hand (30 getAlby
+candidates excluded by category; ~a third show maintainer engagement).
+
+**Decisions (owner 2026-10-24):**
+1. **Battle scars are blocking.** Dead-attempt history (closed-unmerged
+   PRs referencing the issue) is fetched per listing, shown on posters,
+   penalized in the score. Owner wording: "block them with more than 2
+   dead attempts" → **3+ dead attempts = no poster.** 1–2 scars display
+   and ding the score.
+2. **Negotiated lanes included CONDITIONALLY.** A negotiated (🤝, no
+   escrow) listing earns a poster ONLY when the maintainer has recently
+   engaged on the thread — the same responsiveness bar as everything
+   else. Silent negotiated threads (our own 0/3 graveyard) never post.
+3. **Merged attempts block too** (added during implementation when live
+   verification showed lnbits#2581 with a MERGED fix from Sep 2026 while
+   the platform listing still shows open): a merged fix attempt means the
+   purse is likely already claimed — the listing is tracked as a probable
+   zombie, never posted. Verifies via PR search `merged_at` (one cached
+   call per issue).
+
+**Rationale:** the wall's promise is "every poster is real"; spent purses
+and rejection graveyards break that promise as surely as traps do.
+
+**Revisit trigger:** if the wall drops below 5 posters for two consecutive
+runs despite negotiated inclusion, revisit source breadth before
+loosening gates.
+
 ## D6 — Sprint 1 intent: data public, strict bar, negotiated excluded, neutral voice — DECIDED (owner 2026-10-24)
 
 **Context:** pre-Sprint-1 check-in (owner: "quality over speed and checking

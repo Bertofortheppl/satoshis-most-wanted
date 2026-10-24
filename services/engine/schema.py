@@ -71,6 +71,8 @@ class Poster:
     repo_last_push: Optional[str] = None         # ISO date
     contested_prs: int = 0
     contest_detail: list = field(default_factory=list)  # [{author, commits, age_days, draft}]
+    dead_attempts: int = 0                      # closed-unmerged PRs on the issue
+    merged_attempts: int = 0                     # merged PRs referencing the issue
     maintainer_responded: Optional[bool] = None
     maintainer_last_reply_age_days: Optional[int] = None
 

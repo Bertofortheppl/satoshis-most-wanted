@@ -50,13 +50,22 @@ def lb_feed(url):
          "repository_data": {"full_name": "acme/trap"},
          "last_rewarder_data": {"github_username": "freshface"},
          "created_at": "2026-10-20", "modified_at": "2026-10-20", "body": "x"},
-        # 5: honest purse on a ghost-town repo -> tracked (stale)
+        # 5: honest purse on a ghost-town repo -> tracked (stale) + a merged
+        # fix attempt -> purse likely claimed (D7 merged-block)
         {"issue_number": 15, "html_url": "https://lb/x15",
          "title": "Old feature", "is_closed": False, "winner_data": None,
          "unexpired_total_rewards": 30000,
          "repository_data": {"full_name": "acme/stale"},
          "last_rewarder_data": {"github_username": "veteran"},
          "created_at": "2026-01-05", "modified_at": "2026-01-05", "body": "x"},
+        # 6: graveyard — uncontested, clean, fresh, responded, but 3 dead
+        # attempts -> tracked (D7 battle-scars block)
+        {"issue_number": 16, "html_url": "https://lb/x16",
+         "title": "Graveyard feature", "is_closed": False, "winner_data": None,
+         "unexpired_total_rewards": 20000,
+         "repository_data": {"full_name": "acme/scarred"},
+         "last_rewarder_data": {"github_username": "veteran"},
+         "created_at": "2026-10-01", "modified_at": "2026-10-20", "body": "x"},
     ]
 
 
@@ -81,6 +90,12 @@ GH_PAYLOADS = {
     "https://api.github.com/repos/getAlby/bitcoin-connect": {
         "archived": False, "pushed_at": "2026-10-15T00:00:00Z",
         "stargazers_count": 300, "language": "JavaScript"},
+    "https://api.github.com/repos/getAlby/pos": {
+        "archived": False, "pushed_at": "2026-10-10T00:00:00Z",
+        "stargazers_count": 100, "language": "TypeScript"},
+    "https://api.github.com/repos/acme/scarred": {
+        "archived": False, "pushed_at": "2026-10-19T00:00:00Z",
+        "stargazers_count": 200, "language": "Python"},
     # contest searches (as urllib.quote emits them: repo slash stays raw)
     "https://api.github.com/search/issues?q=repo%3Aacme/clean%20is%3Apr%20is%3Aopen%2011":
         {"items": []},
@@ -97,6 +112,37 @@ GH_PAYLOADS = {
         {"items": []},
     "https://api.github.com/search/issues?q=repo%3Aacme/stale%20is%3Apr%20is%3Aopen%2015":
         {"items": []},
+    "https://api.github.com/search/issues?q=repo%3Aacme/scarred%20is%3Apr%20is%3Aopen%2016":
+        {"items": []},
+    "https://api.github.com/search/issues?q=repo%3AgetAlby/bitcoin-connect%20is%3Apr%20is%3Aopen%20159":
+        {"items": []},
+    "https://api.github.com/search/issues?q=repo%3AgetAlby/pos%20is%3Apr%20is%3Aopen%2040":
+        {"items": []},
+    # attempt history (dead + merged searches, raw slash as quote emits)
+    "https://api.github.com/search/issues?q=repo%3Aacme/clean%20is%3Apr%20is%3Aclosed%2011":
+        {"items": []},
+    "https://api.github.com/search/issues?q=repo%3Aacme/contested%20is%3Apr%20is%3Aclosed%2012":
+        {"items": []},
+    "https://api.github.com/search/issues?q=repo%3Aacme/trap%20is%3Apr%20is%3Aclosed%2014":
+        {"items": []},
+    "https://api.github.com/search/issues?q=repo%3Aacme/stale%20is%3Apr%20is%3Aclosed%2015":
+        {"items": [
+            {"number": 70, "title": "the fix", "user": {"login": "someone"},
+             "pull_request": {"merged_at": "2026-09-22T09:07:15Z"}},
+        ]},
+    "https://api.github.com/search/issues?q=repo%3Aacme/scarred%20is%3Apr%20is%3Aclosed%2016":
+        {"items": [
+            {"number": 71, "title": "a", "user": {"login": "u1"},
+             "pull_request": {"merged_at": None}},
+            {"number": 72, "title": "b", "user": {"login": "u2"},
+             "pull_request": {"merged_at": None}},
+            {"number": 73, "title": "c", "user": {"login": "u3"},
+             "pull_request": {"merged_at": None}},
+        ]},
+    "https://api.github.com/search/issues?q=repo%3AgetAlby/bitcoin-connect%20is%3Apr%20is%3Aclosed%20159":
+        {"items": []},
+    "https://api.github.com/search/issues?q=repo%3AgetAlby/pos%20is%3Apr%20is%3Aclosed%2040":
+        {"items": []},
     # SN repo searches: one per difficulty label (prefix match covers all)
     "https://api.github.com/search/issues?q=repo%3Astackernews":
         {"items": []},   # episodic: empty today (verified live 2026-10-23)
@@ -105,6 +151,10 @@ GH_PAYLOADS = {
             {"number": 159, "html_url": "https://github.com/getAlby/bitcoin-connect/issues/159",
              "title": "Dedicated docs site", "state": "open",
              "repository_url": "https://api.github.com/repos/getAlby/bitcoin-connect",
+             "labels": [{"name": "good first issue"}]},
+            {"number": 40, "html_url": "https://github.com/getAlby/pos/issues/40",
+             "title": "NIP-47 notifications", "state": "open",
+             "repository_url": "https://api.github.com/repos/getAlby/pos",
              "labels": [{"name": "good first issue"}]},
         ]},
     # threads (comments listed BEFORE issue keys so prefix-match stays exact)
@@ -122,6 +172,12 @@ GH_PAYLOADS = {
         {"user": {"login": "rolznz"}, "created_at": "2026-10-10T00:00:00Z"}],
     "https://api.github.com/repos/getAlby/bitcoin-connect/issues/159":
         {"user": {"login": "hunter"}},
+    "https://api.github.com/repos/getAlby/pos/issues/40/comments": [],
+    "https://api.github.com/repos/getAlby/pos/issues/40":
+        {"user": {"login": "hunter"}},
+    "https://api.github.com/repos/acme/scarred/issues/16/comments": [
+        {"user": {"login": "maintainer"}, "created_at": "2026-10-18T00:00:00Z"}],
+    "https://api.github.com/repos/acme/scarred/issues/16": {"user": {"login": "hunter"}},
     # rewarders
     "https://api.github.com/users/veteran": {
         "created_at": "2019-01-01T00:00:00Z", "followers": 300,
@@ -180,6 +236,11 @@ SCANS = {
                                         target="getAlby/bitcoin-connect",
                                         upstream_commit="d56fd7d",
                                         checked_at="2026-10-24T00:00:00Z"),
+    "getAlby/pos": TrapScan(verdict="CLEAN", score=0, rules=[],
+                            target="getAlby/pos", upstream_commit="d56fd7d",
+                            checked_at="2026-10-24T00:00:00Z"),
+    "acme/scarred": TrapScan(verdict="CLEAN", score=0, rules=[], target="acme/scarred",
+                             upstream_commit="d56fd7d", checked_at="2026-10-24T00:00:00Z"),
 }
 
 
@@ -204,10 +265,38 @@ class EndToEndTests(unittest.TestCase):
         return (self.workdir / rel).read_text()
 
     def test_summary_counts(self):
-        self.assertEqual(self.summary["ingested"], 5)   # 4 LB (1 below-floor) + 1 getAlby
+        self.assertEqual(self.summary["ingested"], 7)   # 5 LB + 2 getAlby
         self.assertEqual(self.summary["most_wanted"], 1)
-        self.assertEqual(self.summary["honest_work"], 1)
-        self.assertEqual(self.summary["tracked"], 3)    # contested + stale + negotiated
+        self.assertEqual(self.summary["honest_work"], 2)   # acme/clean + engaged #159
+        self.assertEqual(self.summary["tracked"], 4)    # contested + stale + scarred + silent pos40
+
+    def test_negotiated_engaged_earns_a_poster(self):
+        hw = self.read("docs/reports/honest_work.md")
+        self.assertIn("Dedicated docs site", hw)
+        self.assertIn("negotiable 🤝", hw)
+        posters = __import__("json").loads(self.read("data/posters.json"))["posters"]
+        alby = [p for p in posters if p["repo"] == "getAlby/bitcoin-connect"][0]
+        self.assertEqual(alby["door"], "honest_work")
+        self.assertTrue(any("maintainer engaged" in f for f in alby["bar_pass_reasons"]))
+
+    def test_negotiated_silent_stays_tracked(self):
+        posters = __import__("json").loads(self.read("data/posters.json"))["posters"]
+        pos = [p for p in posters if p["repo"] == "getAlby/pos"][0]
+        self.assertEqual(pos["door"], "tracked")
+        self.assertTrue(any("no maintainer engagement" in f for f in pos["bar_fail_reasons"]))
+
+    def test_battle_scars_block_at_three_dead(self):
+        posters = __import__("json").loads(self.read("data/posters.json"))["posters"]
+        scarred = [p for p in posters if p["repo"] == "acme/scarred"][0]
+        self.assertEqual(scarred["door"], "tracked")
+        self.assertTrue(any("died unmerged" in f for f in scarred["bar_fail_reasons"]))
+        self.assertNotIn("Graveyard feature", self.read("docs/reports/honest_work.md"))
+
+    def test_merged_attempt_blocks_spent_purse(self):
+        posters = __import__("json").loads(self.read("data/posters.json"))["posters"]
+        stale = [p for p in posters if p["repo"] == "acme/stale"][0]
+        self.assertEqual(stale["door"], "tracked")
+        self.assertTrue(any("likely already claimed" in f for f in stale["bar_fail_reasons"]))
 
     def test_trap_lands_on_most_wanted_with_evidence(self):
         mw = self.read("docs/reports/most_wanted.md")
@@ -236,20 +325,12 @@ class EndToEndTests(unittest.TestCase):
         stale = [p for p in posters if p["repo"] == "acme/stale"]
         self.assertEqual(stale[0]["door"], "tracked")
         self.assertTrue(any("last push" in f.lower() for f in stale[0]["bar_fail_reasons"]))
-
     def test_trap_terminal_beats_all_other_signals(self):
         posters = __import__("json").loads(self.read("data/posters.json"))["posters"]
         trap = [p for p in posters if p["repo"] == "acme/trap"][0]
         self.assertEqual(trap["door"], "most_wanted")
         # low-trust rewarder is present but must NOT be the reason it moved:
         self.assertTrue(any("trap verdict" in f.lower() for f in trap["bar_pass_reasons"]))
-
-    def test_negotiated_lane_excluded_with_reason(self):
-        posters = __import__("json").loads(self.read("data/posters.json"))["posters"]
-        alby = [p for p in posters if p["source"] == "getalby"]
-        self.assertEqual(len(alby), 1)
-        self.assertEqual(alby[0]["door"], "tracked")
-        self.assertTrue(any("negotiated" in f.lower() for f in alby[0]["bar_fail_reasons"]))
 
     def test_young_gun_is_freshest_survivor(self):
         hw = self.read("docs/reports/honest_work.md")
@@ -264,7 +345,8 @@ class EndToEndTests(unittest.TestCase):
     def test_assay_renders_report_cards(self):
         assay = self.read("docs/reports/the_assay.md")
         self.assertIn("veteran", assay)
-        self.assertIn("| veteran | 3 |", assay)  # clean + contested + stale listed by veteran
+        self.assertIn("| veteran | 4 |", assay)  # clean + contested + stale + scarred
+        self.assertIn("| getAlby | 2 |", assay)  # bitcoin-connect + pos
         self.assertIn("freshface", assay)
 
     def test_open_data_carries_every_poster_with_bar_reasons(self):

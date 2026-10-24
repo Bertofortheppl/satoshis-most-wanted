@@ -23,7 +23,10 @@ MAX_RESPONDER_AGE_DAYS = 60   # someone alive on the other side, recently
 REQUIRE_ESCROW_OR_SCHEDULE = True
 REQUIRE_TRAP_CLEAN = True     # CLEAN only; CAUTION/SUSPICIOUS tracked, not posted
 REQUIRE_RESPONDED = True
-EXCLUDE_NEGOTIATED = True     # D6: negotiated lanes never earn wall posters
+RESCAN_NOTE = "trap scans re-run weekly (cache in state/)"
+BATTLE_SCARS_BLOCK_AT = 3        # D7: >2 dead attempts = no poster (owner wording)
+MERGED_ATTEMPT_BLOCKS = True     # D7: merged fix = purse likely claimed
+EXCLUDE_NEGOTIATED = False       # D7: negotiated included IF maintainer engaged
 EXCLUDED_SOURCES = set()      # e.g. SN micro-contest lanes if ever ingested
 
 
@@ -47,9 +50,18 @@ def check(p) -> tuple[str, list[str], list[str]]:
     if p.source in EXCLUDED_SOURCES:
         fails.append(f"source excluded: {p.source}")
     cm = p.claim_mechanics or {}
-    if EXCLUDE_NEGOTIATED and cm.get("negotiated"):
-        fails.append("negotiated lane (D6: excluded from the wall)")
-    if p.sats is None:
+    negotiated = bool(cm.get("negotiated"))
+    if negotiated:
+        # D7: negotiated lanes earn posters only when the maintainer is
+        # talking. Silence is where effort goes to die (our own 0/3 record).
+        engaged = bool(p.maintainer_responded) and (
+            p.maintainer_last_reply_age_days is None
+            or p.maintainer_last_reply_age_days <= MAX_RESPONDER_AGE_DAYS)
+        if engaged:
+            passes.append("negotiated lane, maintainer engaged (D7)")
+        else:
+            fails.append("negotiated lane with no maintainer engagement (D7)")
+    elif p.sats is None:
         fails.append("no sats purse (negotiable/unknown)")
     elif p.sats < MIN_SATS:
         fails.append(f"purse {p.sats} < floor {MIN_SATS}")
@@ -62,6 +74,12 @@ def check(p) -> tuple[str, list[str], list[str]]:
                 passes.append("documented paying schedule")
             else:
                 fails.append("unescrowed purse, no documented paying schedule")
+    if MERGED_ATTEMPT_BLOCKS and p.merged_attempts > 0:
+        fails.append(f"{p.merged_attempts} merged fix attempt(s) — purse "
+                     f"likely already claimed (D7)")
+    if p.dead_attempts >= BATTLE_SCARS_BLOCK_AT:
+        fails.append(f"{p.dead_attempts} prior attempts died unmerged "
+                     f"(battle scars, D7)")
     if REQUIRE_TRAP_CLEAN:
         if p.trap is None:
             fails.append("trap scan missing")
@@ -122,7 +140,8 @@ def opportunity_score(p) -> tuple[float, dict]:
         fresh = 10.0 if age <= 14 else (5.0 if age <= 30 else 0.0)
     parts["repo_freshness"] = fresh
     parts["responder"] = 10.0 if p.maintainer_responded else 0.0
-    parts["escrow"] = 10.0 if p.escrow else 5.0
+    parts["escrow"] = 10.0 if p.escrow else (2.0 if p.claim_mechanics.get("negotiated") else 5.0)
+    parts["battle_scars"] = -5.0 * min(p.dead_attempts, 4)   # D7: visible, scored
     return sum(parts.values()), parts
 
 

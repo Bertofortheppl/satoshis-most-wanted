@@ -82,22 +82,25 @@ def render_honest_work(hw, young_gun, outdir: Path) -> Path:
     ]
     if young_gun:
         p, _passes, _fails = young_gun
+        purse = f"{p.sats} sats" if p.sats else "negotiable 🤝"
         lines += [
             "## The Young Gun — freshest clean listing",
             "",
-            f"- **[{_md(p.title)}]({_md(p.url)})** — {p.sats} sats, "
+            f"- **[{_md(p.title)}]({_md(p.url)})** — {purse}, "
             f"{_md(p.source_label)}, uncontested, first seen {_md(p.first_seen)}",
             "",
             "## The wall",
             "",
-            "| Score | Listing | Purse | Source | Contest | Repo pushed |",
-            "|---|---|---|---|---|---|",
+            "| Score | Listing | Purse | Source | Contest | Scars | Repo pushed |",
+            "|---|---|---|---|---|---|---|",
         ]
     for p, _passes, _fails in hw:
         contest = "clean" if p.contested_prs == 0 else f"{p.contested_prs} PR"
+        purse = f"{p.sats} sats" if p.sats else "negotiable 🤝"
+        scars = f"{p.dead_attempts} dead" if p.dead_attempts else "—"
         lines.append(
-            f"| {p.score:.0f} | [{_md(p.title)}]({_md(p.url)}) | {p.sats} sats "
-            f"| {_md(p.source_label)} | {contest} | {_md(p.repo_last_push)} |")
+            f"| {p.score:.0f} | [{_md(p.title)}]({_md(p.url)}) | {purse} "
+            f"| {_md(p.source_label)} | {contest} | {scars} | {_md(p.repo_last_push)} |")
     lines += [
         "",
         "## How you actually get paid (per source)",

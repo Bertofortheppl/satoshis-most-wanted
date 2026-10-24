@@ -152,6 +152,35 @@ def find_open_prs(gh, repo, issue_number):
     return items
 
 
+def dead_attempts(gh, repo, issue_number):
+    """Attempt history for an issue: closed-unmerged (dead) and merged PRs.
+
+    One cached search (is:closed includes merged PRs; `merged_at` in the
+    search result distinguishes them). Battle scars (DECISIONS.md D7):
+    dead attempts = rejected work; merged attempts = the purse is likely
+    already claimed while the listing may still show open.
+    """
+    key = f"gh:dead:{repo}#{issue_number}"
+    cached = gh.get(key, PR_SEARCH_CACHE_TTL)
+    if cached is not None:
+        return cached
+    q = urllib.parse.quote(f"repo:{repo} is:pr is:closed {issue_number}")
+    url = f"https://api.github.com/search/issues?q={q}&per_page=20"
+    out = {"dead": 0, "merged": 0}
+    try:
+        d = gh.gh(url, PR_SEARCH_CACHE_TTL)
+        for i in (d.get("items") or []):
+            pr = i.get("pull_request") or {}
+            if pr.get("merged_at"):
+                out["merged"] += 1
+            else:
+                out["dead"] += 1
+    except Exception:
+        pass
+    gh.put(key, out)
+    return out
+
+
 def issue_thread(gh, repo, issue_number):
     """Responder signal for an issue: non-reporter replies (cached 6h).
 

@@ -71,6 +71,9 @@ def enrich(posters, gh, today=None):
             thread = ghmod.issue_thread(gh, p.repo, num)
             p.maintainer_responded = bool(thread["replies"])
             p.maintainer_last_reply_age_days = thread["last_reply_age_days"]
+            history = ghmod.dead_attempts(gh, p.repo, num)
+            p.dead_attempts = history["dead"]
+            p.merged_attempts = history["merged"]
         if p.rewarder:
             p.rewarder_trust = ghmod.rate_rewarder(gh, p.rewarder)
         lang, _ = ghmod.language_of(gh, p.repo)
