@@ -1,0 +1,50 @@
+name: engine
+
+on:
+  schedule:
+    # GitHub Actions cron: UTC. Every 3 hours. (GitHub may delay by a few
+    # minutes; run cadence matters more than exact timing.)
+    - cron: "0 */3 * * *"
+  # manual "Run workflow" button in the Actions tab
+  workflow_dispatch: {}
+
+# the run needs to push data/ + docs/reports/ commits back to main
+permissions:
+  contents: write
+
+# never overlap runs; a slow run just waits for the next slot
+concurrency:
+  group: engine
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          # engine + vendored scanner are stdlib-only: no pip install step
+
+      - name: Run engine (ingest -> enrich -> trap-scan -> bar -> outcomes -> render)
+        env:
+          # PAT stored as a repo secret (Settings -> Secrets and variables
+          # -> Actions -> ENGINE_GITHUB_TOKEN). Raises GitHub API rate
+          # limits for the enrichment reads + trap scans.
+          GITHUB_TOKEN: ${{ secrets.ENGINE_GITHUB_TOKEN }}
+        run: python3 -m services.engine.run_engine --live
+
+      - name: Commit data changes
+        run: |
+          git config user.name  "smw-engine"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ docs/reports/ || true
+          if git diff --cached --quiet; then
+            echo "no data changes this run"
+          else
+            git commit -m "engine run $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
