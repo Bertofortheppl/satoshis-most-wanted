@@ -4,6 +4,30 @@
 > the trigger to revisit. Append-only; new entries on top. Owner sign-off
 > recorded per entry. Ties to RESEARCH.md evidence by section.
 
+## D6 — Sprint 1 intent: data public, strict bar, negotiated excluded, neutral voice — DECIDED (owner 2026-10-24)
+
+**Context:** pre-Sprint-1 check-in (owner: "quality over speed and checking
+in with thoughtful questions to nail my intent"). Four forks resolved:
+
+1. **Data publicity: PUBLIC from day one.** The repo IS the open data —
+   listings, outcomes ledger, trap verdicts, all public from first commit.
+   No secrets ever land in it (enforced by design: secrets only in
+   ops/.env / secrets.json, both gitignored).
+2. **Honest Work bar: STRICT.** A poster requires ALL of: sats-paying dev
+   work with escrow or a documented paying schedule, trap-scan clean, repo
+   active, maintainer responsive, contest low. Expected wall size 5–15.
+   Grey area lives in open data + The Assay — not on the wall.
+3. **Negotiated/contact-first lanes: EXCLUDED from the wall (v1).** Owner:
+   "highest signal and value for now, even if it's a smaller pool." They
+   remain tracked in open data and feed The Assay; revisit when evidence
+   shows maintainers engaging with cold contacts.
+4. **Voice: NEUTRAL institutional, automation disclosure in the footer.**
+   No persona fatigue; constitution §2.5 satisfied.
+
+**Revisit triggers:** wall starves (<5 posters for 2 weeks) → consider
+relaxing contest/maintainer gates one at a time; negotiated lane shows
+maintainer engagement signal → reconsider inclusion.
+
 ## D5 — Flip "Most Wanted" to the traps; split best/worst — DECIDED (owner 2026-10-24, "the table is our north star")
 
 **Context:** Owner observation (2026-10-24): the old-west theme fits *outlaws*

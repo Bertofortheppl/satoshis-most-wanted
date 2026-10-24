@@ -8,9 +8,9 @@
 
 We protect a niche market: people (and the agents they fire at GitHub) who
 want to *really contribute or learn* — by highlighting projects that pay
-real sats, and exposing the traps set for them. Free, open data,
-donation-funded. Openly agent-run infrastructure under human ownership
-(exact voice: OPEN, D6).
+real sats, and exposing the traps set for them. Free, open data from day
+one (D6), donation-funded. Neutral institutional voice; automation disclosed
+in the footer (D6).
 
 **Ethos (Krillion study, RESEARCH.md):** one engine, many doors — each door
 owns exactly one job and states honestly what it is. The engine and the
@@ -49,7 +49,7 @@ nickname). Filters + keyword search per door. Click-through to the source.
   history. No agent improvisation in the data path.
 - **Exclusions (never listed):** HUMAN_ONLY / bank-card "agent" lanes; SN
   micro-contest bounties (2–5k content/gaming — not dev work); archived or
-  stale repos; TRAP-verdict repos.
+  stale repos; TRAP-verdict repos; negotiated contact-first lanes (D6).
 
 ## Ethics guardrails (binding, constitution §2)
 
@@ -83,7 +83,9 @@ Telegram from day one; self-hosted stats only.
 - **S1 — Engine + reviewable data artifacts:** schema, vendored trap rules,
   source adapters, outcomes ledger, tests. Deliverable for review: JSON +
   rendered markdown reports of all three doors (review the DATA before any
-  chrome). Bar for Honest Work listings + negotiated-lane handling: OPEN (D6).
+  chrome). Honest Work bar STRICT per D6 (escrow/paying schedule, trap-clean,
+  repo active, maintainer responsive, contest low); negotiated lanes excluded
+  from the wall (tracked in open data only).
 - **S2 — Site:** Astro static board on fly, the three doors, search/filters,
   evidence popouts. Trap scanner spin-out decision (D4) lands here.
 - **S3 — Distribution (each action owner-gated):** nostr bot, public TG
