@@ -64,7 +64,8 @@ def render_most_wanted(mw, outdir: Path) -> Path:
         for r in p.trap.rules[:5]:
             lines.append(f"- **{r['rule']}** (sev {r['severity']}): "
                           f"`{_md(r['evidence'])[:160]}`")
-        lines.append(f"- scanned at `{_md(p.trap.checked_at)}` "
+        lines.append(f"- scanned `{_md(p.trap.checked_at)}` · "
+                     f"{len(p.trap.checked_files)} files examined · "
                      f"upstream `{p.trap.upstream_commit[:8]}`")
         lines.append("")
     path = outdir / "most_wanted.md"

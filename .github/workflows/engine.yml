@@ -29,6 +29,17 @@ jobs:
           python-version: "3.11"
           # engine + vendored scanner are stdlib-only: no pip install step
 
+      # warm-start the GitHub API response cache across runs (D8): raw API
+      # responses stay ephemeral (never published); TTLs inside gh_cache.json
+      # gracefully expire anything stale. Unique save-key per run + prefix
+      # restore = always restores the most recent, always saves the fresh one.
+      - name: Warm the GitHub API cache
+        uses: actions/cache@v4
+        with:
+          path: state/gh_cache.json
+          key: gh-cache-v1-${{ github.run_id }}
+          restore-keys: gh-cache-v1-
+
       - name: Run engine (ingest -> enrich -> trap-scan -> bar -> outcomes -> render)
         env:
           # PAT stored as a repo secret (Settings -> Secrets and variables

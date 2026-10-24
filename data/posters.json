@@ -44,7 +44,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": 52.0,
       "score_breakdown": {
@@ -163,7 +164,8 @@
           "README.md",
           "issue #225",
           "issue #218"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -284,7 +286,8 @@
           "issue #1115",
           "issue #1110",
           "issue #1103"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -465,7 +468,8 @@
           "issue #236",
           "issue #235",
           "issue #233"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -531,7 +535,8 @@
           "issue #358",
           "issue #357",
           "issue #355"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -611,7 +616,8 @@
           "issue #871",
           "issue #868",
           "issue #867"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -697,7 +703,8 @@
           "issue #871",
           "issue #868",
           "issue #867"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -770,7 +777,8 @@
           "issue #871",
           "issue #868",
           "issue #867"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -850,7 +858,8 @@
           "issue #871",
           "issue #868",
           "issue #867"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -913,7 +922,8 @@
         "checked_at": [
           "README.md",
           "SECURITY.md"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -976,7 +986,8 @@
         "checked_at": [
           "README.md",
           "SECURITY.md"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1040,7 +1051,8 @@
           "README.md",
           "SECURITY.md",
           "issue #1277"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1104,7 +1116,8 @@
         "checked_at": [
           "README.md",
           "SECURITY.md"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1170,7 +1183,8 @@
           "SECURITY.md",
           "issue #4255",
           "issue #4251"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1243,7 +1257,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1309,7 +1324,8 @@
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1381,7 +1397,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1446,7 +1463,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1511,7 +1529,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1576,7 +1595,8 @@
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1648,7 +1668,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1719,7 +1740,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1783,7 +1805,8 @@
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1847,7 +1870,8 @@
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1914,7 +1938,8 @@
           "issue #39",
           "issue #30",
           "issue #24"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -1980,7 +2005,8 @@
           "issue #69",
           "issue #60",
           "issue #55"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2053,7 +2079,8 @@
           "issue #69",
           "issue #60",
           "issue #55"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2117,7 +2144,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2182,7 +2210,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2247,7 +2276,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2311,7 +2341,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2376,7 +2407,8 @@
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2447,7 +2479,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2520,7 +2553,8 @@
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2584,7 +2618,8 @@
           "issue #275",
           "issue #271",
           "issue #246"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2647,7 +2682,8 @@
           "issue #275",
           "issue #271",
           "issue #246"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2712,7 +2748,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2778,7 +2815,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2856,7 +2894,8 @@
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2920,7 +2959,8 @@
           "issue #275",
           "issue #271",
           "issue #246"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -2993,7 +3033,8 @@
           "issue #69",
           "issue #60",
           "issue #55"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -3058,7 +3099,8 @@
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},
@@ -3125,7 +3167,8 @@
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ]
+        ],
+        "checked_files": []
       },
       "score": null,
       "score_breakdown": {},

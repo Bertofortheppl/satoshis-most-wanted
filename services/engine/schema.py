@@ -41,7 +41,8 @@ class TrapScan:
     rules: list[dict] = field(default_factory=list)  # {rule,severity,title,why,evidence,source}
     target: str = ""
     upstream_commit: str = ""
-    checked_at: str = ""
+    checked_at: str = ""              # when WE ran the scan (ISO ts)
+    checked_files: list = field(default_factory=list)  # files upstream examined
 
     def decisive_rules(self) -> list[str]:
         """Severity-40 rules: any one alone is a TRAP (upstream semantics)."""

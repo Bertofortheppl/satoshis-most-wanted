@@ -4,6 +4,32 @@
 > the trigger to revisit. Append-only; new entries on top. Owner sign-off
 > recorded per entry. Ties to RESEARCH.md evidence by section.
 
+## D8 — Scan caching: the verdict ledger is committed data — DECIDED (owner 2026-10-24, "best practices in mind")
+
+**Context:** Actions runners are ephemeral; the gitignored state/ scan cache
+meant every 3-hour run re-scanned every repo — API-heavy and blind to the
+weekly rescan policy.
+
+**Decision:** two-layer, by data class:
+1. **Trap verdicts → `data/trap_scans.json`, committed public data** ("the
+   verdict ledger"). CI inherits it via git checkout — no cache service, no
+   cold starts, the weekly rescan policy finally works everywhere, and
+   verdict history becomes an auditable git trail (a repo scanned clean in
+   October and dirty in December shows exactly when, by whom — evidence
+   ethos). One-time migration from the old state/ location; grows
+   monotonically (accepted: entries are small and stale verdicts are
+   context, not clutter).
+2. **Raw GitHub API responses → ephemeral** (`state/gh_cache.json`, kept out
+   of the public repo; warmed across runs via `actions/cache` with a unique
+   save-key per run + prefix restore). Publishing third-party API blobs was
+   never reviewed for release; TTLs inside the file gracefully expire
+   anything stale, so a restored old cache can only help, never mislead.
+
+**Pinned by tests:** second run with the same corpus performs ZERO scans
+(`test_second_run_emits_no_first_seen`); ledger presence in data/ asserted.
+**Revisit trigger:** if the verdict ledger ever exceeds ~1MB or a verdict
+format change is needed, split by month instead of pruning history.
+
 ## D7 — Battle scars + conditional negotiated lanes — DECIDED (owner 2026-10-24)
 
 **Context:** First live run review. The strict wall held 2 posters of 43;

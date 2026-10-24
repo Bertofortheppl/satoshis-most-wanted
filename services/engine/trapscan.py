@@ -58,7 +58,8 @@ def _normalize(res: dict) -> TrapScan:
         ],
         target=res.get("target", ""),
         upstream_commit=_upstream_commit(),
-        checked_at=res.get("checked") or "",
+        checked_at="",                 # stamped by the caller (run_engine)
+        checked_files=res.get("checked") or [],
     )
 
 

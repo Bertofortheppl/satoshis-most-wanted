@@ -41,17 +41,48 @@ def _issue_number(p: Poster):
     return None
 
 
-def _load_scan_cache(state_dir: Path) -> dict:
-    f = state_dir / "trap_scans.json"
-    return json.loads(f.read_text()) if f.exists() else {}
+def _cache_path(workdir: Path) -> Path:
+    """The scan VERDICT LEDGER — committed public data (D8), not a cache dir.
+
+    Living in data/ means CI inherits it via git checkout (no cache service
+    needed), the verdict history is auditable in git history, and the
+    weekly rescan policy actually works on ephemeral runners.
+    """
+    return workdir / "data" / "trap_scans.json"
 
 
-def _save_scan_cache(state_dir: Path, cache: dict) -> None:
-    state_dir.mkdir(parents=True, exist_ok=True)
-    f = state_dir / "trap_scans.json"
-    tmp = f.with_suffix(".tmp")
-    tmp.write_text(json.dumps(cache, indent=2))
-    tmp.replace(f)
+def _load_scan_cache(workdir: Path) -> dict:
+    path = _cache_path(workdir)
+    if path.exists():
+        try:
+            return json.loads(path.read_text())
+        except Exception:
+            pass
+    # one-time migration from the old gitignored state/ location, plus a
+    # self-healing fix for the pre-D8 shape where upstream's `checked` file
+    # list was stored under `checked_at`
+    legacy = workdir / "state" / "trap_scans.json"
+    for source in ([path] if path.exists() else []) + ([legacy] if legacy.exists() else []):
+        try:
+            data = json.loads(source.read_text())
+            for entry in data.values():
+                if isinstance(entry.get("checked_at"), list):
+                    entry["checked_files"] = entry.pop("checked_at")
+                    entry.setdefault("checked_at", "")
+            if data:
+                _save_scan_cache(workdir, data)
+                return data
+        except Exception:
+            continue
+    return {}
+
+
+def _save_scan_cache(workdir: Path, cache: dict) -> None:
+    path = _cache_path(workdir)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(cache, indent=2, sort_keys=True))
+    tmp.replace(path)
 
 
 def enrich(posters, gh, today=None):
@@ -82,9 +113,9 @@ def enrich(posters, gh, today=None):
     return posters
 
 
-def trap_scan(posters, scan_repo, state_dir: Path, today=None, rescan_days=RESCAN_DAYS):
+def trap_scan(posters, scan_repo, workdir: Path, today=None, rescan_days=RESCAN_DAYS):
     today = today or dt.date.today().isoformat()
-    cache = _load_scan_cache(state_dir)
+    cache = _load_scan_cache(workdir)
     t = dt.date.fromisoformat(today)
     for p in posters:
         if not p.repo:
@@ -99,11 +130,14 @@ def trap_scan(posters, scan_repo, state_dir: Path, today=None, rescan_days=RESCA
         if not fresh:
             trap = scan_repo(p.repo)
             if trap is not None:
+                now_iso = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
                 cache[p.repo] = {
                     "verdict": trap.verdict, "score": trap.score,
                     "rules": trap.rules, "target": trap.target,
                     "upstream_commit": trap.upstream_commit,
-                    "checked_at": trap.checked_at, "checked_date": today,
+                    "checked_at": trap.checked_at or now_iso,
+                    "checked_files": trap.checked_files,
+                    "checked_date": today,
                 }
                 hit = cache[p.repo]
         if hit:
@@ -112,8 +146,9 @@ def trap_scan(posters, scan_repo, state_dir: Path, today=None, rescan_days=RESCA
                 rules=hit.get("rules", []), target=hit.get("target", ""),
                 upstream_commit=hit.get("upstream_commit", ""),
                 checked_at=hit.get("checked_at", ""),
+                checked_files=hit.get("checked_files", []),
             )
-    _save_scan_cache(state_dir, cache)
+    _save_scan_cache(workdir, cache)
     return posters
 
 
@@ -135,7 +170,7 @@ def run(fetch_lb, gh, scan_repo, workdir: Path, today=None) -> dict:
             posters.extend(gh_adapter.fetch(gh, cfg, today=today))
 
     posters = enrich(posters, gh, today=today)
-    posters = trap_scan(posters, scan_repo, state_dir, today=today)
+    posters = trap_scan(posters, scan_repo, workdir, today=today)
 
     mw, hw, young_gun, tracked = bar_mod.rank_doors(posters)
 

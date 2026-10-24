@@ -247,7 +247,12 @@ SCANS = {
 def scan_repo(repo):
     if repo not in SCANS:
         raise AssertionError(f"unexpected scan: {repo}")
+    SCANS[repo]  # touch
+    SCAN_CALLS.append(repo)
     return SCANS[repo]
+
+
+SCAN_CALLS = []  # every actual scanner invocation (cache misses)
 
 
 class EndToEndTests(unittest.TestCase):
@@ -342,6 +347,16 @@ class EndToEndTests(unittest.TestCase):
         self.assertEqual(len([e for e in events if e["event"] == "first_seen"]),
                          self.summary["ingested"])
 
+    def test_verdict_ledger_is_committed_data(self):
+        ledger = self.read("data/trap_scans.json")
+        self.assertIn("acme/clean", ledger)
+        self.assertIn('"CLEAN"', ledger)
+        self.assertIn("acme/trap", ledger)
+
+    def test_first_run_scanned_each_unique_repo_once(self):
+        # 7 unique repos across sources: 5 acme + bitcoin-connect + pos
+        self.assertEqual(len(SCAN_CALLS), 7)
+
     def test_assay_renders_report_cards(self):
         assay = self.read("docs/reports/the_assay.md")
         self.assertIn("veteran", assay)
@@ -357,10 +372,13 @@ class EndToEndTests(unittest.TestCase):
             self.assertIn("bar_fail_reasons", p)
 
     def test_second_run_emits_no_first_seen(self):
-        # second pass with same corpus: stable ids, no new events
+        # second pass with same corpus: stable ids, no new events, and the
+        # verdict ledger means ZERO new scans (D8 caching pinned)
+        before = len(SCAN_CALLS)
         s2 = run_engine.run(lb_feed, FakeGh(), scan_repo,
                             self.workdir, today=TODAY)
         self.assertEqual(s2["ingested"], self.summary["ingested"])
+        self.assertEqual(len(SCAN_CALLS), before)   # no rescans within the window
         events = [__import__("json").loads(l)
                   for l in self.read("data/outcomes.jsonl").splitlines() if l.strip()]
         first = [e for e in events if e["event"] == "first_seen"]

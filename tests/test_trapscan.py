@@ -38,6 +38,12 @@ class ScanPathTests(unittest.TestCase):
         t = scan_path(CLEAN_REPO)
         self.assertEqual(t.upstream_commit, UPSTREAM)
 
+    def test_checked_files_is_a_file_list_not_a_timestamp(self):
+        t = scan_path(TRAP_REPO)
+        self.assertIsInstance(t.checked_files, list)
+        self.assertTrue(any("CONTRIBUTING" in f for f in t.checked_files))
+        self.assertEqual(t.checked_at, "")  # stamped by run_engine, not upstream
+
     def test_exit_codes_follow_upstream_semantics(self):
         self.assertEqual(exit_code(TrapScan(verdict="TRAP", score=99)), 2)
         self.assertEqual(exit_code(TrapScan(verdict="SUSPICIOUS", score=45)), 1)
