@@ -38,14 +38,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": 52.0,
       "score_breakdown": {
@@ -159,13 +159,13 @@
         "rules": [],
         "target": "PrimalHQ/primal-ios-app",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "issue #225",
           "issue #218"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -280,14 +280,14 @@
         "rules": [],
         "target": "PrimalHQ/primal-android-app",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "issue #1115",
           "issue #1110",
           "issue #1103"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -462,14 +462,14 @@
         "rules": [],
         "target": "PrimalHQ/primal-web-app",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "issue #236",
           "issue #235",
           "issue #233"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -530,13 +530,13 @@
         "rules": [],
         "target": "MagnivOrg/prompt-layer-library",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "issue #358",
           "issue #357",
           "issue #355"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -604,7 +604,8 @@
         "rules": [],
         "target": "CodyTseng/jumble",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
@@ -616,8 +617,7 @@
           "issue #871",
           "issue #868",
           "issue #867"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -691,7 +691,8 @@
         "rules": [],
         "target": "CodyTseng/jumble",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
@@ -703,8 +704,7 @@
           "issue #871",
           "issue #868",
           "issue #867"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -765,7 +765,8 @@
         "rules": [],
         "target": "CodyTseng/jumble",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
@@ -777,8 +778,7 @@
           "issue #871",
           "issue #868",
           "issue #867"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -846,7 +846,8 @@
         "rules": [],
         "target": "CodyTseng/jumble",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
@@ -858,8 +859,7 @@
           "issue #871",
           "issue #868",
           "issue #867"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -919,11 +919,11 @@
         "rules": [],
         "target": "BrantaOps/branta-core",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "SECURITY.md"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -983,11 +983,11 @@
         "rules": [],
         "target": "BrantaOps/branta-core",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "SECURITY.md"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1047,12 +1047,12 @@
         "rules": [],
         "target": "chainwayxyz/clementine",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "SECURITY.md",
           "issue #1277"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1113,11 +1113,11 @@
         "rules": [],
         "target": "BrantaOps/branta-core",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "SECURITY.md"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1177,14 +1177,14 @@
         "rules": [],
         "target": "lnbits/lnbits",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "AGENTS.md",
           "SECURITY.md",
           "issue #4255",
           "issue #4251"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1251,14 +1251,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1317,15 +1317,15 @@
         "rules": [],
         "target": "getAlby/lightning-browser-extension",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1391,14 +1391,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1457,14 +1457,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1523,14 +1523,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1588,15 +1588,15 @@
         "rules": [],
         "target": "getAlby/lightning-browser-extension",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1662,14 +1662,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1734,14 +1734,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1800,13 +1800,13 @@
         "rules": [],
         "target": "getAlby/hub",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1865,13 +1865,13 @@
         "rules": [],
         "target": "getAlby/hub",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1930,7 +1930,8 @@
         "rules": [],
         "target": "getAlby/pos",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "issue #46",
           "issue #42",
@@ -1938,8 +1939,7 @@
           "issue #39",
           "issue #30",
           "issue #24"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -1997,7 +1997,8 @@
         "rules": [],
         "target": "getAlby/ZapPlanner",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "issue #84",
           "issue #71",
@@ -2005,8 +2006,7 @@
           "issue #69",
           "issue #60",
           "issue #55"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2071,7 +2071,8 @@
         "rules": [],
         "target": "getAlby/ZapPlanner",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "issue #84",
           "issue #71",
@@ -2079,8 +2080,7 @@
           "issue #69",
           "issue #60",
           "issue #55"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2138,14 +2138,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2204,14 +2204,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2270,14 +2270,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2335,14 +2335,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2400,15 +2400,15 @@
         "rules": [],
         "target": "getAlby/lightning-browser-extension",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2473,14 +2473,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2546,15 +2546,15 @@
         "rules": [],
         "target": "getAlby/lightning-browser-extension",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2613,13 +2613,13 @@
         "rules": [],
         "target": "getAlby/nostr-wallet-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "issue #275",
           "issue #271",
           "issue #246"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2677,13 +2677,13 @@
         "rules": [],
         "target": "getAlby/nostr-wallet-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "issue #275",
           "issue #271",
           "issue #246"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2742,14 +2742,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2809,14 +2809,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2888,14 +2888,14 @@
         "rules": [],
         "target": "getAlby/bitcoin-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "SECURITY.md",
           "issue #391",
           "issue #389"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -2954,13 +2954,13 @@
         "rules": [],
         "target": "getAlby/nostr-wallet-connect",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "issue #275",
           "issue #271",
           "issue #246"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -3025,7 +3025,8 @@
         "rules": [],
         "target": "getAlby/ZapPlanner",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "README.md",
           "issue #84",
           "issue #71",
@@ -3033,8 +3034,7 @@
           "issue #69",
           "issue #60",
           "issue #55"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -3092,15 +3092,15 @@
         "rules": [],
         "target": "getAlby/lightning-browser-extension",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},
@@ -3160,15 +3160,15 @@
         "rules": [],
         "target": "getAlby/lightning-browser-extension",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": [
+        "checked_at": "",
+        "checked_files": [
           "CONTRIBUTING.md",
           "README.md",
           "AGENTS.md",
           "CLAUDE.md",
           "SECURITY.md",
           "issue #3635"
-        ],
-        "checked_files": []
+        ]
       },
       "score": null,
       "score_breakdown": {},

@@ -51,29 +51,30 @@ def _cache_path(workdir: Path) -> Path:
     return workdir / "data" / "trap_scans.json"
 
 
+def _heal_entries(data: dict) -> dict:
+    """Self-healing schema fixes applied on EVERY load (best practice: the
+    loader guarantees the shape, so no manual migration scripts exist).
+    Known fix: pre-D8 ledgers stored upstream's `checked` file list under
+    `checked_at` (a timestamp slot)."""
+    for entry in data.values():
+        if isinstance(entry.get("checked_at"), list):
+            entry["checked_files"] = entry.pop("checked_at")
+            entry.setdefault("checked_at", "")
+    return data
+
+
 def _load_scan_cache(workdir: Path) -> dict:
     path = _cache_path(workdir)
-    if path.exists():
-        try:
-            return json.loads(path.read_text())
-        except Exception:
-            pass
-    # one-time migration from the old gitignored state/ location, plus a
-    # self-healing fix for the pre-D8 shape where upstream's `checked` file
-    # list was stored under `checked_at`
     legacy = workdir / "state" / "trap_scans.json"
-    for source in ([path] if path.exists() else []) + ([legacy] if legacy.exists() else []):
+    for source in [p for p in (path, legacy) if p.exists()]:
         try:
-            data = json.loads(source.read_text())
-            for entry in data.values():
-                if isinstance(entry.get("checked_at"), list):
-                    entry["checked_files"] = entry.pop("checked_at")
-                    entry.setdefault("checked_at", "")
-            if data:
-                _save_scan_cache(workdir, data)
-                return data
+            data = _heal_entries(json.loads(source.read_text()))
         except Exception:
             continue
+        if data:
+            if source != path:
+                _save_scan_cache(workdir, data)  # migrate state/ -> data/
+            return data
     return {}
 
 

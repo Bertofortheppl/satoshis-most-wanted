@@ -385,5 +385,24 @@ class EndToEndTests(unittest.TestCase):
         self.assertEqual(len(first), self.summary["ingested"])
 
 
+class LedgerHealingTests(unittest.TestCase):
+    def test_old_shape_ledger_is_healed_on_load(self):
+        # pre-D8 ledgers stored upstream's checked-file list under
+        # checked_at; the loader must heal that on every load
+        from engine import run_engine
+        import json as J
+        wd = Path(tempfile.mkdtemp(prefix="smw-heal-"))
+        (wd / "data").mkdir(parents=True)
+        (wd / "data" / "trap_scans.json").write_text(J.dumps({
+            "acme/x": {"verdict": "CLEAN", "score": 0,
+                       "checked_at": ["README.md", "CONTRIBUTING.md"]}
+        }))
+        cache = run_engine._load_scan_cache(wd)
+        e = cache["acme/x"]
+        self.assertEqual(e["checked_files"], ["README.md", "CONTRIBUTING.md"])
+        self.assertEqual(e["checked_at"], "")
+        shutil.rmtree(wd, ignore_errors=True)
+
+
 if __name__ == "__main__":
     unittest.main()
