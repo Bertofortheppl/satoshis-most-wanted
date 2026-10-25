@@ -146,6 +146,9 @@ GH_PAYLOADS = {
     # SN repo searches: one per difficulty label (prefix match covers all)
     "https://api.github.com/search/issues?q=repo%3Astackernews":
         {"items": []},   # episodic: empty today (verified live 2026-10-23)
+    # Flash board (verified: org lnflash, label "💰 bounty") — currently empty
+    "https://api.github.com/search/issues?q=org%3Alnflash":
+        {"items": []},
     "https://api.github.com/search/issues?q=org%3AgetAlby%20is%3Aissue%20is%3Aopen%20label%3A%22good%20first%20issue%22":
         {"items": [
             {"number": 159, "html_url": "https://github.com/getAlby/bitcoin-connect/issues/159",

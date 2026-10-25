@@ -64,16 +64,30 @@
 
 ## Decision queue (awaiting owner)
 
-- **Sprint 2 sequencing** — my recommendation: **sources first, chrome
-  second.** The wall's value is listings; the 💎 bounty-label sweep feeds
-  BOTH Most Wanted (traps) and Honest Work (fresh candidates), while the
-  site is polish on doors that already work as data. Trade-off noted: a
-  public site raises perceived legitimacy sooner; the data is the product
-  either way.
-- **Flash board verification** (one search; unblocks that source)
-- **Parent `satonomous` repo push** (all local NOTES/gitlink commits are
-  pending owner gate)
+- **Sprint 2 sequencing — DECIDED (owner 2026-10-24): sources first, chrome
+  later.** Next up: the `💎 Bounty`-label sweep (feeds Most Wanted AND
+  Honest Work), Flash sats-from-body extraction, and the awarded/paid
+  outcome wiring (Flash's `paid` label is the first observable payout
+  signal — see sources_config note).
+- ~~Flash board verification~~ **DONE 2026-10-24**: org `lnflash`, label
+  `💰 bounty` (verified from the board's own script.js). Board currently
+  EMPTY (0 open, 0 paid) — source enabled and dormant; outcome hook noted.
+- **Public board-update notifications — PUNTED (owner 2026-10-24) to the
+  distribution sprint.** Mechanisms on record: public Telegram channel
+  (fresh-poster alerts), RSS feed, nostr notes per Most Wanted addition.
+- **Parent `satonomous` repo push** — owner MejorQueNada, token on the box;
+  awaiting owner go-ahead.
 - **health.py → Telegram alert** (the last monitoring gap; small sprint)
+
+## Growth direction — teaching the market to exist (owner instinct 2026-10-24)
+
+"If we have to educate people about how to build bounties that will be
+seen and posted, that's fine — it's a marketing angle that creates the
+market and incentivizes best practices." The bar's fail reasons ARE the
+curriculum: a future "bounty poster's guide" (how to escrow, write
+acceptance criteria, keep maintainers responsive — derived from the
+strict-bar gates and The Assay's cards) turns the engine's judgment into
+public education. Logged as a later-sprint direction, not current scope.
 
 ## The arc — why this design, honestly
 

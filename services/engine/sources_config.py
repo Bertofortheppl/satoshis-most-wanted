@@ -45,6 +45,17 @@ ALBY_CLAIM_MECHANICS = {
     "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
 }
 
+FLASH_CLAIM_MECHANICS = {
+    "steps": [
+        "Comment on the issue to claim and share your Lightning address (required before it can be marked In Progress)",
+        "Maintainer labels it In Progress (multiple hunters may hold it until a winner is chosen)",
+        "Join their public Discord #public-development and get maintainer approval BEFORE opening the PR",
+        "PR passes three review rounds; payment goes to your lightning address on merge",
+    ],
+    "payment": "maintainer-approved, direct to your lightning address on merge",
+    "gotchas": "Discord approval gate; 'claimed' can still mean contested until a winner is chosen",
+}
+
 SOURCES = [
     {
         "kind": "lb",
@@ -96,12 +107,19 @@ SOURCES = [
         "source": "flash",
         "source_label": "Flash bounty board",
         "escrow": None,
-        "paying_schedule": False,
+        "paying_schedule": True,   # documented on-merge direct payment (board + CONTRIBUTING)
         "negotiated": False,
-        "query": 'org:getflash is:issue is:open bounty',
-        "claim_mechanics": {"steps": ["See the board: bounties.flashapp.me"],
-                            "payment": "maintainer-approved, direct to your LN address",
-                            "gotchas": "Discord #public-development approval required before PR"},
-        "enabled": False,   # verify label scheme before enabling (Sprint 1 note)
+        "query": 'org:lnflash is:issue is:open label:"💰 bounty"',
+        # VERIFIED 2026-10-24 from the board's own script.js: org lnflash,
+        # label "💰 bounty"; board currently EMPTY (0 open, 0 paid) — enabled
+        # and dormant. sats amounts live in issue bodies; body extraction
+        # lands with the bounty-label sweep (Sprint 2) — until then items
+        # track with "no sats purse".
+        # OUTCOME HOOK: Flash maintains a `paid` label on completed bounties
+        # (label:"paid" label:"💰 bounty" state:closed) — observable
+        # awarded/paid transitions for The Assay once outcome detection is
+        # wired (PLANNING.md not-yet list).
+        "claim_mechanics": FLASH_CLAIM_MECHANICS,
+        "enabled": True,
     },
 ]
