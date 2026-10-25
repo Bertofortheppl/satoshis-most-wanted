@@ -4,13 +4,13 @@
 
 ## The Young Gun — freshest clean listing
 
-- **[Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128)** — 3000 sats, Lightning Bounties, uncontested, first seen 2026-10-24
+- **[Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128)** — 3000 sats, Lightning Bounties, uncontested, first seen 2026-10-25
 
 ## The wall
 
 | Score | Listing | Purse | Source | Contest | Scars | Repo pushed |
 |---|---|---|---|---|---|---|
-| 63 | [Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128) | 3000 sats | Lightning Bounties | clean | — | 2026-10-23 |
+| 63 | [Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128) | 3000 sats | Lightning Bounties | clean | — | 2026-10-25 |
 | 52 | [Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 52 | [Implement extra WebLN methods for LNC connector (e.g. makeInvoice)](https://github.com/getAlby/bitcoin-connect/issues/151) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-23 |

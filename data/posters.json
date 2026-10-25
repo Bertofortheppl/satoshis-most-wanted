@@ -26,13 +26,13 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-25",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 57,
+      "maintainer_last_reply_age_days": 58,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -64,15 +64,15 @@
         "battle_scars": -0.0
       },
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "honest_work",
       "bar_pass_reasons": [
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -110,7 +110,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 2,
+      "maintainer_last_reply_age_days": 3,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -136,14 +136,14 @@
         "battle_scars": -0.0
       },
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "honest_work",
       "bar_pass_reasons": [
         "negotiated lane, maintainer engaged (D7)",
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -181,7 +181,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 5,
+      "maintainer_last_reply_age_days": 6,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -207,14 +207,14 @@
         "battle_scars": -0.0
       },
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "honest_work",
       "bar_pass_reasons": [
         "negotiated lane, maintainer engaged (D7)",
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -252,7 +252,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 13,
+      "maintainer_last_reply_age_days": 14,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -279,14 +279,14 @@
         "battle_scars": -0.0
       },
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "honest_work",
       "bar_pass_reasons": [
         "negotiated lane, maintainer engaged (D7)",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -327,62 +327,62 @@
           "user": "thecosmicskye",
           "title": "Add translate action to note menu",
           "state": "open",
-          "age_days": 123
+          "age_days": 124
         },
         {
           "number": 208,
           "user": "sato820",
           "title": "Add inline note translation",
           "state": "open",
-          "age_days": 115
+          "age_days": 116
         },
         {
           "number": 212,
           "user": "cornerblue",
           "title": "feat: inline note translation with LibreTranslate (closes #206)",
           "state": "open",
-          "age_days": 95
+          "age_days": 96
         },
         {
           "number": 214,
           "user": "indrad3v4",
           "title": "feat: translate notes to user's preferred language (#206)",
           "state": "open",
-          "age_days": 79
+          "age_days": 80
         },
         {
           "number": 221,
           "user": "UniSyncInc2212",
           "title": "feat: translate notes to the user's preferred language (#206)",
           "state": "open",
-          "age_days": 41
+          "age_days": 42
         },
         {
           "number": 222,
           "user": "felladaniel36-hash",
           "title": "#206 Feature: Translate notes to user's preferred language FIXED",
           "state": "open",
-          "age_days": 39
+          "age_days": 40
         },
         {
           "number": 223,
           "user": "albertotranquilli-cmyk",
           "title": "Translate notes to user's preferred language",
           "state": "open",
-          "age_days": 31
+          "age_days": 32
         },
         {
           "number": 224,
           "user": "ehfcnate",
           "title": "feat: translate notes to user's preferred language (#206)",
           "state": "open",
-          "age_days": 26
+          "age_days": 27
         }
       ],
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 40,
+      "maintainer_last_reply_age_days": 41,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -400,15 +400,15 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "purse 50010 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 5d ago",
+        "repo pushed 6d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -450,69 +450,69 @@
           "user": "thecosmicskye",
           "title": "Add Translate Note menu action",
           "state": "open",
-          "age_days": 123
+          "age_days": 124
         },
         {
           "number": 1091,
           "user": "silentpatch-agent",
           "title": "Add native note translation with browser fallback",
           "state": "open",
-          "age_days": 103
+          "age_days": 104
         },
         {
           "number": 1094,
           "user": "ewbd09-svg",
           "title": "Add inline on-device note translation",
           "state": "open",
-          "age_days": 98
+          "age_days": 99
         },
         {
           "number": 1095,
           "user": "cornerblue",
           "title": "feat: hybrid on-device + LibreTranslate note translation (closes #1055)",
           "state": "open",
-          "age_days": 95
+          "age_days": 96
         },
         {
           "number": 1102,
           "user": "indrad3v4",
           "title": "feat: translate notes to user's preferred language (#1055)",
           "state": "open",
-          "age_days": 79
+          "age_days": 80
         },
         {
           "number": 1104,
           "user": "ParsaHajiAshrafi",
           "title": "Add note translation action",
           "state": "open",
-          "age_days": 60
+          "age_days": 61
         },
         {
           "number": 1111,
           "user": "UniSyncInc2212",
           "title": "feat: translate notes to user preferred language (#1055)",
           "state": "open",
-          "age_days": 41
+          "age_days": 42
         },
         {
           "number": 1112,
           "user": "albertotranquilli-cmyk",
           "title": "Translate notes to user's preferred language",
           "state": "open",
-          "age_days": 31
+          "age_days": 32
         },
         {
           "number": 1113,
           "user": "ehfcnate",
           "title": "feat: translate notes to user's preferred language (#1055)",
           "state": "open",
-          "age_days": 26
+          "age_days": 27
         }
       ],
       "dead_attempts": 2,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 6,
+      "maintainer_last_reply_age_days": 7,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -531,15 +531,15 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "purse 50000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 5d ago",
+        "repo pushed 6d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -581,139 +581,139 @@
           "user": "thecosmicskye",
           "title": "Add translate action to note context menu",
           "state": "open",
-          "age_days": 123
+          "age_days": 124
         },
         {
           "number": 203,
           "user": "KakashiTech",
           "title": "feat: inline note translation via cache protocol with kind:1051 bootstrap",
           "state": "open",
-          "age_days": 117
+          "age_days": 118
         },
         {
           "number": 204,
           "user": "sato820",
           "title": "feat: add configurable inline note translation",
           "state": "open",
-          "age_days": 116
+          "age_days": 117
         },
         {
           "number": 205,
           "user": "Anthonyushie",
           "title": "Add note translation support",
           "state": "open",
-          "age_days": 116
+          "age_days": 117
         },
         {
           "number": 206,
           "user": "funnywar605",
           "title": "feat: inline note translation with LibreTranslate support",
           "state": "open",
-          "age_days": 110
+          "age_days": 111
         },
         {
           "number": 207,
           "user": "larkinworksagent-dev",
           "title": "Add configurable note translation (settings-driven providers, sanitized content,",
           "state": "open",
-          "age_days": 98
+          "age_days": 99
         },
         {
           "number": 208,
           "user": "cornerblue",
           "title": "feat: configurable inline note translation (closes #133)",
           "state": "open",
-          "age_days": 95
+          "age_days": 96
         },
         {
           "number": 209,
           "user": "iamtherustyone",
           "title": "feat: add configurable note translation",
           "state": "open",
-          "age_days": 95
+          "age_days": 96
         },
         {
           "number": 212,
           "user": "indrad3v4",
           "title": "feat: translate posts to user's preferred language (#133)",
           "state": "open",
-          "age_days": 79
+          "age_days": 80
         },
         {
           "number": 213,
           "user": "paducklightning",
           "title": "Add on-demand translation for posts",
           "state": "open",
-          "age_days": 72
+          "age_days": 73
         },
         {
           "number": 218,
           "user": "ParsaHajiAshrafi",
           "title": "Add note translation action",
           "state": "open",
-          "age_days": 60
+          "age_days": 61
         },
         {
           "number": 221,
           "user": "nonoplzno",
           "title": "Translate posts to the user language",
           "state": "open",
-          "age_days": 57
+          "age_days": 58
         },
         {
           "number": 223,
           "user": "gar-uda",
           "title": "feat: add translate button to notes using LibreTranslate",
           "state": "open",
-          "age_days": 55
+          "age_days": 56
         },
         {
           "number": 226,
           "user": "UniSyncInc2212",
           "title": "feat: fail-closed inline note translation (#133)",
           "state": "open",
-          "age_days": 41
+          "age_days": 42
         },
         {
           "number": 228,
           "user": "Malek-121s",
           "title": "feat: integrate community note translation engine hooks",
           "state": "open",
-          "age_days": 32
+          "age_days": 33
         },
         {
           "number": 229,
           "user": "albertotranquilli-cmyk",
           "title": "Translate post to user language",
           "state": "open",
-          "age_days": 31
+          "age_days": 32
         },
         {
           "number": 230,
           "user": "AmirabbasDorasay",
           "title": "Feat: Translate posts to user's preferred language (closes #133)",
           "state": "open",
-          "age_days": 29
+          "age_days": 30
         },
         {
           "number": 231,
           "user": "jounaid-dev",
           "title": "Translate post to user language",
           "state": "open",
-          "age_days": 28
+          "age_days": 29
         },
         {
           "number": 232,
           "user": "ehfcnate",
           "title": "feat: translate notes to user preferred language (#133)",
           "state": "open",
-          "age_days": 26
+          "age_days": 27
         }
       ],
       "dead_attempts": 3,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 16,
+      "maintainer_last_reply_age_days": 17,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -732,15 +732,15 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "purse 50000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 58d ago",
+        "repo pushed 59d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -781,7 +781,7 @@
       "dead_attempts": 8,
       "merged_attempts": 1,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 144,
+      "maintainer_last_reply_age_days": 145,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -799,22 +799,22 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "purse 5200 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 66d ago",
+        "repo pushed 67d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "8 prior attempts died unmerged (battle scars, D7)",
-        "last reply 144d ago (> 60d)"
+        "last reply 145d ago (> 60d)"
       ]
     },
     {
@@ -843,7 +843,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-25",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -851,13 +851,13 @@
           "user": "Chewy-b0t",
           "title": "Mention: autocomplete Nostr people lists",
           "state": "open",
-          "age_days": 211
+          "age_days": 212
         }
       ],
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 57,
+      "maintainer_last_reply_age_days": 58,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -882,20 +882,20 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "purse 10200 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "1 open PR but 211d old (> 30d)"
+        "1 open PR but 212d old (> 30d)"
       ]
     },
     {
@@ -924,7 +924,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-25",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -932,13 +932,13 @@
           "user": "jaronhelianthes",
           "title": "feat: add per-relay toggle to hide posts from followed users",
           "state": "open",
-          "age_days": 299
+          "age_days": 300
         }
       ],
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 40,
+      "maintainer_last_reply_age_days": 41,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -963,20 +963,20 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "purse 2000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "1 open PR but 299d old (> 30d)"
+        "1 open PR but 300d old (> 30d)"
       ]
     },
     {
@@ -1005,7 +1005,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-25",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -1013,13 +1013,13 @@
           "user": "Wutche",
           "title": "Threadmobile",
           "state": "open",
-          "age_days": 546
+          "age_days": 547
         }
       ],
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 539,
+      "maintainer_last_reply_age_days": 540,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1044,20 +1044,20 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "last reply 539d ago (> 60d)",
-        "1 open PR but 546d old (> 30d)"
+        "last reply 540d ago (> 60d)",
+        "1 open PR but 547d old (> 30d)"
       ]
     },
     {
@@ -1092,7 +1092,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 234,
+      "maintainer_last_reply_age_days": 235,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1108,8 +1108,8 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
@@ -1121,7 +1121,7 @@
       ],
       "bar_fail_reasons": [
         "repo archived (payout was never coming)",
-        "last reply 234d ago (> 60d)"
+        "last reply 235d ago (> 60d)"
       ]
     },
     {
@@ -1135,136 +1135,6 @@
       "sats": 4286,
       "escrow": true,
       "rewarder": "sutt",
-      "claim_mechanics": {
-        "steps": [
-          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
-          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
-          "PR must pass the repo's checks and be merged (not draft)",
-          "Click 'Claim Reward' on your dashboard after merge"
-        ],
-        "payment": "automatic on verified merge",
-        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "BrantaOps/branta-core",
-      "repo_archived": true,
-      "repo_last_push": "2026-03-02",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 0,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 255,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "BrantaOps/branta-core",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "",
-        "checked_files": [
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "purse 4286 sats",
-        "purse locked in escrow",
-        "trap scan CLEAN",
-        "uncontested",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "repo archived (payout was never coming)",
-        "last reply 255d ago (> 60d)"
-      ]
-    },
-    {
-      "id": "lightning_bounties-cb2615b6a7cad2cc",
-      "source": "lightning_bounties",
-      "source_label": "Lightning Bounties",
-      "external_id": "lb-343-chainwayxyz/clementine",
-      "title": "Implement Verifier Nonce Gen",
-      "url": "https://github.com/chainwayxyz/clementine/issues/343",
-      "kind": "unranked",
-      "sats": 6500,
-      "escrow": true,
-      "rewarder": "octoberjackie",
-      "claim_mechanics": {
-        "steps": [
-          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
-          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
-          "PR must pass the repo's checks and be merged (not draft)",
-          "Click 'Claim Reward' on your dashboard after merge"
-        ],
-        "payment": "automatic on verified merge",
-        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "chainwayxyz/clementine",
-      "repo_archived": false,
-      "repo_last_push": "2026-07-14",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 0,
-      "merged_attempts": 1,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 718,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "chainwayxyz/clementine",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "",
-        "checked_files": [
-          "README.md",
-          "SECURITY.md",
-          "issue #1277"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "purse 6500 sats",
-        "purse locked in escrow",
-        "trap scan CLEAN",
-        "uncontested",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "repo last push 102d ago (> 90d)",
-        "last reply 718d ago (> 60d)"
-      ]
-    },
-    {
-      "id": "lightning_bounties-51e4035df8c7eaa1",
-      "source": "lightning_bounties",
-      "source_label": "Lightning Bounties",
-      "external_id": "lb-20-BrantaOps/branta-core",
-      "title": "Sync preferences via nsec",
-      "url": "https://github.com/BrantaOps/branta-core/issues/20",
-      "kind": "unranked",
-      "sats": 17990,
-      "escrow": true,
-      "rewarder": "keith-gardner",
       "claim_mechanics": {
         "steps": [
           "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
@@ -1302,8 +1172,138 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 4286 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "repo archived (payout was never coming)",
+        "last reply 256d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-cb2615b6a7cad2cc",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-343-chainwayxyz/clementine",
+      "title": "Implement Verifier Nonce Gen",
+      "url": "https://github.com/chainwayxyz/clementine/issues/343",
+      "kind": "unranked",
+      "sats": 6500,
+      "escrow": true,
+      "rewarder": "octoberjackie",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "chainwayxyz/clementine",
+      "repo_archived": false,
+      "repo_last_push": "2026-07-14",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 0,
+      "merged_attempts": 1,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 719,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "chainwayxyz/clementine",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "",
+        "checked_files": [
+          "README.md",
+          "SECURITY.md",
+          "issue #1277"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "purse 6500 sats",
+        "purse locked in escrow",
+        "trap scan CLEAN",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
+        "repo last push 103d ago (> 90d)",
+        "last reply 719d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "lightning_bounties-51e4035df8c7eaa1",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-20-BrantaOps/branta-core",
+      "title": "Sync preferences via nsec",
+      "url": "https://github.com/BrantaOps/branta-core/issues/20",
+      "kind": "unranked",
+      "sats": 17990,
+      "escrow": true,
+      "rewarder": "keith-gardner",
+      "claim_mechanics": {
+        "steps": [
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
+        ],
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "BrantaOps/branta-core",
+      "repo_archived": true,
+      "repo_last_push": "2026-03-02",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 257,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "BrantaOps/branta-core",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "",
+        "checked_files": [
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
@@ -1315,7 +1315,7 @@
       ],
       "bar_fail_reasons": [
         "repo archived (payout was never coming)",
-        "last reply 256d ago (> 60d)"
+        "last reply 257d ago (> 60d)"
       ]
     },
     {
@@ -1350,7 +1350,7 @@
       "dead_attempts": 2,
       "merged_attempts": 1,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 9,
+      "maintainer_last_reply_age_days": 10,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1369,15 +1369,15 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "purse 20000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -1419,13 +1419,13 @@
           "user": "yangToT",
           "title": "fix: move hard-coded SVG classes to icon callers",
           "state": "open",
-          "age_days": 43
+          "age_days": 44
         }
       ],
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 43,
+      "maintainer_last_reply_age_days": 44,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1444,19 +1444,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "negotiated lane, maintainer engaged (D7)",
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "1 open PR but 43d old (> 30d)"
+        "1 open PR but 44d old (> 30d)"
       ]
     },
     {
@@ -1490,7 +1490,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 69,
+      "maintainer_last_reply_age_days": 70,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1509,19 +1509,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 69d ago (> 60d)"
+        "last reply 70d ago (> 60d)"
       ]
     },
     {
@@ -1555,7 +1555,7 @@
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 69,
+      "maintainer_last_reply_age_days": 70,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1574,19 +1574,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 69d ago (> 60d)"
+        "last reply 70d ago (> 60d)"
       ]
     },
     {
@@ -1620,7 +1620,7 @@
       "dead_attempts": 0,
       "merged_attempts": 1,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 69,
+      "maintainer_last_reply_age_days": 70,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1640,20 +1640,20 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
         "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "last reply 69d ago (> 60d)"
+        "last reply 70d ago (> 60d)"
       ]
     },
     {
@@ -1689,13 +1689,13 @@
           "user": "Pyiner",
           "title": "fix: don't show 'connected to' on connection error",
           "state": "open",
-          "age_days": 210
+          "age_days": 211
         }
       ],
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 210,
+      "maintainer_last_reply_age_days": 211,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1714,19 +1714,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 210d ago (> 60d)",
-        "1 open PR but 210d old (> 30d)"
+        "last reply 211d ago (> 60d)",
+        "1 open PR but 211d old (> 30d)"
       ]
     },
     {
@@ -1760,7 +1760,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 214,
+      "maintainer_last_reply_age_days": 215,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1779,19 +1779,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 214d ago (> 60d)"
+        "last reply 215d ago (> 60d)"
       ]
     },
     {
@@ -1825,7 +1825,7 @@
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 223,
+      "maintainer_last_reply_age_days": 224,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1843,19 +1843,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 223d ago (> 60d)"
+        "last reply 224d ago (> 60d)"
       ]
     },
     {
@@ -1889,7 +1889,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 400,
+      "maintainer_last_reply_age_days": 401,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -1907,19 +1907,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 400d ago (> 60d)"
+        "last reply 401d ago (> 60d)"
       ]
     },
     {
@@ -1974,13 +1974,13 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -2041,13 +2041,13 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 2d ago",
+        "repo pushed 3d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -2089,7 +2089,7 @@
           "user": "krrish-sehgal",
           "title": "add: end-date in recurring payments",
           "state": "open",
-          "age_days": 390
+          "age_days": 391
         }
       ],
       "dead_attempts": 0,
@@ -2116,19 +2116,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 2d ago",
+        "repo pushed 3d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
         "no responder signal on the thread",
-        "1 open PR but 390d old (> 30d)"
+        "1 open PR but 391d old (> 30d)"
       ]
     },
     {
@@ -2162,7 +2162,7 @@
       "dead_attempts": 0,
       "merged_attempts": 1,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 649,
+      "maintainer_last_reply_age_days": 650,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -2181,20 +2181,20 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
         "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "last reply 649d ago (> 60d)"
+        "last reply 650d ago (> 60d)"
       ]
     },
     {
@@ -2228,7 +2228,7 @@
       "dead_attempts": 0,
       "merged_attempts": 1,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 651,
+      "maintainer_last_reply_age_days": 652,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -2247,20 +2247,20 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
         "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "last reply 651d ago (> 60d)"
+        "last reply 652d ago (> 60d)"
       ]
     },
     {
@@ -2294,7 +2294,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 663,
+      "maintainer_last_reply_age_days": 664,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -2313,19 +2313,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 663d ago (> 60d)"
+        "last reply 664d ago (> 60d)"
       ]
     },
     {
@@ -2378,13 +2378,13 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -2424,7 +2424,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 886,
+      "maintainer_last_reply_age_days": 887,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -2444,19 +2444,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 886d ago (> 60d)"
+        "last reply 887d ago (> 60d)"
       ]
     },
     {
@@ -2489,8 +2489,8 @@
       "contest_detail": [],
       "dead_attempts": 0,
       "merged_attempts": 0,
-      "maintainer_responded": false,
-      "maintainer_last_reply_age_days": null,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1049,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -2509,19 +2509,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "no responder signal on the thread"
+        "last reply 1049d ago (> 60d)"
       ]
     },
     {
@@ -2557,13 +2557,13 @@
           "user": "volfiros",
           "title": "feat: add screen reader labels for better accessibility",
           "state": "open",
-          "age_days": 1036
+          "age_days": 1037
         }
       ],
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1039,
+      "maintainer_last_reply_age_days": 1040,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -2583,19 +2583,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 1039d ago (> 60d)",
-        "1 open PR but 1036d old (> 30d)"
+        "last reply 1040d ago (> 60d)",
+        "1 open PR but 1037d old (> 30d)"
       ]
     },
     {
@@ -2647,8 +2647,8 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
@@ -2658,7 +2658,7 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "repo last push 766d ago (> 90d)",
+        "repo last push 767d ago (> 90d)",
         "no responder signal on the thread"
       ]
     },
@@ -2711,8 +2711,8 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
@@ -2722,7 +2722,7 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "repo last push 766d ago (> 90d)",
+        "repo last push 767d ago (> 90d)",
         "no responder signal on the thread"
       ]
     },
@@ -2776,13 +2776,13 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -2842,13 +2842,13 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -2888,7 +2888,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1101,
+      "maintainer_last_reply_age_days": 1102,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -2907,19 +2907,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 5d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 1101d ago (> 60d)"
+        "last reply 1102d ago (> 60d)"
       ]
     },
     {
@@ -2971,8 +2971,8 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
@@ -2982,7 +2982,7 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "repo last push 766d ago (> 90d)",
+        "repo last push 767d ago (> 90d)",
         "no responder signal on the thread"
       ]
     },
@@ -3017,7 +3017,7 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1114,
+      "maintainer_last_reply_age_days": 1115,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -3038,19 +3038,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 2d ago",
+        "repo pushed 3d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 1114d ago (> 60d)"
+        "last reply 1115d ago (> 60d)"
       ]
     },
     {
@@ -3084,7 +3084,7 @@
       "dead_attempts": 0,
       "merged_attempts": 1,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1296,
+      "maintainer_last_reply_age_days": 1297,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -3104,20 +3104,20 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
         "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "last reply 1296d ago (> 60d)"
+        "last reply 1297d ago (> 60d)"
       ]
     },
     {
@@ -3151,7 +3151,7 @@
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1286,
+      "maintainer_last_reply_age_days": 1287,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -3171,19 +3171,19 @@
       "score": null,
       "score_breakdown": {},
       "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
+      "first_seen": "2026-10-25",
+      "last_checked": "2026-10-25",
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 2d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 1286d ago (> 60d)"
+        "last reply 1287d ago (> 60d)"
       ]
     }
   ]
