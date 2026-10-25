@@ -127,9 +127,46 @@ def render_honest_work(hw, young_gun, outdir: Path) -> Path:
     return path
 
 
-def render_assay(cards, outdir: Path) -> Path:
+def render_assay(cards, history, outdir: Path) -> Path:
     lines = [
         "# The Assay — rewarder report cards",
+        "",
+    ]
+    if history:
+        p = history["platform"]
+        lines += [
+            "## Historical record — Lightning Bounties (from the platform's own feed)",
+            "",
+            f"> Lifetime on the platform: **{p['lifetime']} bounties, "
+            f"{p['awarded']} awarded, {p['sats_awarded']:,} "
+            f"sats awarded, {p['open']} open.**",
+            "> Method, honestly: 'awarded' = the platform records a designated",
+            "> winner and claim date; payment settlement is not independently",
+            "> verified by us. Crowdfunded bounties count toward every listed",
+            "> funder. This is the industry's track record in its own records —",
+            "> open data, updated every run.",
+            "",
+            "| Rewarder | Touched | Awarded | Open | Award rate | Sats awarded | Median days to award |",
+            "|---|---|---|---|---|---|---|",
+        ]
+        for c in history["rewarders"][:15]:
+            median = c["median_days_to_award"]
+            lines.append(
+                f"| {_md(c['rewarder'])} | {c['touched']} | {c['awarded']} "
+                f"| {c['open']} | {c['award_rate']:.0%} | {c['sats_awarded']:,} "
+                f"| {median if median is not None else '—'} |")
+        lines += [
+            "",
+            "### Hunters — who actually wins (platform records)",
+            "",
+            "| Hunter | Wins | Sats |",
+            "|---|---|---|",
+        ]
+        for h in history["hunters"][:10]:
+            lines.append(f"| {_md(h['hunter'])} | {h['wins']} | {h['sats']:,} |")
+        lines.append("")
+    lines += [
+        "## Our tracking (since 2026-10-23)",
         "",
         "> Aggregated from the outcomes ledger (data/outcomes.jsonl). Honest",
         "> limitation: v1 observes only transitions our sources expose — no",

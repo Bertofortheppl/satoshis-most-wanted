@@ -1,5 +1,49 @@
 # The Assay — rewarder report cards
 
+## Historical record — Lightning Bounties (from the platform's own feed)
+
+> Lifetime on the platform: **85 bounties, 62 awarded, 1,251,731 sats awarded, 23 open.**
+> Method, honestly: 'awarded' = the platform records a designated
+> winner and claim date; payment settlement is not independently
+> verified by us. Crowdfunded bounties count toward every listed
+> funder. This is the industry's track record in its own records —
+> open data, updated every run.
+
+| Rewarder | Touched | Awarded | Open | Award rate | Sats awarded | Median days to award |
+|---|---|---|---|---|---|---|
+| sutt | 15 | 10 | 5 | 67% | 336,316 | 15 |
+| lightning-bounties-system | 10 | 9 | 1 | 90% | 336,176 | 23 |
+| SonnyMonroe | 29 | 21 | 8 | 72% | 282,690 | 24 |
+| geyln | 1 | 1 | 0 | 100% | 201,621 | 56 |
+| lb-founders | 19 | 18 | 1 | 95% | 200,642 | 2 |
+| jegamboafuentes | 8 | 6 | 2 | 75% | 188,264 | 5 |
+| thrillerxx | 3 | 3 | 0 | 100% | 170,000 | 0 |
+| super-jaba | 7 | 6 | 1 | 86% | 128,739 | 6 |
+| bitcoinuser | 19 | 10 | 9 | 53% | 104,622 | 7 |
+| willbountyhunter | 5 | 4 | 1 | 80% | 44,500 | 0 |
+| octoberjackie | 4 | 3 | 1 | 75% | 36,000 | 3 |
+| DoktorShift | 1 | 1 | 0 | 100% | 30,000 | 2 |
+| Anthonyushie | 2 | 2 | 0 | 100% | 23,002 | 14 |
+| vcavallo | 1 | 1 | 0 | 100% | 22,121 | 8 |
+| keith-gardner | 3 | 1 | 2 | 33% | 20,000 | 7 |
+
+### Hunters — who actually wins (platform records)
+
+| Hunter | Wins | Sats |
+|---|---|---|
+| tadeubas | 1 | 201,621 |
+| aliraza556 | 10 | 184,211 |
+| jegamboafuentes | 3 | 170,000 |
+| axelvyrn | 3 | 137,320 |
+| dni | 1 | 108,474 |
+| turizspace | 6 | 67,521 |
+| CodyTseng | 4 | 38,025 |
+| Anthonyushie | 3 | 38,002 |
+| joelklabo | 3 | 35,000 |
+| thebullishbitcoiner | 5 | 34,000 |
+
+## Our tracking (since 2026-10-23)
+
 > Aggregated from the outcomes ledger (data/outcomes.jsonl). Honest
 > limitation: v1 observes only transitions our sources expose — no
 > invented payout numbers. The cards compound as tracking continues.

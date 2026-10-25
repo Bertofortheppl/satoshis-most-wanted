@@ -18,6 +18,7 @@ from . import github as ghmod
 from . import outcomes as outcomes_mod
 from . import render as render_mod
 from . import bar as bar_mod
+from . import assay_history as assay_mod
 from .adapters import lb as lb_adapter
 from .adapters import github_org as gh_adapter
 from .sources_config import SOURCES
@@ -97,15 +98,14 @@ def enrich(posters, gh, today=None):
         if health.get("stars") is not None:
             pass  # stars reserved for the poster page later
         if num is not None:
-            prs = ghmod.find_open_prs(gh, p.repo, num)
-            p.contested_prs = len(prs)
-            p.contest_detail = prs
+            history = ghmod.attempt_history(gh, p.repo, num)
+            p.contested_prs = len(history["open"])
+            p.contest_detail = history["open"]
+            p.dead_attempts = len(history["dead"])
+            p.merged_attempts = len(history["merged"])
             thread = ghmod.issue_thread(gh, p.repo, num)
             p.maintainer_responded = bool(thread["replies"])
             p.maintainer_last_reply_age_days = thread["last_reply_age_days"]
-            history = ghmod.dead_attempts(gh, p.repo, num)
-            p.dead_attempts = history["dead"]
-            p.merged_attempts = history["merged"]
         if p.rewarder:
             p.rewarder_trust = ghmod.rate_rewarder(gh, p.rewarder)
         lang, _ = ghmod.language_of(gh, p.repo)
@@ -162,11 +162,14 @@ def run(fetch_lb, gh, scan_repo, workdir: Path, today=None) -> dict:
     data_dir.mkdir(parents=True, exist_ok=True)
 
     posters: list[Poster] = []
+    lb_raw = None  # the full LB feed (history included) — fetched once
     for cfg in SOURCES:
         if not cfg.get("enabled"):
             continue
         if cfg["kind"] == "lb":
-            posters.extend(lb_adapter.fetch(fetch_lb, cfg, today=today))
+            if lb_raw is None:
+                lb_raw = fetch_lb(cfg["query"])
+            posters.extend(lb_adapter.fetch(lambda _url: lb_raw, cfg, today=today))
         elif cfg["kind"] == "github":
             posters.extend(gh_adapter.fetch(gh, cfg, today=today))
 
@@ -189,6 +192,13 @@ def run(fetch_lb, gh, scan_repo, workdir: Path, today=None) -> dict:
     all_events = outcomes_mod.load(data_dir / "outcomes.jsonl")
     cards = outcomes_mod.report_cards(curr, all_events)
 
+    # The Assay's historical layer: industry track records from the LB
+    # feed's own records (awarded winners, sats, claim dates, co-funders).
+    history = assay_mod.build_lb_history(lb_raw) if lb_raw else None
+    if history:
+        (data_dir / "assay_history.json").write_text(
+            json.dumps(history, indent=2) + "\n")
+
     write = lambda p, d, pa, f: (p, d, pa, f)  # noqa: E731
     all_meta = ([write(p, "most_wanted", pa, f) for p, pa, f in mw]
                 + [write(p, "honest_work", pa, f) for p, pa, f in hw]
@@ -197,7 +207,7 @@ def run(fetch_lb, gh, scan_repo, workdir: Path, today=None) -> dict:
         "posters": str(render_mod.write_posters(all_meta, data_dir)),
         "most_wanted": str(render_mod.render_most_wanted(mw, reports_dir)),
         "honest_work": str(render_mod.render_honest_work(hw, young_gun, reports_dir)),
-        "the_assay": str(render_mod.render_assay(cards, reports_dir)),
+        "the_assay": str(render_mod.render_assay(cards, history, reports_dir)),
     }
     return {
         "ingested": len(posters),

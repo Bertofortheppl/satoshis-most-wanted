@@ -96,53 +96,53 @@ GH_PAYLOADS = {
     "https://api.github.com/repos/acme/scarred": {
         "archived": False, "pushed_at": "2026-10-19T00:00:00Z",
         "stargazers_count": 200, "language": "Python"},
-    # contest searches (as urllib.quote emits them: repo slash stays raw)
-    "https://api.github.com/search/issues?q=repo%3Aacme/clean%20is%3Apr%20is%3Aopen%2011":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3Aacme/contested%20is%3Apr%20is%3Aopen%2012":
-        {"items": [
-            {"number": 90, "title": "a", "user": {"login": "u1"},
-             "created_at": "2026-09-01T00:00:00Z"},
-            {"number": 91, "title": "b", "user": {"login": "u2"},
-             "created_at": "2026-09-20T00:00:00Z"},
-            {"number": 92, "title": "c", "user": {"login": "u3"},
-             "created_at": "2026-10-01T00:00:00Z"},
-        ]},
-    "https://api.github.com/search/issues?q=repo%3Aacme/trap%20is%3Apr%20is%3Aopen%2014":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3Aacme/stale%20is%3Apr%20is%3Aopen%2015":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3Aacme/scarred%20is%3Apr%20is%3Aopen%2016":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3AgetAlby/bitcoin-connect%20is%3Apr%20is%3Aopen%20159":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3AgetAlby/pos%20is%3Apr%20is%3Aopen%2040":
-        {"items": []},
-    # attempt history (dead + merged searches, raw slash as quote emits)
-    "https://api.github.com/search/issues?q=repo%3Aacme/clean%20is%3Apr%20is%3Aclosed%2011":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3Aacme/contested%20is%3Apr%20is%3Aclosed%2012":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3Aacme/trap%20is%3Apr%20is%3Aclosed%2014":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3Aacme/stale%20is%3Apr%20is%3Aclosed%2015":
-        {"items": [
-            {"number": 70, "title": "the fix", "user": {"login": "someone"},
-             "pull_request": {"merged_at": "2026-09-22T09:07:15Z"}},
-        ]},
-    "https://api.github.com/search/issues?q=repo%3Aacme/scarred%20is%3Apr%20is%3Aclosed%2016":
-        {"items": [
-            {"number": 71, "title": "a", "user": {"login": "u1"},
-             "pull_request": {"merged_at": None}},
-            {"number": 72, "title": "b", "user": {"login": "u2"},
-             "pull_request": {"merged_at": None}},
-            {"number": 73, "title": "c", "user": {"login": "u3"},
-             "pull_request": {"merged_at": None}},
-        ]},
-    "https://api.github.com/search/issues?q=repo%3AgetAlby/bitcoin-connect%20is%3Apr%20is%3Aclosed%20159":
-        {"items": []},
-    "https://api.github.com/search/issues?q=repo%3AgetAlby/pos%20is%3Apr%20is%3Aclosed%2040":
-        {"items": []},
+    # timelines: AUTHORITATIVE attempt data (one call per issue; replaces
+    # the two flaky searches — the lnbits flicker lesson)
+    "https://api.github.com/repos/acme/clean/issues/11/timeline": [],
+    "https://api.github.com/repos/acme/contested/issues/12/timeline": [
+        {"event": "cross-referenced", "source": {"issue": {
+            "number": 90, "title": "a", "state": "open",
+            "user": {"login": "u1"}, "created_at": "2026-09-01T00:00:00Z",
+            "repository_url": "https://api.github.com/repos/acme/contested",
+            "pull_request": {"merged_at": None}}}},
+        {"event": "cross-referenced", "source": {"issue": {
+            "number": 91, "title": "b", "state": "open",
+            "user": {"login": "u2"}, "created_at": "2026-09-20T00:00:00Z",
+            "repository_url": "https://api.github.com/repos/acme/contested",
+            "pull_request": {"merged_at": None}}}},
+        {"event": "cross-referenced", "source": {"issue": {
+            "number": 92, "title": "c", "state": "open",
+            "user": {"login": "u3"}, "created_at": "2026-10-01T00:00:00Z",
+            "repository_url": "https://api.github.com/repos/acme/contested",
+            "pull_request": {"merged_at": None}}}},
+    ],
+    "https://api.github.com/repos/acme/trap/issues/14/timeline": [],
+    "https://api.github.com/repos/acme/stale/issues/15/timeline": [
+        {"event": "cross-referenced", "source": {"issue": {
+            "number": 70, "title": "the fix", "state": "closed",
+            "user": {"login": "someone"}, "created_at": "2026-08-01T00:00:00Z",
+            "repository_url": "https://api.github.com/repos/acme/stale",
+            "pull_request": {"merged_at": "2026-09-22T09:07:15Z"}}}},
+    ],
+    "https://api.github.com/repos/acme/scarred/issues/16/timeline": [
+        {"event": "cross-referenced", "source": {"issue": {
+            "number": 71, "title": "a", "state": "closed",
+            "user": {"login": "u1"}, "created_at": "2026-05-01T00:00:00Z",
+            "repository_url": "https://api.github.com/repos/acme/scarred",
+            "pull_request": {"merged_at": None}}}},
+        {"event": "cross-referenced", "source": {"issue": {
+            "number": 72, "title": "b", "state": "closed",
+            "user": {"login": "u2"}, "created_at": "2026-06-01T00:00:00Z",
+            "repository_url": "https://api.github.com/repos/acme/scarred",
+            "pull_request": {"merged_at": None}}}},
+        {"event": "cross-referenced", "source": {"issue": {
+            "number": 73, "title": "c", "state": "closed",
+            "user": {"login": "u3"}, "created_at": "2026-07-01T00:00:00Z",
+            "repository_url": "https://api.github.com/repos/acme/scarred",
+            "pull_request": {"merged_at": None}}}},
+    ],
+    "https://api.github.com/repos/getAlby/bitcoin-connect/issues/159/timeline": [],
+    "https://api.github.com/repos/getAlby/pos/issues/40/timeline": [],
     # SN repo searches: one per difficulty label (prefix match covers all)
     "https://api.github.com/search/issues?q=repo%3Astackernews":
         {"items": []},   # episodic: empty today (verified live 2026-10-23)

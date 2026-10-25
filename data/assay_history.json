@@ -1,0 +1,385 @@
+{
+  "platform": {
+    "lifetime": 85,
+    "awarded": 62,
+    "open": 23,
+    "sats_awarded": 1251731
+  },
+  "rewarders": [
+    {
+      "rewarder": "sutt",
+      "touched": 15,
+      "awarded": 10,
+      "open": 5,
+      "sats_awarded": 336316,
+      "award_rate": 0.67,
+      "median_days_to_award": 15
+    },
+    {
+      "rewarder": "lightning-bounties-system",
+      "touched": 10,
+      "awarded": 9,
+      "open": 1,
+      "sats_awarded": 336176,
+      "award_rate": 0.9,
+      "median_days_to_award": 23
+    },
+    {
+      "rewarder": "SonnyMonroe",
+      "touched": 29,
+      "awarded": 21,
+      "open": 8,
+      "sats_awarded": 282690,
+      "award_rate": 0.72,
+      "median_days_to_award": 24
+    },
+    {
+      "rewarder": "geyln",
+      "touched": 1,
+      "awarded": 1,
+      "open": 0,
+      "sats_awarded": 201621,
+      "award_rate": 1.0,
+      "median_days_to_award": 56
+    },
+    {
+      "rewarder": "lb-founders",
+      "touched": 19,
+      "awarded": 18,
+      "open": 1,
+      "sats_awarded": 200642,
+      "award_rate": 0.95,
+      "median_days_to_award": 2
+    },
+    {
+      "rewarder": "jegamboafuentes",
+      "touched": 8,
+      "awarded": 6,
+      "open": 2,
+      "sats_awarded": 188264,
+      "award_rate": 0.75,
+      "median_days_to_award": 5
+    },
+    {
+      "rewarder": "thrillerxx",
+      "touched": 3,
+      "awarded": 3,
+      "open": 0,
+      "sats_awarded": 170000,
+      "award_rate": 1.0,
+      "median_days_to_award": 0
+    },
+    {
+      "rewarder": "super-jaba",
+      "touched": 7,
+      "awarded": 6,
+      "open": 1,
+      "sats_awarded": 128739,
+      "award_rate": 0.86,
+      "median_days_to_award": 6
+    },
+    {
+      "rewarder": "bitcoinuser",
+      "touched": 19,
+      "awarded": 10,
+      "open": 9,
+      "sats_awarded": 104622,
+      "award_rate": 0.53,
+      "median_days_to_award": 7
+    },
+    {
+      "rewarder": "willbountyhunter",
+      "touched": 5,
+      "awarded": 4,
+      "open": 1,
+      "sats_awarded": 44500,
+      "award_rate": 0.8,
+      "median_days_to_award": 0
+    },
+    {
+      "rewarder": "octoberjackie",
+      "touched": 4,
+      "awarded": 3,
+      "open": 1,
+      "sats_awarded": 36000,
+      "award_rate": 0.75,
+      "median_days_to_award": 3
+    },
+    {
+      "rewarder": "DoktorShift",
+      "touched": 1,
+      "awarded": 1,
+      "open": 0,
+      "sats_awarded": 30000,
+      "award_rate": 1.0,
+      "median_days_to_award": 2
+    },
+    {
+      "rewarder": "Anthonyushie",
+      "touched": 2,
+      "awarded": 2,
+      "open": 0,
+      "sats_awarded": 23002,
+      "award_rate": 1.0,
+      "median_days_to_award": 14
+    },
+    {
+      "rewarder": "vcavallo",
+      "touched": 1,
+      "awarded": 1,
+      "open": 0,
+      "sats_awarded": 22121,
+      "award_rate": 1.0,
+      "median_days_to_award": 8
+    },
+    {
+      "rewarder": "keith-gardner",
+      "touched": 3,
+      "awarded": 1,
+      "open": 2,
+      "sats_awarded": 20000,
+      "award_rate": 0.33,
+      "median_days_to_award": 7
+    },
+    {
+      "rewarder": "SharpestReggie",
+      "touched": 3,
+      "awarded": 3,
+      "open": 0,
+      "sats_awarded": 15100,
+      "award_rate": 1.0,
+      "median_days_to_award": 7
+    },
+    {
+      "rewarder": "sbddesign",
+      "touched": 2,
+      "awarded": 1,
+      "open": 1,
+      "sats_awarded": 15021,
+      "award_rate": 0.5,
+      "median_days_to_award": 24
+    },
+    {
+      "rewarder": "realjuangalt",
+      "touched": 1,
+      "awarded": 1,
+      "open": 0,
+      "sats_awarded": 13001,
+      "award_rate": 1.0,
+      "median_days_to_award": 24
+    },
+    {
+      "rewarder": "Nibitor21",
+      "touched": 1,
+      "awarded": 1,
+      "open": 0,
+      "sats_awarded": 10080,
+      "award_rate": 1.0,
+      "median_days_to_award": 8
+    },
+    {
+      "rewarder": "kylemccullen",
+      "touched": 1,
+      "awarded": 1,
+      "open": 0,
+      "sats_awarded": 10000,
+      "award_rate": 1.0,
+      "median_days_to_award": 10
+    },
+    {
+      "rewarder": "luisschwab",
+      "touched": 1,
+      "awarded": 1,
+      "open": 0,
+      "sats_awarded": 5021,
+      "award_rate": 1.0,
+      "median_days_to_award": 3
+    },
+    {
+      "rewarder": "ironandsilk",
+      "touched": 2,
+      "awarded": 2,
+      "open": 0,
+      "sats_awarded": 4200,
+      "award_rate": 1.0,
+      "median_days_to_award": 38
+    },
+    {
+      "rewarder": "onlybugs05",
+      "touched": 1,
+      "awarded": 0,
+      "open": 1,
+      "sats_awarded": 0,
+      "award_rate": 0.0,
+      "median_days_to_award": null
+    },
+    {
+      "rewarder": "cortexuvula",
+      "touched": 3,
+      "awarded": 0,
+      "open": 3,
+      "sats_awarded": 0,
+      "award_rate": 0.0,
+      "median_days_to_award": null
+    },
+    {
+      "rewarder": "Schnuartz",
+      "touched": 3,
+      "awarded": 0,
+      "open": 3,
+      "sats_awarded": 0,
+      "award_rate": 0.0,
+      "median_days_to_award": null
+    },
+    {
+      "rewarder": "aliraza556",
+      "touched": 1,
+      "awarded": 0,
+      "open": 1,
+      "sats_awarded": 0,
+      "award_rate": 0.0,
+      "median_days_to_award": null
+    },
+    {
+      "rewarder": "coallfield",
+      "touched": 1,
+      "awarded": 0,
+      "open": 1,
+      "sats_awarded": 0,
+      "award_rate": 0.0,
+      "median_days_to_award": null
+    }
+  ],
+  "hunters": [
+    {
+      "hunter": "tadeubas",
+      "wins": 1,
+      "sats": 201621
+    },
+    {
+      "hunter": "aliraza556",
+      "wins": 10,
+      "sats": 184211
+    },
+    {
+      "hunter": "jegamboafuentes",
+      "wins": 3,
+      "sats": 170000
+    },
+    {
+      "hunter": "axelvyrn",
+      "wins": 3,
+      "sats": 137320
+    },
+    {
+      "hunter": "dni",
+      "wins": 1,
+      "sats": 108474
+    },
+    {
+      "hunter": "turizspace",
+      "wins": 6,
+      "sats": 67521
+    },
+    {
+      "hunter": "CodyTseng",
+      "wins": 4,
+      "sats": 38025
+    },
+    {
+      "hunter": "Anthonyushie",
+      "wins": 3,
+      "sats": 38002
+    },
+    {
+      "hunter": "joelklabo",
+      "wins": 3,
+      "sats": 35000
+    },
+    {
+      "hunter": "thebullishbitcoiner",
+      "wins": 5,
+      "sats": 34000
+    },
+    {
+      "hunter": "SonnyMonroe",
+      "wins": 2,
+      "sats": 33163
+    },
+    {
+      "hunter": "luisschwab",
+      "wins": 2,
+      "sats": 28239
+    },
+    {
+      "hunter": "saithsab877",
+      "wins": 2,
+      "sats": 27142
+    },
+    {
+      "hunter": "sutt",
+      "wins": 3,
+      "sats": 22833
+    },
+    {
+      "hunter": "DeMonkeyCoder",
+      "wins": 3,
+      "sats": 20500
+    },
+    {
+      "hunter": "kylemccullen",
+      "wins": 1,
+      "sats": 20000
+    },
+    {
+      "hunter": "MahtabBukhari",
+      "wins": 1,
+      "sats": 20000
+    },
+    {
+      "hunter": "AndreyMelnikov-dev",
+      "wins": 1,
+      "sats": 20000
+    },
+    {
+      "hunter": "super-jaba",
+      "wins": 1,
+      "sats": 11000
+    },
+    {
+      "hunter": "jessejackson85",
+      "wins": 1,
+      "sats": 10080
+    },
+    {
+      "hunter": "Wutche",
+      "wins": 1,
+      "sats": 10000
+    },
+    {
+      "hunter": "octoberjackie",
+      "wins": 1,
+      "sats": 5100
+    },
+    {
+      "hunter": "ridwan102",
+      "wins": 1,
+      "sats": 5000
+    },
+    {
+      "hunter": "aybanda",
+      "wins": 1,
+      "sats": 3000
+    },
+    {
+      "hunter": "willbountyhunter",
+      "wins": 1,
+      "sats": 1000
+    },
+    {
+      "hunter": "enrique-lb",
+      "wins": 1,
+      "sats": 500
+    }
+  ]
+}

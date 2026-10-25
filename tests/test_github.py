@@ -58,24 +58,47 @@ class RepoHealthTests(unittest.TestCase):
         self.assertIsNone(h["last_push"])
 
 
-class ContestTests(unittest.TestCase):
-    def test_find_open_prs_maps_search_results_with_age(self):
-        search = {"items": [
-            {"number": 9, "title": "fix", "user": {"login": "a"},
-             "created_at": "2026-10-01T00:00:00Z"},
-            {"number": 10, "title": "other fix", "user": {"login": "b"},
-             "created_at": "2026-10-10T00:00:00Z"},
-        ]}
-        gh = FakeGh({"https://api.github.com/search/issues": search})
-        prs = ghmod.find_open_prs(gh, "acme/widgets", 7)
-        self.assertEqual(len(prs), 2)
-        self.assertEqual(prs[0]["user"], "a")
-        self.assertIsInstance(prs[0]["age_days"], int)
-        self.assertGreaterEqual(prs[0]["age_days"], prs[1]["age_days"] - 1)
+class AttemptHistoryTests(unittest.TestCase):
+    """Timeline-authoritative attempt data (one call, no search flakiness)."""
 
-    def test_find_open_prs_empty_on_error(self):
-        gh = FakeGh({"https://api.github.com/search/issues": RuntimeError("x")})
-        self.assertEqual(ghmod.find_open_prs(gh, "acme/widgets", 7), [])
+    def test_timeline_classifies_open_dead_merged(self):
+        payloads = {"https://api.github.com/repos/acme/widgets/issues/7/timeline": [
+            {"event": "cross-referenced", "source": {"issue": {
+                "number": 90, "title": "open one", "state": "open",
+                "user": {"login": "u1"}, "created_at": "2026-09-01T00:00:00Z",
+                "repository_url": "https://api.github.com/repos/acme/widgets",
+                "pull_request": {"merged_at": None}}}},
+            {"event": "cross-referenced", "source": {"issue": {
+                "number": 91, "title": "dead one", "state": "closed",
+                "user": {"login": "u2"}, "created_at": "2026-05-01T00:00:00Z",
+                "repository_url": "https://api.github.com/repos/acme/widgets",
+                "pull_request": {"merged_at": None}}}},
+            {"event": "cross-referenced", "source": {"issue": {
+                "number": 92, "title": "merged one", "state": "closed",
+                "user": {"login": "u3"}, "created_at": "2026-06-01T00:00:00Z",
+                "repository_url": "https://api.github.com/repos/acme/widgets",
+                "pull_request": {"merged_at": "2026-07-01T00:00:00Z"}}}},
+            # cross-repo mention: cannot merge here -> ignored
+            {"event": "cross-referenced", "source": {"issue": {
+                "number": 93, "title": "cross repo", "state": "open",
+                "user": {"login": "u4"}, "created_at": "2026-10-01T00:00:00Z",
+                "repository_url": "https://api.github.com/repos/other/repo",
+                "pull_request": {"merged_at": None}}}},
+        ]}
+        gh = FakeGh(payloads)
+        h = ghmod.attempt_history(gh, "acme/widgets", 7)
+        self.assertEqual(len(h["open"]), 1)
+        self.assertEqual(len(h["dead"]), 1)
+        self.assertEqual(len(h["merged"]), 1)
+        self.assertEqual(h["open"][0]["number"], 90)
+        self.assertIsInstance(h["open"][0]["age_days"], int)
+        self.assertEqual(h["merged"][0]["number"], 92)
+
+    def test_timeline_error_returns_all_empty(self):
+        gh = FakeGh({"https://api.github.com/repos/acme/widgets/issues/8/timeline":
+                     RuntimeError("x")})
+        h = ghmod.attempt_history(gh, "acme/widgets", 8)
+        self.assertEqual(h, {"open": [], "dead": [], "merged": []})
 
 
 class IssueThreadTests(unittest.TestCase):

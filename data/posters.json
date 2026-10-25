@@ -1,16 +1,16 @@
 {
   "posters": [
     {
-      "id": "lightning_bounties-2461505d5e365291",
+      "id": "lightning_bounties-acd052f3b71b01b6",
       "source": "lightning_bounties",
       "source_label": "Lightning Bounties",
-      "external_id": "lb-2581-lnbits/lnbits",
-      "title": "Support sending to BOLT12 offer",
-      "url": "https://github.com/lnbits/lnbits/issues/2581",
+      "external_id": "lb-128-CodyTseng/jumble",
+      "title": "Show a confirmation popup message asking if I really want to close Jumble",
+      "url": "https://github.com/CodyTseng/jumble/issues/128",
       "kind": "opportunity",
-      "sats": 20000,
+      "sats": 3000,
       "escrow": true,
-      "rewarder": "sbddesign",
+      "rewarder": "SonnyMonroe",
       "claim_mechanics": {
         "steps": [
           "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
@@ -23,8 +23,8 @@
         "negotiated": false,
         "paying_schedule": false
       },
-      "language": "python",
-      "repo": "lnbits/lnbits",
+      "language": "typescript",
+      "repo": "CodyTseng/jumble",
       "repo_archived": false,
       "repo_last_push": "2026-10-23",
       "contested_prs": 0,
@@ -32,25 +32,31 @@
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 9,
+      "maintainer_last_reply_age_days": 57,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
         "rules": [],
-        "target": "lnbits/lnbits",
+        "target": "CodyTseng/jumble",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
         "checked_at": "",
         "checked_files": [
           "README.md",
           "AGENTS.md",
-          "SECURITY.md",
-          "issue #4255",
-          "issue #4251"
+          "CLAUDE.md",
+          "issue #884",
+          "issue #876",
+          "issue #875",
+          "issue #874",
+          "issue #873",
+          "issue #871",
+          "issue #868",
+          "issue #867"
         ]
       },
-      "score": 80.0,
+      "score": 63.0,
       "score_breakdown": {
-        "purse": 20.0,
+        "purse": 3.0,
         "uncontested": 30.0,
         "repo_freshness": 10.0,
         "responder": 10.0,
@@ -63,10 +69,81 @@
       "schema_version": 1,
       "door": "honest_work",
       "bar_pass_reasons": [
-        "purse 20000 sats",
+        "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
         "repo pushed 1d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
+      "id": "getalby-656362e0e378acce",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/bitcoin-connect#114",
+      "title": "Add Blink Wallet connector",
+      "url": "https://github.com/getAlby/bitcoin-connect/issues/114",
+      "kind": "opportunity",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/bitcoin-connect",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-20",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 2,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/bitcoin-connect",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #391",
+          "issue #389"
+        ]
+      },
+      "score": 52.0,
+      "score_breakdown": {
+        "purse": 0.0,
+        "uncontested": 30.0,
+        "repo_freshness": 10.0,
+        "responder": 10.0,
+        "escrow": 2.0,
+        "battle_scars": -0.0
+      },
+      "status": "open",
+      "first_seen": "2026-10-24",
+      "last_checked": "2026-10-24",
+      "schema_version": 1,
+      "door": "honest_work",
+      "bar_pass_reasons": [
+        "negotiated lane, maintainer engaged (D7)",
+        "trap scan CLEAN",
+        "repo pushed 4d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -145,6 +222,78 @@
       "bar_fail_reasons": []
     },
     {
+      "id": "getalby-03784f44a10d9785",
+      "source": "getalby",
+      "source_label": "getAlby bounty program",
+      "external_id": "getAlby/lightning-browser-extension#1161",
+      "title": "Export modal for (Zeus/BlueWallet) accounts: Link to docs",
+      "url": "https://github.com/getAlby/lightning-browser-extension/issues/1161",
+      "kind": "opportunity",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getAlby",
+      "claim_mechanics": {
+        "steps": [
+          "Contact-first: comment on the issue offering to take it under the bounty program",
+          "Maintainer confirms scope and terms BEFORE any code",
+          "Deliver PR; payout negotiated on completion"
+        ],
+        "payment": "negotiated, no escrow",
+        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
+        "negotiated": true,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "getAlby/lightning-browser-extension",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 13,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getAlby/lightning-browser-extension",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md",
+          "issue #3635"
+        ]
+      },
+      "score": 52.0,
+      "score_breakdown": {
+        "purse": 0.0,
+        "uncontested": 30.0,
+        "repo_freshness": 10.0,
+        "responder": 10.0,
+        "escrow": 2.0,
+        "battle_scars": -0.0
+      },
+      "status": "open",
+      "first_seen": "2026-10-24",
+      "last_checked": "2026-10-24",
+      "schema_version": 1,
+      "door": "honest_work",
+      "bar_pass_reasons": [
+        "negotiated lane, maintainer engaged (D7)",
+        "trap scan CLEAN",
+        "repo pushed 1d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
       "id": "lightning_bounties-270e49491d8d3b3c",
       "source": "lightning_bounties",
       "source_label": "Lightning Bounties",
@@ -174,55 +323,63 @@
       "contested_prs": 8,
       "contest_detail": [
         {
-          "number": 224,
-          "title": "feat: translate notes to user's preferred language (#206)",
-          "user": "ehfcnate",
-          "age_days": 26
-        },
-        {
-          "number": 222,
-          "title": "#206 Feature: Translate notes to user's preferred language FIXED",
-          "user": "felladaniel36-hash",
-          "age_days": 39
-        },
-        {
-          "number": 221,
-          "title": "feat: translate notes to the user's preferred language (#206)",
-          "user": "UniSyncInc2212",
-          "age_days": 41
-        },
-        {
-          "number": 214,
-          "title": "feat: translate notes to user's preferred language (#206)",
-          "user": "indrad3v4",
-          "age_days": 79
-        },
-        {
-          "number": 212,
-          "title": "feat: inline note translation with LibreTranslate (closes #206)",
-          "user": "cornerblue",
-          "age_days": 95
-        },
-        {
-          "number": 223,
-          "title": "Translate notes to user's preferred language",
-          "user": "albertotranquilli-cmyk",
-          "age_days": 31
-        },
-        {
           "number": 207,
-          "title": "Add translate action to note menu",
           "user": "thecosmicskye",
+          "title": "Add translate action to note menu",
+          "state": "open",
           "age_days": 123
         },
         {
           "number": 208,
-          "title": "Add inline note translation",
           "user": "sato820",
+          "title": "Add inline note translation",
+          "state": "open",
           "age_days": 115
+        },
+        {
+          "number": 212,
+          "user": "cornerblue",
+          "title": "feat: inline note translation with LibreTranslate (closes #206)",
+          "state": "open",
+          "age_days": 95
+        },
+        {
+          "number": 214,
+          "user": "indrad3v4",
+          "title": "feat: translate notes to user's preferred language (#206)",
+          "state": "open",
+          "age_days": 79
+        },
+        {
+          "number": 221,
+          "user": "UniSyncInc2212",
+          "title": "feat: translate notes to the user's preferred language (#206)",
+          "state": "open",
+          "age_days": 41
+        },
+        {
+          "number": 222,
+          "user": "felladaniel36-hash",
+          "title": "#206 Feature: Translate notes to user's preferred language FIXED",
+          "state": "open",
+          "age_days": 39
+        },
+        {
+          "number": 223,
+          "user": "albertotranquilli-cmyk",
+          "title": "Translate notes to user's preferred language",
+          "state": "open",
+          "age_days": 31
+        },
+        {
+          "number": 224,
+          "user": "ehfcnate",
+          "title": "feat: translate notes to user's preferred language (#206)",
+          "state": "open",
+          "age_days": 26
         }
       ],
-      "dead_attempts": 1,
+      "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 40,
@@ -289,58 +446,67 @@
       "contested_prs": 9,
       "contest_detail": [
         {
-          "number": 1111,
-          "title": "feat: translate notes to user preferred language (#1055)",
-          "user": "UniSyncInc2212",
-          "age_days": 41
-        },
-        {
-          "number": 1113,
-          "title": "feat: translate notes to user's preferred language (#1055)",
-          "user": "ehfcnate",
-          "age_days": 26
-        },
-        {
-          "number": 1102,
-          "title": "feat: translate notes to user's preferred language (#1055)",
-          "user": "indrad3v4",
-          "age_days": 79
-        },
-        {
-          "number": 1112,
-          "title": "Translate notes to user's preferred language",
-          "user": "albertotranquilli-cmyk",
-          "age_days": 31
-        },
-        {
-          "number": 1095,
-          "title": "feat: hybrid on-device + LibreTranslate note translation (closes #1055)",
-          "user": "cornerblue",
-          "age_days": 95
-        },
-        {
-          "number": 1104,
-          "title": "Add note translation action",
-          "user": "ParsaHajiAshrafi",
-          "age_days": 60
-        },
-        {
-          "number": 1091,
-          "title": "Add native note translation with browser fallback",
-          "user": "silentpatch-agent",
-          "age_days": 103
-        },
-        {
           "number": 1056,
-          "title": "Add Translate Note menu action",
           "user": "thecosmicskye",
+          "title": "Add Translate Note menu action",
+          "state": "open",
           "age_days": 123
         },
         {
+          "number": 1091,
+          "user": "silentpatch-agent",
+          "title": "Add native note translation with browser fallback",
+          "state": "open",
+          "age_days": 103
+        },
+        {
           "number": 1094,
-          "title": "Add inline on-device note translation",
           "user": "ewbd09-svg",
+          "title": "Add inline on-device note translation",
+          "state": "open",
           "age_days": 98
+        },
+        {
+          "number": 1095,
+          "user": "cornerblue",
+          "title": "feat: hybrid on-device + LibreTranslate note translation (closes #1055)",
+          "state": "open",
+          "age_days": 95
+        },
+        {
+          "number": 1102,
+          "user": "indrad3v4",
+          "title": "feat: translate notes to user's preferred language (#1055)",
+          "state": "open",
+          "age_days": 79
+        },
+        {
+          "number": 1104,
+          "user": "ParsaHajiAshrafi",
+          "title": "Add note translation action",
+          "state": "open",
+          "age_days": 60
+        },
+        {
+          "number": 1111,
+          "user": "UniSyncInc2212",
+          "title": "feat: translate notes to user preferred language (#1055)",
+          "state": "open",
+          "age_days": 41
+        },
+        {
+          "number": 1112,
+          "user": "albertotranquilli-cmyk",
+          "title": "Translate notes to user's preferred language",
+          "state": "open",
+          "age_days": 31
+        },
+        {
+          "number": 1113,
+          "user": "ehfcnate",
+          "title": "feat: translate notes to user's preferred language (#1055)",
+          "state": "open",
+          "age_days": 26
         }
       ],
       "dead_attempts": 2,
@@ -411,118 +577,137 @@
       "contested_prs": 19,
       "contest_detail": [
         {
-          "number": 226,
-          "title": "feat: fail-closed inline note translation (#133)",
-          "user": "UniSyncInc2212",
-          "age_days": 41
+          "number": 201,
+          "user": "thecosmicskye",
+          "title": "Add translate action to note context menu",
+          "state": "open",
+          "age_days": 123
         },
         {
-          "number": 232,
-          "title": "feat: translate notes to user preferred language (#133)",
-          "user": "ehfcnate",
-          "age_days": 26
+          "number": 203,
+          "user": "KakashiTech",
+          "title": "feat: inline note translation via cache protocol with kind:1051 bootstrap",
+          "state": "open",
+          "age_days": 117
         },
         {
-          "number": 230,
-          "title": "Feat: Translate posts to user's preferred language (closes #133)",
-          "user": "AmirabbasDorasay",
-          "age_days": 29
+          "number": 204,
+          "user": "sato820",
+          "title": "feat: add configurable inline note translation",
+          "state": "open",
+          "age_days": 116
+        },
+        {
+          "number": 205,
+          "user": "Anthonyushie",
+          "title": "Add note translation support",
+          "state": "open",
+          "age_days": 116
+        },
+        {
+          "number": 206,
+          "user": "funnywar605",
+          "title": "feat: inline note translation with LibreTranslate support",
+          "state": "open",
+          "age_days": 110
+        },
+        {
+          "number": 207,
+          "user": "larkinworksagent-dev",
+          "title": "Add configurable note translation (settings-driven providers, sanitized content,",
+          "state": "open",
+          "age_days": 98
         },
         {
           "number": 208,
-          "title": "feat: configurable inline note translation (closes #133)",
           "user": "cornerblue",
+          "title": "feat: configurable inline note translation (closes #133)",
+          "state": "open",
+          "age_days": 95
+        },
+        {
+          "number": 209,
+          "user": "iamtherustyone",
+          "title": "feat: add configurable note translation",
+          "state": "open",
           "age_days": 95
         },
         {
           "number": 212,
-          "title": "feat: translate posts to user's preferred language (#133)",
           "user": "indrad3v4",
+          "title": "feat: translate posts to user's preferred language (#133)",
+          "state": "open",
           "age_days": 79
         },
         {
-          "number": 231,
-          "title": "Translate post to user language",
-          "user": "jounaid-dev",
-          "age_days": 28
-        },
-        {
-          "number": 228,
-          "title": "feat: integrate community note translation engine hooks",
-          "user": "Malek-121s",
-          "age_days": 32
-        },
-        {
-          "number": 223,
-          "title": "feat: add translate button to notes using LibreTranslate",
-          "user": "gar-uda",
-          "age_days": 55
-        },
-        {
           "number": 213,
-          "title": "Add on-demand translation for posts",
           "user": "paducklightning",
+          "title": "Add on-demand translation for posts",
+          "state": "open",
           "age_days": 72
         },
         {
-          "number": 229,
-          "title": "Translate post to user language",
-          "user": "albertotranquilli-cmyk",
-          "age_days": 31
-        },
-        {
-          "number": 221,
-          "title": "Translate posts to the user language",
-          "user": "nonoplzno",
-          "age_days": 57
-        },
-        {
-          "number": 209,
-          "title": "feat: add configurable note translation",
-          "user": "iamtherustyone",
-          "age_days": 95
-        },
-        {
-          "number": 201,
-          "title": "Add translate action to note context menu",
-          "user": "thecosmicskye",
-          "age_days": 123
-        },
-        {
-          "number": 206,
-          "title": "feat: inline note translation with LibreTranslate support",
-          "user": "funnywar605",
-          "age_days": 110
-        },
-        {
-          "number": 204,
-          "title": "feat: add configurable inline note translation",
-          "user": "sato820",
-          "age_days": 116
-        },
-        {
           "number": 218,
-          "title": "Add note translation action",
           "user": "ParsaHajiAshrafi",
+          "title": "Add note translation action",
+          "state": "open",
           "age_days": 60
         },
         {
-          "number": 207,
-          "title": "Add configurable note translation (settings-driven providers, sanitized content,",
-          "user": "larkinworksagent-dev",
-          "age_days": 98
+          "number": 221,
+          "user": "nonoplzno",
+          "title": "Translate posts to the user language",
+          "state": "open",
+          "age_days": 57
         },
         {
-          "number": 203,
-          "title": "feat: inline note translation via cache protocol with kind:1051 bootstrap",
-          "user": "KakashiTech",
-          "age_days": 117
+          "number": 223,
+          "user": "gar-uda",
+          "title": "feat: add translate button to notes using LibreTranslate",
+          "state": "open",
+          "age_days": 55
         },
         {
-          "number": 205,
-          "title": "Add note translation support",
-          "user": "Anthonyushie",
-          "age_days": 116
+          "number": 226,
+          "user": "UniSyncInc2212",
+          "title": "feat: fail-closed inline note translation (#133)",
+          "state": "open",
+          "age_days": 41
+        },
+        {
+          "number": 228,
+          "user": "Malek-121s",
+          "title": "feat: integrate community note translation engine hooks",
+          "state": "open",
+          "age_days": 32
+        },
+        {
+          "number": 229,
+          "user": "albertotranquilli-cmyk",
+          "title": "Translate post to user language",
+          "state": "open",
+          "age_days": 31
+        },
+        {
+          "number": 230,
+          "user": "AmirabbasDorasay",
+          "title": "Feat: Translate posts to user's preferred language (closes #133)",
+          "state": "open",
+          "age_days": 29
+        },
+        {
+          "number": 231,
+          "user": "jounaid-dev",
+          "title": "Translate post to user language",
+          "state": "open",
+          "age_days": 28
+        },
+        {
+          "number": 232,
+          "user": "ehfcnate",
+          "title": "feat: translate notes to user preferred language (#133)",
+          "state": "open",
+          "age_days": 26
         }
       ],
       "dead_attempts": 3,
@@ -594,7 +779,7 @@
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 8,
-      "merged_attempts": 0,
+      "merged_attempts": 1,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 144,
       "trap": {
@@ -627,6 +812,7 @@
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "8 prior attempts died unmerged (battle scars, D7)",
         "last reply 144d ago (> 60d)"
       ]
@@ -662,12 +848,13 @@
       "contest_detail": [
         {
           "number": 764,
-          "title": "Mention: autocomplete Nostr people lists",
           "user": "Chewy-b0t",
+          "title": "Mention: autocomplete Nostr people lists",
+          "state": "open",
           "age_days": 211
         }
       ],
-      "dead_attempts": 7,
+      "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 57,
@@ -708,7 +895,6 @@
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "7 prior attempts died unmerged (battle scars, D7)",
         "1 open PR but 211d old (> 30d)"
       ]
     },
@@ -739,22 +925,17 @@
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
       "repo_last_push": "2026-10-23",
-      "contested_prs": 2,
+      "contested_prs": 1,
       "contest_detail": [
         {
           "number": 713,
-          "title": "feat: add per-relay toggle to hide posts from followed users",
           "user": "jaronhelianthes",
+          "title": "feat: add per-relay toggle to hide posts from followed users",
+          "state": "open",
           "age_days": 299
-        },
-        {
-          "number": 836,
-          "title": "fix: sign with the correct account when a NIP-07 extension holds multiple accoun",
-          "user": "Anderson-Juhasc",
-          "age_days": 86
         }
       ],
-      "dead_attempts": 7,
+      "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 40,
@@ -795,82 +976,7 @@
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "7 prior attempts died unmerged (battle scars, D7)",
-        "contested by 2 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "lightning_bounties-acd052f3b71b01b6",
-      "source": "lightning_bounties",
-      "source_label": "Lightning Bounties",
-      "external_id": "lb-128-CodyTseng/jumble",
-      "title": "Show a confirmation popup message asking if I really want to close Jumble",
-      "url": "https://github.com/CodyTseng/jumble/issues/128",
-      "kind": "unranked",
-      "sats": 3000,
-      "escrow": true,
-      "rewarder": "SonnyMonroe",
-      "claim_mechanics": {
-        "steps": [
-          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
-          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
-          "PR must pass the repo's checks and be merged (not draft)",
-          "Click 'Claim Reward' on your dashboard after merge"
-        ],
-        "payment": "automatic on verified merge",
-        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "CodyTseng/jumble",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-23",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 5,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 57,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "CodyTseng/jumble",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "",
-        "checked_files": [
-          "README.md",
-          "AGENTS.md",
-          "CLAUDE.md",
-          "issue #884",
-          "issue #876",
-          "issue #875",
-          "issue #874",
-          "issue #873",
-          "issue #871",
-          "issue #868",
-          "issue #867"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "purse 3000 sats",
-        "purse locked in escrow",
-        "trap scan CLEAN",
-        "repo pushed 1d ago",
-        "responded recently",
-        "uncontested",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "5 prior attempts died unmerged (battle scars, D7)"
+        "1 open PR but 299d old (> 30d)"
       ]
     },
     {
@@ -904,12 +1010,13 @@
       "contest_detail": [
         {
           "number": 303,
-          "title": "Threadmobile",
           "user": "Wutche",
+          "title": "Threadmobile",
+          "state": "open",
           "age_days": 546
         }
       ],
-      "dead_attempts": 0,
+      "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 539,
@@ -1212,124 +1319,51 @@
       ]
     },
     {
-      "id": "getalby-656362e0e378acce",
-      "source": "getalby",
-      "source_label": "getAlby bounty program",
-      "external_id": "getAlby/bitcoin-connect#114",
-      "title": "Add Blink Wallet connector",
-      "url": "https://github.com/getAlby/bitcoin-connect/issues/114",
+      "id": "lightning_bounties-2461505d5e365291",
+      "source": "lightning_bounties",
+      "source_label": "Lightning Bounties",
+      "external_id": "lb-2581-lnbits/lnbits",
+      "title": "Support sending to BOLT12 offer",
+      "url": "https://github.com/lnbits/lnbits/issues/2581",
       "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "getAlby",
+      "sats": 20000,
+      "escrow": true,
+      "rewarder": "sbddesign",
       "claim_mechanics": {
         "steps": [
-          "Contact-first: comment on the issue offering to take it under the bounty program",
-          "Maintainer confirms scope and terms BEFORE any code",
-          "Deliver PR; payout negotiated on completion"
+          "Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR",
+          "PR body must include `close #<issue>` and the Lightning Bounties issue URL",
+          "PR must pass the repo's checks and be merged (not draft)",
+          "Click 'Claim Reward' on your dashboard after merge"
         ],
-        "payment": "negotiated, no escrow",
-        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
-        "negotiated": true,
+        "payment": "automatic on verified merge",
+        "gotchas": "missing login-first or wrong close syntax = no payout; bounty lock-time can expire",
+        "negotiated": false,
         "paying_schedule": false
       },
-      "language": "typescript",
-      "repo": "getAlby/bitcoin-connect",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-20",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 381,
-          "title": "fix: don't show 'connected to' on connection error",
-          "user": "Pyiner",
-          "age_days": 210
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 5,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 2,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "getAlby/bitcoin-connect",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #391",
-          "issue #389"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-24",
-      "last_checked": "2026-10-24",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "negotiated lane, maintainer engaged (D7)",
-        "trap scan CLEAN",
-        "repo pushed 4d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "5 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "1 open PR but 210d old (> 30d)"
-      ]
-    },
-    {
-      "id": "getalby-03784f44a10d9785",
-      "source": "getalby",
-      "source_label": "getAlby bounty program",
-      "external_id": "getAlby/lightning-browser-extension#1161",
-      "title": "Export modal for (Zeus/BlueWallet) accounts: Link to docs",
-      "url": "https://github.com/getAlby/lightning-browser-extension/issues/1161",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "getAlby",
-      "claim_mechanics": {
-        "steps": [
-          "Contact-first: comment on the issue offering to take it under the bounty program",
-          "Maintainer confirms scope and terms BEFORE any code",
-          "Deliver PR; payout negotiated on completion"
-        ],
-        "payment": "negotiated, no escrow",
-        "gotchas": "cold-contact lane: our own record is 0/3 maintainer replies in 2+ months",
-        "negotiated": true,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "getAlby/lightning-browser-extension",
+      "language": "python",
+      "repo": "lnbits/lnbits",
       "repo_archived": false,
       "repo_last_push": "2026-10-23",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 0,
+      "dead_attempts": 2,
       "merged_attempts": 1,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 13,
+      "maintainer_last_reply_age_days": 9,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
         "rules": [],
-        "target": "getAlby/lightning-browser-extension",
+        "target": "lnbits/lnbits",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
         "checked_at": "",
         "checked_files": [
-          "CONTRIBUTING.md",
           "README.md",
           "AGENTS.md",
-          "CLAUDE.md",
           "SECURITY.md",
-          "issue #3635"
+          "issue #4255",
+          "issue #4251"
         ]
       },
       "score": null,
@@ -1340,7 +1374,8 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "negotiated lane, maintainer engaged (D7)",
+        "purse 20000 sats",
+        "purse locked in escrow",
         "trap scan CLEAN",
         "repo pushed 1d ago",
         "responded recently",
@@ -1381,13 +1416,14 @@
       "contest_detail": [
         {
           "number": 397,
-          "title": "fix: move hard-coded SVG classes to icon callers",
           "user": "yangToT",
+          "title": "fix: move hard-coded SVG classes to icon callers",
+          "state": "open",
           "age_days": 43
         }
       ],
-      "dead_attempts": 2,
-      "merged_attempts": 1,
+      "dead_attempts": 1,
+      "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 43,
       "trap": {
@@ -1420,7 +1456,6 @@
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "1 open PR but 43d old (> 30d)"
       ]
     },
@@ -1452,8 +1487,8 @@
       "repo_last_push": "2026-10-20",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 1,
-      "merged_attempts": 2,
+      "dead_attempts": 0,
+      "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 69,
       "trap": {
@@ -1486,7 +1521,6 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "2 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "last reply 69d ago (> 60d)"
       ]
     },
@@ -1652,8 +1686,9 @@
       "contest_detail": [
         {
           "number": 381,
-          "title": "fix: don't show 'connected to' on connection error",
           "user": "Pyiner",
+          "title": "fix: don't show 'connected to' on connection error",
+          "state": "open",
           "age_days": 210
         }
       ],
@@ -1720,17 +1755,10 @@
       "repo": "getAlby/bitcoin-connect",
       "repo_archived": false,
       "repo_last_push": "2026-10-20",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 392,
-          "title": "Update all Yarn dependencies (2026-05-25)",
-          "user": "depfu[bot]",
-          "age_days": 152
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 13,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 214,
       "trap": {
@@ -1758,13 +1786,12 @@
       "bar_pass_reasons": [
         "trap scan CLEAN",
         "repo pushed 4d ago",
+        "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "13 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "last reply 214d ago (> 60d)",
-        "1 open PR but 152d old (> 30d)"
+        "last reply 214d ago (> 60d)"
       ]
     },
     {
@@ -1796,7 +1823,7 @@
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
-      "merged_attempts": 1,
+      "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 223,
       "trap": {
@@ -1828,7 +1855,6 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "last reply 223d ago (> 60d)"
       ]
     },
@@ -1860,8 +1886,8 @@
       "repo_last_push": "2026-10-23",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 1,
-      "merged_attempts": 1,
+      "dead_attempts": 0,
+      "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 400,
       "trap": {
@@ -1893,7 +1919,6 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "last reply 400d ago (> 60d)"
       ]
     },
@@ -2061,8 +2086,9 @@
       "contest_detail": [
         {
           "number": 94,
-          "title": "add: end-date in recurring payments",
           "user": "krrish-sehgal",
+          "title": "add: end-date in recurring payments",
+          "state": "open",
           "age_days": 390
         }
       ],
@@ -2133,8 +2159,8 @@
       "repo_last_push": "2026-10-20",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 2,
-      "merged_attempts": 5,
+      "dead_attempts": 0,
+      "merged_attempts": 1,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 649,
       "trap": {
@@ -2167,7 +2193,7 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "5 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "last reply 649d ago (> 60d)"
       ]
     },
@@ -2200,7 +2226,7 @@
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
-      "merged_attempts": 0,
+      "merged_attempts": 1,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 651,
       "trap": {
@@ -2233,6 +2259,7 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "last reply 651d ago (> 60d)"
       ]
     },
@@ -2329,7 +2356,7 @@
       "repo_last_push": "2026-10-20",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 1,
+      "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": false,
       "maintainer_last_reply_age_days": null,
@@ -2458,19 +2485,12 @@
       "repo": "getAlby/bitcoin-connect",
       "repo_archived": false,
       "repo_last_push": "2026-10-20",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 393,
-          "title": "\ud83d\udea8 [security] Update esbuild 0.25.12 \u2192 0.28.1 (major)",
-          "user": "depfu[bot]",
-          "age_days": 134
-        }
-      ],
+      "contested_prs": 0,
+      "contest_detail": [],
       "dead_attempts": 0,
-      "merged_attempts": 3,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1048,
+      "merged_attempts": 0,
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -2496,13 +2516,12 @@
       "bar_pass_reasons": [
         "trap scan CLEAN",
         "repo pushed 4d ago",
+        "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "3 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "last reply 1048d ago (> 60d)",
-        "1 open PR but 134d old (> 30d)"
+        "no responder signal on the thread"
       ]
     },
     {
@@ -2535,13 +2554,14 @@
       "contest_detail": [
         {
           "number": 2960,
-          "title": "feat: add screen reader labels for better accessibility",
           "user": "volfiros",
+          "title": "feat: add screen reader labels for better accessibility",
+          "state": "open",
           "age_days": 1036
         }
       ],
       "dead_attempts": 1,
-      "merged_attempts": 1,
+      "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 1039,
       "trap": {
@@ -2574,7 +2594,6 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "last reply 1039d ago (> 60d)",
         "1 open PR but 1036d old (> 30d)"
       ]
@@ -2672,7 +2691,7 @@
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
-      "merged_attempts": 1,
+      "merged_attempts": 0,
       "maintainer_responded": false,
       "maintainer_last_reply_age_days": null,
       "trap": {
@@ -2703,7 +2722,6 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "repo last push 766d ago (> 90d)",
         "no responder signal on the thread"
       ]
@@ -2736,8 +2754,8 @@
       "repo_last_push": "2026-10-20",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 3,
-      "merged_attempts": 6,
+      "dead_attempts": 0,
+      "merged_attempts": 2,
       "maintainer_responded": false,
       "maintainer_last_reply_age_days": null,
       "trap": {
@@ -2770,8 +2788,7 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "6 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "3 prior attempts died unmerged (battle scars, D7)",
+        "2 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "no responder signal on the thread"
       ]
     },
@@ -2803,8 +2820,8 @@
       "repo_last_push": "2026-10-20",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 2,
-      "merged_attempts": 12,
+      "dead_attempts": 0,
+      "merged_attempts": 0,
       "maintainer_responded": false,
       "maintainer_last_reply_age_days": null,
       "trap": {
@@ -2837,7 +2854,6 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "12 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "no responder signal on the thread"
       ]
     },
@@ -2867,23 +2883,10 @@
       "repo": "getAlby/bitcoin-connect",
       "repo_archived": false,
       "repo_last_push": "2026-10-20",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 392,
-          "title": "Update all Yarn dependencies (2026-05-25)",
-          "user": "depfu[bot]",
-          "age_days": 152
-        },
-        {
-          "number": 393,
-          "title": "\ud83d\udea8 [security] Update esbuild 0.25.12 \u2192 0.28.1 (major)",
-          "user": "depfu[bot]",
-          "age_days": 134
-        }
-      ],
+      "contested_prs": 0,
+      "contest_detail": [],
       "dead_attempts": 0,
-      "merged_attempts": 9,
+      "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 1101,
       "trap": {
@@ -2911,13 +2914,12 @@
       "bar_pass_reasons": [
         "trap scan CLEAN",
         "repo pushed 4d ago",
+        "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "9 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "last reply 1101d ago (> 60d)",
-        "contested by 2 open PRs (> 1)"
+        "last reply 1101d ago (> 60d)"
       ]
     },
     {
@@ -3010,15 +3012,8 @@
       "repo": "getAlby/ZapPlanner",
       "repo_archived": false,
       "repo_last_push": "2026-10-22",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 94,
-          "title": "add: end-date in recurring payments",
-          "user": "krrish-sehgal",
-          "age_days": 390
-        }
-      ],
+      "contested_prs": 0,
+      "contest_detail": [],
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
@@ -3050,12 +3045,12 @@
       "bar_pass_reasons": [
         "trap scan CLEAN",
         "repo pushed 2d ago",
+        "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "last reply 1114d ago (> 60d)",
-        "1 open PR but 390d old (> 30d)"
+        "last reply 1114d ago (> 60d)"
       ]
     },
     {
@@ -3086,8 +3081,8 @@
       "repo_last_push": "2026-10-23",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 10,
-      "merged_attempts": 10,
+      "dead_attempts": 0,
+      "merged_attempts": 1,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 1296,
       "trap": {
@@ -3121,8 +3116,7 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "10 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "10 prior attempts died unmerged (battle scars, D7)",
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "last reply 1296d ago (> 60d)"
       ]
     },
@@ -3154,8 +3148,8 @@
       "repo_last_push": "2026-10-23",
       "contested_prs": 0,
       "contest_detail": [],
-      "dead_attempts": 2,
-      "merged_attempts": 1,
+      "dead_attempts": 1,
+      "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 1286,
       "trap": {
@@ -3189,7 +3183,6 @@
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "last reply 1286d ago (> 60d)"
       ]
     }

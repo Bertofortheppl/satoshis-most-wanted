@@ -117,66 +117,61 @@ def repo_health(gh, full_name):
     return out
 
 
-def find_open_prs(gh, repo, issue_number):
-    """Open PRs in `repo` referencing the issue (contest detection).
+def attempt_history(gh, repo, issue_number):
+    """Authoritative attempt data for an issue, from its TIMELINE.
 
-    Search is advisory (mention-based, under-counts PRs that never cite the
-    issue number — documented upstream limitation). One cached search per
-    issue; PR age comes from search result `created_at`.
+    Replaces two search-based reads (contest + dead/merged) with one
+    timeline call: search-index flakiness made verdicts flicker between
+    runs (a poster blocked locally appeared on the CI's wall); the
+    timeline API is the source of truth — every same-repo PR that
+    referenced the issue, with state and merged_at.
+
+    Returns {"open": [pr...], "dead": [pr...], "merged": [pr...]}; each pr
+    is {number, user, title, age_days}. Cached per issue (6h).
     """
-    key = f"gh:prs:{repo}#{issue_number}"
-    cached = gh.get(key, PR_SEARCH_CACHE_TTL)
+    key = f"gh:timeline:{repo}#{issue_number}"
+    cached = gh.get(key, GITHUB_STATE_CACHE_TTL)
     if cached is not None:
         return cached
-    q = urllib.parse.quote(f"repo:{repo} is:pr is:open {issue_number}")
-    url = f"https://api.github.com/search/issues?q={q}&per_page=20"
+    url = (f"https://api.github.com/repos/{repo}/issues/{issue_number}"
+           f"/timeline?per_page=100")
+    now = time.time()
+    seen = {}
     try:
-        d = gh.gh(url, PR_SEARCH_CACHE_TTL)
-        now = time.time()
-        items = []
-        for i in (d.get("items") or []):
-            created = i.get("created_at") or ""
+        events = gh.gh(url, GITHUB_STATE_CACHE_TTL)
+        for ev in events if isinstance(events, list) else []:
+            src = (ev.get("source") or {}).get("issue") or {}
+            if not (src.get("pull_request")):
+                continue
+            repourl = src.get("repository_url") or ""
+            if not repourl.endswith(f"/repos/{repo}"):
+                continue  # cross-repo mentions cannot merge here
+            num = src.get("number")
+            if num in seen:
+                continue
+            created = src.get("created_at") or ""
             try:
-                age_days = max(0, int((now - time.mktime(time.strptime(created[:10], "%Y-%m-%d"))) / 86400))
+                age = max(0, int((now - time.mktime(
+                    time.strptime(created[:10], "%Y-%m-%d"))) / 86400))
             except Exception:
-                age_days = None
-            items.append({
-                "number": i["number"],
-                "title": (i.get("title") or "")[:80],
-                "user": (i.get("user") or {}).get("login", "?"),
-                "age_days": age_days,
-            })
-    except Exception:
-        items = []
-    gh.put(key, items)
-    return items
-
-
-def dead_attempts(gh, repo, issue_number):
-    """Attempt history for an issue: closed-unmerged (dead) and merged PRs.
-
-    One cached search (is:closed includes merged PRs; `merged_at` in the
-    search result distinguishes them). Battle scars (DECISIONS.md D7):
-    dead attempts = rejected work; merged attempts = the purse is likely
-    already claimed while the listing may still show open.
-    """
-    key = f"gh:dead:{repo}#{issue_number}"
-    cached = gh.get(key, PR_SEARCH_CACHE_TTL)
-    if cached is not None:
-        return cached
-    q = urllib.parse.quote(f"repo:{repo} is:pr is:closed {issue_number}")
-    url = f"https://api.github.com/search/issues?q={q}&per_page=20"
-    out = {"dead": 0, "merged": 0}
-    try:
-        d = gh.gh(url, PR_SEARCH_CACHE_TTL)
-        for i in (d.get("items") or []):
-            pr = i.get("pull_request") or {}
-            if pr.get("merged_at"):
-                out["merged"] += 1
-            else:
-                out["dead"] += 1
+                age = None
+            pr = src.get("pull_request") or {}
+            merged = bool(pr.get("merged_at"))
+            state = "merged" if merged else (src.get("state") or "closed")
+            seen[num] = {
+                "number": num,
+                "user": (src.get("user") or {}).get("login", "?"),
+                "title": (src.get("title") or "")[:80],
+                "state": state,
+                "age_days": age,
+            }
     except Exception:
         pass
+    out = {
+        "open": [p for p in seen.values() if p["state"] == "open"],
+        "dead": [p for p in seen.values() if p["state"] == "closed"],
+        "merged": [p for p in seen.values() if p["state"] == "merged"],
+    }
     gh.put(key, out)
     return out
 

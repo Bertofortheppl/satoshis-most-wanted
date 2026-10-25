@@ -4,6 +4,36 @@
 > the trigger to revisit. Append-only; new entries on top. Owner sign-off
 > recorded per entry. Ties to RESEARCH.md evidence by section.
 
+## D9 — Assay historical layer + timeline-authoritative signals — DECIDED (owner 2026-10-24)
+
+**Context:** Owner: "the assay is underwhelming — incorporate historical
+data to build industry knowledge and trust." Separately, a live incident:
+the CI's wall posted lnbits#2581 while the same-day local run blocked it
+(merged-fix rule) — root cause: GitHub search-index flakiness made
+dead/merged/contest verdicts flicker between runs.
+
+**Decisions:**
+1. **The Assay reads source HISTORY, not just live tracking.** The LB feed
+   carries its own records (85 lifetime bounties; awarded items include
+   winner, claim date, total_reward_sats, co-funders). New historical layer
+   (`assay_history.py` → `data/assay_history.json` → the_assay.md):
+   platform totals, rewarder cards from actual history (award rate, sats,
+   median days-to-award), hunter cards (who actually wins). **Method
+   honesty, rendered with the data:** "awarded" = designated winner +
+   claim recorded; payment settlement NOT independently verified;
+   crowdfunded bounties count toward every listed funder.
+2. **Signals are timeline-authoritative.** One `issues/{n}/timeline` call
+   per listing replaces the two search-based reads (contest + dead/merged):
+   the timeline is GitHub's own cross-reference record — every same-repo PR
+   that referenced the issue, state + merged_at. Kills search flicker,
+   costs one call instead of two, pins cross-repo mentions out.
+3. Bar semantics unchanged — same gates, better inputs. Live-run outcome
+   transitions (LB winner_data → awarded/paid events in outcomes.jsonl)
+   remain on the not-yet list; history layer ≠ live tracking.
+
+**Pinned by tests:** timeline classification (open/dead/merged, cross-repo
+filter), history math (award rate, median days, co-funder attribution).
+
 ## D8 — Scan caching: the verdict ledger is committed data — DECIDED (owner 2026-10-24, "best practices in mind")
 
 **Context:** Actions runners are ephemeral; the gitignored state/ scan cache
