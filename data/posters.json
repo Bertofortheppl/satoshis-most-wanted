@@ -26,7 +26,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-10-25",
+      "repo_last_push": "2026-10-26",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -72,7 +72,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -843,7 +843,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-10-25",
+      "repo_last_push": "2026-10-26",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -890,7 +890,7 @@
         "purse 10200 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -924,7 +924,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-10-25",
+      "repo_last_push": "2026-10-26",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -971,7 +971,7 @@
         "purse 2000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -1005,7 +1005,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-10-25",
+      "repo_last_push": "2026-10-26",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -1052,7 +1052,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -1344,7 +1344,7 @@
       "language": "python",
       "repo": "lnbits/lnbits",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-26",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 2,
@@ -1377,7 +1377,7 @@
         "purse 20000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -1819,7 +1819,7 @@
       "language": "go",
       "repo": "getAlby/hub",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-26",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
@@ -1849,7 +1849,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -1883,7 +1883,7 @@
       "language": "go",
       "repo": "getAlby/hub",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-26",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -1913,7 +1913,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
