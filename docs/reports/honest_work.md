@@ -1,6 +1,6 @@
 # Honest Work — verified clean opportunities
 
-> 4 posters passed the strict bar. Strict bar (DECISIONS.md D6): escrow or documented paying schedule, trap scan CLEAN, repo alive and pushed recently, someone responded recently, contest at most one fresh PR, rewarder not low-trust, purse at least 2000 sats. Fail any gate and the item is tracked in open data without a poster.
+> 5 posters passed the strict bar. Strict bar (DECISIONS.md D6): escrow or documented paying schedule, trap scan CLEAN, repo alive and pushed recently, someone responded recently, contest at most one fresh PR, rewarder not low-trust, purse at least 2000 sats. Fail any gate and the item is tracked in open data without a poster.
 
 ## The Young Gun — freshest clean listing
 
@@ -11,6 +11,7 @@
 | Score | Listing | Purse | Source | Contest | Scars | Repo pushed |
 |---|---|---|---|---|---|---|
 | 63 | [Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128) | 3000 sats | Lightning Bounties | clean | — | 2026-10-27 |
+| 52 | [Add proper connection page for LNC connect](https://github.com/getAlby/bitcoin-connect/issues/84) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 52 | [Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 52 | [Implement extra WebLN methods for LNC connector (e.g. makeInvoice)](https://github.com/getAlby/bitcoin-connect/issues/151) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-27 |

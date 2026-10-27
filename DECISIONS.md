@@ -4,6 +4,36 @@
 > the trigger to revisit. Append-only; new entries on top. Owner sign-off
 > recorded per entry. Ties to RESEARCH.md evidence by section.
 
+## D10 — Awarded/paid outcomes wired + the bounty-label sweep — DECIDED (owner 2026-10-25/27, "proceed with queue 1 and 2")
+
+**Context:** the third-party review's top two recommendations (confirmed
+by owner): wire LB awarded/paid outcomes; run the bounty-label sweep that
+feeds Most Wanted.
+
+**Decisions:**
+1. **Awarded items ingest with honest statuses** (`winner_data` →
+   "awarded" — designated winner + claim recorded, settlement unverified;
+   `is_closed` no winner → "expired"). Fixes the latent bug where awarded
+   items vanished at ingest and could emit FALSE 'expired' events.
+   Regression test pins: open→awarded transitions, never false expiry.
+2. **The status gate is the spent-purse rule generalized**: only OPEN
+   listings can ever post. Non-open items skip enrichment AND scans
+   entirely — signals exist to gate the wall; spent purses can't post, so
+   they cost no API volume. (Trap exposure of closed listings is
+   deliberately forgone: traps recruit through OPEN bait; the sweep covers
+   that population.)
+3. **The bounty-label sweep** (GitHub-wide `label:"💎 Bounty"` open
+   issues, bounded to the 100 most-recently-updated per run): feeds Most
+   Wanted (trap population) + Honest Work candidates; most items carry no
+   verifiable sats field → tracked in open data until body extraction.
+   First sweep: 100 items, **20 TRAP verdicts — ClankerNation (the
+   RESEARCH.md corpus crime scene, 8 live issues) AND UnsafeLabs (12
+   issues), a trap operation the research never named**. First-run burst
+   ~18 min (new repos scanned once); cache-warm thereafter.
+
+**Result at land time:** 200 posters (143 open / 57 awarded), Most Wanted
+20, Honest Work 5, 175 tracked with reasons. 58 tests green.
+
 ## D9 — Assay historical layer + timeline-authoritative signals — DECIDED (owner 2026-10-24)
 
 **Context:** Owner: "the assay is underwhelming — incorporate historical

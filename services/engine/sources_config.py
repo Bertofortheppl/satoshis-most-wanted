@@ -122,4 +122,31 @@ SOURCES = [
         "claim_mechanics": FLASH_CLAIM_MECHANICS,
         "enabled": True,
     },
+    {
+        # D10 queue #2 — THE BOUNTY-LABEL SWEEP: the wild `💎 Bounty` corpus
+        # where the prompt-harvest trap population lives (RESEARCH.md: 16%
+        # of 563 bounty-labeled issues ask agents to disclose their own
+        # instructions). Primary purpose: feed Most Wanted. Secondary:
+        # honest listings land in open data (most carry no verifiable sats
+        # field, so they track rather than post — extraction comes later).
+        # Bounded to the 100 most-recently-updated open issues per run;
+        # enrichment + trap scans hit only NEW repos (verdict ledger D8 +
+        # cached reads keep the 3h cadence inside rate limits).
+        "kind": "github",
+        "source": "bounty_sweep",
+        "source_label": "Bounty-label sweep (GitHub-wide)",
+        "escrow": None,
+        "paying_schedule": False,
+        "negotiated": False,
+        "query": 'is:issue is:open label:"💎 Bounty"',
+        "claim_mechanics": {
+            "steps": ["Wild listings: terms are whatever the issue says — read every",
+                      "requirement carefully; run the repo through a trap scan",
+                      "(that is what this board is for) before committing anything."],
+            "payment": "varies by issuer; unverified",
+            "gotchas": "this corpus is where the prompt-harvest traps live; never paste "
+                       "your agent configuration into a PR",
+        },
+        "enabled": True,
+    },
 ]

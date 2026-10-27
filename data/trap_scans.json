@@ -1,4 +1,51 @@
 {
+  "ApexOpsStudio/ai-gitops-test-target": {
+    "checked_at": "2026-10-27T19:15:54Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "README.md"
+    ],
+    "rules": [
+      {
+        "evidence": "0 of the last 21 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 15,
+    "target": "ApexOpsStudio/ai-gitops-test-target",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
+  "BAWES-Universe/workadventure-universe": {
+    "checked_at": "2026-10-27T19:14:50Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      ".github/copilot-instructions.md",
+      "SECURITY.md",
+      "issue #1488",
+      "issue #1482"
+    ],
+    "rules": [
+      {
+        "evidence": "1,489 PRs / 1 stars / 30 of last 30 merged",
+        "rule": "VOLUME_NO_RECEPTION",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "Huge PR volume, almost no audience",
+        "why": "1,489 PR numbers issued against 1 stars (1489.0:1). Real projects attract readers roughly in proportion to contributors."
+      }
+    ],
+    "score": 15,
+    "target": "BAWES-Universe/workadventure-universe",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
   "BrantaOps/branta-core": {
     "checked_at": "",
     "checked_date": "2026-10-23",
@@ -11,6 +58,93 @@
     "target": "BrantaOps/branta-core",
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
+  },
+  "ClankerNation/OpenAgents": {
+    "checked_at": "2026-10-27T19:13:17Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "issue #202",
+      "issue #201",
+      "issue #200",
+      "issue #199",
+      "issue #198",
+      "issue #197",
+      "issue #196",
+      "issue #195"
+    ],
+    "rules": [
+      {
+        "evidence": "# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized",
+        "rule": "HIDDEN_DIRECTIVE",
+        "severity": 40,
+        "source": "CONTRIBUTING.md",
+        "title": "Hidden instruction aimed at automated readers",
+        "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+      },
+      {
+        "evidence": "producibility), and runtime environment (os, arch, home_dir, working_dir, shell) - Add `cancelTransaction` for the admin ### Acceptance Criteria - Execution after grace period reverts wit",
+        "rule": "EXFIL_ENV",
+        "severity": 30,
+        "source": "issue #201",
+        "title": "Asks the agent to disclose its host environment",
+        "why": "Home directory, shell and hostname map the machine the agent runs on. That is reconnaissance, not contributor metadata."
+      },
+      {
+        "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+        "rule": "PAY_ON_MERGE_NEVER",
+        "severity": 30,
+        "source": "guidance",
+        "title": "Promises payment on merge while stating PRs are never merged",
+        "why": "Payment is conditioned on an event the repository says will never happen."
+      },
+      {
+        "evidence": "tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project \u2014 bounties listed here are symbolic and p",
+        "rule": "AGENTS_ONLY",
+        "severity": 25,
+        "source": "CONTRIBUTING.md",
+        "title": "Restricts participation to AI agents",
+        "why": "Filtering *out* humans has no engineering purpose. It selects for contributors that cannot independently judge whether the deal is real."
+      },
+      {
+        "evidence": "na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to claim it, then submit a PR - **Deadline:** Most bounties",
+        "rule": "WALLET_REQUEST",
+        "severity": 15,
+        "source": "CONTRIBUTING.md",
+        "title": "Asks for a payout wallet address up front",
+        "why": "Collecting payout addresses before any work is reviewed builds a contact list of agent operators."
+      },
+      {
+        "evidence": "6,211 PRs / 14 stars / 0 of last 30 merged",
+        "rule": "VOLUME_NO_RECEPTION",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "Huge PR volume, almost no audience",
+        "why": "6,211 PR numbers issued against 14 stars (443.6:1). Real projects attract readers roughly in proportion to contributors."
+      },
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      },
+      {
+        "evidence": "issue to claim it, then submit a PR - **Deadline:** Most bounties have a 2 hour window from claim to submission - **Review:** PRs are reviewed within 48 hours ## PR Requirements 1. **Title format:** `[Your N",
+        "rule": "URGENCY",
+        "severity": 8,
+        "source": "CONTRIBUTING.md",
+        "title": "Artificially short deadline",
+        "why": "Short windows discourage the pause where a careful contributor checks whether the payer is real."
+      }
+    ],
+    "score": 178,
+    "target": "ClankerNation/OpenAgents",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "TRAP"
   },
   "CodyTseng/jumble": {
     "checked_at": "",
@@ -46,6 +180,19 @@
     "rules": [],
     "score": 0,
     "target": "MagnivOrg/prompt-layer-library",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "PG-AGI/toingg-jarvis": {
+    "checked_at": "2026-10-27T19:15:05Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "PG-AGI/toingg-jarvis",
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
@@ -96,6 +243,157 @@
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
+  "SecureBananaLabs/bug-bounty": {
+    "checked_at": "2026-10-27T19:13:39Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md"
+    ],
+    "rules": [
+      {
+        "evidence": "13,889 PRs / 342 stars / 0 of last 30 merged",
+        "rule": "VOLUME_NO_RECEPTION",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "Huge PR volume, almost no audience",
+        "why": "13,889 PR numbers issued against 342 stars (40.6:1). Real projects attract readers roughly in proportion to contributors."
+      },
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 30,
+    "target": "SecureBananaLabs/bug-bounty",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "SUSPICIOUS"
+  },
+  "TheSolaAI/sola-application": {
+    "checked_at": "2026-10-27T19:15:12Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "TheSolaAI/sola-application",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "UnsafeLabs/Bounty-Hunters": {
+    "checked_at": "2026-10-27T19:13:53Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "issue #920",
+      "issue #919",
+      "issue #918",
+      "issue #917",
+      "issue #916",
+      "issue #915",
+      "issue #914",
+      "issue #913"
+    ],
+    "rules": [
+      {
+        "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
+        "rule": "HIDDEN_DIRECTIVE",
+        "severity": 40,
+        "source": "CONTRIBUTING.md",
+        "title": "Hidden instruction aimed at automated readers",
+        "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+      },
+      {
+        "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+        "rule": "PAY_ON_MERGE_NEVER",
+        "severity": 30,
+        "source": "guidance",
+        "title": "Promises payment on merge while stating PRs are never merged",
+        "why": "Payment is conditioned on an event the repository says will never happen."
+      },
+      {
+        "evidence": "8,422 PRs / 58 stars / 0 of last 30 merged",
+        "rule": "VOLUME_NO_RECEPTION",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "Huge PR volume, almost no audience",
+        "why": "8,422 PR numbers issued against 58 stars (145.2:1). Real projects attract readers roughly in proportion to contributors."
+      },
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 100,
+    "target": "UnsafeLabs/Bounty-Hunters",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "TRAP"
+  },
+  "WillSmithTE/qdrant-qdrant": {
+    "checked_at": "2026-10-27T19:15:27Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/CONTRIBUTING.md",
+      "issue #392",
+      "issue #391",
+      "issue #390",
+      "issue #389",
+      "issue #388"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "WillSmithTE/qdrant-qdrant",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "arakoodev/EdgeChains": {
+    "checked_at": "2026-10-27T19:14:22Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "README.md"
+    ],
+    "rules": [
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 15,
+    "target": "arakoodev/EdgeChains",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
+  "caley-io/marketing": {
+    "checked_at": "2026-10-27T19:14:43Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "README.md",
+      "issue #14"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "caley-io/marketing",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
   "chainwayxyz/clementine": {
     "checked_at": "",
     "checked_date": "2026-10-23",
@@ -107,6 +405,20 @@
     "rules": [],
     "score": 0,
     "target": "chainwayxyz/clementine",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "flydelabs/flyde": {
+    "checked_at": "2026-10-27T19:13:46Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "CLAUDE.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "flydelabs/flyde",
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
@@ -209,6 +521,85 @@
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
+  "getdozer/dozer": {
+    "checked_at": "2026-10-27T19:14:58Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "getdozer/dozer",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "highlight/highlight": {
+    "checked_at": "2026-10-27T19:13:32Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "CLAUDE.md",
+      "SECURITY.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "highlight/highlight",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "javelin-anticheat/py-workedtask": {
+    "checked_at": "2026-10-27T19:14:37Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "README.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "javelin-anticheat/py-workedtask",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "lablab-ai/community-content": {
+    "checked_at": "2026-10-27T19:15:20Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CLAUDE.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "lablab-ai/community-content",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "limitlessprojects/Go-Hybrid": {
+    "checked_at": "2026-10-27T19:13:59Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "AGENTS.md",
+      "SECURITY.md",
+      "issue #2066",
+      "issue #2064"
+    ],
+    "rules": [
+      {
+        "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+        "rule": "VOLUME_NO_RECEPTION",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "Huge PR volume, almost no audience",
+        "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+      }
+    ],
+    "score": 15,
+    "target": "limitlessprojects/Go-Hybrid",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
   "lnbits/lnbits": {
     "checked_at": "",
     "checked_date": "2026-10-23",
@@ -224,5 +615,169 @@
     "target": "lnbits/lnbits",
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
+  },
+  "oll4com/spaceapp": {
+    "checked_at": "2026-10-27T19:13:24Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md"
+    ],
+    "rules": [
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 15,
+    "target": "oll4com/spaceapp",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
+  "onyx-dot-app/onyx": {
+    "checked_at": "2026-10-27T19:14:06Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "AGENTS.md",
+      "CLAUDE.md",
+      "SECURITY.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "onyx-dot-app/onyx",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "outerbase/starbasedb": {
+    "checked_at": "2026-10-27T19:14:30Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md"
+    ],
+    "rules": [
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 15,
+    "target": "outerbase/starbasedb",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
+  "revertinc/revert": {
+    "checked_at": "2026-10-27T19:14:15Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "revertinc/revert",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "speakers-in-tech/conference-data": {
+    "checked_at": "2026-10-27T19:15:34Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "README.md"
+    ],
+    "rules": [
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 15,
+    "target": "speakers-in-tech/conference-data",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
+  "tine1117/oss-hunter-livefire": {
+    "checked_at": "2026-10-27T19:15:40Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md"
+    ],
+    "rules": [
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 15,
+    "target": "tine1117/oss-hunter-livefire",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
+  "tryabby/abby": {
+    "checked_at": "2026-10-27T19:15:47Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "README.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "tryabby/abby",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "tscircuit/file-server": {
+    "checked_at": "2026-10-27T19:16:02Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "README.md",
+      "issue #175"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "tscircuit/file-server",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "tscircuit/pcb-viewer": {
+    "checked_at": "2026-10-27T19:16:09Z",
+    "checked_date": "2026-10-27",
+    "checked_files": [
+      "README.md",
+      "CLAUDE.md"
+    ],
+    "rules": [
+      {
+        "evidence": "1,126 PRs / 22 stars / 25 of last 30 merged",
+        "rule": "VOLUME_NO_RECEPTION",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "Huge PR volume, almost no audience",
+        "why": "1,126 PR numbers issued against 22 stars (51.2:1). Real projects attract readers roughly in proportion to contributors."
+      }
+    ],
+    "score": 15,
+    "target": "tscircuit/pcb-viewer",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
   }
 }

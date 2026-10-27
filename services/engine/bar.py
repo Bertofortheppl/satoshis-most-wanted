@@ -47,6 +47,12 @@ def check(p) -> tuple[str, list[str], list[str]]:
         rules = ", ".join(p.trap.decisive_rules()) or "aggregate"
         return "most_wanted", [f"trap verdict: {p.trap.verdict} ({rules})"], []
 
+    # The wall shows EARNABLE work: a listing that is not open (awarded,
+    # expired, closed) can never post, no matter how clean its signals —
+    # the spent-purse rule generalized (D10).
+    if p.status != "open":
+        return "tracked", [], [f"listing status {p.status} (not open — purse spent or withdrawn)"]
+
     if p.source in EXCLUDED_SOURCES:
         fails.append(f"source excluded: {p.source}")
     cm = p.claim_mechanics or {}

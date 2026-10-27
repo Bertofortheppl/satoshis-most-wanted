@@ -88,8 +88,12 @@ def _save_scan_cache(workdir: Path, cache: dict) -> None:
 
 
 def enrich(posters, gh, today=None):
+    """Signals exist to gate the wall; only OPEN listings can ever post,
+    so non-open posters (awarded/expired/closed) skip all signal reads —
+    bounded API volume, no enrichment noise (D10)."""
     for p in posters:
-        if not p.repo:
+        p.last_checked = today or dt.date.today().isoformat()
+        if not p.repo or p.status != "open":
             continue
         num = _issue_number(p)
         health = ghmod.repo_health(gh, p.repo)
@@ -110,7 +114,6 @@ def enrich(posters, gh, today=None):
             p.rewarder_trust = ghmod.rate_rewarder(gh, p.rewarder)
         lang, _ = ghmod.language_of(gh, p.repo)
         p.language = lang
-        p.last_checked = today or dt.date.today().isoformat()
     return posters
 
 
@@ -119,8 +122,8 @@ def trap_scan(posters, scan_repo, workdir: Path, today=None, rescan_days=RESCAN_
     cache = _load_scan_cache(workdir)
     t = dt.date.fromisoformat(today)
     for p in posters:
-        if not p.repo:
-            continue
+        if not p.repo or p.status != "open":
+            continue  # scans gate the wall; non-open items cannot post (D10)
         hit = cache.get(p.repo)
         fresh = False
         if hit and hit.get("checked_date"):
