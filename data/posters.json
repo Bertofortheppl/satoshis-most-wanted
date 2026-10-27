@@ -246,7 +246,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-27",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -286,7 +286,7 @@
       "bar_pass_reasons": [
         "negotiated lane, maintainer engaged (D7)",
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -1607,7 +1607,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-27",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -1639,7 +1639,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -2411,7 +2411,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-27",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -2443,7 +2443,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -2542,7 +2542,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-27",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -2582,7 +2582,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -3071,7 +3071,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-27",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -3103,7 +3103,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -3138,7 +3138,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-23",
+      "repo_last_push": "2026-10-27",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
@@ -3170,7 +3170,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
