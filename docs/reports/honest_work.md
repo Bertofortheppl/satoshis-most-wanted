@@ -4,7 +4,7 @@
 
 ## The Young Gun — freshest clean listing
 
-- **[Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128)** — 3000 sats, Lightning Bounties, uncontested, first seen 2026-10-26
+- **[Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128)** — 3000 sats, Lightning Bounties, uncontested, first seen 2026-10-27
 
 ## The wall
 
