@@ -62,22 +62,27 @@
 5. **Questions to sit with:** Do you trust the wall? What's missing from
    "real"? Is the strictness the right personality for the town?
 
+## Reflections (external review sessions land here)
+
+- **2026-10-25 third-party review** (`docs/reflections/third-party-review-2026-10-25.md`):
+  positioning = "consumer protection layer for Bitcoin dev bounties";
+  confirms outcomes-wiring + bounty-label-sweep as the top two moves;
+  adds "market the avoid angle first" for distribution. Competitive map
+  (OnlyDust/Algora/Superteam/LB/SN) folded into RESEARCH.md.
+
 ## Decision queue (awaiting owner)
 
-- **Sprint 2 sequencing — DECIDED (owner 2026-10-24): sources first, chrome
-  later.** Next up: the `💎 Bounty`-label sweep (feeds Most Wanted AND
-  Honest Work), Flash sats-from-body extraction, and the awarded/paid
-  outcome wiring (Flash's `paid` label is the first observable payout
-  signal — see sources_config note).
-- ~~Flash board verification~~ **DONE 2026-10-24**: org `lnflash`, label
-  `💰 bounty` (verified from the board's own script.js). Board currently
-  EMPTY (0 open, 0 paid) — source enabled and dormant; outcome hook noted.
-- **Public board-update notifications — PUNTED (owner 2026-10-24) to the
-  distribution sprint.** Mechanisms on record: public Telegram channel
-  (fresh-poster alerts), RSS feed, nostr notes per Most Wanted addition.
-- **Parent `satonomous` repo push** — owner MejorQueNada, token on the box;
-  awaiting owner go-ahead.
-- **health.py → Telegram alert** (the last monitoring gap; small sprint)
+- **#1 Wire LB awarded/paid outcomes** (confirmed by third-party review
+  2026-10-25): ingest awarded LB items as status="awarded" — also fixes a
+  latent bug where awarded items vanish and could emit false "expired"
+  events. The Assay's live tracking gets real receipts.
+- **#2 Bounty-label sweep** (`💎 Bounty` label corpus) — feeds Most Wanted
+  + Honest Work; sweep cadence weekly with rate-limit pacing.
+- Public board-update notifications — PUNTED (owner 2026-10-24) to the
+  distribution sprint. Mechanisms: public TG channel, RSS, nostr notes.
+  Distribution should market the AVOID angle first (review 2026-10-25).
+- health.py → Telegram operator alert (small sprint).
+- Parent `satonomous` repo — PUSHED 2026-10-24. Done.
 
 ## Growth direction — teaching the market to exist (owner instinct 2026-10-24)
 

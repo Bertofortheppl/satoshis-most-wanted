@@ -4,6 +4,21 @@
 > and what it implies. Decisions that consume this research live in
 > DECISIONS.md. Append-only; new entries on top.
 
+## 2026-10-25 — Competitive map (from the third-party review)
+
+| Project | Overlap | Difference |
+|---|---|---|
+| Lightning Bounties | source | platform, no cross-platform verification or trap detection |
+| Stacker News bounties | source | community posts/micro-contests, no verification/outcomes |
+| OnlyDust | OSS bounties | web3, account-based, no adversarial verification |
+| Superteam Earn | opportunities | curated/KYC-ish, not Lightning-first, no trap/zombie tracking |
+| Algora | bounties | hiring board now, not an open-data aggregator with outcomes |
+
+*Implication: nobody does cross-platform aggregation + trap scanning +
+zombie-purse detection + outcomes ledger at once; scattered nostr/Twitter
+scam warnings are the closest thing to Most Wanted, unsystematized.*
+(Source: docs/reflections/third-party-review-2026-10-25.md)
+
 ## 2026-10-23/24 — What the community says makes an opportunity good or bad
 
 ### BAD opportunities — with receipts
