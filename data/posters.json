@@ -1065,7 +1065,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 34,
@@ -1163,7 +1163,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 15,
@@ -1261,7 +1261,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 30,
@@ -1359,7 +1359,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 22,
@@ -1457,7 +1457,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 9,
@@ -1555,7 +1555,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 8,
@@ -1653,7 +1653,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 11,
@@ -1751,7 +1751,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 37,
@@ -1849,7 +1849,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 4,
@@ -1947,7 +1947,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 14,
@@ -2045,7 +2045,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
@@ -2143,7 +2143,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 8,
@@ -5886,7 +5886,7 @@
       "language": "python",
       "repo": "lnbits/lnbits",
       "repo_archived": false,
-      "repo_last_push": "2026-10-27",
+      "repo_last_push": "2026-10-28",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 2,
@@ -5919,7 +5919,7 @@
         "purse 20000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -8038,6 +8038,1135 @@
       ]
     },
     {
+      "id": "bounty_sweep-a0cb8a161eab08b6",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#273",
+      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-26",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 420,
+          "user": "Somnath-Mishra",
+          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
+          "state": "open",
+          "age_days": 664
+        },
+        {
+          "number": 433,
+          "user": "maoshuorz",
+          "title": "feat(vector-db): add Qdrant vector database support",
+          "state": "open",
+          "age_days": 235
+        },
+        {
+          "number": 456,
+          "user": "tarai-dl",
+          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
+          "state": "open",
+          "age_days": 192
+        },
+        {
+          "number": 463,
+          "user": "alceops",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 187
+        },
+        {
+          "number": 464,
+          "user": "moluscorichman-oss",
+          "title": "feat: add Qdrant vector database client",
+          "state": "open",
+          "age_days": 187
+        },
+        {
+          "number": 469,
+          "user": "frankyueng12",
+          "title": "Add Qdrant support to vector-db package",
+          "state": "open",
+          "age_days": 173
+        },
+        {
+          "number": 470,
+          "user": "mySebbe",
+          "title": "Add Qdrant REST support to vector-db SDK",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 472,
+          "user": "jchatelet",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 473,
+          "user": "apollo-jpg",
+          "title": "feat(js): add qdrant vector database client",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 478,
+          "user": "Recoveredd",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 479,
+          "user": "HunterCML",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 484,
+          "user": "milesfeldstein",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 485,
+          "user": "FlyawayDL",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 488,
+          "user": "richboyneedcash",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 169
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 150,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:22Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-28",
+      "last_checked": "2026-10-28",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 2d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "last reply 150d ago (> 60d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-42d91c89ff58ad0f",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "oll4com/spaceapp#62",
+      "title": "[$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame rates",
+      "url": "https://github.com/oll4com/spaceapp/issues/62",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "oll4com",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "oll4com/spaceapp",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-27",
+      "contested_prs": 20,
+      "contest_detail": [
+        {
+          "number": 74,
+          "user": "mmdparsa-dev",
+          "title": "Add WebGL2 rendering for large 3D memory graphs",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 88,
+          "user": "jdjioe5-cpu",
+          "title": "[$750] feat(memory-graph): WebGL2 3D renderer, GPU picking, and 50k node support",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 89,
+          "user": "Dimany4",
+          "title": "Add a WebGL2 renderer for the 3D memory graph: 50k nodes at interactive frame ra",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 95,
+          "user": "realisttechsolutions",
+          "title": "feat(memory-3d): WebGL2 renderer for 50,000 node graphs (#62)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 99,
+          "user": "Omni-Hektic",
+          "title": "feat(web): WebGL2 renderer for 3D memory graph up to 50k nodes (Fixes #62)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 103,
+          "user": "byteanshul-12",
+          "title": "feat(memory-3d): WebGL2 renderer for the 3D memory graph at 50,000 nodes",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 111,
+          "user": "pinohu",
+          "title": "feat(memory-3d): WebGL2 renderer for the 3D memory graph at 50k nodes (#62)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 114,
+          "user": "Taurahh",
+          "title": "feat(memory): WebGL2 renderer for the 3D memory graph at 50,000 nodes",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 119,
+          "user": "markankamaransheogarat-sys",
+          "title": "feat(memory-3d): WebGL2 renderer for 3D memory graph at 50,000 nodes (#62)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 133,
+          "user": "Xgoyeezy",
+          "title": "Render the 3D memory graph with WebGL2",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 134,
+          "user": "JorgeMrr06",
+          "title": "feat(memory): scale the 3D graph to 50k nodes with WebGL2",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 141,
+          "user": "dezzy-music",
+          "title": "feat(memory-3d): WebGL2 renderer for 3D memory graph at 50,000 nodes (#62)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 152,
+          "user": "Khanhtnq",
+          "title": "feat(web): implement WebGL2 3D memory graph renderer for 50k nodes at 60 FPS",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 168,
+          "user": "DjonuSs",
+          "title": "feat(memory-workspace): WebGL2 3D memory graph renderer supporting 50k nodes and",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 179,
+          "user": "honru09",
+          "title": "[Bounty #62] WebGL2 renderer for the 3D memory graph",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 184,
+          "user": "773041335",
+          "title": "fix: [$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive ",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 189,
+          "user": "Anekenonso",
+          "title": "feat(web): WebGL2 3D memory graph renderer for 50k nodes (#62)",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 197,
+          "user": "Schultzenator",
+          "title": "Render the full 3D memory graph in WebGL2: 50k nodes/150k edges with GPU picking",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 204,
+          "user": "bangsj5073-droid",
+          "title": "Scale the 3D memory graph to 50k with WebGL2 and streamed layout",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 218,
+          "user": "menwo535-jpg",
+          "title": "Render and interact with 50k memory graph nodes using WebGL2",
+          "state": "open",
+          "age_days": 9
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "oll4com/spaceapp",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:24Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-28",
+      "last_checked": "2026-10-28",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 1d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 20 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-7fa862ac51e3c575",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#186",
+      "title": "[wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking via Native Go AST and Export-Data Analysis",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/186",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-28",
+      "contested_prs": 3,
+      "contest_detail": [
+        {
+          "number": 2074,
+          "user": "harmweber787-png",
+          "title": "feat(w011): whole-package Tier-0 checking via native Go AST & export-data analys",
+          "state": "open",
+          "age_days": 1
+        },
+        {
+          "number": 2117,
+          "user": "OGUT1999",
+          "title": "Fix #186: [wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking vi",
+          "state": "open",
+          "age_days": 0
+        },
+        {
+          "number": 2118,
+          "user": "OGUT1999",
+          "title": "Fix #186: [wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking vi",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-28",
+      "last_checked": "2026-10-28",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 3 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-560400be06557283",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "tryabby/abby#68",
+      "title": "Vue Integration",
+      "url": "https://github.com/tryabby/abby/issues/68",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "tryabby",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "tryabby/abby",
+      "repo_archived": false,
+      "repo_last_push": "2025-07-24",
+      "contested_prs": 8,
+      "contest_detail": [
+        {
+          "number": 141,
+          "user": "feliciien",
+          "title": "feat: Add Vue integration for Abby with feature parity to React",
+          "state": "open",
+          "age_days": 881
+        },
+        {
+          "number": 167,
+          "user": "asd55667",
+          "title": "feat: add vue integration",
+          "state": "open",
+          "age_days": 716
+        },
+        {
+          "number": 179,
+          "user": "godd-ctrl",
+          "title": "feat: add Vue integration package",
+          "state": "open",
+          "age_days": 177
+        },
+        {
+          "number": 181,
+          "user": "Iineman2",
+          "title": "Add Vue integration package",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 187,
+          "user": "cyrillical00",
+          "title": "feat: add @tryabby/vue integration package",
+          "state": "open",
+          "age_days": 134
+        },
+        {
+          "number": 189,
+          "user": "fadhelcarlos",
+          "title": "feat: add @tryabby/vue integration (#68)",
+          "state": "open",
+          "age_days": 113
+        },
+        {
+          "number": 190,
+          "user": "mini0n-ai",
+          "title": "feat(vue): implement @tryabby/vue integration package (#68)",
+          "state": "open",
+          "age_days": 53
+        },
+        {
+          "number": 191,
+          "user": "agoratap",
+          "title": "feat(vue): add @tryabby/vue integration",
+          "state": "open",
+          "age_days": 32
+        }
+      ],
+      "dead_attempts": 5,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "tryabby/abby",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:15:47Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-28",
+      "last_checked": "2026-10-28",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "5 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 461d ago (> 90d)",
+        "contested by 8 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-adb172b27bd4134f",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "oll4com/spaceapp#63",
+      "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
+      "url": "https://github.com/oll4com/spaceapp/issues/63",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "oll4com",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "oll4com/spaceapp",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-27",
+      "contested_prs": 19,
+      "contest_detail": [
+        {
+          "number": 77,
+          "user": "jdjioe5-cpu",
+          "title": "feat(launcher): support rootless Podman as container engine (fixes #63)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 79,
+          "user": "Omni-Hektic",
+          "title": "feat(launcher): support rootless Podman as container engine (closes #63)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 85,
+          "user": "Yixuan0430",
+          "title": "feat(launcher): support rootless Podman as container engine (#63)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 101,
+          "user": "markankamaransheogarat-sys",
+          "title": "feat(run-spaceapp): support rootless Podman as a container engine across lifecyc",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 102,
+          "user": "pinohu",
+          "title": "feat(run-spaceapp): rootless Podman as a container engine in the launcher (#63)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 107,
+          "user": "ProvSys",
+          "title": "feat(launcher): add rootless Podman support and isolated lifecycle proofs",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 110,
+          "user": "Rohank143",
+          "title": "feat(run-spaceapp): support rootless Podman container engine (#63)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 117,
+          "user": "dezzy-music",
+          "title": "feat(launcher): support rootless Podman as container engine (#63)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 131,
+          "user": "Xgoyeezy",
+          "title": "Add rootless Podman support to the launcher",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 144,
+          "user": "Khanhtnq",
+          "title": "feat(run-spaceapp): support rootless Podman as a container engine",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 164,
+          "user": "ducanh3005",
+          "title": "feat(launcher): support rootless Podman as a container engine in run-spaceapp (#",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 176,
+          "user": "aihanhook-ops",
+          "title": "Add rootless Podman support to run-spaceapp",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 178,
+          "user": "honru09",
+          "title": "[Bounty #63] Rootless Podman support",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 183,
+          "user": "Anekenonso",
+          "title": "feat(run-spaceapp): support rootless Podman as container engine (fixes #63)",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 191,
+          "user": "773041335",
+          "title": "fix: [$600] Support rootless Podman as a container engine in the run-spaceapp la",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 201,
+          "user": "Schultzenator",
+          "title": "feat(run-spaceapp): support rootless Podman as a container engine (#63)",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 202,
+          "user": "DjonuSs",
+          "title": "feat(launcher): add rootless Podman container engine support (#63)",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 241,
+          "user": "aaka3h",
+          "title": "feat(run-spaceapp): support rootless Podman as a container engine (#63)",
+          "state": "open",
+          "age_days": 7
+        },
+        {
+          "number": 246,
+          "user": "yodakkak",
+          "title": "feat(run-spaceapp): support rootless Podman as a container engine",
+          "state": "open",
+          "age_days": 7
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "oll4com/spaceapp",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:24Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-28",
+      "last_checked": "2026-10-28",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 1d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 19 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-32c1565057dcbb95",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "oll4com/spaceapp#65",
+      "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
+      "url": "https://github.com/oll4com/spaceapp/issues/65",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "oll4com",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "oll4com/spaceapp",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-27",
+      "contested_prs": 22,
+      "contest_detail": [
+        {
+          "number": 69,
+          "user": "ry2811",
+          "title": "feat(dev): npm run dev:stack runs the full app from source",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 76,
+          "user": "yhhjm",
+          "title": "Run the full SpaceApp from source with one command",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 78,
+          "user": "jdjioe5-cpu",
+          "title": "feat(dev): one command to run full SpaceApp stack from source (fixes #65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 80,
+          "user": "Omni-Hektic",
+          "title": "feat(dev): one command to run full SpaceApp stack from source (closes #65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 84,
+          "user": "Rohank143",
+          "title": "feat(dev): npm run dev:stack runs the full app from source",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 94,
+          "user": "Vikhilanswamy",
+          "title": "feat: add dev:stack single-command runner for contributors (Fixes #65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 108,
+          "user": "DaoHuuTrong2404",
+          "title": "feat: one command to run full SpaceApp stack from source (resolves #65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 126,
+          "user": "pinohu",
+          "title": "One-command dev stack: `npm run dev:stack` (#65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 130,
+          "user": "Xgoyeezy",
+          "title": "Run the development stack from source",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 136,
+          "user": "NixEngine",
+          "title": "Add an isolated source development stack (#65)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 142,
+          "user": "dezzy-music",
+          "title": "feat(dev): one command to run the full SpaceApp stack from source (#65)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 146,
+          "user": "Khanhtnq",
+          "title": "feat(dev): add one-command dev:stack runner for running full SpaceApp stack from",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 153,
+          "user": "Anekenonso",
+          "title": "feat(dev): one command to run full SpaceApp stack from source (fixes #65)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 154,
+          "user": "sudo-a-man",
+          "title": "feat(dev): one command to run development stack from source (#65)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 156,
+          "user": "markankamaransheogarat-sys",
+          "title": "feat(dev): one command to run the full SpaceApp stack from source (#65)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 159,
+          "user": "ducanh3005",
+          "title": "feat(dev): add one-command contributor full stack runner (#65)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 167,
+          "user": "iliasm-a11y",
+          "title": "feat(dev): start the complete source stack with one command",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 170,
+          "user": "pythonyx135793",
+          "title": "feat(dev): run the full app from an isolated source stack",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 180,
+          "user": "honru09",
+          "title": "[Bounty #65] One command dev stack from source",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 181,
+          "user": "1932819331hy-debug",
+          "title": "feat(dev): run the full SpaceApp stack from source",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 186,
+          "user": "773041335",
+          "title": "fix: [$450] One command to run the full SpaceApp stack from source for contribut",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 199,
+          "user": "KashyapSinh-Gohil",
+          "title": "feat(dev): add isolated one-command contributor stack (#65)",
+          "state": "open",
+          "age_days": 10
+        }
+      ],
+      "dead_attempts": 1,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 6,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "oll4com/spaceapp",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:24Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-28",
+      "last_checked": "2026-10-28",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 1d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 22 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-84f2939d79fc93ee",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#378",
+      "title": "[wildcard] Compile fixed-rate task networks away: certified periodic Go kernels with explicit buffer budgets",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/378",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-28",
+      "contested_prs": 3,
+      "contest_detail": [
+        {
+          "number": 384,
+          "user": "Anekenonso",
+          "title": "feat(spikes): add static-rate task networks feasibility spike for W-018 (#378)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 480,
+          "user": "pedromineo",
+          "title": "fix: [wildcard] Compile fixed-rate task networks away: certified periodic Go ker",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 572,
+          "user": "Rohank143",
+          "title": "feat(spikes): complete W-018 static rate task networks spike with runtime FIFO g",
+          "state": "open",
+          "age_days": 10
+        }
+      ],
+      "dead_attempts": 1,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-28",
+      "last_checked": "2026-10-28",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 3 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-c5da76c8b770cc0e",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -8301,89 +9430,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-7fa862ac51e3c575",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#186",
-      "title": "[wildcard] Erase the .hy / .go Split: Whole-Package Tier-0 Checking via Native Go AST and Export-Data Analysis",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/186",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-28",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 2074,
-          "user": "harmweber787-png",
-          "title": "feat(w011): whole-package Tier-0 checking via native Go AST & export-data analys",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-28",
-      "last_checked": "2026-10-28",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "lightly contested (1 fresh PR)",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)"
-      ]
-    },
-    {
       "id": "bounty_sweep-8346fc46d86b3d47",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -8551,103 +9597,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-84f2939d79fc93ee",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#378",
-      "title": "[wildcard] Compile fixed-rate task networks away: certified periodic Go kernels with explicit buffer budgets",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/378",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-28",
-      "contested_prs": 3,
-      "contest_detail": [
-        {
-          "number": 384,
-          "user": "Anekenonso",
-          "title": "feat(spikes): add static-rate task networks feasibility spike for W-018 (#378)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 480,
-          "user": "pedromineo",
-          "title": "fix: [wildcard] Compile fixed-rate task networks away: certified periodic Go ker",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 572,
-          "user": "Rohank143",
-          "title": "feat(spikes): complete W-018 static rate task networks spike with runtime FIFO g",
-          "state": "open",
-          "age_days": 10
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-28",
-      "last_checked": "2026-10-28",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 3 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-c97f59b5c70d9978",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -8764,212 +9713,6 @@
         "no sats purse (negotiable/unknown)",
         "repo last push 569d ago (> 90d)",
         "contested by 8 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-adb172b27bd4134f",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "oll4com/spaceapp#63",
-      "title": "[$600] Support rootless Podman as a container engine in the run-spaceapp launcher",
-      "url": "https://github.com/oll4com/spaceapp/issues/63",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "oll4com",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "oll4com/spaceapp",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-27",
-      "contested_prs": 19,
-      "contest_detail": [
-        {
-          "number": 77,
-          "user": "jdjioe5-cpu",
-          "title": "feat(launcher): support rootless Podman as container engine (fixes #63)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 79,
-          "user": "Omni-Hektic",
-          "title": "feat(launcher): support rootless Podman as container engine (closes #63)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 85,
-          "user": "Yixuan0430",
-          "title": "feat(launcher): support rootless Podman as container engine (#63)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 101,
-          "user": "markankamaransheogarat-sys",
-          "title": "feat(run-spaceapp): support rootless Podman as a container engine across lifecyc",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 102,
-          "user": "pinohu",
-          "title": "feat(run-spaceapp): rootless Podman as a container engine in the launcher (#63)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 107,
-          "user": "ProvSys",
-          "title": "feat(launcher): add rootless Podman support and isolated lifecycle proofs",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 110,
-          "user": "Rohank143",
-          "title": "feat(run-spaceapp): support rootless Podman container engine (#63)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 117,
-          "user": "dezzy-music",
-          "title": "feat(launcher): support rootless Podman as container engine (#63)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 131,
-          "user": "Xgoyeezy",
-          "title": "Add rootless Podman support to the launcher",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 144,
-          "user": "Khanhtnq",
-          "title": "feat(run-spaceapp): support rootless Podman as a container engine",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 164,
-          "user": "ducanh3005",
-          "title": "feat(launcher): support rootless Podman as a container engine in run-spaceapp (#",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 176,
-          "user": "aihanhook-ops",
-          "title": "Add rootless Podman support to run-spaceapp",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 178,
-          "user": "honru09",
-          "title": "[Bounty #63] Rootless Podman support",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 183,
-          "user": "Anekenonso",
-          "title": "feat(run-spaceapp): support rootless Podman as container engine (fixes #63)",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 191,
-          "user": "773041335",
-          "title": "fix: [$600] Support rootless Podman as a container engine in the run-spaceapp la",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 201,
-          "user": "Schultzenator",
-          "title": "feat(run-spaceapp): support rootless Podman as a container engine (#63)",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 202,
-          "user": "DjonuSs",
-          "title": "feat(launcher): add rootless Podman container engine support (#63)",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 241,
-          "user": "aaka3h",
-          "title": "feat(run-spaceapp): support rootless Podman as a container engine (#63)",
-          "state": "open",
-          "age_days": 7
-        },
-        {
-          "number": 246,
-          "user": "yodakkak",
-          "title": "feat(run-spaceapp): support rootless Podman as a container engine",
-          "state": "open",
-          "age_days": 7
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "oll4com/spaceapp",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:24Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-28",
-      "last_checked": "2026-10-28",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 1d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 19 open PRs (> 1)"
       ]
     },
     {
@@ -10099,446 +10842,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-42d91c89ff58ad0f",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "oll4com/spaceapp#62",
-      "title": "[$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive frame rates",
-      "url": "https://github.com/oll4com/spaceapp/issues/62",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "oll4com",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "oll4com/spaceapp",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-27",
-      "contested_prs": 20,
-      "contest_detail": [
-        {
-          "number": 74,
-          "user": "mmdparsa-dev",
-          "title": "Add WebGL2 rendering for large 3D memory graphs",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 88,
-          "user": "jdjioe5-cpu",
-          "title": "[$750] feat(memory-graph): WebGL2 3D renderer, GPU picking, and 50k node support",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 89,
-          "user": "Dimany4",
-          "title": "Add a WebGL2 renderer for the 3D memory graph: 50k nodes at interactive frame ra",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 95,
-          "user": "realisttechsolutions",
-          "title": "feat(memory-3d): WebGL2 renderer for 50,000 node graphs (#62)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 99,
-          "user": "Omni-Hektic",
-          "title": "feat(web): WebGL2 renderer for 3D memory graph up to 50k nodes (Fixes #62)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 103,
-          "user": "byteanshul-12",
-          "title": "feat(memory-3d): WebGL2 renderer for the 3D memory graph at 50,000 nodes",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 111,
-          "user": "pinohu",
-          "title": "feat(memory-3d): WebGL2 renderer for the 3D memory graph at 50k nodes (#62)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 114,
-          "user": "Taurahh",
-          "title": "feat(memory): WebGL2 renderer for the 3D memory graph at 50,000 nodes",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 119,
-          "user": "markankamaransheogarat-sys",
-          "title": "feat(memory-3d): WebGL2 renderer for 3D memory graph at 50,000 nodes (#62)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 133,
-          "user": "Xgoyeezy",
-          "title": "Render the 3D memory graph with WebGL2",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 134,
-          "user": "JorgeMrr06",
-          "title": "feat(memory): scale the 3D graph to 50k nodes with WebGL2",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 141,
-          "user": "dezzy-music",
-          "title": "feat(memory-3d): WebGL2 renderer for 3D memory graph at 50,000 nodes (#62)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 152,
-          "user": "Khanhtnq",
-          "title": "feat(web): implement WebGL2 3D memory graph renderer for 50k nodes at 60 FPS",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 168,
-          "user": "DjonuSs",
-          "title": "feat(memory-workspace): WebGL2 3D memory graph renderer supporting 50k nodes and",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 179,
-          "user": "honru09",
-          "title": "[Bounty #62] WebGL2 renderer for the 3D memory graph",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 184,
-          "user": "773041335",
-          "title": "fix: [$750] WebGL renderer for the 3D memory graph: 50,000 nodes at interactive ",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 189,
-          "user": "Anekenonso",
-          "title": "feat(web): WebGL2 3D memory graph renderer for 50k nodes (#62)",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 197,
-          "user": "Schultzenator",
-          "title": "Render the full 3D memory graph in WebGL2: 50k nodes/150k edges with GPU picking",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 204,
-          "user": "bangsj5073-droid",
-          "title": "Scale the 3D memory graph to 50k with WebGL2 and streamed layout",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 218,
-          "user": "menwo535-jpg",
-          "title": "Render and interact with 50k memory graph nodes using WebGL2",
-          "state": "open",
-          "age_days": 9
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "oll4com/spaceapp",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:24Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-28",
-      "last_checked": "2026-10-28",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 1d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 20 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-32c1565057dcbb95",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "oll4com/spaceapp#65",
-      "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
-      "url": "https://github.com/oll4com/spaceapp/issues/65",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "oll4com",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "oll4com/spaceapp",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-27",
-      "contested_prs": 22,
-      "contest_detail": [
-        {
-          "number": 69,
-          "user": "ry2811",
-          "title": "feat(dev): npm run dev:stack runs the full app from source",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 76,
-          "user": "yhhjm",
-          "title": "Run the full SpaceApp from source with one command",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 78,
-          "user": "jdjioe5-cpu",
-          "title": "feat(dev): one command to run full SpaceApp stack from source (fixes #65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 80,
-          "user": "Omni-Hektic",
-          "title": "feat(dev): one command to run full SpaceApp stack from source (closes #65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 84,
-          "user": "Rohank143",
-          "title": "feat(dev): npm run dev:stack runs the full app from source",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 94,
-          "user": "Vikhilanswamy",
-          "title": "feat: add dev:stack single-command runner for contributors (Fixes #65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 108,
-          "user": "DaoHuuTrong2404",
-          "title": "feat: one command to run full SpaceApp stack from source (resolves #65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 126,
-          "user": "pinohu",
-          "title": "One-command dev stack: `npm run dev:stack` (#65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 130,
-          "user": "Xgoyeezy",
-          "title": "Run the development stack from source",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 136,
-          "user": "NixEngine",
-          "title": "Add an isolated source development stack (#65)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 142,
-          "user": "dezzy-music",
-          "title": "feat(dev): one command to run the full SpaceApp stack from source (#65)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 146,
-          "user": "Khanhtnq",
-          "title": "feat(dev): add one-command dev:stack runner for running full SpaceApp stack from",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 153,
-          "user": "Anekenonso",
-          "title": "feat(dev): one command to run full SpaceApp stack from source (fixes #65)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 154,
-          "user": "sudo-a-man",
-          "title": "feat(dev): one command to run development stack from source (#65)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 156,
-          "user": "markankamaransheogarat-sys",
-          "title": "feat(dev): one command to run the full SpaceApp stack from source (#65)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 159,
-          "user": "ducanh3005",
-          "title": "feat(dev): add one-command contributor full stack runner (#65)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 167,
-          "user": "iliasm-a11y",
-          "title": "feat(dev): start the complete source stack with one command",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 170,
-          "user": "pythonyx135793",
-          "title": "feat(dev): run the full app from an isolated source stack",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 180,
-          "user": "honru09",
-          "title": "[Bounty #65] One command dev stack from source",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 181,
-          "user": "1932819331hy-debug",
-          "title": "feat(dev): run the full SpaceApp stack from source",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 186,
-          "user": "773041335",
-          "title": "fix: [$450] One command to run the full SpaceApp stack from source for contribut",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 199,
-          "user": "KashyapSinh-Gohil",
-          "title": "feat(dev): add isolated one-command contributor stack (#65)",
-          "state": "open",
-          "age_days": 10
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 6,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "oll4com/spaceapp",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:24Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-28",
-      "last_checked": "2026-10-28",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 1d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 22 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-7978e6e122fbea8b",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -10564,7 +10867,7 @@
       "repo": "oll4com/spaceapp",
       "repo_archived": false,
       "repo_last_push": "2026-10-27",
-      "contested_prs": 25,
+      "contested_prs": 26,
       "contest_detail": [
         {
           "number": 67,
@@ -10740,6 +11043,13 @@
           "title": "fix: [$400] Test every Temporal workflow on a real time-skipping test server and",
           "state": "open",
           "age_days": 10
+        },
+        {
+          "number": 193,
+          "user": "DjonuSs",
+          "title": "test(worker): test every Temporal workflow on time-skipping server and gate repl",
+          "state": "open",
+          "age_days": 10
         }
       ],
       "dead_attempts": 2,
@@ -10783,7 +11093,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 25 open PRs (> 1)"
+        "contested by 26 open PRs (> 1)"
       ]
     },
     {
@@ -11360,176 +11670,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-a0cb8a161eab08b6",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#273",
-      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "arakoodev",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-26",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 420,
-          "user": "Somnath-Mishra",
-          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
-          "state": "open",
-          "age_days": 664
-        },
-        {
-          "number": 433,
-          "user": "maoshuorz",
-          "title": "feat(vector-db): add Qdrant vector database support",
-          "state": "open",
-          "age_days": 235
-        },
-        {
-          "number": 456,
-          "user": "tarai-dl",
-          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
-          "state": "open",
-          "age_days": 192
-        },
-        {
-          "number": 463,
-          "user": "alceops",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 187
-        },
-        {
-          "number": 464,
-          "user": "moluscorichman-oss",
-          "title": "feat: add Qdrant vector database client",
-          "state": "open",
-          "age_days": 187
-        },
-        {
-          "number": 469,
-          "user": "frankyueng12",
-          "title": "Add Qdrant support to vector-db package",
-          "state": "open",
-          "age_days": 173
-        },
-        {
-          "number": 470,
-          "user": "mySebbe",
-          "title": "Add Qdrant REST support to vector-db SDK",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 472,
-          "user": "jchatelet",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 473,
-          "user": "apollo-jpg",
-          "title": "feat(js): add qdrant vector database client",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 478,
-          "user": "Recoveredd",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 479,
-          "user": "HunterCML",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 484,
-          "user": "milesfeldstein",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 485,
-          "user": "FlyawayDL",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 488,
-          "user": "richboyneedcash",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 169
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 150,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:22Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-28",
-      "last_checked": "2026-10-28",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 2d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "last reply 150d ago (> 60d)",
-        "contested by 14 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-96b6e127c6a6387c",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -11984,7 +12124,7 @@
       "repo": "revertinc/revert",
       "repo_archived": false,
       "repo_last_push": "2025-04-07",
-      "contested_prs": 11,
+      "contested_prs": 12,
       "contest_detail": [
         {
           "number": 655,
@@ -12062,6 +12202,13 @@
           "title": "feat(ats): add Workable connection and OAuth credential support",
           "state": "open",
           "age_days": 1
+        },
+        {
+          "number": 677,
+          "user": "Saik2789",
+          "title": "feat(ats): implement Workable ATS integration (#551)",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 1,
@@ -12095,7 +12242,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "repo last push 569d ago (> 90d)",
-        "contested by 11 open PRs (> 1)"
+        "contested by 12 open PRs (> 1)"
       ]
     },
     {
@@ -14853,125 +15000,6 @@
         "trap verdict CAUTION (wall requires CLEAN)",
         "repo last push 132d ago (> 90d)",
         "contested by 59 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-560400be06557283",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "tryabby/abby#68",
-      "title": "Vue Integration",
-      "url": "https://github.com/tryabby/abby/issues/68",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "tryabby",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "tryabby/abby",
-      "repo_archived": false,
-      "repo_last_push": "2025-07-24",
-      "contested_prs": 8,
-      "contest_detail": [
-        {
-          "number": 141,
-          "user": "feliciien",
-          "title": "feat: Add Vue integration for Abby with feature parity to React",
-          "state": "open",
-          "age_days": 881
-        },
-        {
-          "number": 167,
-          "user": "asd55667",
-          "title": "feat: add vue integration",
-          "state": "open",
-          "age_days": 716
-        },
-        {
-          "number": 179,
-          "user": "godd-ctrl",
-          "title": "feat: add Vue integration package",
-          "state": "open",
-          "age_days": 177
-        },
-        {
-          "number": 181,
-          "user": "Iineman2",
-          "title": "Add Vue integration package",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 187,
-          "user": "cyrillical00",
-          "title": "feat: add @tryabby/vue integration package",
-          "state": "open",
-          "age_days": 134
-        },
-        {
-          "number": 189,
-          "user": "fadhelcarlos",
-          "title": "feat: add @tryabby/vue integration (#68)",
-          "state": "open",
-          "age_days": 113
-        },
-        {
-          "number": 190,
-          "user": "mini0n-ai",
-          "title": "feat(vue): implement @tryabby/vue integration package (#68)",
-          "state": "open",
-          "age_days": 53
-        },
-        {
-          "number": 191,
-          "user": "agoratap",
-          "title": "feat(vue): add @tryabby/vue integration",
-          "state": "open",
-          "age_days": 32
-        }
-      ],
-      "dead_attempts": 5,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 4,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "tryabby/abby",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:15:47Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-28",
-      "last_checked": "2026-10-28",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "5 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 461d ago (> 90d)",
-        "contested by 8 open PRs (> 1)"
       ]
     },
     {
