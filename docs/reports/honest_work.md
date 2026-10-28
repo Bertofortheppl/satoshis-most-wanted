@@ -4,13 +4,13 @@
 
 ## The Young Gun — freshest clean listing
 
-- **[Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128)** — 3000 sats, Lightning Bounties, uncontested, first seen 2026-10-27
+- **[Add support for NIP-47 notifications](https://github.com/getAlby/pos/issues/40)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-10-28
 
 ## The wall
 
 | Score | Listing | Purse | Source | Contest | Scars | Repo pushed |
 |---|---|---|---|---|---|---|
-| 63 | [Show a confirmation popup message asking if I really want to close Jumble](https://github.com/CodyTseng/jumble/issues/128) | 3000 sats | Lightning Bounties | clean | — | 2026-10-27 |
+| 52 | [Add support for NIP-47 notifications](https://github.com/getAlby/pos/issues/40) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-23 |
 | 52 | [Fix modal jumping when height changes](https://github.com/getAlby/bitcoin-connect/issues/111) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 52 | [Add proper connection page for LNC connect](https://github.com/getAlby/bitcoin-connect/issues/84) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 52 | [Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
@@ -18,14 +18,6 @@
 | 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-27 |
 
 ## How you actually get paid (per source)
-
-### Lightning Bounties
-- Log in to app.lightningbounties.com with GitHub BEFORE submitting your PR
-- PR body must include `close #<issue>` and the Lightning Bounties issue URL
-- PR must pass the repo's checks and be merged (not draft)
-- Click 'Claim Reward' on your dashboard after merge
-- Payment: automatic on verified merge
-- Gotchas: missing login-first or wrong close syntax = no payout; bounty lock-time can expire
 
 ### getAlby bounty program
 - Contact-first: comment on the issue offering to take it under the bounty program
