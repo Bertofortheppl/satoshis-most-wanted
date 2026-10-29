@@ -6,26 +6,26 @@
 
 | Repo | Score | Decisive rules | Purse advertised | First seen |
 |---|---|---|---|---|
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/41) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/56) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/25) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/183) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/201) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/184) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/202) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/175) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/829) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/855) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/310) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/856) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/857) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/859) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/860) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/919) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/611) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/830) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/330) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/842) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/41) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/56) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/25) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/183) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/201) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/184) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/202) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/175) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/829) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/855) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/310) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/856) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/857) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/859) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/860) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/919) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/611) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/830) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/330) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/842) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-29 |
 
 ## Evidence
 
