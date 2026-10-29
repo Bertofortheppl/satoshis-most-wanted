@@ -2119,104 +2119,6 @@
       "bar_fail_reasons": []
     },
     {
-      "id": "bounty_sweep-12afc1b136593ea5",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "UnsafeLabs/Bounty-Hunters#842",
-      "title": "[ T3 Code ] Add update download progress, defer, and skip version to auto-updater",
-      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/842",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "UnsafeLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "UnsafeLabs/Bounty-Hunters",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-28",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 8,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 16,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 100,
-        "rules": [
-          {
-            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "8,422 PRs / 58 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "8,422 PR numbers issued against 58 stars (145.2:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "UnsafeLabs/Bounty-Hunters",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:53Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #920",
-          "issue #919",
-          "issue #918",
-          "issue #917",
-          "issue #916",
-          "issue #915",
-          "issue #914",
-          "issue #913"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
       "id": "getalby-03784f44a10d9785",
       "source": "getalby",
       "source_label": "getAlby bounty program",
@@ -2711,7 +2613,7 @@
       "repo": "PrimalHQ/primal-web-app",
       "repo_archived": false,
       "repo_last_push": "2026-08-27",
-      "contested_prs": 18,
+      "contested_prs": 19,
       "contest_detail": [
         {
           "number": 201,
@@ -2838,6 +2740,13 @@
           "title": "feat: translate notes to user preferred language (#133)",
           "state": "open",
           "age_days": 31
+        },
+        {
+          "number": 237,
+          "user": "Blackebart",
+          "title": "feat: on-device inline note translation (#133)",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 4,
@@ -2876,7 +2785,7 @@
       ],
       "bar_fail_reasons": [
         "4 prior attempts died unmerged (battle scars, D7)",
-        "contested by 18 open PRs (> 1)"
+        "contested by 19 open PRs (> 1)"
       ]
     },
     {
@@ -8020,6 +7929,2153 @@
       ]
     },
     {
+      "id": "bounty_sweep-efb2d596854bd788",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#327",
+      "title": "[wildcard] Make the A5 Go-escape a check-site with no Go API database: a capture-write at a foreign-call boundary takes `managed`",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/327",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-29",
+      "contested_prs": 5,
+      "contest_detail": [
+        {
+          "number": 464,
+          "user": "pedromineo",
+          "title": "fix: [wildcard] Make the A5 Go-escape a check-site with no Go API database: a ca",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 1913,
+          "user": "harmweber787-png",
+          "title": "feat(checker): W-016 closed-world A5 foreign-call capture-write check-site (#327",
+          "state": "open",
+          "age_days": 3
+        },
+        {
+          "number": 2149,
+          "user": "airdropia",
+          "title": "feat(tools): escape_sites.py \u2014 W-016 A5 Go-escape check-site extractor (M1)",
+          "state": "open",
+          "age_days": 1
+        },
+        {
+          "number": 2195,
+          "user": "airdropia",
+          "title": "feat(spec): W-016 M2 \u2014 A5 fourth check-site + census measurement",
+          "state": "open",
+          "age_days": 0
+        },
+        {
+          "number": 2196,
+          "user": "airdropia",
+          "title": "feat(hy-check): W-016 M3 \u2014 reject A5 escape calls with captured writes (HYB-E300",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 12,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 5 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-d4ab0569644f9ec1",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "PG-AGI/toingg-jarvis#13",
+      "title": "[Feature]:  Cross-platform packaging and native installers for Windows, Linux, and macOS",
+      "url": "https://github.com/PG-AGI/toingg-jarvis/issues/13",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "PG-AGI",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "PG-AGI/toingg-jarvis",
+      "repo_archived": false,
+      "repo_last_push": "2026-07-02",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 60,
+          "user": "SyntaxHQDEV",
+          "title": "Add cross-platform release packaging",
+          "state": "open",
+          "age_days": 141
+        },
+        {
+          "number": 70,
+          "user": "MoonTree26",
+          "title": "Add cross-platform packaging workflow",
+          "state": "open",
+          "age_days": 114
+        },
+        {
+          "number": 72,
+          "user": "JulianaIan2025",
+          "title": "Add verified native installers for Windows, Linux, and macOS",
+          "state": "open",
+          "age_days": 76
+        },
+        {
+          "number": 73,
+          "user": "ESTEBANTRAN",
+          "title": "feat: add native packaging pipelines for Windows, Linux and macOS",
+          "state": "open",
+          "age_days": 68
+        },
+        {
+          "number": 75,
+          "user": "galmousselhassan-arch",
+          "title": "Add cross-platform packaging workflow",
+          "state": "open",
+          "age_days": 52
+        },
+        {
+          "number": 84,
+          "user": "Gautham-AI-dev",
+          "title": "feat(packaging): Windows installer slice (PyInstaller + Inno + GHA) for #13",
+          "state": "open",
+          "age_days": 32
+        },
+        {
+          "number": 86,
+          "user": "LuckyTurtleLabs",
+          "title": "[Feature]:  Cross-platform packaging and native installers for Windows",
+          "state": "open",
+          "age_days": 15
+        },
+        {
+          "number": 88,
+          "user": "rohitkaswan",
+          "title": "Fix #13: [Feature]:  Cross-platform packaging and native installers f",
+          "state": "open",
+          "age_days": 14
+        },
+        {
+          "number": 89,
+          "user": "isaacsamual994-lang",
+          "title": "feat(packaging): native Windows/Linux/macOS installers with CI (#13)",
+          "state": "open",
+          "age_days": 7
+        },
+        {
+          "number": 92,
+          "user": "khoap1220-hue",
+          "title": "feat(installers): add cross-platform native installers (.exe, .deb, .dmg) and re",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 99,
+          "user": "hornsandhalos619",
+          "title": "feat(packaging): add cross-platform build scripts, native installers, and CI rel",
+          "state": "open",
+          "age_days": 3
+        },
+        {
+          "number": 100,
+          "user": "robertlestak",
+          "title": "Add native installers for Windows, Linux and macOS",
+          "state": "open",
+          "age_days": 2
+        },
+        {
+          "number": 101,
+          "user": "maxwswann-ops",
+          "title": "feat(installers): add cross-platform packaging and native installers for Windows",
+          "state": "open",
+          "age_days": 1
+        },
+        {
+          "number": 102,
+          "user": "Kirilka4345",
+          "title": "feat(packaging): add cross-platform PyInstaller builder, native manifests, and t",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 16,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "PG-AGI/toingg-jarvis",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:15:05Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "16 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 119d ago (> 90d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-6ba66333394cbdf2",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "onyx-dot-app/onyx#2281",
+      "title": "Jira Service Management Connector",
+      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "onyx-dot-app",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "onyx-dot-app/onyx",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-29",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 8557,
+          "user": "jefferteleco",
+          "title": "feat: Add Jira Service Management Connector",
+          "state": "open",
+          "age_days": 253
+        }
+      ],
+      "dead_attempts": 6,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 224,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "onyx-dot-app/onyx",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:06Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "6 prior attempts died unmerged (battle scars, D7)",
+        "last reply 224d ago (> 60d)",
+        "1 open PR but 253d old (> 30d)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-f0c3bf26d6567e95",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "caley-io/marketing#1",
+      "title": "Multitenancy and Teams/Workspaces support",
+      "url": "https://github.com/caley-io/marketing/issues/1",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "caley-io",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "caley-io/marketing",
+      "repo_archived": false,
+      "repo_last_push": "2024-02-08",
+      "contested_prs": 5,
+      "contest_detail": [
+        {
+          "number": 29,
+          "user": "VexCode24",
+          "title": "Persist workspace creation and list workspaces",
+          "state": "open",
+          "age_days": 157
+        },
+        {
+          "number": 30,
+          "user": "oathis",
+          "title": "Add workspace-scoped mail and team management",
+          "state": "open",
+          "age_days": 151
+        },
+        {
+          "number": 43,
+          "user": "mini0n-ai",
+          "title": "fix: resolve multitenancy and teams/workspaces support (#1)",
+          "state": "open",
+          "age_days": 45
+        },
+        {
+          "number": 50,
+          "user": "taqiraza",
+          "title": "fix: resolve #1 - Multitenancy and Teams/Workspaces support",
+          "state": "open",
+          "age_days": 3
+        },
+        {
+          "number": 51,
+          "user": "huangji6693-max",
+          "title": "feat(workspaces): add multitenancy workspaces, team RBAC invitations, and worksp",
+          "state": "open",
+          "age_days": 2
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "caley-io/marketing",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:43Z",
+        "checked_files": [
+          "README.md",
+          "issue #14"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 994d ago (> 90d)",
+        "contested by 5 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a6caa94574106698",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "mohan-bee/curve#10",
+      "title": "UI refactor",
+      "url": "https://github.com/mohan-bee/curve/issues/10",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "mohan-bee",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "mohan-bee/curve",
+      "repo_archived": false,
+      "repo_last_push": "2025-11-26",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 12,
+          "user": "SyedHannanMehdi",
+          "title": "fix: UI refactor",
+          "state": "open",
+          "age_days": 214
+        },
+        {
+          "number": 14,
+          "user": "BinkyTwin",
+          "title": "Refactor Curve frontend UI",
+          "state": "open",
+          "age_days": 161
+        }
+      ],
+      "dead_attempts": 1,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "mohan-bee/curve",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-29T18:30:13Z",
+        "checked_files": [
+          "README.md",
+          "issue #10",
+          "issue #9",
+          "issue #8",
+          "issue #7",
+          "issue #2"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "repo last push 337d ago (> 90d)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-2d7e4e0b5675db4b",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "SecureBananaLabs/bug-bounty#743",
+      "title": "Low Handing Fruit Automation",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "SecureBananaLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-27",
+      "contested_prs": 15,
+      "contest_detail": [
+        {
+          "number": 747,
+          "user": "giaphutran12",
+          "title": "Add low-hanging-fruit issue automation",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 756,
+          "user": "Mickey123123",
+          "title": "Add recursive low-hanging-fruit issue scout",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 758,
+          "user": "Mickey123123",
+          "title": "Fix production JWT secret fallback",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 765,
+          "user": "yokuisiti",
+          "title": "fix: validate EVM wallet address format in faucet endpoint (bounty #743)",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 771,
+          "user": "adliebe",
+          "title": "fix: keep registration token subject aligned",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 780,
+          "user": "szw9999",
+          "title": "fix(api): validate job budget range",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 784,
+          "user": "iccccccccccccc",
+          "title": "fix: validate refresh tokens before reissuing access",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 788,
+          "user": "jtc268",
+          "title": "Fix review rating validation",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 791,
+          "user": "adliebe",
+          "title": "fix: validate message creation payloads",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 794,
+          "user": "Lucas-FManager",
+          "title": "Validate proposal creation payloads",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 801,
+          "user": "Lucas-FManager",
+          "title": "Validate notification creation payloads",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 803,
+          "user": "Lucas-FManager",
+          "title": "Validate user creation payloads",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 804,
+          "user": "crowniteto",
+          "title": "fix(auth): add role-based access control for admin routes",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 805,
+          "user": "crowniteto",
+          "title": "fix(jobs): add budgetMax >= budgetMin cross-field validation",
+          "state": "open",
+          "age_days": 155
+        },
+        {
+          "number": 806,
+          "user": "crowniteto",
+          "title": "fix(auth): remove admin from register schema \u2014 prevent privilege escalation",
+          "state": "open",
+          "age_days": 155
+        }
+      ],
+      "dead_attempts": 5,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 155,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "13,889 PRs / 342 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "13,889 PR numbers issued against 342 stars (40.6:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "SecureBananaLabs/bug-bounty",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:39Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 2d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "5 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)",
+        "last reply 155d ago (> 60d)",
+        "contested by 15 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-3d928d6e7cb137cf",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "SecureBananaLabs/bug-bounty#30",
+      "title": "Benchmark APIs with p50, p95, p99 latency, RPS, error rate and TTFB",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/30",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "SecureBananaLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-27",
+      "contested_prs": 19,
+      "contest_detail": [
+        {
+          "number": 32,
+          "user": "TheOnlyOne001",
+          "title": "Add API benchmark suite",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 34,
+          "user": "BobbyZ2026",
+          "title": "Add API benchmark suite",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 38,
+          "user": "gma788-creator",
+          "title": "Add API benchmark suite",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 43,
+          "user": "Aurora1926",
+          "title": "feat: add API benchmark suite with autocannon",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 41,
+          "user": "Zeinzeiya",
+          "title": "Implement protected admin operations panel",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 37,
+          "user": "Arthurescc",
+          "title": "Implement functional admin panel workflows",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 33,
+          "user": "gma788-creator",
+          "title": "Add admin panel dashboard and APIs",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 31,
+          "user": "JeremyZeng77",
+          "title": "Implement functional admin panel workflows",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 27,
+          "user": "Adamchaua",
+          "title": "feat: implement Stripe PaymentIntent integration for bounty #6",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 26,
+          "user": "malsony",
+          "title": "fix: remove incorrect amount\u00d7100 conversion in paymentService (Bounty #1)",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 44,
+          "user": "malsony",
+          "title": "feat: API Benchmark Suite \u2014 autocannon-based performance testing (#30)",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 49,
+          "user": "JeremyZeng77",
+          "title": "Add reproducible API benchmark suite",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 51,
+          "user": "deep-thought-tools",
+          "title": "Add API benchmark latency suite",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 54,
+          "user": "capa8795-design",
+          "title": "feat: add API benchmark suite with autocannon",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 57,
+          "user": "MichisGitIsKing",
+          "title": "feat: add API benchmark suite with autocannon",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 59,
+          "user": "kekehanshujun",
+          "title": "Add API benchmark harness",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 81,
+          "user": "thefuturrjfhejh",
+          "title": "feat: add API benchmark suite",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 119,
+          "user": "dzkjdxhbgog",
+          "title": "feat: add reproducible API benchmark suite",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 127,
+          "user": "jianmosier",
+          "title": "Add API benchmark suite",
+          "state": "open",
+          "age_days": 164
+        }
+      ],
+      "dead_attempts": 10,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 163,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "13,889 PRs / 342 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "13,889 PR numbers issued against 342 stars (40.6:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "SecureBananaLabs/bug-bounty",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:39Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 2d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "10 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)",
+        "last reply 163d ago (> 60d)",
+        "contested by 19 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-2817f9ebfa2d1462",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "SecureBananaLabs/bug-bounty#80",
+      "title": "Pixel Art Creation with high Creative Thinking",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "SecureBananaLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-27",
+      "contested_prs": 18,
+      "contest_detail": [
+        {
+          "number": 85,
+          "user": "AI26king",
+          "title": "Add original security console pixel art",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 92,
+          "user": "komyunghan",
+          "title": "Add retro terminal hacker pixel art [closes #80]",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 93,
+          "user": "jianmosier",
+          "title": "Add audit vault pixel art",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 105,
+          "user": "Adamchaua",
+          "title": "Add original pixel art",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 107,
+          "user": "cupcakesandcodes",
+          "title": "feat: add original 64x64 banana coder pixel art (closes #80)",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 108,
+          "user": "nviettrieu1995",
+          "title": "Bounty Submission: Cyberpunk Hacker Pixel Art (#80)",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 111,
+          "user": "dzkjdxhbgog",
+          "title": "feat: add banana bug sentinel pixel art",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 120,
+          "user": "jamilahmadzai",
+          "title": "Add audit radio tower pixel art",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 122,
+          "user": "Caspia-n",
+          "title": "Add pixel art: Moonrise over Mountains (64x64)",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 131,
+          "user": "LZG3530606141",
+          "title": "\ud83c\udfa8 Pixel Art: Happy Farm Landscape (Issue #80)",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 136,
+          "user": "nexicturbo",
+          "title": "Add release capsule checksum pixel art",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 138,
+          "user": "freshtemp-labs",
+          "title": "feat: Add retro space scene pixel art (#80)",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 146,
+          "user": "WuMingDa-10",
+          "title": "Pixel Art: Cute Robot - A friendly robot character",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 149,
+          "user": "JeremyZeng77",
+          "title": "Add escrow beacon pixel art",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 150,
+          "user": "liujun2586",
+          "title": "feat: Cyberpunk Owl Pixel Art (128x128)",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 152,
+          "user": "yucben",
+          "title": "Pixel Art: CyberNeko - Cyberpunk Cat (#80)",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 167,
+          "user": "piaopiao78",
+          "title": "Add pixel art: Retro freelance coder workspace",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 168,
+          "user": "AkbarDevop",
+          "title": "[OpenAI Codex] Add red-team microscope pixel art",
+          "state": "open",
+          "age_days": 164
+        }
+      ],
+      "dead_attempts": 14,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 162,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "13,889 PRs / 342 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "13,889 PR numbers issued against 342 stars (40.6:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "SecureBananaLabs/bug-bounty",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:39Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 2d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "14 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)",
+        "last reply 162d ago (> 60d)",
+        "contested by 18 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-32c1565057dcbb95",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "oll4com/spaceapp#65",
+      "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
+      "url": "https://github.com/oll4com/spaceapp/issues/65",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "oll4com",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "oll4com/spaceapp",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-29",
+      "contested_prs": 22,
+      "contest_detail": [
+        {
+          "number": 69,
+          "user": "ry2811",
+          "title": "feat(dev): npm run dev:stack runs the full app from source",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 76,
+          "user": "yhhjm",
+          "title": "Run the full SpaceApp from source with one command",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 78,
+          "user": "jdjioe5-cpu",
+          "title": "feat(dev): one command to run full SpaceApp stack from source (fixes #65)",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 80,
+          "user": "Omni-Hektic",
+          "title": "feat(dev): one command to run full SpaceApp stack from source (closes #65)",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 84,
+          "user": "Rohank143",
+          "title": "feat(dev): npm run dev:stack runs the full app from source",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 94,
+          "user": "Vikhilanswamy",
+          "title": "feat: add dev:stack single-command runner for contributors (Fixes #65)",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 108,
+          "user": "DaoHuuTrong2404",
+          "title": "feat: one command to run full SpaceApp stack from source (resolves #65)",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 126,
+          "user": "pinohu",
+          "title": "One-command dev stack: `npm run dev:stack` (#65)",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 130,
+          "user": "Xgoyeezy",
+          "title": "Run the development stack from source",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 136,
+          "user": "NixEngine",
+          "title": "Add an isolated source development stack (#65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 142,
+          "user": "dezzy-music",
+          "title": "feat(dev): one command to run the full SpaceApp stack from source (#65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 146,
+          "user": "Khanhtnq",
+          "title": "feat(dev): add one-command dev:stack runner for running full SpaceApp stack from",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 153,
+          "user": "Anekenonso",
+          "title": "feat(dev): one command to run full SpaceApp stack from source (fixes #65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 154,
+          "user": "sudo-a-man",
+          "title": "feat(dev): one command to run development stack from source (#65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 156,
+          "user": "markankamaransheogarat-sys",
+          "title": "feat(dev): one command to run the full SpaceApp stack from source (#65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 159,
+          "user": "ducanh3005",
+          "title": "feat(dev): add one-command contributor full stack runner (#65)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 167,
+          "user": "iliasm-a11y",
+          "title": "feat(dev): start the complete source stack with one command",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 170,
+          "user": "pythonyx135793",
+          "title": "feat(dev): run the full app from an isolated source stack",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 180,
+          "user": "honru09",
+          "title": "[Bounty #65] One command dev stack from source",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 181,
+          "user": "1932819331hy-debug",
+          "title": "feat(dev): run the full SpaceApp stack from source",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 186,
+          "user": "773041335",
+          "title": "fix: [$450] One command to run the full SpaceApp stack from source for contribut",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 199,
+          "user": "KashyapSinh-Gohil",
+          "title": "feat(dev): add isolated one-command contributor stack (#65)",
+          "state": "open",
+          "age_days": 11
+        }
+      ],
+      "dead_attempts": 1,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 7,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "oll4com/spaceapp",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:24Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 22 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-fdee9f176e98b29d",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "Bu1ldTh3Futur3/bounty-hunter-test#1",
+      "title": "Fix formatCurrency and parseCurrency bugs",
+      "url": "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "Bu1ldTh3Futur3",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "Bu1ldTh3Futur3/bounty-hunter-test",
+      "repo_archived": false,
+      "repo_last_push": "2026-03-30",
+      "contested_prs": 33,
+      "contest_detail": [
+        {
+          "number": 2,
+          "user": "SyedHannanMehdi",
+          "title": "Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 213
+        },
+        {
+          "number": 3,
+          "user": "Bu1ldTh3Futur3",
+          "title": "Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 213
+        },
+        {
+          "number": 4,
+          "user": "makaiachildress-web",
+          "title": "fix: Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 213
+        },
+        {
+          "number": 7,
+          "user": "ripgtxgt",
+          "title": "fix: Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 213
+        },
+        {
+          "number": 10,
+          "user": "Bu1ldTh3Futur3",
+          "title": "Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 213
+        },
+        {
+          "number": 11,
+          "user": "clawctrl1",
+          "title": "fix: formatCurrency negative numbers & 2 decimal places; parseCurrency multi-cur",
+          "state": "open",
+          "age_days": 212
+        },
+        {
+          "number": 12,
+          "user": "sayanget",
+          "title": "fix: robust currency formatting and cross-symbol parsing",
+          "state": "open",
+          "age_days": 212
+        },
+        {
+          "number": 13,
+          "user": "kipra19821810-cloud",
+          "title": "fix: currency formatting bugs - negatives, decimals, and symbol parsing",
+          "state": "open",
+          "age_days": 211
+        },
+        {
+          "number": 14,
+          "user": "ElromEvedElElyon",
+          "title": "fix: formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 211
+        },
+        {
+          "number": 16,
+          "user": "PurdueDM",
+          "title": "fix: formatCurrency negative numbers, decimal places + parseCurrency multi-symbo",
+          "state": "open",
+          "age_days": 210
+        },
+        {
+          "number": 18,
+          "user": "CrashyCrash",
+          "title": "fix: Fix formatCurrency and parseCurrency bugs (#1)",
+          "state": "open",
+          "age_days": 210
+        },
+        {
+          "number": 19,
+          "user": "saulgoodman14ai",
+          "title": "fix: formatCurrency negative numbers, 2 decimal places; parseCurrency multi-symb",
+          "state": "open",
+          "age_days": 209
+        },
+        {
+          "number": 20,
+          "user": "shaidshark",
+          "title": "fix: handle negative numbers, 2 decimal places, multi-currency parsing",
+          "state": "open",
+          "age_days": 209
+        },
+        {
+          "number": 23,
+          "user": "dinnar1407-code",
+          "title": "fix: formatCurrency & parseCurrency bugs (#1)",
+          "state": "open",
+          "age_days": 207
+        },
+        {
+          "number": 24,
+          "user": "TeapoyY",
+          "title": "fix: formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 207
+        },
+        {
+          "number": 26,
+          "user": "wocaoac-cpu",
+          "title": "fix: formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 206
+        },
+        {
+          "number": 27,
+          "user": "Stackwyre",
+          "title": "Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 204
+        },
+        {
+          "number": 28,
+          "user": "Stackwyre",
+          "title": "Fix #1: Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 204
+        },
+        {
+          "number": 29,
+          "user": "neosmith1",
+          "title": "Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 202
+        },
+        {
+          "number": 34,
+          "user": "Mohye24k",
+          "title": "fix: formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 199
+        },
+        {
+          "number": 35,
+          "user": "xyaz1313",
+          "title": "fix: formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 199
+        },
+        {
+          "number": 36,
+          "user": "QuinnClaw",
+          "title": "fix: formatCurrency negative numbers, decimal places, and parseCurrency multi-cu",
+          "state": "open",
+          "age_days": 199
+        },
+        {
+          "number": 37,
+          "user": "armorbreak001",
+          "title": "fix: formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 198
+        },
+        {
+          "number": 38,
+          "user": "wuxiaobinsh-gif",
+          "title": "fix: resolve formatCurrency and parseCurrency bugs (#1)",
+          "state": "open",
+          "age_days": 198
+        },
+        {
+          "number": 39,
+          "user": "xyaz1313",
+          "title": "Fix formatCurrency and parseCurrency bugs (#1)",
+          "state": "open",
+          "age_days": 198
+        },
+        {
+          "number": 40,
+          "user": "GusFromSpace",
+          "title": "fix: Fix formatCurrency and parseCurrency bugs (#1)",
+          "state": "open",
+          "age_days": 197
+        },
+        {
+          "number": 43,
+          "user": "TeapoyY",
+          "title": "fix: formatCurrency and parseCurrency bugs (Bounty #1)",
+          "state": "open",
+          "age_days": 196
+        },
+        {
+          "number": 44,
+          "user": "tarai-dl",
+          "title": "fix: #1 formatCurrency negative numbers, decimal places, and parseCurrency multi",
+          "state": "open",
+          "age_days": 196
+        },
+        {
+          "number": 45,
+          "user": "xyaz1313",
+          "title": "Fix formatCurrency and parseCurrency bugs (#1)",
+          "state": "open",
+          "age_days": 195
+        },
+        {
+          "number": 46,
+          "user": "PenguinMiaou",
+          "title": "fix: currency formatting/parsing bugs (#1)",
+          "state": "open",
+          "age_days": 195
+        },
+        {
+          "number": 47,
+          "user": "tarai-dl",
+          "title": "Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 195
+        },
+        {
+          "number": 48,
+          "user": "tarai-dl",
+          "title": "fix: formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 193
+        },
+        {
+          "number": 49,
+          "user": "tarai-dl",
+          "title": "Fix formatCurrency and parseCurrency bugs",
+          "state": "open",
+          "age_days": 192
+        }
+      ],
+      "dead_attempts": 10,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 155,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out.",
+            "evidence": "0 of the last 23 closed pull requests were merged (all closed unmerged)",
+            "source": "repo metadata"
+          }
+        ],
+        "target": "Bu1ldTh3Futur3/bounty-hunter-test",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-29T18:30:17Z",
+        "checked_files": []
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "10 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "repo last push 213d ago (> 90d)",
+        "last reply 155d ago (> 60d)",
+        "contested by 33 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a5386903d7d2bdaf",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "javelin-anticheat/py-workedtask#4",
+      "title": "[Feature] Add Integrity Verification (Hash of Executable/Script)",
+      "url": "https://github.com/javelin-anticheat/py-workedtask/issues/4",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "javelin-anticheat",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "c++",
+      "repo": "javelin-anticheat/py-workedtask",
+      "repo_archived": false,
+      "repo_last_push": "2025-08-18",
+      "contested_prs": 36,
+      "contest_detail": [
+        {
+          "number": 3,
+          "user": "giteku",
+          "title": "[Infra] Set Up CI for Anti-Cheat module (Windows build, Python tests)",
+          "state": "open",
+          "age_days": 437
+        },
+        {
+          "number": 6,
+          "user": "Brijeshthummar02",
+          "title": " [Feature] Add Integrity Verification (Hash of Executable/Script)",
+          "state": "open",
+          "age_days": 435
+        },
+        {
+          "number": 7,
+          "user": "Pitrat-wav",
+          "title": "feat: implement SHA-256 integrity verification",
+          "state": "open",
+          "age_days": 248
+        },
+        {
+          "number": 11,
+          "user": "writsop",
+          "title": "feat: SHA-256 self-integrity verification (Python + C++)",
+          "state": "open",
+          "age_days": 242
+        },
+        {
+          "number": 12,
+          "user": "yuliuyi717-ux",
+          "title": "feat: add SHA-256 integrity verification for C++ and Python paths",
+          "state": "open",
+          "age_days": 240
+        },
+        {
+          "number": 14,
+          "user": "promisingcoder",
+          "title": "feat: add SHA-256 integrity verification for C++ and Python (#4)",
+          "state": "open",
+          "age_days": 228
+        },
+        {
+          "number": 18,
+          "user": "SyedHannanMehdi",
+          "title": "fix: [Feature] Add Integrity Verification (Hash of Executable/Scr",
+          "state": "open",
+          "age_days": 214
+        },
+        {
+          "number": 20,
+          "user": "reguorier",
+          "title": "feat: add SHA-256 integrity verification for Python anti-cheat path",
+          "state": "open",
+          "age_days": 201
+        },
+        {
+          "number": 21,
+          "user": "Nigo-ly",
+          "title": "feat: add Python integrity verification with SHA-256",
+          "state": "open",
+          "age_days": 191
+        },
+        {
+          "number": 22,
+          "user": "sigelabriana-sketch",
+          "title": "feat: add Python integrity verification with SHA-256",
+          "state": "open",
+          "age_days": 191
+        },
+        {
+          "number": 23,
+          "user": "artylobos",
+          "title": "feat: add Python implementation with SHA-256 integrity verification",
+          "state": "open",
+          "age_days": 178
+        },
+        {
+          "number": 25,
+          "user": "nguyenquockhang1610",
+          "title": "feat: add Python integrity verification (SHA-256)",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 24,
+          "user": "rafael81",
+          "title": "Add baseline anti-cheat guards",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 28,
+          "user": "0xdungki",
+          "title": "Add optional integrity verification",
+          "state": "open",
+          "age_days": 168
+        },
+        {
+          "number": 29,
+          "user": "sureshchouksey8",
+          "title": "Add Python SHA-256 integrity guard",
+          "state": "open",
+          "age_days": 168
+        },
+        {
+          "number": 32,
+          "user": "MINBBBIGcode",
+          "title": "feat: add optional integrity verification guards",
+          "state": "open",
+          "age_days": 162
+        },
+        {
+          "number": 33,
+          "user": "NguyenTienDat-GTR",
+          "title": "Add optional integrity verification",
+          "state": "open",
+          "age_days": 162
+        },
+        {
+          "number": 34,
+          "user": "darkredace-codex-0521",
+          "title": "Add optional integrity verification guards",
+          "state": "open",
+          "age_days": 161
+        },
+        {
+          "number": 35,
+          "user": "VexCode24",
+          "title": "Add optional C++ and Python integrity verification",
+          "state": "open",
+          "age_days": 157
+        },
+        {
+          "number": 36,
+          "user": "NightVibes33",
+          "title": "feat: add integrity verification guards",
+          "state": "open",
+          "age_days": 154
+        },
+        {
+          "number": 37,
+          "user": "misakaAron",
+          "title": "feat: add SHA-256 integrity verification for C++ and Python (fixes #4)",
+          "state": "open",
+          "age_days": 154
+        },
+        {
+          "number": 38,
+          "user": "romelespana07-create",
+          "title": "Add optional C++ and Python integrity verification",
+          "state": "open",
+          "age_days": 153
+        },
+        {
+          "number": 39,
+          "user": "attaboy11",
+          "title": "Add baseline anti-cheat monitor",
+          "state": "open",
+          "age_days": 152
+        },
+        {
+          "number": 40,
+          "user": "18166714330cl-maker",
+          "title": "Add SHA-256 self-integrity checks",
+          "state": "open",
+          "age_days": 151
+        },
+        {
+          "number": 41,
+          "user": "kitwongpixel",
+          "title": "Add robust integrity verification guards",
+          "state": "open",
+          "age_days": 150
+        },
+        {
+          "number": 42,
+          "user": "fxpolice1-sketch",
+          "title": "Add Python SHA-256 integrity verification",
+          "state": "open",
+          "age_days": 149
+        },
+        {
+          "number": 45,
+          "user": "pvbang",
+          "title": "feat: add SHA-256 self-integrity verification for Python (#4)",
+          "state": "open",
+          "age_days": 135
+        },
+        {
+          "number": 46,
+          "user": "key1989han",
+          "title": "feat: add Python implementation with SHA-256 integrity verification",
+          "state": "open",
+          "age_days": 109
+        },
+        {
+          "number": 47,
+          "user": "key1989han",
+          "title": "docs: add CONTRIBUTING.md (fixes #4)",
+          "state": "open",
+          "age_days": 108
+        },
+        {
+          "number": 48,
+          "user": "cornerblue",
+          "title": "feat: integrity verification (SHA-256 Python + CRC32 C++) (#4)",
+          "state": "open",
+          "age_days": 101
+        },
+        {
+          "number": 49,
+          "user": "brok-best",
+          "title": "feat: integrity verification (SHA-256 / CRC32) for #4",
+          "state": "open",
+          "age_days": 92
+        },
+        {
+          "number": 50,
+          "user": "Solez-ai",
+          "title": "feat: add robust integrity verification for C++ and Python",
+          "state": "open",
+          "age_days": 91
+        },
+        {
+          "number": 51,
+          "user": "IvanFogel",
+          "title": "Add deterministic C++ and Python integrity verification",
+          "state": "open",
+          "age_days": 80
+        },
+        {
+          "number": 52,
+          "user": "wanieldd",
+          "title": "docs: address issue #4 (fixes #4)",
+          "state": "open",
+          "age_days": 63
+        },
+        {
+          "number": 54,
+          "user": "jialfaro",
+          "title": "feat(integrity): add executable and script integrity verification",
+          "state": "open",
+          "age_days": 54
+        },
+        {
+          "number": 55,
+          "user": "nahldi",
+          "title": "Add reproducible executable and Python integrity verification",
+          "state": "open",
+          "age_days": 53
+        }
+      ],
+      "dead_attempts": 8,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "javelin-anticheat/py-workedtask",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:37Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "8 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 437d ago (> 90d)",
+        "contested by 36 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a0cb8a161eab08b6",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#273",
+      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-26",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 420,
+          "user": "Somnath-Mishra",
+          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
+          "state": "open",
+          "age_days": 665
+        },
+        {
+          "number": 433,
+          "user": "maoshuorz",
+          "title": "feat(vector-db): add Qdrant vector database support",
+          "state": "open",
+          "age_days": 236
+        },
+        {
+          "number": 456,
+          "user": "tarai-dl",
+          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
+          "state": "open",
+          "age_days": 193
+        },
+        {
+          "number": 463,
+          "user": "alceops",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 188
+        },
+        {
+          "number": 464,
+          "user": "moluscorichman-oss",
+          "title": "feat: add Qdrant vector database client",
+          "state": "open",
+          "age_days": 188
+        },
+        {
+          "number": 469,
+          "user": "frankyueng12",
+          "title": "Add Qdrant support to vector-db package",
+          "state": "open",
+          "age_days": 174
+        },
+        {
+          "number": 470,
+          "user": "mySebbe",
+          "title": "Add Qdrant REST support to vector-db SDK",
+          "state": "open",
+          "age_days": 172
+        },
+        {
+          "number": 472,
+          "user": "jchatelet",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 172
+        },
+        {
+          "number": 473,
+          "user": "apollo-jpg",
+          "title": "feat(js): add qdrant vector database client",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 478,
+          "user": "Recoveredd",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 479,
+          "user": "HunterCML",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 484,
+          "user": "milesfeldstein",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 485,
+          "user": "FlyawayDL",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 488,
+          "user": "richboyneedcash",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 170
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 151,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:22Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-29",
+      "last_checked": "2026-10-29",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 3d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "last reply 151d ago (> 60d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-560400be06557283",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -8272,117 +10328,6 @@
         "5 prior attempts died unmerged (battle scars, D7)",
         "last reply 124d ago (> 60d)",
         "contested by 10 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-efb2d596854bd788",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#327",
-      "title": "[wildcard] Make the A5 Go-escape a check-site with no Go API database: a capture-write at a foreign-call boundary takes `managed`",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/327",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-29",
-      "contested_prs": 5,
-      "contest_detail": [
-        {
-          "number": 464,
-          "user": "pedromineo",
-          "title": "fix: [wildcard] Make the A5 Go-escape a check-site with no Go API database: a ca",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 1913,
-          "user": "harmweber787-png",
-          "title": "feat(checker): W-016 closed-world A5 foreign-call capture-write check-site (#327",
-          "state": "open",
-          "age_days": 3
-        },
-        {
-          "number": 2149,
-          "user": "airdropia",
-          "title": "feat(tools): escape_sites.py \u2014 W-016 A5 Go-escape check-site extractor (M1)",
-          "state": "open",
-          "age_days": 1
-        },
-        {
-          "number": 2195,
-          "user": "airdropia",
-          "title": "feat(spec): W-016 M2 \u2014 A5 fourth check-site + census measurement",
-          "state": "open",
-          "age_days": 0
-        },
-        {
-          "number": 2196,
-          "user": "airdropia",
-          "title": "feat(hy-check): W-016 M3 \u2014 reject A5 escape calls with captured writes (HYB-E300",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 0,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 12,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 5 open PRs (> 1)"
       ]
     },
     {
@@ -9365,233 +11310,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-32c1565057dcbb95",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "oll4com/spaceapp#65",
-      "title": "[$450] One command to run the full SpaceApp stack from source for contributors",
-      "url": "https://github.com/oll4com/spaceapp/issues/65",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "oll4com",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "oll4com/spaceapp",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-29",
-      "contested_prs": 22,
-      "contest_detail": [
-        {
-          "number": 69,
-          "user": "ry2811",
-          "title": "feat(dev): npm run dev:stack runs the full app from source",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 76,
-          "user": "yhhjm",
-          "title": "Run the full SpaceApp from source with one command",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 78,
-          "user": "jdjioe5-cpu",
-          "title": "feat(dev): one command to run full SpaceApp stack from source (fixes #65)",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 80,
-          "user": "Omni-Hektic",
-          "title": "feat(dev): one command to run full SpaceApp stack from source (closes #65)",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 84,
-          "user": "Rohank143",
-          "title": "feat(dev): npm run dev:stack runs the full app from source",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 94,
-          "user": "Vikhilanswamy",
-          "title": "feat: add dev:stack single-command runner for contributors (Fixes #65)",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 108,
-          "user": "DaoHuuTrong2404",
-          "title": "feat: one command to run full SpaceApp stack from source (resolves #65)",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 126,
-          "user": "pinohu",
-          "title": "One-command dev stack: `npm run dev:stack` (#65)",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 130,
-          "user": "Xgoyeezy",
-          "title": "Run the development stack from source",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 136,
-          "user": "NixEngine",
-          "title": "Add an isolated source development stack (#65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 142,
-          "user": "dezzy-music",
-          "title": "feat(dev): one command to run the full SpaceApp stack from source (#65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 146,
-          "user": "Khanhtnq",
-          "title": "feat(dev): add one-command dev:stack runner for running full SpaceApp stack from",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 153,
-          "user": "Anekenonso",
-          "title": "feat(dev): one command to run full SpaceApp stack from source (fixes #65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 154,
-          "user": "sudo-a-man",
-          "title": "feat(dev): one command to run development stack from source (#65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 156,
-          "user": "markankamaransheogarat-sys",
-          "title": "feat(dev): one command to run the full SpaceApp stack from source (#65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 159,
-          "user": "ducanh3005",
-          "title": "feat(dev): add one-command contributor full stack runner (#65)",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 167,
-          "user": "iliasm-a11y",
-          "title": "feat(dev): start the complete source stack with one command",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 170,
-          "user": "pythonyx135793",
-          "title": "feat(dev): run the full app from an isolated source stack",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 180,
-          "user": "honru09",
-          "title": "[Bounty #65] One command dev stack from source",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 181,
-          "user": "1932819331hy-debug",
-          "title": "feat(dev): run the full SpaceApp stack from source",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 186,
-          "user": "773041335",
-          "title": "fix: [$450] One command to run the full SpaceApp stack from source for contribut",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 199,
-          "user": "KashyapSinh-Gohil",
-          "title": "feat(dev): add isolated one-command contributor stack (#65)",
-          "state": "open",
-          "age_days": 11
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 7,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "oll4com/spaceapp",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:24Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 22 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-adb172b27bd4134f",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -9798,399 +11516,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-2d7e4e0b5675db4b",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "SecureBananaLabs/bug-bounty#743",
-      "title": "Low Handing Fruit Automation",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/743",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "SecureBananaLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "SecureBananaLabs/bug-bounty",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-27",
-      "contested_prs": 15,
-      "contest_detail": [
-        {
-          "number": 747,
-          "user": "giaphutran12",
-          "title": "Add low-hanging-fruit issue automation",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 756,
-          "user": "Mickey123123",
-          "title": "Add recursive low-hanging-fruit issue scout",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 758,
-          "user": "Mickey123123",
-          "title": "Fix production JWT secret fallback",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 765,
-          "user": "yokuisiti",
-          "title": "fix: validate EVM wallet address format in faucet endpoint (bounty #743)",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 771,
-          "user": "adliebe",
-          "title": "fix: keep registration token subject aligned",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 780,
-          "user": "szw9999",
-          "title": "fix(api): validate job budget range",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 784,
-          "user": "iccccccccccccc",
-          "title": "fix: validate refresh tokens before reissuing access",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 788,
-          "user": "jtc268",
-          "title": "Fix review rating validation",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 791,
-          "user": "adliebe",
-          "title": "fix: validate message creation payloads",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 794,
-          "user": "Lucas-FManager",
-          "title": "Validate proposal creation payloads",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 801,
-          "user": "Lucas-FManager",
-          "title": "Validate notification creation payloads",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 803,
-          "user": "Lucas-FManager",
-          "title": "Validate user creation payloads",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 804,
-          "user": "crowniteto",
-          "title": "fix(auth): add role-based access control for admin routes",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 805,
-          "user": "crowniteto",
-          "title": "fix(jobs): add budgetMax >= budgetMin cross-field validation",
-          "state": "open",
-          "age_days": 155
-        },
-        {
-          "number": 806,
-          "user": "crowniteto",
-          "title": "fix(auth): remove admin from register schema \u2014 prevent privilege escalation",
-          "state": "open",
-          "age_days": 155
-        }
-      ],
-      "dead_attempts": 5,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 155,
-      "trap": {
-        "verdict": "SUSPICIOUS",
-        "score": 30,
-        "rules": [
-          {
-            "evidence": "13,889 PRs / 342 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "13,889 PR numbers issued against 342 stars (40.6:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "SecureBananaLabs/bug-bounty",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:39Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 2d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "5 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict SUSPICIOUS (wall requires CLEAN)",
-        "last reply 155d ago (> 60d)",
-        "contested by 15 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-2817f9ebfa2d1462",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "SecureBananaLabs/bug-bounty#80",
-      "title": "Pixel Art Creation with high Creative Thinking",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "SecureBananaLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "SecureBananaLabs/bug-bounty",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-27",
-      "contested_prs": 18,
-      "contest_detail": [
-        {
-          "number": 85,
-          "user": "AI26king",
-          "title": "Add original security console pixel art",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 92,
-          "user": "komyunghan",
-          "title": "Add retro terminal hacker pixel art [closes #80]",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 93,
-          "user": "jianmosier",
-          "title": "Add audit vault pixel art",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 105,
-          "user": "Adamchaua",
-          "title": "Add original pixel art",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 107,
-          "user": "cupcakesandcodes",
-          "title": "feat: add original 64x64 banana coder pixel art (closes #80)",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 108,
-          "user": "nviettrieu1995",
-          "title": "Bounty Submission: Cyberpunk Hacker Pixel Art (#80)",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 111,
-          "user": "dzkjdxhbgog",
-          "title": "feat: add banana bug sentinel pixel art",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 120,
-          "user": "jamilahmadzai",
-          "title": "Add audit radio tower pixel art",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 122,
-          "user": "Caspia-n",
-          "title": "Add pixel art: Moonrise over Mountains (64x64)",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 131,
-          "user": "LZG3530606141",
-          "title": "\ud83c\udfa8 Pixel Art: Happy Farm Landscape (Issue #80)",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 136,
-          "user": "nexicturbo",
-          "title": "Add release capsule checksum pixel art",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 138,
-          "user": "freshtemp-labs",
-          "title": "feat: Add retro space scene pixel art (#80)",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 146,
-          "user": "WuMingDa-10",
-          "title": "Pixel Art: Cute Robot - A friendly robot character",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 149,
-          "user": "JeremyZeng77",
-          "title": "Add escrow beacon pixel art",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 150,
-          "user": "liujun2586",
-          "title": "feat: Cyberpunk Owl Pixel Art (128x128)",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 152,
-          "user": "yucben",
-          "title": "Pixel Art: CyberNeko - Cyberpunk Cat (#80)",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 167,
-          "user": "piaopiao78",
-          "title": "Add pixel art: Retro freelance coder workspace",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 168,
-          "user": "AkbarDevop",
-          "title": "[OpenAI Codex] Add red-team microscope pixel art",
-          "state": "open",
-          "age_days": 164
-        }
-      ],
-      "dead_attempts": 14,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 162,
-      "trap": {
-        "verdict": "SUSPICIOUS",
-        "score": 30,
-        "rules": [
-          {
-            "evidence": "13,889 PRs / 342 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "13,889 PR numbers issued against 342 stars (40.6:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "SecureBananaLabs/bug-bounty",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:39Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 2d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "14 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict SUSPICIOUS (wall requires CLEAN)",
-        "last reply 162d ago (> 60d)",
-        "contested by 18 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-f610f8d7ec48dee9",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -10216,8 +11541,16 @@
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
       "repo_last_push": "2026-10-29",
-      "contested_prs": 0,
-      "contest_detail": [],
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 2252,
+          "user": "Dimank92",
+          "title": "moonshot: intake W-025 (2011722761) - untrusted proof producer spike (closes #21",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
@@ -10257,226 +11590,12 @@
       "bar_pass_reasons": [
         "repo pushed 0d ago",
         "responded recently",
-        "uncontested",
+        "lightly contested (1 fresh PR)",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "trap verdict CAUTION (wall requires CLEAN)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-3d928d6e7cb137cf",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "SecureBananaLabs/bug-bounty#30",
-      "title": "Benchmark APIs with p50, p95, p99 latency, RPS, error rate and TTFB",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/30",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "SecureBananaLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "SecureBananaLabs/bug-bounty",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-27",
-      "contested_prs": 19,
-      "contest_detail": [
-        {
-          "number": 32,
-          "user": "TheOnlyOne001",
-          "title": "Add API benchmark suite",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 34,
-          "user": "BobbyZ2026",
-          "title": "Add API benchmark suite",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 38,
-          "user": "gma788-creator",
-          "title": "Add API benchmark suite",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 43,
-          "user": "Aurora1926",
-          "title": "feat: add API benchmark suite with autocannon",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 41,
-          "user": "Zeinzeiya",
-          "title": "Implement protected admin operations panel",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 37,
-          "user": "Arthurescc",
-          "title": "Implement functional admin panel workflows",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 33,
-          "user": "gma788-creator",
-          "title": "Add admin panel dashboard and APIs",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 31,
-          "user": "JeremyZeng77",
-          "title": "Implement functional admin panel workflows",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 27,
-          "user": "Adamchaua",
-          "title": "feat: implement Stripe PaymentIntent integration for bounty #6",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 26,
-          "user": "malsony",
-          "title": "fix: remove incorrect amount\u00d7100 conversion in paymentService (Bounty #1)",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 44,
-          "user": "malsony",
-          "title": "feat: API Benchmark Suite \u2014 autocannon-based performance testing (#30)",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 49,
-          "user": "JeremyZeng77",
-          "title": "Add reproducible API benchmark suite",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 51,
-          "user": "deep-thought-tools",
-          "title": "Add API benchmark latency suite",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 54,
-          "user": "capa8795-design",
-          "title": "feat: add API benchmark suite with autocannon",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 57,
-          "user": "MichisGitIsKing",
-          "title": "feat: add API benchmark suite with autocannon",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 59,
-          "user": "kekehanshujun",
-          "title": "Add API benchmark harness",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 81,
-          "user": "thefuturrjfhejh",
-          "title": "feat: add API benchmark suite",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 119,
-          "user": "dzkjdxhbgog",
-          "title": "feat: add reproducible API benchmark suite",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 127,
-          "user": "jianmosier",
-          "title": "Add API benchmark suite",
-          "state": "open",
-          "age_days": 164
-        }
-      ],
-      "dead_attempts": 10,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 163,
-      "trap": {
-        "verdict": "SUSPICIOUS",
-        "score": 30,
-        "rules": [
-          {
-            "evidence": "13,889 PRs / 342 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "13,889 PR numbers issued against 342 stars (40.6:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "SecureBananaLabs/bug-bounty",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:39Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 2d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "10 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict SUSPICIOUS (wall requires CLEAN)",
-        "last reply 163d ago (> 60d)",
-        "contested by 19 open PRs (> 1)"
       ]
     },
     {
@@ -10825,161 +11944,6 @@
         "no sats purse (negotiable/unknown)",
         "trap verdict CAUTION (wall requires CLEAN)",
         "contested by 20 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-d4ab0569644f9ec1",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "PG-AGI/toingg-jarvis#13",
-      "title": "[Feature]:  Cross-platform packaging and native installers for Windows, Linux, and macOS",
-      "url": "https://github.com/PG-AGI/toingg-jarvis/issues/13",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "PG-AGI",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "python",
-      "repo": "PG-AGI/toingg-jarvis",
-      "repo_archived": false,
-      "repo_last_push": "2026-07-02",
-      "contested_prs": 13,
-      "contest_detail": [
-        {
-          "number": 60,
-          "user": "SyntaxHQDEV",
-          "title": "Add cross-platform release packaging",
-          "state": "open",
-          "age_days": 141
-        },
-        {
-          "number": 70,
-          "user": "MoonTree26",
-          "title": "Add cross-platform packaging workflow",
-          "state": "open",
-          "age_days": 114
-        },
-        {
-          "number": 72,
-          "user": "JulianaIan2025",
-          "title": "Add verified native installers for Windows, Linux, and macOS",
-          "state": "open",
-          "age_days": 76
-        },
-        {
-          "number": 73,
-          "user": "ESTEBANTRAN",
-          "title": "feat: add native packaging pipelines for Windows, Linux and macOS",
-          "state": "open",
-          "age_days": 68
-        },
-        {
-          "number": 75,
-          "user": "galmousselhassan-arch",
-          "title": "Add cross-platform packaging workflow",
-          "state": "open",
-          "age_days": 52
-        },
-        {
-          "number": 84,
-          "user": "Gautham-AI-dev",
-          "title": "feat(packaging): Windows installer slice (PyInstaller + Inno + GHA) for #13",
-          "state": "open",
-          "age_days": 32
-        },
-        {
-          "number": 86,
-          "user": "LuckyTurtleLabs",
-          "title": "[Feature]:  Cross-platform packaging and native installers for Windows",
-          "state": "open",
-          "age_days": 15
-        },
-        {
-          "number": 88,
-          "user": "rohitkaswan",
-          "title": "Fix #13: [Feature]:  Cross-platform packaging and native installers f",
-          "state": "open",
-          "age_days": 14
-        },
-        {
-          "number": 89,
-          "user": "isaacsamual994-lang",
-          "title": "feat(packaging): native Windows/Linux/macOS installers with CI (#13)",
-          "state": "open",
-          "age_days": 7
-        },
-        {
-          "number": 92,
-          "user": "khoap1220-hue",
-          "title": "feat(installers): add cross-platform native installers (.exe, .deb, .dmg) and re",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 99,
-          "user": "hornsandhalos619",
-          "title": "feat(packaging): add cross-platform build scripts, native installers, and CI rel",
-          "state": "open",
-          "age_days": 3
-        },
-        {
-          "number": 100,
-          "user": "robertlestak",
-          "title": "Add native installers for Windows, Linux and macOS",
-          "state": "open",
-          "age_days": 2
-        },
-        {
-          "number": 101,
-          "user": "maxwswann-ops",
-          "title": "feat(installers): add cross-platform packaging and native installers for Windows",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 16,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "PG-AGI/toingg-jarvis",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:15:05Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "16 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 119d ago (> 90d)",
-        "contested by 13 open PRs (> 1)"
       ]
     },
     {
@@ -11619,7 +12583,7 @@
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
       "repo_last_push": "2026-10-29",
-      "contested_prs": 4,
+      "contested_prs": 5,
       "contest_detail": [
         {
           "number": 384,
@@ -11646,6 +12610,13 @@
           "number": 2163,
           "user": "rafagil11",
           "title": "fix: [wildcard] Compile fixed-rate task networks away: certified periodic Go  (c",
+          "state": "open",
+          "age_days": 0
+        },
+        {
+          "number": 2208,
+          "user": "BP202302",
+          "title": "research(w018): cross-check schedule witnesses and guarded Go kernels",
           "state": "open",
           "age_days": 0
         }
@@ -11694,177 +12665,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 4 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-a0cb8a161eab08b6",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#273",
-      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "arakoodev",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-26",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 420,
-          "user": "Somnath-Mishra",
-          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
-          "state": "open",
-          "age_days": 665
-        },
-        {
-          "number": 433,
-          "user": "maoshuorz",
-          "title": "feat(vector-db): add Qdrant vector database support",
-          "state": "open",
-          "age_days": 236
-        },
-        {
-          "number": 456,
-          "user": "tarai-dl",
-          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
-          "state": "open",
-          "age_days": 193
-        },
-        {
-          "number": 463,
-          "user": "alceops",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 188
-        },
-        {
-          "number": 464,
-          "user": "moluscorichman-oss",
-          "title": "feat: add Qdrant vector database client",
-          "state": "open",
-          "age_days": 188
-        },
-        {
-          "number": 469,
-          "user": "frankyueng12",
-          "title": "Add Qdrant support to vector-db package",
-          "state": "open",
-          "age_days": 174
-        },
-        {
-          "number": 470,
-          "user": "mySebbe",
-          "title": "Add Qdrant REST support to vector-db SDK",
-          "state": "open",
-          "age_days": 172
-        },
-        {
-          "number": 472,
-          "user": "jchatelet",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 172
-        },
-        {
-          "number": 473,
-          "user": "apollo-jpg",
-          "title": "feat(js): add qdrant vector database client",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 478,
-          "user": "Recoveredd",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 479,
-          "user": "HunterCML",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 484,
-          "user": "milesfeldstein",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 485,
-          "user": "FlyawayDL",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 488,
-          "user": "richboyneedcash",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 170
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 151,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:22Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 3d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "last reply 151d ago (> 60d)",
-        "contested by 14 open PRs (> 1)"
+        "contested by 5 open PRs (> 1)"
       ]
     },
     {
@@ -11917,7 +12718,7 @@
           "age_days": 1
         }
       ],
-      "dead_attempts": 2,
+      "dead_attempts": 3,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 1,
@@ -11960,6 +12761,7 @@
       ],
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
         "trap verdict CAUTION (wall requires CLEAN)",
         "contested by 3 open PRs (> 1)"
       ]
@@ -12688,494 +13490,6 @@
         "3 prior attempts died unmerged (battle scars, D7)",
         "repo last push 459d ago (> 90d)",
         "contested by 16 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-6ba66333394cbdf2",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "onyx-dot-app/onyx#2281",
-      "title": "Jira Service Management Connector",
-      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "onyx-dot-app",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "python",
-      "repo": "onyx-dot-app/onyx",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-29",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 8557,
-          "user": "jefferteleco",
-          "title": "feat: Add Jira Service Management Connector",
-          "state": "open",
-          "age_days": 253
-        }
-      ],
-      "dead_attempts": 6,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 224,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "onyx-dot-app/onyx",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:06Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "CLAUDE.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "repo pushed 0d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "6 prior attempts died unmerged (battle scars, D7)",
-        "last reply 224d ago (> 60d)",
-        "1 open PR but 253d old (> 30d)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-a5386903d7d2bdaf",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "javelin-anticheat/py-workedtask#4",
-      "title": "[Feature] Add Integrity Verification (Hash of Executable/Script)",
-      "url": "https://github.com/javelin-anticheat/py-workedtask/issues/4",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "javelin-anticheat",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "c++",
-      "repo": "javelin-anticheat/py-workedtask",
-      "repo_archived": false,
-      "repo_last_push": "2025-08-18",
-      "contested_prs": 36,
-      "contest_detail": [
-        {
-          "number": 3,
-          "user": "giteku",
-          "title": "[Infra] Set Up CI for Anti-Cheat module (Windows build, Python tests)",
-          "state": "open",
-          "age_days": 437
-        },
-        {
-          "number": 6,
-          "user": "Brijeshthummar02",
-          "title": " [Feature] Add Integrity Verification (Hash of Executable/Script)",
-          "state": "open",
-          "age_days": 435
-        },
-        {
-          "number": 7,
-          "user": "Pitrat-wav",
-          "title": "feat: implement SHA-256 integrity verification",
-          "state": "open",
-          "age_days": 248
-        },
-        {
-          "number": 11,
-          "user": "writsop",
-          "title": "feat: SHA-256 self-integrity verification (Python + C++)",
-          "state": "open",
-          "age_days": 242
-        },
-        {
-          "number": 12,
-          "user": "yuliuyi717-ux",
-          "title": "feat: add SHA-256 integrity verification for C++ and Python paths",
-          "state": "open",
-          "age_days": 240
-        },
-        {
-          "number": 14,
-          "user": "promisingcoder",
-          "title": "feat: add SHA-256 integrity verification for C++ and Python (#4)",
-          "state": "open",
-          "age_days": 228
-        },
-        {
-          "number": 18,
-          "user": "SyedHannanMehdi",
-          "title": "fix: [Feature] Add Integrity Verification (Hash of Executable/Scr",
-          "state": "open",
-          "age_days": 214
-        },
-        {
-          "number": 20,
-          "user": "reguorier",
-          "title": "feat: add SHA-256 integrity verification for Python anti-cheat path",
-          "state": "open",
-          "age_days": 201
-        },
-        {
-          "number": 21,
-          "user": "Nigo-ly",
-          "title": "feat: add Python integrity verification with SHA-256",
-          "state": "open",
-          "age_days": 191
-        },
-        {
-          "number": 22,
-          "user": "sigelabriana-sketch",
-          "title": "feat: add Python integrity verification with SHA-256",
-          "state": "open",
-          "age_days": 191
-        },
-        {
-          "number": 23,
-          "user": "artylobos",
-          "title": "feat: add Python implementation with SHA-256 integrity verification",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 25,
-          "user": "nguyenquockhang1610",
-          "title": "feat: add Python integrity verification (SHA-256)",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 24,
-          "user": "rafael81",
-          "title": "Add baseline anti-cheat guards",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 28,
-          "user": "0xdungki",
-          "title": "Add optional integrity verification",
-          "state": "open",
-          "age_days": 168
-        },
-        {
-          "number": 29,
-          "user": "sureshchouksey8",
-          "title": "Add Python SHA-256 integrity guard",
-          "state": "open",
-          "age_days": 168
-        },
-        {
-          "number": 32,
-          "user": "MINBBBIGcode",
-          "title": "feat: add optional integrity verification guards",
-          "state": "open",
-          "age_days": 162
-        },
-        {
-          "number": 33,
-          "user": "NguyenTienDat-GTR",
-          "title": "Add optional integrity verification",
-          "state": "open",
-          "age_days": 162
-        },
-        {
-          "number": 34,
-          "user": "darkredace-codex-0521",
-          "title": "Add optional integrity verification guards",
-          "state": "open",
-          "age_days": 161
-        },
-        {
-          "number": 35,
-          "user": "VexCode24",
-          "title": "Add optional C++ and Python integrity verification",
-          "state": "open",
-          "age_days": 157
-        },
-        {
-          "number": 36,
-          "user": "NightVibes33",
-          "title": "feat: add integrity verification guards",
-          "state": "open",
-          "age_days": 154
-        },
-        {
-          "number": 37,
-          "user": "misakaAron",
-          "title": "feat: add SHA-256 integrity verification for C++ and Python (fixes #4)",
-          "state": "open",
-          "age_days": 154
-        },
-        {
-          "number": 38,
-          "user": "romelespana07-create",
-          "title": "Add optional C++ and Python integrity verification",
-          "state": "open",
-          "age_days": 153
-        },
-        {
-          "number": 39,
-          "user": "attaboy11",
-          "title": "Add baseline anti-cheat monitor",
-          "state": "open",
-          "age_days": 152
-        },
-        {
-          "number": 40,
-          "user": "18166714330cl-maker",
-          "title": "Add SHA-256 self-integrity checks",
-          "state": "open",
-          "age_days": 151
-        },
-        {
-          "number": 41,
-          "user": "kitwongpixel",
-          "title": "Add robust integrity verification guards",
-          "state": "open",
-          "age_days": 150
-        },
-        {
-          "number": 42,
-          "user": "fxpolice1-sketch",
-          "title": "Add Python SHA-256 integrity verification",
-          "state": "open",
-          "age_days": 149
-        },
-        {
-          "number": 45,
-          "user": "pvbang",
-          "title": "feat: add SHA-256 self-integrity verification for Python (#4)",
-          "state": "open",
-          "age_days": 135
-        },
-        {
-          "number": 46,
-          "user": "key1989han",
-          "title": "feat: add Python implementation with SHA-256 integrity verification",
-          "state": "open",
-          "age_days": 109
-        },
-        {
-          "number": 47,
-          "user": "key1989han",
-          "title": "docs: add CONTRIBUTING.md (fixes #4)",
-          "state": "open",
-          "age_days": 108
-        },
-        {
-          "number": 48,
-          "user": "cornerblue",
-          "title": "feat: integrity verification (SHA-256 Python + CRC32 C++) (#4)",
-          "state": "open",
-          "age_days": 101
-        },
-        {
-          "number": 49,
-          "user": "brok-best",
-          "title": "feat: integrity verification (SHA-256 / CRC32) for #4",
-          "state": "open",
-          "age_days": 92
-        },
-        {
-          "number": 50,
-          "user": "Solez-ai",
-          "title": "feat: add robust integrity verification for C++ and Python",
-          "state": "open",
-          "age_days": 91
-        },
-        {
-          "number": 51,
-          "user": "IvanFogel",
-          "title": "Add deterministic C++ and Python integrity verification",
-          "state": "open",
-          "age_days": 80
-        },
-        {
-          "number": 52,
-          "user": "wanieldd",
-          "title": "docs: address issue #4 (fixes #4)",
-          "state": "open",
-          "age_days": 63
-        },
-        {
-          "number": 54,
-          "user": "jialfaro",
-          "title": "feat(integrity): add executable and script integrity verification",
-          "state": "open",
-          "age_days": 54
-        },
-        {
-          "number": 55,
-          "user": "nahldi",
-          "title": "Add reproducible executable and Python integrity verification",
-          "state": "open",
-          "age_days": 53
-        }
-      ],
-      "dead_attempts": 8,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 2,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "javelin-anticheat/py-workedtask",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:37Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "8 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 437d ago (> 90d)",
-        "contested by 36 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-f0c3bf26d6567e95",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "caley-io/marketing#1",
-      "title": "Multitenancy and Teams/Workspaces support",
-      "url": "https://github.com/caley-io/marketing/issues/1",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "caley-io",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "caley-io/marketing",
-      "repo_archived": false,
-      "repo_last_push": "2024-02-08",
-      "contested_prs": 5,
-      "contest_detail": [
-        {
-          "number": 29,
-          "user": "VexCode24",
-          "title": "Persist workspace creation and list workspaces",
-          "state": "open",
-          "age_days": 157
-        },
-        {
-          "number": 30,
-          "user": "oathis",
-          "title": "Add workspace-scoped mail and team management",
-          "state": "open",
-          "age_days": 151
-        },
-        {
-          "number": 43,
-          "user": "mini0n-ai",
-          "title": "fix: resolve multitenancy and teams/workspaces support (#1)",
-          "state": "open",
-          "age_days": 45
-        },
-        {
-          "number": 50,
-          "user": "taqiraza",
-          "title": "fix: resolve #1 - Multitenancy and Teams/Workspaces support",
-          "state": "open",
-          "age_days": 3
-        },
-        {
-          "number": 51,
-          "user": "huangji6693-max",
-          "title": "feat(workspaces): add multitenancy workspaces, team RBAC invitations, and worksp",
-          "state": "open",
-          "age_days": 2
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 2,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "caley-io/marketing",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:43Z",
-        "checked_files": [
-          "README.md",
-          "issue #14"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 994d ago (> 90d)",
-        "contested by 5 open PRs (> 1)"
       ]
     },
     {
@@ -18054,7 +18368,7 @@
       "repo": "tscircuit/file-server",
       "repo_archived": false,
       "repo_last_push": "2026-08-19",
-      "contested_prs": 27,
+      "contested_prs": 28,
       "contest_detail": [
         {
           "number": 26,
@@ -18244,6 +18558,13 @@
           "title": "fix: solution for bounty issue #5 - Create download endpoint `/files/download?..",
           "state": "open",
           "age_days": 18
+        },
+        {
+          "number": 170,
+          "user": "Lion0871",
+          "title": "fix: make normalizePath fully idempotent (collapse all repeated slash groups)",
+          "state": "open",
+          "age_days": 6
         }
       ],
       "dead_attempts": 2,
@@ -18278,7 +18599,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "contested by 27 open PRs (> 1)"
+        "contested by 28 open PRs (> 1)"
       ]
     },
     {
@@ -20256,77 +20577,6 @@
         "no sats purse (negotiable/unknown)",
         "trap verdict CAUTION (wall requires CLEAN)",
         "contested by 2 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-99fca97a881dc2fd",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "speakers-in-tech/conference-data#12",
-      "title": "Add GOTO to the conference data tracker",
-      "url": "https://github.com/speakers-in-tech/conference-data/issues/12",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "speakers-in-tech",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "unknown",
-      "repo": "speakers-in-tech/conference-data",
-      "repo_archived": false,
-      "repo_last_push": "2024-07-31",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 2,
-      "merged_attempts": 1,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 13,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "speakers-in-tech/conference-data",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:15:34Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-29",
-      "last_checked": "2026-10-29",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "responded recently",
-        "uncontested",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "repo last push 820d ago (> 90d)"
       ]
     }
   ]

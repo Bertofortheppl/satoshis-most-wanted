@@ -59,6 +59,25 @@
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
+  "Bu1ldTh3Futur3/bounty-hunter-test": {
+    "checked_at": "2026-10-29T18:30:17Z",
+    "checked_date": "2026-10-29",
+    "checked_files": [],
+    "rules": [
+      {
+        "evidence": "0 of the last 23 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 15,
+    "target": "Bu1ldTh3Futur3/bounty-hunter-test",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CAUTION"
+  },
   "ClankerNation/OpenAgents": {
     "checked_at": "2026-10-27T19:13:17Z",
     "checked_date": "2026-10-27",
@@ -613,6 +632,23 @@
     "rules": [],
     "score": 0,
     "target": "lnbits/lnbits",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
+  "mohan-bee/curve": {
+    "checked_at": "2026-10-29T18:30:13Z",
+    "checked_date": "2026-10-29",
+    "checked_files": [
+      "README.md",
+      "issue #10",
+      "issue #9",
+      "issue #8",
+      "issue #7",
+      "issue #2"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "mohan-bee/curve",
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
