@@ -71,6 +71,7 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| highlight | 1 | 0 | 0 | 0 | 0 |
 | limitlessprojects | 28 | 0 | 0 | 0 | 0 |
 | PG-AGI | 1 | 0 | 0 | 0 | 0 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
@@ -82,7 +83,6 @@
 | javelin-anticheat | 2 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
 | tryabby | 1 | 0 | 0 | 0 | 0 |
-| highlight | 1 | 0 | 0 | 0 | 0 |
 | revertinc | 2 | 0 | 0 | 0 | 0 |
 | outerbase | 1 | 0 | 0 | 0 | 0 |
 | lablab-ai | 1 | 0 | 0 | 0 | 0 |

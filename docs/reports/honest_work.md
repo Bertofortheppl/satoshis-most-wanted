@@ -4,7 +4,7 @@
 
 ## The Young Gun — freshest clean listing
 
-- **[Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-10-29
+- **[Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-10-30
 
 ## The wall
 
