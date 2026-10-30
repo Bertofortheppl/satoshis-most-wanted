@@ -6,9 +6,9 @@
 
 | Repo | Score | Decisive rules | Purse advertised | First seen |
 |---|---|---|---|---|
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/25) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-30 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/41) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-30 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/56) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-30 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/25) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-30 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/183) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-30 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/201) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-30 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/184) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-30 |
