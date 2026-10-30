@@ -206,3 +206,15 @@
 {"ts": "2026-10-29T18:30:17Z", "id": "bounty_sweep-fdee9f176e98b29d", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
 {"ts": "2026-10-29T18:30:17Z", "id": "bounty_sweep-12afc1b136593ea5", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
 {"ts": "2026-10-29T18:30:17Z", "id": "bounty_sweep-99fca97a881dc2fd", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-99fca97a881dc2fd", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-12afc1b136593ea5", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-c51bd598f00689ce", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-7a0f2e0c23c6e0d8", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-c7823950a291c98d", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-e08b780c60279ab3", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-7978e6e122fbea8b", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-32c1565057dcbb95", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-14071c6bd5b9394b", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-adb172b27bd4134f", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-42d91c89ff58ad0f", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-10-30T18:07:09Z", "id": "bounty_sweep-aee7bb75562061d6", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
