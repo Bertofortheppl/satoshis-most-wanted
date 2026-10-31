@@ -71,12 +71,12 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
-| ClankerNation | 13 | 0 | 0 | 0 | 0 |
-| limitlessprojects | 28 | 0 | 0 | 0 | 0 |
+| ClankerNation | 16 | 0 | 0 | 0 | 0 |
+| limitlessprojects | 26 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
-| speakers-in-tech | 4 | 0 | 0 | 1 | 1 |
+| speakers-in-tech | 3 | 0 | 0 | 0 | 0 |
 | tscircuit | 2 | 0 | 0 | 0 | 0 |
 | tryabby | 1 | 0 | 0 | 0 | 0 |
 | javelin-anticheat | 2 | 0 | 0 | 0 | 0 |
@@ -96,4 +96,4 @@
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
 | WillSmithTE | 1 | 0 | 0 | 0 | 0 |
 | ApexOpsStudio | 1 | 0 | 0 | 0 | 0 |
-| unknown | 0 | 0 | 0 | 14 | 14 |
+| unknown | 0 | 0 | 0 | 19 | 19 |
