@@ -6,10 +6,11 @@
 
 | Repo | Score | Decisive rules | Purse advertised | First seen |
 |---|---|---|---|---|
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/161) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/65) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/114) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/137) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/41) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/161) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/65) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/198) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/98) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/95) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
@@ -17,7 +18,6 @@
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/9) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/56) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/25) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/114) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/195) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/201) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |
 | [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/184) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-10-31 |

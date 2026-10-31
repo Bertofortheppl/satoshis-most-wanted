@@ -1,6 +1,412 @@
 {
   "posters": [
     {
+      "id": "bounty_sweep-eb3f31bb8185916d",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "ClankerNation/OpenAgents#114",
+      "title": "[ Bounty $3k ] [ SDK ] Fix crypto.ts hashMessage doesn't prepend Ethereum signed message prefix",
+      "url": "https://github.com/ClankerNation/OpenAgents/issues/114",
+      "kind": "trap",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "ClankerNation",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "solidity",
+      "repo": "ClankerNation/OpenAgents",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 6279,
+          "user": "AG064",
+          "title": "Prosperity [ SDK ] Fix crypto.ts - hashMessage EIP-191 with tests for bounty #11",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 7,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "TRAP",
+        "score": 178,
+        "rules": [
+          {
+            "evidence": "# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized",
+            "rule": "HIDDEN_DIRECTIVE",
+            "severity": 40,
+            "source": "CONTRIBUTING.md",
+            "title": "Hidden instruction aimed at automated readers",
+            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+          },
+          {
+            "evidence": "producibility), and runtime environment (os, arch, home_dir, working_dir, shell) - Add `cancelTransaction` for the admin ### Acceptance Criteria - Execution after grace period reverts wit",
+            "rule": "EXFIL_ENV",
+            "severity": 30,
+            "source": "issue #201",
+            "title": "Asks the agent to disclose its host environment",
+            "why": "Home directory, shell and hostname map the machine the agent runs on. That is reconnaissance, not contributor metadata."
+          },
+          {
+            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+            "rule": "PAY_ON_MERGE_NEVER",
+            "severity": 30,
+            "source": "guidance",
+            "title": "Promises payment on merge while stating PRs are never merged",
+            "why": "Payment is conditioned on an event the repository says will never happen."
+          },
+          {
+            "evidence": "tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project \u2014 bounties listed here are symbolic and p",
+            "rule": "AGENTS_ONLY",
+            "severity": 25,
+            "source": "CONTRIBUTING.md",
+            "title": "Restricts participation to AI agents",
+            "why": "Filtering *out* humans has no engineering purpose. It selects for contributors that cannot independently judge whether the deal is real."
+          },
+          {
+            "evidence": "na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to claim it, then submit a PR - **Deadline:** Most bounties",
+            "rule": "WALLET_REQUEST",
+            "severity": 15,
+            "source": "CONTRIBUTING.md",
+            "title": "Asks for a payout wallet address up front",
+            "why": "Collecting payout addresses before any work is reviewed builds a contact list of agent operators."
+          },
+          {
+            "evidence": "6,211 PRs / 14 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "6,211 PR numbers issued against 14 stars (443.6:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          },
+          {
+            "evidence": "issue to claim it, then submit a PR - **Deadline:** Most bounties have a 2 hour window from claim to submission - **Review:** PRs are reviewed within 48 hours ## PR Requirements 1. **Title format:** `[Your N",
+            "rule": "URGENCY",
+            "severity": 8,
+            "source": "CONTRIBUTING.md",
+            "title": "Artificially short deadline",
+            "why": "Short windows discourage the pause where a careful contributor checks whether the payer is real."
+          }
+        ],
+        "target": "ClankerNation/OpenAgents",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:17Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #202",
+          "issue #201",
+          "issue #200",
+          "issue #199",
+          "issue #198",
+          "issue #197",
+          "issue #196",
+          "issue #195"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "most_wanted",
+      "bar_pass_reasons": [
+        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
+      "id": "bounty_sweep-df2be6f7e3a05114",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "ClankerNation/OpenAgents#137",
+      "title": "[ Bounty $7k ] [ SDK ] Fix retry.ts doesn't support conditional retry based on error type",
+      "url": "https://github.com/ClankerNation/OpenAgents/issues/137",
+      "kind": "trap",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "ClankerNation",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "solidity",
+      "repo": "ClankerNation/OpenAgents",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 6281,
+          "user": "AG064",
+          "title": "Prosperity [ SDK ] Fix retry.ts - conditional retry with tests for bounty #137 (",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 19,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "TRAP",
+        "score": 178,
+        "rules": [
+          {
+            "evidence": "# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized",
+            "rule": "HIDDEN_DIRECTIVE",
+            "severity": 40,
+            "source": "CONTRIBUTING.md",
+            "title": "Hidden instruction aimed at automated readers",
+            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+          },
+          {
+            "evidence": "producibility), and runtime environment (os, arch, home_dir, working_dir, shell) - Add `cancelTransaction` for the admin ### Acceptance Criteria - Execution after grace period reverts wit",
+            "rule": "EXFIL_ENV",
+            "severity": 30,
+            "source": "issue #201",
+            "title": "Asks the agent to disclose its host environment",
+            "why": "Home directory, shell and hostname map the machine the agent runs on. That is reconnaissance, not contributor metadata."
+          },
+          {
+            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+            "rule": "PAY_ON_MERGE_NEVER",
+            "severity": 30,
+            "source": "guidance",
+            "title": "Promises payment on merge while stating PRs are never merged",
+            "why": "Payment is conditioned on an event the repository says will never happen."
+          },
+          {
+            "evidence": "tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project \u2014 bounties listed here are symbolic and p",
+            "rule": "AGENTS_ONLY",
+            "severity": 25,
+            "source": "CONTRIBUTING.md",
+            "title": "Restricts participation to AI agents",
+            "why": "Filtering *out* humans has no engineering purpose. It selects for contributors that cannot independently judge whether the deal is real."
+          },
+          {
+            "evidence": "na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to claim it, then submit a PR - **Deadline:** Most bounties",
+            "rule": "WALLET_REQUEST",
+            "severity": 15,
+            "source": "CONTRIBUTING.md",
+            "title": "Asks for a payout wallet address up front",
+            "why": "Collecting payout addresses before any work is reviewed builds a contact list of agent operators."
+          },
+          {
+            "evidence": "6,211 PRs / 14 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "6,211 PR numbers issued against 14 stars (443.6:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          },
+          {
+            "evidence": "issue to claim it, then submit a PR - **Deadline:** Most bounties have a 2 hour window from claim to submission - **Review:** PRs are reviewed within 48 hours ## PR Requirements 1. **Title format:** `[Your N",
+            "rule": "URGENCY",
+            "severity": 8,
+            "source": "CONTRIBUTING.md",
+            "title": "Artificially short deadline",
+            "why": "Short windows discourage the pause where a careful contributor checks whether the payer is real."
+          }
+        ],
+        "target": "ClankerNation/OpenAgents",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:17Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #202",
+          "issue #201",
+          "issue #200",
+          "issue #199",
+          "issue #198",
+          "issue #197",
+          "issue #196",
+          "issue #195"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "most_wanted",
+      "bar_pass_reasons": [
+        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
+      "id": "bounty_sweep-4718b12f8a09fc88",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "ClankerNation/OpenAgents#41",
+      "title": "[ Bounty $7k ] [ API ] Add health check endpoint with component status",
+      "url": "https://github.com/ClankerNation/OpenAgents/issues/41",
+      "kind": "trap",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "ClankerNation",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "solidity",
+      "repo": "ClankerNation/OpenAgents",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 9,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "TRAP",
+        "score": 178,
+        "rules": [
+          {
+            "evidence": "# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized",
+            "rule": "HIDDEN_DIRECTIVE",
+            "severity": 40,
+            "source": "CONTRIBUTING.md",
+            "title": "Hidden instruction aimed at automated readers",
+            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+          },
+          {
+            "evidence": "producibility), and runtime environment (os, arch, home_dir, working_dir, shell) - Add `cancelTransaction` for the admin ### Acceptance Criteria - Execution after grace period reverts wit",
+            "rule": "EXFIL_ENV",
+            "severity": 30,
+            "source": "issue #201",
+            "title": "Asks the agent to disclose its host environment",
+            "why": "Home directory, shell and hostname map the machine the agent runs on. That is reconnaissance, not contributor metadata."
+          },
+          {
+            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+            "rule": "PAY_ON_MERGE_NEVER",
+            "severity": 30,
+            "source": "guidance",
+            "title": "Promises payment on merge while stating PRs are never merged",
+            "why": "Payment is conditioned on an event the repository says will never happen."
+          },
+          {
+            "evidence": "tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project \u2014 bounties listed here are symbolic and p",
+            "rule": "AGENTS_ONLY",
+            "severity": 25,
+            "source": "CONTRIBUTING.md",
+            "title": "Restricts participation to AI agents",
+            "why": "Filtering *out* humans has no engineering purpose. It selects for contributors that cannot independently judge whether the deal is real."
+          },
+          {
+            "evidence": "na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to claim it, then submit a PR - **Deadline:** Most bounties",
+            "rule": "WALLET_REQUEST",
+            "severity": 15,
+            "source": "CONTRIBUTING.md",
+            "title": "Asks for a payout wallet address up front",
+            "why": "Collecting payout addresses before any work is reviewed builds a contact list of agent operators."
+          },
+          {
+            "evidence": "6,211 PRs / 14 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "6,211 PR numbers issued against 14 stars (443.6:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          },
+          {
+            "evidence": "issue to claim it, then submit a PR - **Deadline:** Most bounties have a 2 hour window from claim to submission - **Review:** PRs are reviewed within 48 hours ## PR Requirements 1. **Title format:** `[Your N",
+            "rule": "URGENCY",
+            "severity": 8,
+            "source": "CONTRIBUTING.md",
+            "title": "Artificially short deadline",
+            "why": "Short windows discourage the pause where a careful contributor checks whether the payer is real."
+          }
+        ],
+        "target": "ClankerNation/OpenAgents",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:17Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #202",
+          "issue #201",
+          "issue #200",
+          "issue #199",
+          "issue #198",
+          "issue #197",
+          "issue #196",
+          "issue #195"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "most_wanted",
+      "bar_pass_reasons": [
+        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
       "id": "bounty_sweep-3ca8b2e20b420c46",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -26,9 +432,17 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-10-31",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 27,
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 6285,
+          "user": "AG064",
+          "title": "Prosperity [ SDK ] Fix rpc.ts - batch response ordering with tests for bounty #1",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 28,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 0,
@@ -162,266 +576,6 @@
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 0,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 178,
-        "rules": [
-          {
-            "evidence": "# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "producibility), and runtime environment (os, arch, home_dir, working_dir, shell) - Add `cancelTransaction` for the admin ### Acceptance Criteria - Execution after grace period reverts wit",
-            "rule": "EXFIL_ENV",
-            "severity": 30,
-            "source": "issue #201",
-            "title": "Asks the agent to disclose its host environment",
-            "why": "Home directory, shell and hostname map the machine the agent runs on. That is reconnaissance, not contributor metadata."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project \u2014 bounties listed here are symbolic and p",
-            "rule": "AGENTS_ONLY",
-            "severity": 25,
-            "source": "CONTRIBUTING.md",
-            "title": "Restricts participation to AI agents",
-            "why": "Filtering *out* humans has no engineering purpose. It selects for contributors that cannot independently judge whether the deal is real."
-          },
-          {
-            "evidence": "na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to claim it, then submit a PR - **Deadline:** Most bounties",
-            "rule": "WALLET_REQUEST",
-            "severity": 15,
-            "source": "CONTRIBUTING.md",
-            "title": "Asks for a payout wallet address up front",
-            "why": "Collecting payout addresses before any work is reviewed builds a contact list of agent operators."
-          },
-          {
-            "evidence": "6,211 PRs / 14 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "6,211 PR numbers issued against 14 stars (443.6:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          },
-          {
-            "evidence": "issue to claim it, then submit a PR - **Deadline:** Most bounties have a 2 hour window from claim to submission - **Review:** PRs are reviewed within 48 hours ## PR Requirements 1. **Title format:** `[Your N",
-            "rule": "URGENCY",
-            "severity": 8,
-            "source": "CONTRIBUTING.md",
-            "title": "Artificially short deadline",
-            "why": "Short windows discourage the pause where a careful contributor checks whether the payer is real."
-          }
-        ],
-        "target": "ClankerNation/OpenAgents",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:17Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #202",
-          "issue #201",
-          "issue #200",
-          "issue #199",
-          "issue #198",
-          "issue #197",
-          "issue #196",
-          "issue #195"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
-      "id": "bounty_sweep-df2be6f7e3a05114",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "ClankerNation/OpenAgents#137",
-      "title": "[ Bounty $7k ] [ SDK ] Fix retry.ts doesn't support conditional retry based on error type",
-      "url": "https://github.com/ClankerNation/OpenAgents/issues/137",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "ClankerNation",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "solidity",
-      "repo": "ClankerNation/OpenAgents",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 18,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 0,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 178,
-        "rules": [
-          {
-            "evidence": "# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "producibility), and runtime environment (os, arch, home_dir, working_dir, shell) - Add `cancelTransaction` for the admin ### Acceptance Criteria - Execution after grace period reverts wit",
-            "rule": "EXFIL_ENV",
-            "severity": 30,
-            "source": "issue #201",
-            "title": "Asks the agent to disclose its host environment",
-            "why": "Home directory, shell and hostname map the machine the agent runs on. That is reconnaissance, not contributor metadata."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project \u2014 bounties listed here are symbolic and p",
-            "rule": "AGENTS_ONLY",
-            "severity": 25,
-            "source": "CONTRIBUTING.md",
-            "title": "Restricts participation to AI agents",
-            "why": "Filtering *out* humans has no engineering purpose. It selects for contributors that cannot independently judge whether the deal is real."
-          },
-          {
-            "evidence": "na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to claim it, then submit a PR - **Deadline:** Most bounties",
-            "rule": "WALLET_REQUEST",
-            "severity": 15,
-            "source": "CONTRIBUTING.md",
-            "title": "Asks for a payout wallet address up front",
-            "why": "Collecting payout addresses before any work is reviewed builds a contact list of agent operators."
-          },
-          {
-            "evidence": "6,211 PRs / 14 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "6,211 PR numbers issued against 14 stars (443.6:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          },
-          {
-            "evidence": "issue to claim it, then submit a PR - **Deadline:** Most bounties have a 2 hour window from claim to submission - **Review:** PRs are reviewed within 48 hours ## PR Requirements 1. **Title format:** `[Your N",
-            "rule": "URGENCY",
-            "severity": 8,
-            "source": "CONTRIBUTING.md",
-            "title": "Artificially short deadline",
-            "why": "Short windows discourage the pause where a careful contributor checks whether the payer is real."
-          }
-        ],
-        "target": "ClankerNation/OpenAgents",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:17Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #202",
-          "issue #201",
-          "issue #200",
-          "issue #199",
-          "issue #198",
-          "issue #197",
-          "issue #196",
-          "issue #195"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
-      "id": "bounty_sweep-4718b12f8a09fc88",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "ClankerNation/OpenAgents#41",
-      "title": "[ Bounty $7k ] [ API ] Add health check endpoint with component status",
-      "url": "https://github.com/ClankerNation/OpenAgents/issues/41",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "ClankerNation",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "solidity",
-      "repo": "ClankerNation/OpenAgents",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 9,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 3,
       "trap": {
         "verdict": "TRAP",
         "score": 178,
@@ -936,24 +1090,9 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-10-31",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 6248,
-          "user": "okhafcoco13",
-          "title": "Fixes #183: Implement gas sponsorship relay with signature verification",
-          "state": "open",
-          "age_days": 0
-        },
-        {
-          "number": 6249,
-          "user": "schwankeith",
-          "title": "Add gas sponsorship meta\u2011transaction support with nonce & stake handling",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 25,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 27,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 0,
@@ -1341,147 +1480,24 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-10-31",
-      "contested_prs": 1,
+      "contested_prs": 2,
       "contest_detail": [
         {
-          "number": 6246,
+          "number": 6288,
           "user": "valmir5522",
-          "title": "fix: secure SessionManager - remove localStorage, add expiry check, f\u2026",
+          "title": "fix(sdk): remove localStorage, add expiry check, mutex refresh, and token rotati",
+          "state": "open",
+          "age_days": 0
+        },
+        {
+          "number": 6289,
+          "user": "valmir5522",
+          "title": "fix(sdk): remove localStorage, add expiry check, mutex refresh, and t\u2026",
           "state": "open",
           "age_days": 0
         }
       ],
-      "dead_attempts": 9,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 0,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 178,
-        "rules": [
-          {
-            "evidence": "# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "producibility), and runtime environment (os, arch, home_dir, working_dir, shell) - Add `cancelTransaction` for the admin ### Acceptance Criteria - Execution after grace period reverts wit",
-            "rule": "EXFIL_ENV",
-            "severity": 30,
-            "source": "issue #201",
-            "title": "Asks the agent to disclose its host environment",
-            "why": "Home directory, shell and hostname map the machine the agent runs on. That is reconnaissance, not contributor metadata."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project \u2014 bounties listed here are symbolic and p",
-            "rule": "AGENTS_ONLY",
-            "severity": 25,
-            "source": "CONTRIBUTING.md",
-            "title": "Restricts participation to AI agents",
-            "why": "Filtering *out* humans has no engineering purpose. It selects for contributors that cannot independently judge whether the deal is real."
-          },
-          {
-            "evidence": "na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to claim it, then submit a PR - **Deadline:** Most bounties",
-            "rule": "WALLET_REQUEST",
-            "severity": 15,
-            "source": "CONTRIBUTING.md",
-            "title": "Asks for a payout wallet address up front",
-            "why": "Collecting payout addresses before any work is reviewed builds a contact list of agent operators."
-          },
-          {
-            "evidence": "6,211 PRs / 14 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "6,211 PR numbers issued against 14 stars (443.6:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          },
-          {
-            "evidence": "issue to claim it, then submit a PR - **Deadline:** Most bounties have a 2 hour window from claim to submission - **Review:** PRs are reviewed within 48 hours ## PR Requirements 1. **Title format:** `[Your N",
-            "rule": "URGENCY",
-            "severity": 8,
-            "source": "CONTRIBUTING.md",
-            "title": "Artificially short deadline",
-            "why": "Short windows discourage the pause where a careful contributor checks whether the payer is real."
-          }
-        ],
-        "target": "ClankerNation/OpenAgents",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:17Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #202",
-          "issue #201",
-          "issue #200",
-          "issue #199",
-          "issue #198",
-          "issue #197",
-          "issue #196",
-          "issue #195"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
-      "id": "bounty_sweep-eb3f31bb8185916d",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "ClankerNation/OpenAgents#114",
-      "title": "[ Bounty $3k ] [ SDK ] Fix crypto.ts hashMessage doesn't prepend Ethereum signed message prefix",
-      "url": "https://github.com/ClankerNation/OpenAgents/issues/114",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "ClankerNation",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "solidity",
-      "repo": "ClankerNation/OpenAgents",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 6,
+      "dead_attempts": 10,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 0,
@@ -1739,17 +1755,9 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-10-31",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 6247,
-          "user": "valmir5522",
-          "title": "fix(governance): enforce GRACE_PERIOD, add cancel, fix setDelay and e\u2026",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 27,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 28,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 6,
@@ -1877,9 +1885,17 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-10-31",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 12,
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 6280,
+          "user": "AG064",
+          "title": "Prosperity [ API ] Add audit log with immutability and tests for bounty #184 (re",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 13,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 6,
@@ -9132,6 +9148,1233 @@
       ]
     },
     {
+      "id": "bounty_sweep-f3dd4815eefc66a2",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#757",
+      "title": "[wildcard] Kill libhyrt.a, cgo, and the 3-tier FFI bridge: AOT-transpile Rust boundary crates via wasm32 to pure bounds-checked Go (wasm2go linear-memory arenas per OwnHandle)",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/757",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 2524,
+          "user": "ket4min-susan",
+          "title": "feat(spikes): add W-024 wasm2go linear-memory arena bridge and M1/M2 falsifier s",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "lightly contested (1 fresh PR)",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-6b7addbfc9bb089a",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#462",
+      "title": "[wildcard] Isolated WASM task cells: replace cross-task alias proofs with a wire boundary",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/462",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 566,
+          "user": "gttps",
+          "title": "feat(spikes): W-019 isolated WASM task cells spike (#462)",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 2010,
+          "user": "fangjian-bit",
+          "title": "fix: resolve #1942 - [wildcard] Fuel-metered compute capsules with a closed call",
+          "state": "open",
+          "age_days": 4
+        }
+      ],
+      "dead_attempts": 1,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-8201474f91468496",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#417",
+      "title": "[wildcard] Serializable shared-state regions instead of exclusive ownership",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/417",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 505,
+          "user": "pedromineo",
+          "title": "fix: [wildcard] Serializable shared-state regions instead of exclusive ownership",
+          "state": "open",
+          "age_days": 14
+        },
+        {
+          "number": 2075,
+          "user": "harmweber787-png",
+          "title": "feat(w020): serializable shared-state regions via admitted MVSI transactions (#4",
+          "state": "open",
+          "age_days": 4
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-ff2a48dc39ceb4d3",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#634",
+      "title": "[wildcard] Delete sendability analysis: task regions as serializable transactions",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/634",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 635,
+          "user": "webhumansaz-stack",
+          "title": "feat(spikes): Wildcard #634 serializable task regions STM spike (preregistered, ",
+          "state": "open",
+          "age_days": 13
+        }
+      ],
+      "dead_attempts": 1,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "lightly contested (1 fresh PR)",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-5ba57b550ef98c12",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#610",
+      "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Rust artifact",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/610",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 1660,
+          "user": "masterdobra-hash",
+          "title": "spike(ffi-cert): artifact-derived boundary contracts for #610 \u2014 21/21 signatures",
+          "state": "open",
+          "age_days": 6
+        },
+        {
+          "number": 2341,
+          "user": "shintny",
+          "title": "fix: resolve #610 \u2014 [wildcard] Make FFI claims proof-carrying: verify boundary c",
+          "state": "open",
+          "age_days": 1
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-c5da76c8b770cc0e",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#695",
+      "title": "[wildcard] Eliminate the Checker/Emitter Semantic Split: Emit-Driven Verification via Explicit Desugared MIR (`hy-mir`)",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/695",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 2077,
+          "user": "harmweber787-png",
+          "title": "feat(w025): emit-driven verification via explicit desugared MIR (hy-mir) (#695)",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 2416,
+          "user": "kevin9327",
+          "title": "spikes(w1744): staged place-graph canonicalization + falsifier suite F1-F5 (refs",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 1,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a7e3c1a960afe0a0",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#1669",
+      "title": "[wildcard] Structured Task Scopes & Affine Cancellation Tokens: eliminating goroutine leaks from GUARANTEES.md Row 12",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/1669",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 3,
+      "contest_detail": [
+        {
+          "number": 1856,
+          "user": "harmweber787-png",
+          "title": "feat(spikes): add structured task scopes & affine JoinHandle spike (closes #1669",
+          "state": "open",
+          "age_days": 5
+        },
+        {
+          "number": 2069,
+          "user": "wanghaitao-git",
+          "title": "feat(spikes): structured task scopes & affine containment (#1669)",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 2280,
+          "user": "SuperPiIot",
+          "title": "feat: introduce structured task scopes and affine cancellation tokens",
+          "state": "open",
+          "age_days": 1
+        }
+      ],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 3 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-f610f8d7ec48dee9",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#2176",
+      "title": "[wildcard] Make hy-check an untrusted proof producer: permission certificates for actual Go",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/2176",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 2252,
+          "user": "Dimank92",
+          "title": "moonshot: intake W-025 (2011722761) - untrusted proof producer spike (closes #21",
+          "state": "open",
+          "age_days": 2
+        },
+        {
+          "number": 2402,
+          "user": "theheiszt",
+          "title": "spike(w025): untrusted proof producer kernel & CFG falsifier suite (#2176)",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-c791719bee24e48e",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#1962",
+      "title": "Serial by default: safe execution first",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/1962",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 1971,
+          "user": "pedromineo",
+          "title": "fix: Serial by default: safe execution first (resolves #1962)",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 1999,
+          "user": "wanghaitao-git",
+          "title": "feat: add `auto { ... }` automatic fork-join scheduling (issue #1962)",
+          "state": "open",
+          "age_days": 4
+        }
+      ],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-ba311ccebe490ba5",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "flydelabs/flyde#112",
+      "title": "Broken imports after moving files",
+      "url": "https://github.com/flydelabs/flyde/issues/112",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "flydelabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "flydelabs/flyde",
+      "repo_archived": false,
+      "repo_last_push": "2025-07-27",
+      "contested_prs": 16,
+      "contest_detail": [
+        {
+          "number": 256,
+          "user": "maoshuorz",
+          "title": "fix: update import paths when .flyde files are moved or renamed",
+          "state": "open",
+          "age_days": 238
+        },
+        {
+          "number": 259,
+          "user": "abisheik687",
+          "title": "Fix moved flow relative import resolution",
+          "state": "open",
+          "age_days": 178
+        },
+        {
+          "number": 260,
+          "user": "nexiumbiz-debug",
+          "title": "Keep Flyde imports working after file moves",
+          "state": "open",
+          "age_days": 175
+        },
+        {
+          "number": 261,
+          "user": "prashanthnimmagadda",
+          "title": "fix: resolve moved visual node imports",
+          "state": "open",
+          "age_days": 174
+        },
+        {
+          "number": 263,
+          "user": "ldthang0612",
+          "title": "fix(vscode): update Flyde imports after file moves",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 266,
+          "user": "dukunline-cyber",
+          "title": "fix(vscode): rewrite .flyde imports on file rename/move (#112)",
+          "state": "open",
+          "age_days": 168
+        },
+        {
+          "number": 267,
+          "user": "nam157",
+          "title": "fix(vscode): keep Flyde imports working after file moves",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 268,
+          "user": "ajjucoder",
+          "title": "Fix local Flyde imports after file moves",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 269,
+          "user": "Entr0zy",
+          "title": "Update Flyde imports after file rename",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 270,
+          "user": "SeanCordovaGit",
+          "title": "Resolve moved local node imports",
+          "state": "open",
+          "age_days": 163
+        },
+        {
+          "number": 271,
+          "user": "Catnap7",
+          "title": "Fix moved local Flyde imports",
+          "state": "open",
+          "age_days": 162
+        },
+        {
+          "number": 273,
+          "user": "jeremymu1506-prog",
+          "title": "fix(vscode): update local node paths after file moves",
+          "state": "open",
+          "age_days": 81
+        },
+        {
+          "number": 274,
+          "user": "MyTH-zyxeon",
+          "title": "fix: preserve flow references across VS Code file moves",
+          "state": "open",
+          "age_days": 54
+        },
+        {
+          "number": 275,
+          "user": "andrewscar34-ux",
+          "title": "fix(vscode): update Flyde imports when files move",
+          "state": "open",
+          "age_days": 54
+        },
+        {
+          "number": 276,
+          "user": "JoaquinBatser",
+          "title": "Update local flow imports before VS Code file and folder moves",
+          "state": "open",
+          "age_days": 54
+        },
+        {
+          "number": 277,
+          "user": "BreakYukino",
+          "title": "Preserve local flow imports when files or folders move in VS Code",
+          "state": "open",
+          "age_days": 53
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 18,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "flydelabs/flyde",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:46Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "CLAUDE.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 461d ago (> 90d)",
+        "contested by 16 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a0cb8a161eab08b6",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#273",
+      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-26",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 420,
+          "user": "Somnath-Mishra",
+          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
+          "state": "open",
+          "age_days": 667
+        },
+        {
+          "number": 433,
+          "user": "maoshuorz",
+          "title": "feat(vector-db): add Qdrant vector database support",
+          "state": "open",
+          "age_days": 238
+        },
+        {
+          "number": 456,
+          "user": "tarai-dl",
+          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
+          "state": "open",
+          "age_days": 195
+        },
+        {
+          "number": 463,
+          "user": "alceops",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 190
+        },
+        {
+          "number": 464,
+          "user": "moluscorichman-oss",
+          "title": "feat: add Qdrant vector database client",
+          "state": "open",
+          "age_days": 190
+        },
+        {
+          "number": 469,
+          "user": "frankyueng12",
+          "title": "Add Qdrant support to vector-db package",
+          "state": "open",
+          "age_days": 176
+        },
+        {
+          "number": 470,
+          "user": "mySebbe",
+          "title": "Add Qdrant REST support to vector-db SDK",
+          "state": "open",
+          "age_days": 174
+        },
+        {
+          "number": 472,
+          "user": "jchatelet",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 174
+        },
+        {
+          "number": 473,
+          "user": "apollo-jpg",
+          "title": "feat(js): add qdrant vector database client",
+          "state": "open",
+          "age_days": 173
+        },
+        {
+          "number": 478,
+          "user": "Recoveredd",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 173
+        },
+        {
+          "number": 479,
+          "user": "HunterCML",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 173
+        },
+        {
+          "number": 484,
+          "user": "milesfeldstein",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 173
+        },
+        {
+          "number": 485,
+          "user": "FlyawayDL",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 173
+        },
+        {
+          "number": 488,
+          "user": "richboyneedcash",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 172
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 153,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:22Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 5d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "last reply 153d ago (> 60d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-6ba66333394cbdf2",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "onyx-dot-app/onyx#2281",
+      "title": "Jira Service Management Connector",
+      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "onyx-dot-app",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "onyx-dot-app/onyx",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-31",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 8557,
+          "user": "jefferteleco",
+          "title": "feat: Add Jira Service Management Connector",
+          "state": "open",
+          "age_days": 255
+        }
+      ],
+      "dead_attempts": 6,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 226,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "onyx-dot-app/onyx",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:06Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-10-31",
+      "last_checked": "2026-10-31",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "6 prior attempts died unmerged (battle scars, D7)",
+        "last reply 226d ago (> 60d)",
+        "1 open PR but 255d old (> 30d)"
+      ]
+    },
+    {
       "id": "bounty_sweep-936f62e7d0b75eb8",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -9157,7 +10400,7 @@
       "repo": "revertinc/revert",
       "repo_archived": false,
       "repo_last_push": "2025-04-07",
-      "contested_prs": 13,
+      "contested_prs": 14,
       "contest_detail": [
         {
           "number": 655,
@@ -9249,12 +10492,19 @@
           "title": "Add Workable to ATS provider constants",
           "state": "open",
           "age_days": 2
+        },
+        {
+          "number": 679,
+          "user": "thinhnx128",
+          "title": "feat(ats): [REVER-51] Workable Integration (#551)",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
+      "maintainer_last_reply_age_days": 0,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -9282,7 +10532,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "repo last push 572d ago (> 90d)",
-        "contested by 13 open PRs (> 1)"
+        "contested by 14 open PRs (> 1)"
       ]
     },
     {
@@ -9447,7 +10697,7 @@
       "repo": "lablab-ai/community-content",
       "repo_archived": false,
       "repo_last_push": "2026-10-12",
-      "contested_prs": 10,
+      "contested_prs": 11,
       "contest_detail": [
         {
           "number": 1001,
@@ -9518,12 +10768,19 @@
           "title": "feat: add comprehensive tutorial for Vectara Chat (Fixes #462)",
           "state": "open",
           "age_days": 0
+        },
+        {
+          "number": 1103,
+          "user": "thinhnx128",
+          "title": "docs(tutorials): Crafting a Comprehensive Tutorial for Vectara Chat (#462)",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 2,
       "merged_attempts": 2,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 3,
+      "maintainer_last_reply_age_days": 0,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -9551,7 +10808,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "2 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "contested by 10 open PRs (> 1)"
+        "contested by 11 open PRs (> 1)"
       ]
     },
     {
@@ -9829,12 +11086,20 @@
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
       "repo_last_push": "2026-10-31",
-      "contested_prs": 0,
-      "contest_detail": [],
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 2527,
+          "user": "ket4min-susan",
+          "title": "feat(spikes): add W-605 Replayable Task Island coordinator and Phase 1-4 falsifi",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
       "dead_attempts": 1,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 13,
+      "maintainer_last_reply_age_days": 0,
       "trap": {
         "verdict": "CAUTION",
         "score": 15,
@@ -9870,87 +11135,11 @@
       "bar_pass_reasons": [
         "repo pushed 0d ago",
         "responded recently",
-        "uncontested",
+        "lightly contested (1 fresh PR)",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-f3dd4815eefc66a2",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#757",
-      "title": "[wildcard] Kill libhyrt.a, cgo, and the 3-tier FFI bridge: AOT-transpile Rust boundary crates via wasm32 to pure bounds-checked Go (wasm2go linear-memory arenas per OwnHandle)",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/757",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 7,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "uncontested",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
         "trap verdict CAUTION (wall requires CLEAN)"
       ]
     },
@@ -10118,273 +11307,6 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "trap verdict CAUTION (wall requires CLEAN)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-f610f8d7ec48dee9",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#2176",
-      "title": "[wildcard] Make hy-check an untrusted proof producer: permission certificates for actual Go",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/2176",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 2252,
-          "user": "Dimank92",
-          "title": "moonshot: intake W-025 (2011722761) - untrusted proof producer spike (closes #21",
-          "state": "open",
-          "age_days": 2
-        },
-        {
-          "number": 2402,
-          "user": "theheiszt",
-          "title": "spike(w025): untrusted proof producer kernel & CFG falsifier suite (#2176)",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 0,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 0,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-ba311ccebe490ba5",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "flydelabs/flyde#112",
-      "title": "Broken imports after moving files",
-      "url": "https://github.com/flydelabs/flyde/issues/112",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "flydelabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "flydelabs/flyde",
-      "repo_archived": false,
-      "repo_last_push": "2025-07-27",
-      "contested_prs": 16,
-      "contest_detail": [
-        {
-          "number": 256,
-          "user": "maoshuorz",
-          "title": "fix: update import paths when .flyde files are moved or renamed",
-          "state": "open",
-          "age_days": 238
-        },
-        {
-          "number": 259,
-          "user": "abisheik687",
-          "title": "Fix moved flow relative import resolution",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 260,
-          "user": "nexiumbiz-debug",
-          "title": "Keep Flyde imports working after file moves",
-          "state": "open",
-          "age_days": 175
-        },
-        {
-          "number": 261,
-          "user": "prashanthnimmagadda",
-          "title": "fix: resolve moved visual node imports",
-          "state": "open",
-          "age_days": 174
-        },
-        {
-          "number": 263,
-          "user": "ldthang0612",
-          "title": "fix(vscode): update Flyde imports after file moves",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 266,
-          "user": "dukunline-cyber",
-          "title": "fix(vscode): rewrite .flyde imports on file rename/move (#112)",
-          "state": "open",
-          "age_days": 168
-        },
-        {
-          "number": 267,
-          "user": "nam157",
-          "title": "fix(vscode): keep Flyde imports working after file moves",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 268,
-          "user": "ajjucoder",
-          "title": "Fix local Flyde imports after file moves",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 269,
-          "user": "Entr0zy",
-          "title": "Update Flyde imports after file rename",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 270,
-          "user": "SeanCordovaGit",
-          "title": "Resolve moved local node imports",
-          "state": "open",
-          "age_days": 163
-        },
-        {
-          "number": 271,
-          "user": "Catnap7",
-          "title": "Fix moved local Flyde imports",
-          "state": "open",
-          "age_days": 162
-        },
-        {
-          "number": 273,
-          "user": "jeremymu1506-prog",
-          "title": "fix(vscode): update local node paths after file moves",
-          "state": "open",
-          "age_days": 81
-        },
-        {
-          "number": 274,
-          "user": "MyTH-zyxeon",
-          "title": "fix: preserve flow references across VS Code file moves",
-          "state": "open",
-          "age_days": 54
-        },
-        {
-          "number": 275,
-          "user": "andrewscar34-ux",
-          "title": "fix(vscode): update Flyde imports when files move",
-          "state": "open",
-          "age_days": 54
-        },
-        {
-          "number": 276,
-          "user": "JoaquinBatser",
-          "title": "Update local flow imports before VS Code file and folder moves",
-          "state": "open",
-          "age_days": 54
-        },
-        {
-          "number": 277,
-          "user": "BreakYukino",
-          "title": "Preserve local flow imports when files or folders move in VS Code",
-          "state": "open",
-          "age_days": 53
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 18,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "flydelabs/flyde",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:46Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "CLAUDE.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 461d ago (> 90d)",
-        "contested by 16 open PRs (> 1)"
       ]
     },
     {
@@ -10562,176 +11484,6 @@
         "trap verdict CAUTION (wall requires CLEAN)",
         "repo last push 822d ago (> 90d)",
         "contested by 15 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-a0cb8a161eab08b6",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#273",
-      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "arakoodev",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-26",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 420,
-          "user": "Somnath-Mishra",
-          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
-          "state": "open",
-          "age_days": 667
-        },
-        {
-          "number": 433,
-          "user": "maoshuorz",
-          "title": "feat(vector-db): add Qdrant vector database support",
-          "state": "open",
-          "age_days": 238
-        },
-        {
-          "number": 456,
-          "user": "tarai-dl",
-          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 463,
-          "user": "alceops",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 190
-        },
-        {
-          "number": 464,
-          "user": "moluscorichman-oss",
-          "title": "feat: add Qdrant vector database client",
-          "state": "open",
-          "age_days": 190
-        },
-        {
-          "number": 469,
-          "user": "frankyueng12",
-          "title": "Add Qdrant support to vector-db package",
-          "state": "open",
-          "age_days": 176
-        },
-        {
-          "number": 470,
-          "user": "mySebbe",
-          "title": "Add Qdrant REST support to vector-db SDK",
-          "state": "open",
-          "age_days": 174
-        },
-        {
-          "number": 472,
-          "user": "jchatelet",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 174
-        },
-        {
-          "number": 473,
-          "user": "apollo-jpg",
-          "title": "feat(js): add qdrant vector database client",
-          "state": "open",
-          "age_days": 173
-        },
-        {
-          "number": 478,
-          "user": "Recoveredd",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 173
-        },
-        {
-          "number": 479,
-          "user": "HunterCML",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 173
-        },
-        {
-          "number": 484,
-          "user": "milesfeldstein",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 173
-        },
-        {
-          "number": 485,
-          "user": "FlyawayDL",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 173
-        },
-        {
-          "number": 488,
-          "user": "richboyneedcash",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 172
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 153,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:22Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 5d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "last reply 153d ago (> 60d)",
-        "contested by 14 open PRs (> 1)"
       ]
     },
     {
@@ -11333,80 +12085,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-6ba66333394cbdf2",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "onyx-dot-app/onyx#2281",
-      "title": "Jira Service Management Connector",
-      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "onyx-dot-app",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "python",
-      "repo": "onyx-dot-app/onyx",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 8557,
-          "user": "jefferteleco",
-          "title": "feat: Add Jira Service Management Connector",
-          "state": "open",
-          "age_days": 255
-        }
-      ],
-      "dead_attempts": 6,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 226,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "onyx-dot-app/onyx",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:06Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "CLAUDE.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "repo pushed 0d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "6 prior attempts died unmerged (battle scars, D7)",
-        "last reply 226d ago (> 60d)",
-        "1 open PR but 255d old (> 30d)"
-      ]
-    },
-    {
       "id": "bounty_sweep-83dc19a601e5368a",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -11890,96 +12568,6 @@
         "repo last push 135d ago (> 90d)",
         "last reply 62d ago (> 60d)",
         "contested by 59 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-5ba57b550ef98c12",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#610",
-      "title": "[wildcard] Make FFI claims proof-carrying: verify boundary contracts against the linked Rust artifact",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/610",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 1660,
-          "user": "masterdobra-hash",
-          "title": "spike(ffi-cert): artifact-derived boundary contracts for #610 \u2014 21/21 signatures",
-          "state": "open",
-          "age_days": 6
-        },
-        {
-          "number": 2341,
-          "user": "shintny",
-          "title": "fix: resolve #610 \u2014 [wildcard] Make FFI claims proof-carrying: verify boundary c",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
       ]
     },
     {
@@ -12874,277 +13462,6 @@
         "repo last push 215d ago (> 90d)",
         "last reply 157d ago (> 60d)",
         "contested by 32 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-8201474f91468496",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#417",
-      "title": "[wildcard] Serializable shared-state regions instead of exclusive ownership",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/417",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 505,
-          "user": "pedromineo",
-          "title": "fix: [wildcard] Serializable shared-state regions instead of exclusive ownership",
-          "state": "open",
-          "age_days": 14
-        },
-        {
-          "number": 2075,
-          "user": "harmweber787-png",
-          "title": "feat(w020): serializable shared-state regions via admitted MVSI transactions (#4",
-          "state": "open",
-          "age_days": 4
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-ff2a48dc39ceb4d3",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#634",
-      "title": "[wildcard] Delete sendability analysis: task regions as serializable transactions",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/634",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 635,
-          "user": "webhumansaz-stack",
-          "title": "feat(spikes): Wildcard #634 serializable task regions STM spike (preregistered, ",
-          "state": "open",
-          "age_days": 13
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "lightly contested (1 fresh PR)",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-a7e3c1a960afe0a0",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#1669",
-      "title": "[wildcard] Structured Task Scopes & Affine Cancellation Tokens: eliminating goroutine leaks from GUARANTEES.md Row 12",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/1669",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 3,
-      "contest_detail": [
-        {
-          "number": 1856,
-          "user": "harmweber787-png",
-          "title": "feat(spikes): add structured task scopes & affine JoinHandle spike (closes #1669",
-          "state": "open",
-          "age_days": 5
-        },
-        {
-          "number": 2069,
-          "user": "wanghaitao-git",
-          "title": "feat(spikes): structured task scopes & affine containment (#1669)",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 2280,
-          "user": "SuperPiIot",
-          "title": "feat: introduce structured task scopes and affine cancellation tokens",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 0,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 3 open PRs (> 1)"
       ]
     },
     {
@@ -14154,97 +14471,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-c5da76c8b770cc0e",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#695",
-      "title": "[wildcard] Eliminate the Checker/Emitter Semantic Split: Emit-Driven Verification via Explicit Desugared MIR (`hy-mir`)",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/695",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 2077,
-          "user": "harmweber787-png",
-          "title": "feat(w025): emit-driven verification via explicit desugared MIR (hy-mir) (#695)",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 2416,
-          "user": "kevin9327",
-          "title": "spikes(w1744): staged place-graph canonicalization + falsifier suite F1-F5 (refs",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 1,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 4,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-f00a65a1f2b551c7",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -14618,96 +14844,6 @@
         "no sats purse (negotiable/unknown)",
         "repo last push 572d ago (> 90d)",
         "contested by 8 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-c791719bee24e48e",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#1962",
-      "title": "Serial by default: safe execution first",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/1962",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 1971,
-          "user": "pedromineo",
-          "title": "fix: Serial by default: safe execution first (resolves #1962)",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 1999,
-          "user": "wanghaitao-git",
-          "title": "feat: add `auto { ... }` automatic fork-join scheduling (issue #1962)",
-          "state": "open",
-          "age_days": 4
-        }
-      ],
-      "dead_attempts": 0,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 5,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
       ]
     },
     {
@@ -19681,96 +19817,6 @@
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 14,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-10-31",
-      "last_checked": "2026-10-31",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-6b7addbfc9bb089a",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#462",
-      "title": "[wildcard] Isolated WASM task cells: replace cross-task alias proofs with a wire boundary",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/462",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-31",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 566,
-          "user": "gttps",
-          "title": "feat(spikes): W-019 isolated WASM task cells spike (#462)",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 2010,
-          "user": "fangjian-bit",
-          "title": "fix: resolve #1942 - [wildcard] Fuel-metered compute capsules with a closed call",
-          "state": "open",
-          "age_days": 4
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 13,
       "trap": {
         "verdict": "CAUTION",
         "score": 15,
