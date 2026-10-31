@@ -1,18 +1,20 @@
 # Honest Work — verified clean opportunities
 
-> 3 posters passed the strict bar. Strict bar (DECISIONS.md D6): escrow or documented paying schedule, trap scan CLEAN, repo alive and pushed recently, someone responded recently, contest at most one fresh PR, rewarder not low-trust, purse at least 2000 sats. Fail any gate and the item is tracked in open data without a poster.
+> 5 posters passed the strict bar. Strict bar (DECISIONS.md D6): escrow or documented paying schedule, trap scan CLEAN, repo alive and pushed recently, someone responded recently, contest at most one fresh PR, rewarder not low-trust, purse at least 2000 sats. Fail any gate and the item is tracked in open data without a poster.
 
 ## The Young Gun — freshest clean listing
 
-- **[Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-10-30
+- **[Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-10-31
 
 ## The wall
 
 | Score | Listing | Purse | Source | Contest | Scars | Repo pushed |
 |---|---|---|---|---|---|---|
-| 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-30 |
 | 52 | [Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
-| 52 | [Implement extra WebLN methods for LNC connector (e.g. makeInvoice)](https://github.com/getAlby/bitcoin-connect/issues/151) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
+| 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-30 |
+| 37 | [Add support for NIP-47 notifications](https://github.com/getAlby/pos/issues/40) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-23 |
+| 37 | [Add proper connection page for LNC connect](https://github.com/getAlby/bitcoin-connect/issues/84) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-20 |
+| 37 | [Implement extra WebLN methods for LNC connector (e.g. makeInvoice)](https://github.com/getAlby/bitcoin-connect/issues/151) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-20 |
 
 ## How you actually get paid (per source)
 
