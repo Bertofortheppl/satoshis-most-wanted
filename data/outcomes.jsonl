@@ -244,3 +244,5 @@
 {"ts": "2026-11-01T05:40:16Z", "id": "bounty_sweep-f3dd4815eefc66a2", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
 {"ts": "2026-11-01T05:40:16Z", "id": "bounty_sweep-1d7aa85cb7f38763", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
 {"ts": "2026-11-01T05:40:16Z", "id": "bounty_sweep-bc73ca492797c4d3", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-01T13:11:31Z", "id": "bounty_sweep-494b614e7d2c41b8", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-01T13:11:31Z", "id": "bounty_sweep-e83019c2900cb7ed", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
