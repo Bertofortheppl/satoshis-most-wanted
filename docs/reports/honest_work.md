@@ -4,7 +4,7 @@
 
 ## The Young Gun — freshest clean listing
 
-- **[Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-10-31
+- **[Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-11-01
 
 ## The wall
 
