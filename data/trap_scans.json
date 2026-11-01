@@ -552,6 +552,21 @@
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
+  "go-gitea/gitea": {
+    "checked_at": "2026-11-01T19:40:04Z",
+    "checked_date": "2026-11-01",
+    "checked_files": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "AGENTS.md",
+      "SECURITY.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "go-gitea/gitea",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
   "highlight/highlight": {
     "checked_at": "2026-10-27T19:13:32Z",
     "checked_date": "2026-10-27",
