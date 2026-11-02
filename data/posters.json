@@ -1,12 +1,12 @@
 {
   "posters": [
     {
-      "id": "bounty_sweep-4718b12f8a09fc88",
+      "id": "bounty_sweep-06302cfd6e4523f7",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "ClankerNation/OpenAgents#41",
-      "title": "[ Bounty $7k ] [ API ] Add health check endpoint with component status",
-      "url": "https://github.com/ClankerNation/OpenAgents/issues/41",
+      "external_id": "ClankerNation/OpenAgents#183",
+      "title": "[ Bounty $9k ] [ Solidity ] Add gas sponsorship relay for agent transactions \u2014 security critical",
+      "url": "https://github.com/ClankerNation/OpenAgents/issues/183",
       "kind": "trap",
       "sats": null,
       "escrow": null,
@@ -26,27 +26,12 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-11-02",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 6325,
-          "user": "airdropia",
-          "title": "[opencode] Health check concurrent checks < 5s",
-          "state": "open",
-          "age_days": 0
-        },
-        {
-          "number": 6326,
-          "user": "airdropia",
-          "title": "[opencode] Gas sponsorship relay with executeOnBehalf",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 11,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 33,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
+      "maintainer_last_reply_age_days": 0,
       "trap": {
         "verdict": "TRAP",
         "score": 178,
@@ -146,12 +131,12 @@
       "bar_fail_reasons": []
     },
     {
-      "id": "bounty_sweep-06302cfd6e4523f7",
+      "id": "bounty_sweep-4718b12f8a09fc88",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "ClankerNation/OpenAgents#183",
-      "title": "[ Bounty $9k ] [ Solidity ] Add gas sponsorship relay for agent transactions \u2014 security critical",
-      "url": "https://github.com/ClankerNation/OpenAgents/issues/183",
+      "external_id": "ClankerNation/OpenAgents#41",
+      "title": "[ Bounty $7k ] [ API ] Add health check endpoint with component status",
+      "url": "https://github.com/ClankerNation/OpenAgents/issues/41",
       "kind": "trap",
       "sats": null,
       "escrow": null,
@@ -171,27 +156,12 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-11-02",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 6322,
-          "user": "okhafcoco13",
-          "title": "Fixes #183: Add gas sponsorship relay (executeOnBehalf), agent staking, nonce tr",
-          "state": "open",
-          "age_days": 0
-        },
-        {
-          "number": 6326,
-          "user": "airdropia",
-          "title": "[opencode] Gas sponsorship relay with executeOnBehalf",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 31,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 13,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 0,
+      "maintainer_last_reply_age_days": 1,
       "trap": {
         "verdict": "TRAP",
         "score": 178,
@@ -316,24 +286,9 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-11-02",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 6328,
-          "user": "airdropia",
-          "title": "[opencode] Add FlashLoan with min fee and pool cap",
-          "state": "open",
-          "age_days": 0
-        },
-        {
-          "number": 6330,
-          "user": "KonstantinPythonLab",
-          "title": "fix: resolve zero-fee flash loans and add pool drainage protection",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 5,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 7,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 0,
@@ -591,17 +546,9 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-11-02",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 6327,
-          "user": "airdropia",
-          "title": "[opencode] Gas sponsorship relay pre-audit",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 16,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 17,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 1,
@@ -859,17 +806,9 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-11-02",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 6323,
-          "user": "airdropia",
-          "title": "[opencode] SafeERC20 with mock non-reverting ERC20 test",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 27,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 28,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 1,
@@ -2907,6 +2846,104 @@
           "issue #197",
           "issue #196",
           "issue #195"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-02",
+      "last_checked": "2026-11-02",
+      "schema_version": 1,
+      "door": "most_wanted",
+      "bar_pass_reasons": [
+        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
+      "id": "bounty_sweep-61f6c7704d309428",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "UnsafeLabs/Bounty-Hunters#575",
+      "title": "[ English ] Complete missing lines in acrostics.md \u2014 finish UNSAFE acrostic and write BOUNTY acrostic",
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/575",
+      "kind": "trap",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "UnsafeLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "UnsafeLabs/Bounty-Hunters",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-02",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 18,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "TRAP",
+        "score": 100,
+        "rules": [
+          {
+            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
+            "rule": "HIDDEN_DIRECTIVE",
+            "severity": 40,
+            "source": "CONTRIBUTING.md",
+            "title": "Hidden instruction aimed at automated readers",
+            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+          },
+          {
+            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+            "rule": "PAY_ON_MERGE_NEVER",
+            "severity": 30,
+            "source": "guidance",
+            "title": "Promises payment on merge while stating PRs are never merged",
+            "why": "Payment is conditioned on an event the repository says will never happen."
+          },
+          {
+            "evidence": "8,422 PRs / 58 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "8,422 PR numbers issued against 58 stars (145.2:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "UnsafeLabs/Bounty-Hunters",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:53Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #920",
+          "issue #919",
+          "issue #918",
+          "issue #917",
+          "issue #916",
+          "issue #915",
+          "issue #914",
+          "issue #913"
         ]
       },
       "score": null,
@@ -6947,16 +6984,16 @@
         "negotiated": false,
         "paying_schedule": false
       },
-      "language": "typescript",
+      "language": "unknown",
       "repo": "BrantaOps/branta-core",
-      "repo_archived": true,
-      "repo_last_push": "2026-03-02",
+      "repo_archived": false,
+      "repo_last_push": null,
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
       "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 243,
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -6984,8 +7021,8 @@
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "repo archived (payout was never coming)",
-        "last reply 243d ago (> 60d)"
+        "repo freshness unknown",
+        "no responder signal on the thread"
       ]
     },
     {
@@ -7149,16 +7186,16 @@
         "negotiated": false,
         "paying_schedule": false
       },
-      "language": "typescript",
+      "language": "unknown",
       "repo": "BrantaOps/branta-core",
-      "repo_archived": true,
-      "repo_last_push": "2026-03-02",
+      "repo_archived": false,
+      "repo_last_push": null,
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
       "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 264,
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -7186,8 +7223,8 @@
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "repo archived (payout was never coming)",
-        "last reply 264d ago (> 60d)"
+        "repo freshness unknown",
+        "no responder signal on the thread"
       ]
     },
     {
@@ -7509,16 +7546,16 @@
         "negotiated": false,
         "paying_schedule": false
       },
-      "language": "typescript",
+      "language": "unknown",
       "repo": "BrantaOps/branta-core",
-      "repo_archived": true,
-      "repo_last_push": "2026-03-02",
+      "repo_archived": false,
+      "repo_last_push": null,
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
       "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 265,
+      "maintainer_responded": false,
+      "maintainer_last_reply_age_days": null,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -7546,8 +7583,8 @@
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
-        "repo archived (payout was never coming)",
-        "last reply 265d ago (> 60d)"
+        "repo freshness unknown",
+        "no responder signal on the thread"
       ]
     },
     {
@@ -9812,6 +9849,485 @@
       ]
     },
     {
+      "id": "bounty_sweep-96b6e127c6a6387c",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#279",
+      "title": "BOUNTY: add support for Google Palm2 API in javascript/typescript",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/279",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-26",
+      "contested_prs": 6,
+      "contest_detail": [
+        {
+          "number": 432,
+          "user": "Myopes",
+          "title": "feat: add Palm2/Gemini API support (#279)",
+          "state": "open",
+          "age_days": 241
+        },
+        {
+          "number": 435,
+          "user": "maoshuorz",
+          "title": "feat: complete Gemini API support with types, tests, and jsonnet example",
+          "state": "open",
+          "age_days": 240
+        },
+        {
+          "number": 451,
+          "user": "Samir-atra",
+          "title": "feat: add Google PaLM 2 (Bison) API support #279",
+          "state": "open",
+          "age_days": 202
+        },
+        {
+          "number": 460,
+          "user": "l8888888",
+          "title": "Add Palm2-compatible Google AI provider",
+          "state": "open",
+          "age_days": 195
+        },
+        {
+          "number": 466,
+          "user": "alceops",
+          "title": "Add Google PaLM2 API support",
+          "state": "open",
+          "age_days": 191
+        },
+        {
+          "number": 475,
+          "user": "apollo-jpg",
+          "title": "feat(js): add Google PaLM2 API client",
+          "state": "open",
+          "age_days": 175
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 31,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:22Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-02",
+      "last_checked": "2026-11-02",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 7d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 6 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a625173ae4b97fa5",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "getdozer/dozer#1653",
+      "title": "WASM UDF support",
+      "url": "https://github.com/getdozer/dozer/issues/1653",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getdozer",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "getdozer/dozer",
+      "repo_archived": false,
+      "repo_last_push": "2024-06-18",
+      "contested_prs": 12,
+      "contest_detail": [
+        {
+          "number": 1654,
+          "user": "tachyonicbytes",
+          "title": "Add incipient wasm_udf support",
+          "state": "open",
+          "age_days": 1232
+        },
+        {
+          "number": 2491,
+          "user": "mySebbe",
+          "title": "Add WASM UDF expression support",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 2499,
+          "user": "jamilahmadzai",
+          "title": "Add WASM UDF support",
+          "state": "open",
+          "age_days": 163
+        },
+        {
+          "number": 2500,
+          "user": "sevencat2004",
+          "title": "Add WASM UDF support",
+          "state": "open",
+          "age_days": 153
+        },
+        {
+          "number": 2506,
+          "user": "silasbrookshaha",
+          "title": "Add WASM UDF support",
+          "state": "open",
+          "age_days": 105
+        },
+        {
+          "number": 2513,
+          "user": "ksushant6566",
+          "title": "feat(sql): add configurable WebAssembly scalar UDFs",
+          "state": "open",
+          "age_days": 54
+        },
+        {
+          "number": 2524,
+          "user": "QIU-Guanzong",
+          "title": "feat: run numeric WASM UDFs in SQL pipelines",
+          "state": "open",
+          "age_days": 37
+        },
+        {
+          "number": 2532,
+          "user": "open5588",
+          "title": "feat(sql): add WebAssembly (WASM) scalar UDF support",
+          "state": "open",
+          "age_days": 18
+        },
+        {
+          "number": 2542,
+          "user": "Xgoyeezy",
+          "title": "feat(sql): load local WASM UDFs at startup",
+          "state": "open",
+          "age_days": 8
+        },
+        {
+          "number": 2544,
+          "user": "nghoang1288",
+          "title": "fix: enable SQL UDFs implemented in WebAssembly (Fixes #1653)",
+          "state": "open",
+          "age_days": 1
+        },
+        {
+          "number": 2547,
+          "user": "zaidrain06",
+          "title": "feat(sql): add WebAssembly (WASM) UDF support",
+          "state": "open",
+          "age_days": 0
+        },
+        {
+          "number": 2548,
+          "user": "Aming9303",
+          "title": "feat: sandboxed numeric WASM SQL UDFs",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getdozer/dozer",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:14:58Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-02",
+      "last_checked": "2026-11-02",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "repo last push 867d ago (> 90d)",
+        "contested by 12 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-560400be06557283",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "tryabby/abby#68",
+      "title": "Vue Integration",
+      "url": "https://github.com/tryabby/abby/issues/68",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "tryabby",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "tryabby/abby",
+      "repo_archived": false,
+      "repo_last_push": "2025-07-24",
+      "contested_prs": 8,
+      "contest_detail": [
+        {
+          "number": 141,
+          "user": "feliciien",
+          "title": "feat: Add Vue integration for Abby with feature parity to React",
+          "state": "open",
+          "age_days": 886
+        },
+        {
+          "number": 167,
+          "user": "asd55667",
+          "title": "feat: add vue integration",
+          "state": "open",
+          "age_days": 721
+        },
+        {
+          "number": 179,
+          "user": "godd-ctrl",
+          "title": "feat: add Vue integration package",
+          "state": "open",
+          "age_days": 182
+        },
+        {
+          "number": 181,
+          "user": "Iineman2",
+          "title": "Add Vue integration package",
+          "state": "open",
+          "age_days": 175
+        },
+        {
+          "number": 187,
+          "user": "cyrillical00",
+          "title": "feat: add @tryabby/vue integration package",
+          "state": "open",
+          "age_days": 139
+        },
+        {
+          "number": 189,
+          "user": "fadhelcarlos",
+          "title": "feat: add @tryabby/vue integration (#68)",
+          "state": "open",
+          "age_days": 118
+        },
+        {
+          "number": 190,
+          "user": "mini0n-ai",
+          "title": "feat(vue): implement @tryabby/vue integration package (#68)",
+          "state": "open",
+          "age_days": 58
+        },
+        {
+          "number": 191,
+          "user": "agoratap",
+          "title": "feat(vue): add @tryabby/vue integration",
+          "state": "open",
+          "age_days": 37
+        }
+      ],
+      "dead_attempts": 5,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "tryabby/abby",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:15:47Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-02",
+      "last_checked": "2026-11-02",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "5 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 466d ago (> 90d)",
+        "contested by 8 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-15b60ed23330d9a4",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#279",
+      "title": "[wildcard] Delete the alias graph: make ownership a capability the type carries",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/279",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-02",
+      "contested_prs": 3,
+      "contest_detail": [
+        {
+          "number": 1893,
+          "user": "harmweber787-png",
+          "title": "feat(spikes): add W-002 type-carried ownership capability spike (closes #279)",
+          "state": "open",
+          "age_days": 7
+        },
+        {
+          "number": 1951,
+          "user": "sezginkipel",
+          "title": "feat: represent ownership capability directly as a type property (#279)",
+          "state": "open",
+          "age_days": 7
+        },
+        {
+          "number": 3281,
+          "user": "yaojiajia838-design",
+          "title": "feat(spike): clarify W-002 closure capture and local inference with executable c",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 1,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 7,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-02",
+      "last_checked": "2026-11-02",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 3 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-2817f9ebfa2d1462",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -9836,7 +10352,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 18,
       "contest_detail": [
         {
@@ -10007,7 +10523,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -10133,7 +10649,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 15,
       "contest_detail": [
         {
@@ -10283,7 +10799,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -10462,125 +10978,6 @@
         "trap verdict CAUTION (wall requires CLEAN)",
         "last reply 155d ago (> 60d)",
         "contested by 14 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-560400be06557283",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "tryabby/abby#68",
-      "title": "Vue Integration",
-      "url": "https://github.com/tryabby/abby/issues/68",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "tryabby",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "tryabby/abby",
-      "repo_archived": false,
-      "repo_last_push": "2025-07-24",
-      "contested_prs": 8,
-      "contest_detail": [
-        {
-          "number": 141,
-          "user": "feliciien",
-          "title": "feat: Add Vue integration for Abby with feature parity to React",
-          "state": "open",
-          "age_days": 886
-        },
-        {
-          "number": 167,
-          "user": "asd55667",
-          "title": "feat: add vue integration",
-          "state": "open",
-          "age_days": 721
-        },
-        {
-          "number": 179,
-          "user": "godd-ctrl",
-          "title": "feat: add Vue integration package",
-          "state": "open",
-          "age_days": 182
-        },
-        {
-          "number": 181,
-          "user": "Iineman2",
-          "title": "Add Vue integration package",
-          "state": "open",
-          "age_days": 175
-        },
-        {
-          "number": 187,
-          "user": "cyrillical00",
-          "title": "feat: add @tryabby/vue integration package",
-          "state": "open",
-          "age_days": 139
-        },
-        {
-          "number": 189,
-          "user": "fadhelcarlos",
-          "title": "feat: add @tryabby/vue integration (#68)",
-          "state": "open",
-          "age_days": 118
-        },
-        {
-          "number": 190,
-          "user": "mini0n-ai",
-          "title": "feat(vue): implement @tryabby/vue integration package (#68)",
-          "state": "open",
-          "age_days": 58
-        },
-        {
-          "number": 191,
-          "user": "agoratap",
-          "title": "feat(vue): add @tryabby/vue integration",
-          "state": "open",
-          "age_days": 37
-        }
-      ],
-      "dead_attempts": 5,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "tryabby/abby",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:15:47Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-02",
-      "last_checked": "2026-11-02",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "5 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 466d ago (> 90d)",
-        "contested by 8 open PRs (> 1)"
       ]
     },
     {
@@ -10798,7 +11195,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 14,
       "contest_detail": [
         {
@@ -10941,7 +11338,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -10950,140 +11347,6 @@
         "trap verdict SUSPICIOUS (wall requires CLEAN)",
         "last reply 166d ago (> 60d)",
         "contested by 14 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-a625173ae4b97fa5",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "getdozer/dozer#1653",
-      "title": "WASM UDF support",
-      "url": "https://github.com/getdozer/dozer/issues/1653",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "getdozer",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "getdozer/dozer",
-      "repo_archived": false,
-      "repo_last_push": "2024-06-18",
-      "contested_prs": 10,
-      "contest_detail": [
-        {
-          "number": 1654,
-          "user": "tachyonicbytes",
-          "title": "Add incipient wasm_udf support",
-          "state": "open",
-          "age_days": 1232
-        },
-        {
-          "number": 2491,
-          "user": "mySebbe",
-          "title": "Add WASM UDF expression support",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 2499,
-          "user": "jamilahmadzai",
-          "title": "Add WASM UDF support",
-          "state": "open",
-          "age_days": 163
-        },
-        {
-          "number": 2500,
-          "user": "sevencat2004",
-          "title": "Add WASM UDF support",
-          "state": "open",
-          "age_days": 153
-        },
-        {
-          "number": 2506,
-          "user": "silasbrookshaha",
-          "title": "Add WASM UDF support",
-          "state": "open",
-          "age_days": 105
-        },
-        {
-          "number": 2513,
-          "user": "ksushant6566",
-          "title": "feat(sql): add configurable WebAssembly scalar UDFs",
-          "state": "open",
-          "age_days": 54
-        },
-        {
-          "number": 2524,
-          "user": "QIU-Guanzong",
-          "title": "feat: run numeric WASM UDFs in SQL pipelines",
-          "state": "open",
-          "age_days": 37
-        },
-        {
-          "number": 2532,
-          "user": "open5588",
-          "title": "feat(sql): add WebAssembly (WASM) scalar UDF support",
-          "state": "open",
-          "age_days": 18
-        },
-        {
-          "number": 2542,
-          "user": "Xgoyeezy",
-          "title": "feat(sql): load local WASM UDFs at startup",
-          "state": "open",
-          "age_days": 8
-        },
-        {
-          "number": 2544,
-          "user": "nghoang1288",
-          "title": "fix: enable SQL UDFs implemented in WebAssembly (Fixes #1653)",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "getdozer/dozer",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:58Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-02",
-      "last_checked": "2026-11-02",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "repo last push 867d ago (> 90d)",
-        "contested by 10 open PRs (> 1)"
       ]
     },
     {
@@ -11516,7 +11779,7 @@
       "language": "typescript",
       "repo": "tscircuit/pcb-viewer",
       "repo_archived": false,
-      "repo_last_push": "2026-10-31",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 13,
       "contest_detail": [
         {
@@ -11644,7 +11907,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 2d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -12398,120 +12661,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-96b6e127c6a6387c",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#279",
-      "title": "BOUNTY: add support for Google Palm2 API in javascript/typescript",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/279",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "arakoodev",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-26",
-      "contested_prs": 6,
-      "contest_detail": [
-        {
-          "number": 432,
-          "user": "Myopes",
-          "title": "feat: add Palm2/Gemini API support (#279)",
-          "state": "open",
-          "age_days": 241
-        },
-        {
-          "number": 435,
-          "user": "maoshuorz",
-          "title": "feat: complete Gemini API support with types, tests, and jsonnet example",
-          "state": "open",
-          "age_days": 240
-        },
-        {
-          "number": 451,
-          "user": "Samir-atra",
-          "title": "feat: add Google PaLM 2 (Bison) API support #279",
-          "state": "open",
-          "age_days": 202
-        },
-        {
-          "number": 460,
-          "user": "l8888888",
-          "title": "Add Palm2-compatible Google AI provider",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 466,
-          "user": "alceops",
-          "title": "Add Google PaLM2 API support",
-          "state": "open",
-          "age_days": 191
-        },
-        {
-          "number": 475,
-          "user": "apollo-jpg",
-          "title": "feat(js): add Google PaLM2 API client",
-          "state": "open",
-          "age_days": 175
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 31,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:14:22Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-02",
-      "last_checked": "2026-11-02",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 7d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 6 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-a7e3c1a960afe0a0",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -13169,7 +13318,7 @@
       "repo": "revertinc/revert",
       "repo_archived": false,
       "repo_last_push": "2025-04-07",
-      "contested_prs": 13,
+      "contested_prs": 14,
       "contest_detail": [
         {
           "number": 655,
@@ -13261,6 +13410,13 @@
           "title": "feat(ats): [REVER-51] Workable Integration (#551)",
           "state": "open",
           "age_days": 2
+        },
+        {
+          "number": 681,
+          "user": "zaidrain06",
+          "title": "feat(ats): add Workable ATS integration",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 2,
@@ -13294,7 +13450,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "repo last push 574d ago (> 90d)",
-        "contested by 13 open PRs (> 1)"
+        "contested by 14 open PRs (> 1)"
       ]
     },
     {
@@ -14523,7 +14679,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 19,
       "contest_detail": [
         {
@@ -14701,7 +14857,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -15633,7 +15789,7 @@
       "repo": "revertinc/revert",
       "repo_archived": false,
       "repo_last_push": "2025-04-07",
-      "contested_prs": 8,
+      "contested_prs": 9,
       "contest_detail": [
         {
           "number": 653,
@@ -15690,6 +15846,13 @@
           "title": "feat(ats): add Workday integration [REVER-48]",
           "state": "open",
           "age_days": 6
+        },
+        {
+          "number": 680,
+          "user": "zaidrain06",
+          "title": "feat(ats): add Workday ATS integration",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 2,
@@ -15723,7 +15886,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "repo last push 574d ago (> 90d)",
-        "contested by 8 open PRs (> 1)"
+        "contested by 9 open PRs (> 1)"
       ]
     },
     {
@@ -15865,96 +16028,6 @@
         "6 prior attempts died unmerged (battle scars, D7)",
         "trap verdict CAUTION (wall requires CLEAN)",
         "contested by 9 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-15b60ed23330d9a4",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#279",
-      "title": "[wildcard] Delete the alias graph: make ownership a capability the type carries",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/279",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-02",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 1893,
-          "user": "harmweber787-png",
-          "title": "feat(spikes): add W-002 type-carried ownership capability spike (closes #279)",
-          "state": "open",
-          "age_days": 7
-        },
-        {
-          "number": 1951,
-          "user": "sezginkipel",
-          "title": "feat: represent ownership capability directly as a type property (#279)",
-          "state": "open",
-          "age_days": 7
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 7,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-02",
-      "last_checked": "2026-11-02",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
       ]
     },
     {
@@ -16289,7 +16362,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 19,
       "contest_detail": [
         {
@@ -16467,7 +16540,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -17069,7 +17142,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 24,
       "contest_detail": [
         {
@@ -17282,7 +17355,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -17318,7 +17391,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 22,
       "contest_detail": [
         {
@@ -17517,7 +17590,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -17553,7 +17626,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 28,
       "contest_detail": [
         {
@@ -17794,7 +17867,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -17829,7 +17902,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 39,
       "contest_detail": [
         {
@@ -18147,7 +18220,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -18182,7 +18255,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 14,
       "contest_detail": [
         {
@@ -18325,7 +18398,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -18360,7 +18433,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 19,
       "contest_detail": [
         {
@@ -18538,7 +18611,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -18574,7 +18647,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 15,
       "contest_detail": [
         {
@@ -18724,7 +18797,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -18760,7 +18833,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 16,
       "contest_detail": [
         {
@@ -18917,7 +18990,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -18953,7 +19026,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 11,
       "contest_detail": [
         {
@@ -19075,7 +19148,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -19618,7 +19691,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 20,
       "contest_detail": [
         {
@@ -19803,7 +19876,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -19839,7 +19912,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-01",
+      "repo_last_push": "2026-11-02",
       "contested_prs": 37,
       "contest_detail": [
         {
@@ -20143,7 +20216,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -20151,89 +20224,6 @@
         "no sats purse (negotiable/unknown)",
         "trap verdict SUSPICIOUS (wall requires CLEAN)",
         "contested by 37 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-87ca8c289f659418",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#347",
-      "title": "[wildcard] Flip GUARANTEES Row 16 & Deadlock-Freedom from \"No claim\" to Guaranteed: Affine tx[T]/rx[T] Endpoint Split + Acyclic Wait-For Epochs in Pass B",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/347",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-02",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 452,
-          "user": "Rohank143",
-          "title": "Add affine channel endpoint and wait-for epoch feasibility spike for bounty #347",
-          "state": "open",
-          "age_days": 16
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 16,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-02",
-      "last_checked": "2026-11-02",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "lightly contested (1 fresh PR)",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)"
       ]
     }
   ]
