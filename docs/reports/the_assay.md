@@ -71,11 +71,12 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
-| ClankerNation | 21 | 0 | 0 | 0 | 0 |
-| limitlessprojects | 20 | 0 | 0 | 1 | 1 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
-| SecureBananaLabs | 16 | 0 | 0 | 0 | 0 |
+| ClankerNation | 21 | 0 | 0 | 0 | 0 |
+| tryabby | 1 | 0 | 0 | 0 | 0 |
 | getdozer | 3 | 0 | 0 | 0 | 0 |
+| limitlessprojects | 20 | 0 | 0 | 1 | 1 |
+| SecureBananaLabs | 16 | 0 | 0 | 0 | 0 |
 | caley-io | 1 | 0 | 0 | 0 | 0 |
 | PG-AGI | 2 | 0 | 0 | 0 | 0 |
 | go-gitea | 1 | 0 | 0 | 0 | 0 |
@@ -87,7 +88,6 @@
 | revertinc | 2 | 0 | 0 | 0 | 0 |
 | lablab-ai | 1 | 0 | 0 | 0 | 0 |
 | speakers-in-tech | 3 | 0 | 0 | 0 | 0 |
-| tryabby | 1 | 0 | 0 | 0 | 0 |
 | javelin-anticheat | 2 | 0 | 0 | 0 | 0 |
 | tine1117 | 1 | 0 | 0 | 0 | 0 |
 | mohan-bee | 1 | 0 | 0 | 0 | 0 |
