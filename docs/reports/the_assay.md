@@ -71,12 +71,12 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| SecureBananaLabs | 16 | 0 | 0 | 0 | 0 |
+| ClankerNation | 22 | 0 | 0 | 0 | 0 |
+| limitlessprojects | 19 | 0 | 0 | 1 | 1 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
-| ClankerNation | 21 | 0 | 0 | 0 | 0 |
 | tryabby | 1 | 0 | 0 | 0 | 0 |
 | getdozer | 3 | 0 | 0 | 0 | 0 |
-| limitlessprojects | 20 | 0 | 0 | 1 | 1 |
-| SecureBananaLabs | 16 | 0 | 0 | 0 | 0 |
 | caley-io | 1 | 0 | 0 | 0 | 0 |
 | PG-AGI | 2 | 0 | 0 | 0 | 0 |
 | go-gitea | 1 | 0 | 0 | 0 | 0 |
@@ -97,4 +97,4 @@
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
 | WillSmithTE | 1 | 0 | 0 | 0 | 0 |
 | ApexOpsStudio | 1 | 0 | 0 | 0 | 0 |
-| unknown | 0 | 0 | 0 | 28 | 28 |
+| unknown | 0 | 0 | 0 | 29 | 29 |
