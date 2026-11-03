@@ -11,7 +11,7 @@
 | Score | Listing | Purse | Source | Contest | Scars | Repo pushed |
 |---|---|---|---|---|---|---|
 | 52 | [Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
-| 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-30 |
+| 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-11-03 |
 | 37 | [Add proper connection page for LNC connect](https://github.com/getAlby/bitcoin-connect/issues/84) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-20 |
 | 37 | [Add support for NIP-47 notifications](https://github.com/getAlby/pos/issues/40) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-23 |
 | 37 | [Implement extra WebLN methods for LNC connector (e.g. makeInvoice)](https://github.com/getAlby/bitcoin-connect/issues/151) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-20 |

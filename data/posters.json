@@ -4196,7 +4196,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-30",
+      "repo_last_push": "2026-11-03",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -4235,7 +4235,7 @@
       "bar_pass_reasons": [
         "negotiated lane, maintainer engaged (D7)",
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -8298,7 +8298,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-30",
+      "repo_last_push": "2026-11-03",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -8329,7 +8329,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -8556,7 +8556,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-30",
+      "repo_last_push": "2026-11-03",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -8595,7 +8595,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -8629,7 +8629,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-30",
+      "repo_last_push": "2026-11-03",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -8660,7 +8660,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -9808,7 +9808,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-30",
+      "repo_last_push": "2026-11-03",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -9839,7 +9839,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -9874,7 +9874,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-10-30",
+      "repo_last_push": "2026-11-03",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
@@ -9905,13 +9905,103 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "negotiated lane with no maintainer engagement (D7)",
         "last reply 1296d ago (> 60d)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-7dba5fb919229c18",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#3429",
+      "title": "[wildcard] Zero-copy loan slices across the assembly trampoline via static GC-pin certificates",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/3429",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-03",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 3499,
+          "user": "pedromineo",
+          "title": "fix: [wildcard] Zero-copy loan slices across the assembly trampoline via static ",
+          "state": "open",
+          "age_days": 0
+        },
+        {
+          "number": 3523,
+          "user": "honru09",
+          "title": "runtime: cross string arguments zero-copy in json/regex bindings (spike 7)",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-10-27T19:13:59Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #2066",
+          "issue #2064"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-03",
+      "last_checked": "2026-11-03",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 2 open PRs (> 1)"
       ]
     },
     {
@@ -10759,96 +10849,6 @@
         "trap verdict SUSPICIOUS (wall requires CLEAN)",
         "last reply 167d ago (> 60d)",
         "contested by 14 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-7dba5fb919229c18",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#3429",
-      "title": "[wildcard] Zero-copy loan slices across the assembly trampoline via static GC-pin certificates",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/3429",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-03",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 3499,
-          "user": "pedromineo",
-          "title": "fix: [wildcard] Zero-copy loan slices across the assembly trampoline via static ",
-          "state": "open",
-          "age_days": 0
-        },
-        {
-          "number": 3523,
-          "user": "honru09",
-          "title": "runtime: cross string arguments zero-copy in json/regex bindings (spike 7)",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 0,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 0,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "2,069 PRs / 20 stars / 3 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "2,069 PR numbers issued against 20 stars (103.5:1). Real projects attract readers roughly in proportion to contributors."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-10-27T19:13:59Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #2066",
-          "issue #2064"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-03",
-      "last_checked": "2026-11-03",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
       ]
     },
     {
@@ -16102,7 +16102,7 @@
       "repo": "revertinc/revert",
       "repo_archived": false,
       "repo_last_push": "2025-04-07",
-      "contested_prs": 9,
+      "contested_prs": 10,
       "contest_detail": [
         {
           "number": 653,
@@ -16166,12 +16166,19 @@
           "title": "feat(ats): add Workday ATS integration",
           "state": "open",
           "age_days": 1
+        },
+        {
+          "number": 684,
+          "user": "garter-black",
+          "title": "feat(integrations): add Workday REST API v1 client and worker/job mappers (#372)",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 2,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 7,
+      "maintainer_last_reply_age_days": 0,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -16199,7 +16206,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "repo last push 575d ago (> 90d)",
-        "contested by 9 open PRs (> 1)"
+        "contested by 10 open PRs (> 1)"
       ]
     },
     {
@@ -16228,7 +16235,7 @@
       "repo": "TheSolaAI/sola-application",
       "repo_archived": false,
       "repo_last_push": "2025-12-11",
-      "contested_prs": 10,
+      "contested_prs": 11,
       "contest_detail": [
         {
           "number": 482,
@@ -16299,12 +16306,19 @@
           "title": "feat: implement custom handsfree BlinkMessageItem and extend getBlinks AI tool (",
           "state": "open",
           "age_days": 9
+        },
+        {
+          "number": 499,
+          "user": "garter-black",
+          "title": "feat(blinks): add hands-free voice command parser and confirmation gate for Sola",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 5,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 9,
+      "maintainer_last_reply_age_days": 0,
       "trap": {
         "verdict": "CLEAN",
         "score": 0,
@@ -16333,7 +16347,7 @@
         "no sats purse (negotiable/unknown)",
         "5 prior attempts died unmerged (battle scars, D7)",
         "repo last push 327d ago (> 90d)",
-        "contested by 10 open PRs (> 1)"
+        "contested by 11 open PRs (> 1)"
       ]
     },
     {
