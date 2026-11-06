@@ -5876,7 +5876,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-11-03",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -5915,7 +5915,7 @@
       "bar_pass_reasons": [
         "negotiated lane, maintainer engaged (D7)",
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -7382,7 +7382,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-05",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -7429,7 +7429,7 @@
         "purse 10200 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -7509,7 +7509,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-05",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -7556,7 +7556,7 @@
         "purse 2000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -8050,7 +8050,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-05",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -8089,7 +8089,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -8123,7 +8123,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-05",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -8170,7 +8170,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -9474,7 +9474,7 @@
       "language": "python",
       "repo": "lnbits/lnbits",
       "repo_archived": false,
-      "repo_last_push": "2026-11-04",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 2,
@@ -9507,7 +9507,7 @@
         "purse 20000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 2d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -10118,7 +10118,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-11-03",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
@@ -10149,7 +10149,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -10183,7 +10183,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-11-03",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -10214,7 +10214,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -10376,7 +10376,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-11-03",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -10415,7 +10415,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -10577,7 +10577,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-11-03",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -10608,7 +10608,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -10706,7 +10706,7 @@
       "language": "typescript",
       "repo": "getAlby/lightning-browser-extension",
       "repo_archived": false,
-      "repo_last_push": "2026-11-03",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -10737,7 +10737,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -11664,6 +11664,183 @@
       ]
     },
     {
+      "id": "bounty_sweep-ba311ccebe490ba5",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "flydelabs/flyde#112",
+      "title": "Broken imports after moving files",
+      "url": "https://github.com/flydelabs/flyde/issues/112",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "flydelabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "flydelabs/flyde",
+      "repo_archived": false,
+      "repo_last_push": "2025-07-27",
+      "contested_prs": 16,
+      "contest_detail": [
+        {
+          "number": 256,
+          "user": "maoshuorz",
+          "title": "fix: update import paths when .flyde files are moved or renamed",
+          "state": "open",
+          "age_days": 244
+        },
+        {
+          "number": 259,
+          "user": "abisheik687",
+          "title": "Fix moved flow relative import resolution",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 260,
+          "user": "nexiumbiz-debug",
+          "title": "Keep Flyde imports working after file moves",
+          "state": "open",
+          "age_days": 181
+        },
+        {
+          "number": 261,
+          "user": "prashanthnimmagadda",
+          "title": "fix: resolve moved visual node imports",
+          "state": "open",
+          "age_days": 180
+        },
+        {
+          "number": 263,
+          "user": "ldthang0612",
+          "title": "fix(vscode): update Flyde imports after file moves",
+          "state": "open",
+          "age_days": 177
+        },
+        {
+          "number": 266,
+          "user": "dukunline-cyber",
+          "title": "fix(vscode): rewrite .flyde imports on file rename/move (#112)",
+          "state": "open",
+          "age_days": 174
+        },
+        {
+          "number": 267,
+          "user": "nam157",
+          "title": "fix(vscode): keep Flyde imports working after file moves",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 268,
+          "user": "ajjucoder",
+          "title": "Fix local Flyde imports after file moves",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 269,
+          "user": "Entr0zy",
+          "title": "Update Flyde imports after file rename",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 270,
+          "user": "SeanCordovaGit",
+          "title": "Resolve moved local node imports",
+          "state": "open",
+          "age_days": 169
+        },
+        {
+          "number": 271,
+          "user": "Catnap7",
+          "title": "Fix moved local Flyde imports",
+          "state": "open",
+          "age_days": 168
+        },
+        {
+          "number": 273,
+          "user": "jeremymu1506-prog",
+          "title": "fix(vscode): update local node paths after file moves",
+          "state": "open",
+          "age_days": 87
+        },
+        {
+          "number": 274,
+          "user": "MyTH-zyxeon",
+          "title": "fix: preserve flow references across VS Code file moves",
+          "state": "open",
+          "age_days": 60
+        },
+        {
+          "number": 275,
+          "user": "andrewscar34-ux",
+          "title": "fix(vscode): update Flyde imports when files move",
+          "state": "open",
+          "age_days": 60
+        },
+        {
+          "number": 276,
+          "user": "JoaquinBatser",
+          "title": "Update local flow imports before VS Code file and folder moves",
+          "state": "open",
+          "age_days": 60
+        },
+        {
+          "number": 277,
+          "user": "BreakYukino",
+          "title": "Preserve local flow imports when files or folders move in VS Code",
+          "state": "open",
+          "age_days": 59
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 24,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "flydelabs/flyde",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:35Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "CLAUDE.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 467d ago (> 90d)",
+        "contested by 16 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-23d7a0e815135e0b",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -11689,7 +11866,7 @@
       "repo": "lablab-ai/community-content",
       "repo_archived": false,
       "repo_last_push": "2026-10-12",
-      "contested_prs": 17,
+      "contested_prs": 16,
       "contest_detail": [
         {
           "number": 1001,
@@ -11797,13 +11974,6 @@
           "age_days": 2
         },
         {
-          "number": 1108,
-          "user": "Luminaiai",
-          "title": "Add Vectara Chat tutorial: RAG chatbot with multi-turn sessions and factual cons",
-          "state": "open",
-          "age_days": 1
-        },
-        {
           "number": 1109,
           "user": "mau16ro",
           "title": "fix: solution for #462 (Crafting a Comprehensive Tutorial for Vectara Chat)",
@@ -11842,7 +12012,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "2 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "contested by 17 open PRs (> 1)"
+        "contested by 16 open PRs (> 1)"
       ]
     },
     {
@@ -12889,7 +13059,7 @@
       "repo": "javelin-anticheat/py-workedtask",
       "repo_archived": false,
       "repo_last_push": "2025-08-18",
-      "contested_prs": 12,
+      "contested_prs": 13,
       "contest_detail": [
         {
           "number": 1,
@@ -12974,6 +13144,13 @@
           "title": "fix: solution for #2 ([Feature] Implement Basic Anti-Cheat Protection)",
           "state": "open",
           "age_days": 1
+        },
+        {
+          "number": 86,
+          "user": "cocvn157",
+          "title": "feat: implement basic anti-cheat debugger and process protection",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 4,
@@ -13007,7 +13184,7 @@
         "no sats purse (negotiable/unknown)",
         "4 prior attempts died unmerged (battle scars, D7)",
         "repo last push 445d ago (> 90d)",
-        "contested by 12 open PRs (> 1)"
+        "contested by 13 open PRs (> 1)"
       ]
     },
     {
@@ -13751,7 +13928,7 @@
       "repo": "PG-AGI/toingg-jarvis",
       "repo_archived": false,
       "repo_last_push": "2026-07-02",
-      "contested_prs": 14,
+      "contested_prs": 15,
       "contest_detail": [
         {
           "number": 60,
@@ -13850,6 +14027,13 @@
           "title": "feat(packaging): add cross-platform PyInstaller builder, native manifests, and t",
           "state": "open",
           "age_days": 8
+        },
+        {
+          "number": 106,
+          "user": "cocvn157",
+          "title": "feat: add cross-platform packaging and native installer build system",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 16,
@@ -13884,7 +14068,7 @@
         "no sats purse (negotiable/unknown)",
         "16 prior attempts died unmerged (battle scars, D7)",
         "repo last push 127d ago (> 90d)",
-        "contested by 14 open PRs (> 1)"
+        "contested by 15 open PRs (> 1)"
       ]
     },
     {
@@ -14370,7 +14554,7 @@
       "language": "typescript",
       "repo": "tscircuit/pcb-viewer",
       "repo_archived": false,
-      "repo_last_push": "2026-11-05",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 13,
       "contest_detail": [
         {
@@ -14498,7 +14682,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -16174,7 +16358,7 @@
       "language": "typescript",
       "repo": "BAWES-Universe/workadventure-universe",
       "repo_archived": false,
-      "repo_last_push": "2026-11-05",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 9,
       "contest_detail": [
         {
@@ -16281,7 +16465,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -16291,183 +16475,6 @@
         "6 prior attempts died unmerged (battle scars, D7)",
         "trap verdict CAUTION (wall requires CLEAN)",
         "contested by 9 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-ba311ccebe490ba5",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "flydelabs/flyde#112",
-      "title": "Broken imports after moving files",
-      "url": "https://github.com/flydelabs/flyde/issues/112",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "flydelabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "flydelabs/flyde",
-      "repo_archived": false,
-      "repo_last_push": "2025-07-27",
-      "contested_prs": 16,
-      "contest_detail": [
-        {
-          "number": 256,
-          "user": "maoshuorz",
-          "title": "fix: update import paths when .flyde files are moved or renamed",
-          "state": "open",
-          "age_days": 244
-        },
-        {
-          "number": 259,
-          "user": "abisheik687",
-          "title": "Fix moved flow relative import resolution",
-          "state": "open",
-          "age_days": 184
-        },
-        {
-          "number": 260,
-          "user": "nexiumbiz-debug",
-          "title": "Keep Flyde imports working after file moves",
-          "state": "open",
-          "age_days": 181
-        },
-        {
-          "number": 261,
-          "user": "prashanthnimmagadda",
-          "title": "fix: resolve moved visual node imports",
-          "state": "open",
-          "age_days": 180
-        },
-        {
-          "number": 263,
-          "user": "ldthang0612",
-          "title": "fix(vscode): update Flyde imports after file moves",
-          "state": "open",
-          "age_days": 177
-        },
-        {
-          "number": 266,
-          "user": "dukunline-cyber",
-          "title": "fix(vscode): rewrite .flyde imports on file rename/move (#112)",
-          "state": "open",
-          "age_days": 174
-        },
-        {
-          "number": 267,
-          "user": "nam157",
-          "title": "fix(vscode): keep Flyde imports working after file moves",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 268,
-          "user": "ajjucoder",
-          "title": "Fix local Flyde imports after file moves",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 269,
-          "user": "Entr0zy",
-          "title": "Update Flyde imports after file rename",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 270,
-          "user": "SeanCordovaGit",
-          "title": "Resolve moved local node imports",
-          "state": "open",
-          "age_days": 169
-        },
-        {
-          "number": 271,
-          "user": "Catnap7",
-          "title": "Fix moved local Flyde imports",
-          "state": "open",
-          "age_days": 168
-        },
-        {
-          "number": 273,
-          "user": "jeremymu1506-prog",
-          "title": "fix(vscode): update local node paths after file moves",
-          "state": "open",
-          "age_days": 87
-        },
-        {
-          "number": 274,
-          "user": "MyTH-zyxeon",
-          "title": "fix: preserve flow references across VS Code file moves",
-          "state": "open",
-          "age_days": 60
-        },
-        {
-          "number": 275,
-          "user": "andrewscar34-ux",
-          "title": "fix(vscode): update Flyde imports when files move",
-          "state": "open",
-          "age_days": 60
-        },
-        {
-          "number": 276,
-          "user": "JoaquinBatser",
-          "title": "Update local flow imports before VS Code file and folder moves",
-          "state": "open",
-          "age_days": 60
-        },
-        {
-          "number": 277,
-          "user": "BreakYukino",
-          "title": "Preserve local flow imports when files or folders move in VS Code",
-          "state": "open",
-          "age_days": 59
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 24,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "flydelabs/flyde",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:35Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "CLAUDE.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 467d ago (> 90d)",
-        "contested by 16 open PRs (> 1)"
       ]
     },
     {
@@ -17260,12 +17267,12 @@
         "score": 15,
         "rules": [
           {
+            "evidence": "0 of the last 27 closed pull requests were merged (all closed unmerged)",
             "rule": "NOTHING_EVER_MERGES",
             "severity": 15,
+            "source": "repo metadata",
             "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out.",
-            "evidence": "0 of the last 27 closed pull requests were merged (all closed unmerged)",
-            "source": "repo metadata"
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
           }
         ],
         "target": "Bu1ldTh3Futur3/bounty-hunter-test",

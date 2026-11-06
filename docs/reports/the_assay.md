@@ -71,6 +71,7 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| flydelabs | 1 | 0 | 0 | 0 | 0 |
 | lablab-ai | 1 | 0 | 0 | 0 | 0 |
 | getdozer | 3 | 0 | 0 | 1 | 1 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
@@ -91,7 +92,6 @@
 | tine1117 | 1 | 0 | 0 | 0 | 0 |
 | SecureBananaLabs | 4 | 0 | 0 | 0 | 0 |
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
-| flydelabs | 1 | 0 | 0 | 0 | 0 |
 | go-gitea | 1 | 0 | 0 | 0 | 0 |
 | Bu1ldTh3Futur3 | 1 | 0 | 0 | 0 | 0 |
 | mohan-bee | 1 | 0 | 0 | 0 | 0 |
