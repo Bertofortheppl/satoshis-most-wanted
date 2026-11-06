@@ -4774,6 +4774,300 @@
       "bar_fail_reasons": []
     },
     {
+      "id": "bounty_sweep-0cc709d670e715b7",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "UnsafeLabs/Bounty-Hunters#859",
+      "title": "[ T3 Code ] Add system tray icon with context menu and status indicator",
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/859",
+      "kind": "trap",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "UnsafeLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "UnsafeLabs/Bounty-Hunters",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-06",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 7,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "TRAP",
+        "score": 100,
+        "rules": [
+          {
+            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
+            "rule": "HIDDEN_DIRECTIVE",
+            "severity": 40,
+            "source": "CONTRIBUTING.md",
+            "title": "Hidden instruction aimed at automated readers",
+            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+          },
+          {
+            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+            "rule": "PAY_ON_MERGE_NEVER",
+            "severity": 30,
+            "source": "guidance",
+            "title": "Promises payment on merge while stating PRs are never merged",
+            "why": "Payment is conditioned on an event the repository says will never happen."
+          },
+          {
+            "evidence": "8,440 PRs / 59 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "8,440 PR numbers issued against 59 stars (143.1:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "UnsafeLabs/Bounty-Hunters",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:21Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #920",
+          "issue #919",
+          "issue #918",
+          "issue #917",
+          "issue #916",
+          "issue #915",
+          "issue #914",
+          "issue #913"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "most_wanted",
+      "bar_pass_reasons": [
+        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
+      "id": "bounty_sweep-13ea62f39464fc3d",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "UnsafeLabs/Bounty-Hunters#829",
+      "title": "[ T3 Code ] Implement automatic token refresh in ACP client with Effect retry",
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/829",
+      "kind": "trap",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "UnsafeLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "UnsafeLabs/Bounty-Hunters",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-06",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 34,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "TRAP",
+        "score": 100,
+        "rules": [
+          {
+            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
+            "rule": "HIDDEN_DIRECTIVE",
+            "severity": 40,
+            "source": "CONTRIBUTING.md",
+            "title": "Hidden instruction aimed at automated readers",
+            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+          },
+          {
+            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+            "rule": "PAY_ON_MERGE_NEVER",
+            "severity": 30,
+            "source": "guidance",
+            "title": "Promises payment on merge while stating PRs are never merged",
+            "why": "Payment is conditioned on an event the repository says will never happen."
+          },
+          {
+            "evidence": "8,440 PRs / 59 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "8,440 PR numbers issued against 59 stars (143.1:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "UnsafeLabs/Bounty-Hunters",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:21Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #920",
+          "issue #919",
+          "issue #918",
+          "issue #917",
+          "issue #916",
+          "issue #915",
+          "issue #914",
+          "issue #913"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "most_wanted",
+      "bar_pass_reasons": [
+        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
+      "id": "bounty_sweep-a0045d5c122350cf",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "UnsafeLabs/Bounty-Hunters#330",
+      "title": "[ Dev ] Write unit tests for every source file in the repository",
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/330",
+      "kind": "trap",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "UnsafeLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "UnsafeLabs/Bounty-Hunters",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-06",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 1,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "TRAP",
+        "score": 100,
+        "rules": [
+          {
+            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
+            "rule": "HIDDEN_DIRECTIVE",
+            "severity": 40,
+            "source": "CONTRIBUTING.md",
+            "title": "Hidden instruction aimed at automated readers",
+            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+          },
+          {
+            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+            "rule": "PAY_ON_MERGE_NEVER",
+            "severity": 30,
+            "source": "guidance",
+            "title": "Promises payment on merge while stating PRs are never merged",
+            "why": "Payment is conditioned on an event the repository says will never happen."
+          },
+          {
+            "evidence": "8,440 PRs / 59 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "8,440 PR numbers issued against 59 stars (143.1:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "UnsafeLabs/Bounty-Hunters",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:21Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #920",
+          "issue #919",
+          "issue #918",
+          "issue #917",
+          "issue #916",
+          "issue #915",
+          "issue #914",
+          "issue #913"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "most_wanted",
+      "bar_pass_reasons": [
+        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
       "id": "bounty_sweep-c7823950a291c98d",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -5166,104 +5460,6 @@
       "bar_fail_reasons": []
     },
     {
-      "id": "bounty_sweep-13ea62f39464fc3d",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "UnsafeLabs/Bounty-Hunters#829",
-      "title": "[ T3 Code ] Implement automatic token refresh in ACP client with Effect retry",
-      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/829",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "UnsafeLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "UnsafeLabs/Bounty-Hunters",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-06",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 34,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 9,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 100,
-        "rules": [
-          {
-            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "8,440 PRs / 59 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "8,440 PR numbers issued against 59 stars (143.1:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "UnsafeLabs/Bounty-Hunters",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:21Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #920",
-          "issue #919",
-          "issue #918",
-          "issue #917",
-          "issue #916",
-          "issue #915",
-          "issue #914",
-          "issue #913"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
       "id": "bounty_sweep-6feeb19114eb3c31",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -5393,398 +5589,6 @@
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 12,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 100,
-        "rules": [
-          {
-            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "8,440 PRs / 59 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "8,440 PR numbers issued against 59 stars (143.1:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "UnsafeLabs/Bounty-Hunters",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:21Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #920",
-          "issue #919",
-          "issue #918",
-          "issue #917",
-          "issue #916",
-          "issue #915",
-          "issue #914",
-          "issue #913"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
-      "id": "bounty_sweep-08e285d0c4cd238f",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "UnsafeLabs/Bounty-Hunters#856",
-      "title": "[ T3 Code ] Add sliding window metrics aggregation with Effect.Stream",
-      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/856",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "UnsafeLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "UnsafeLabs/Bounty-Hunters",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-06",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 22,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 116,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 100,
-        "rules": [
-          {
-            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "8,440 PRs / 59 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "8,440 PR numbers issued against 59 stars (143.1:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "UnsafeLabs/Bounty-Hunters",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:21Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #920",
-          "issue #919",
-          "issue #918",
-          "issue #917",
-          "issue #916",
-          "issue #915",
-          "issue #914",
-          "issue #913"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
-      "id": "bounty_sweep-db8ddf1e01a109fb",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "UnsafeLabs/Bounty-Hunters#857",
-      "title": "[ T3 Code ] Add drag-and-drop file moving to sidebar file tree with dnd-kit",
-      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/857",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "UnsafeLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "UnsafeLabs/Bounty-Hunters",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-06",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 9,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 171,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 100,
-        "rules": [
-          {
-            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "8,440 PRs / 59 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "8,440 PR numbers issued against 59 stars (143.1:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "UnsafeLabs/Bounty-Hunters",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:21Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #920",
-          "issue #919",
-          "issue #918",
-          "issue #917",
-          "issue #916",
-          "issue #915",
-          "issue #914",
-          "issue #913"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
-      "id": "bounty_sweep-0cc709d670e715b7",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "UnsafeLabs/Bounty-Hunters#859",
-      "title": "[ T3 Code ] Add system tray icon with context menu and status indicator",
-      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/859",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "UnsafeLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "UnsafeLabs/Bounty-Hunters",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-06",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 7,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 152,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 100,
-        "rules": [
-          {
-            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "8,440 PRs / 59 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "8,440 PR numbers issued against 59 stars (143.1:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "UnsafeLabs/Bounty-Hunters",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:21Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #920",
-          "issue #919",
-          "issue #918",
-          "issue #917",
-          "issue #916",
-          "issue #915",
-          "issue #914",
-          "issue #913"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
-      "id": "bounty_sweep-747b42a5f495bbad",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "UnsafeLabs/Bounty-Hunters#860",
-      "title": "[ T3 Code ] Implement global search across chat, files, and git history",
-      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/860",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "UnsafeLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "UnsafeLabs/Bounty-Hunters",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-06",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 10,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 130,
       "trap": {
         "verdict": "TRAP",
         "score": 100,
@@ -10449,7 +10253,7 @@
       "language": "go",
       "repo": "getAlby/hub",
       "repo_archived": false,
-      "repo_last_push": "2026-11-05",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -10480,7 +10284,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -10906,7 +10710,7 @@
       "language": "go",
       "repo": "getAlby/hub",
       "repo_archived": false,
-      "repo_last_push": "2026-11-05",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
@@ -10937,7 +10741,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -11664,6 +11468,391 @@
       ]
     },
     {
+      "id": "bounty_sweep-96b6e127c6a6387c",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#279",
+      "title": "BOUNTY: add support for Google Palm2 API in javascript/typescript",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/279",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-26",
+      "contested_prs": 6,
+      "contest_detail": [
+        {
+          "number": 432,
+          "user": "Myopes",
+          "title": "feat: add Palm2/Gemini API support (#279)",
+          "state": "open",
+          "age_days": 245
+        },
+        {
+          "number": 435,
+          "user": "maoshuorz",
+          "title": "feat: complete Gemini API support with types, tests, and jsonnet example",
+          "state": "open",
+          "age_days": 244
+        },
+        {
+          "number": 451,
+          "user": "Samir-atra",
+          "title": "feat: add Google PaLM 2 (Bison) API support #279",
+          "state": "open",
+          "age_days": 206
+        },
+        {
+          "number": 460,
+          "user": "l8888888",
+          "title": "Add Palm2-compatible Google AI provider",
+          "state": "open",
+          "age_days": 199
+        },
+        {
+          "number": 466,
+          "user": "alceops",
+          "title": "Add Google PaLM2 API support",
+          "state": "open",
+          "age_days": 195
+        },
+        {
+          "number": 475,
+          "user": "apollo-jpg",
+          "title": "feat(js): add Google PaLM2 API client",
+          "state": "open",
+          "age_days": 179
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 35,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:41Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 11d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "contested by 6 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-dea3e21ea4b472bc",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#290",
+      "title": "BOUNTY: integrate AWS Comprehend as a utility to redact data",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/290",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-26",
+      "contested_prs": 9,
+      "contest_detail": [
+        {
+          "number": 434,
+          "user": "maoshuorz",
+          "title": "feat: AWS Comprehend PII redaction utility for JS SDK",
+          "state": "open",
+          "age_days": 244
+        },
+        {
+          "number": 444,
+          "user": "juandirahelia-a11y",
+          "title": "feat: implement AWS Comprehend PII redaction utility #290",
+          "state": "open",
+          "age_days": 218
+        },
+        {
+          "number": 448,
+          "user": "alihani714",
+          "title": "feat: add AWS Comprehend PII redaction utility",
+          "state": "open",
+          "age_days": 210
+        },
+        {
+          "number": 454,
+          "user": "tarai-dl",
+          "title": "feat: integrate AWS Comprehend as a PII redaction utility (#290)",
+          "state": "open",
+          "age_days": 203
+        },
+        {
+          "number": 457,
+          "user": "atecnoco-arch",
+          "title": "feat(pii-redactor): Integrate AWS Comprehend RxJS Middleware + Repo Audit",
+          "state": "open",
+          "age_days": 200
+        },
+        {
+          "number": 459,
+          "user": "l8888888",
+          "title": "feat: AWS Comprehend PII redaction integration (#290)",
+          "state": "open",
+          "age_days": 199
+        },
+        {
+          "number": 461,
+          "user": "Pearltechie",
+          "title": "feat: integrate AWS Comprehend as a chainable PII redactor ",
+          "state": "open",
+          "age_days": 197
+        },
+        {
+          "number": 465,
+          "user": "alceops",
+          "title": "Add AWS Comprehend PII redaction utility",
+          "state": "open",
+          "age_days": 195
+        },
+        {
+          "number": 474,
+          "user": "apollo-jpg",
+          "title": "feat(js): add AWS Comprehend prompt redactor",
+          "state": "open",
+          "age_days": 179
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 161,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:41Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 11d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "last reply 161d ago (> 60d)",
+        "contested by 9 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-844f920de2cbbcc2",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "highlight/highlight#8032",
+      "title": "document sveltekit backend instrumentation",
+      "url": "https://github.com/highlight/highlight/issues/8032",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "highlight",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "highlight/highlight",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-23",
+      "contested_prs": 10,
+      "contest_detail": [
+        {
+          "number": 10308,
+          "user": "Abhi-tupe",
+          "title": "docs: add SvelteKit backend instrumentation guide",
+          "state": "open",
+          "age_days": 269
+        },
+        {
+          "number": 10311,
+          "user": "V1ki",
+          "title": "docs(sveltekit): document backend instrumentation with H.runWithHeaders",
+          "state": "open",
+          "age_days": 256
+        },
+        {
+          "number": 10336,
+          "user": "Drgonzoh",
+          "title": "feat: document SvelteKit backend instrumentation",
+          "state": "open",
+          "age_days": 240
+        },
+        {
+          "number": 10386,
+          "user": "kmxunan",
+          "title": "docs: add SvelteKit backend instrumentation quickstart",
+          "state": "open",
+          "age_days": 204
+        },
+        {
+          "number": 10387,
+          "user": "tarai-dl",
+          "title": "docs: add SvelteKit backend instrumentation walkthrough",
+          "state": "open",
+          "age_days": 204
+        },
+        {
+          "number": 10412,
+          "user": "rafael81",
+          "title": "Add SvelteKit server instrumentation docs",
+          "state": "open",
+          "age_days": 178
+        },
+        {
+          "number": 10416,
+          "user": "JYZ-LESLIE",
+          "title": "docs(sveltekit): add backend instrumentation in hooks.server.ts",
+          "state": "open",
+          "age_days": 178
+        },
+        {
+          "number": 10427,
+          "user": "Auro-rium",
+          "title": "docs(sveltekit): add backend instrumentation guide",
+          "state": "open",
+          "age_days": 177
+        },
+        {
+          "number": 10428,
+          "user": "digzrow-coder",
+          "title": "docs: add SvelteKit backend instrumentation",
+          "state": "open",
+          "age_days": 177
+        },
+        {
+          "number": 10434,
+          "user": "chenchong0215",
+          "title": "docs: add SvelteKit server-side quickstart for backend instrumentation",
+          "state": "open",
+          "age_days": 175
+        }
+      ],
+      "dead_attempts": 5,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 132,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "highlight/highlight",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:44Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "CLAUDE.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 14d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "5 prior attempts died unmerged (battle scars, D7)",
+        "last reply 132d ago (> 60d)",
+        "contested by 10 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-ba311ccebe490ba5",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -11841,6 +12030,1542 @@
       ]
     },
     {
+      "id": "bounty_sweep-0bfc2ac48cc4ff38",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "SecureBananaLabs/bug-bounty#2776",
+      "title": "POST /api/reviews endpoint missing authentication middleware (reissue via #743)",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/2776",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "SecureBananaLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-06",
+      "contested_prs": 20,
+      "contest_detail": [
+        {
+          "number": 2778,
+          "user": "MikeGarciaAGM",
+          "title": "fix(api): require auth on POST /api/reviews",
+          "state": "open",
+          "age_days": 159
+        },
+        {
+          "number": 2968,
+          "user": "xjrljl",
+          "title": "fix: require authentication on payment, review, proposal, and user creation endp",
+          "state": "open",
+          "age_days": 159
+        },
+        {
+          "number": 11818,
+          "user": "maxim65651",
+          "title": "fix: add auth middleware to POST /api/reviews (#2776)",
+          "state": "open",
+          "age_days": 80
+        },
+        {
+          "number": 12217,
+          "user": "fwh888",
+          "title": "fix(api): require auth on POST /api/reviews (fixes #2776)",
+          "state": "open",
+          "age_days": 69
+        },
+        {
+          "number": 12234,
+          "user": "rafaio1",
+          "title": "fix: add authMiddleware to POST /api/reviews endpoint",
+          "state": "open",
+          "age_days": 69
+        },
+        {
+          "number": 12357,
+          "user": "armorbreak001",
+          "title": "fix(security): add missing auth middleware to 4 endpoints (#2776 #1771 #1772 #17",
+          "state": "open",
+          "age_days": 62
+        },
+        {
+          "number": 12358,
+          "user": "armorbreak001",
+          "title": "fix(security): add missing auth middleware to 4 endpoints (#2773)",
+          "state": "open",
+          "age_days": 62
+        },
+        {
+          "number": 12364,
+          "user": "armorbreak001",
+          "title": "fix(validation): add input validation to uploads, payments, reviews (#1771 #1772",
+          "state": "open",
+          "age_days": 62
+        },
+        {
+          "number": 12381,
+          "user": "slsgzs-cloud",
+          "title": "fix: require authentication for POST /api/reviews (#2776)",
+          "state": "open",
+          "age_days": 59
+        },
+        {
+          "number": 12393,
+          "user": "TaherEzzi",
+          "title": "fix: resolve #2776 - POST /api/reviews endpoint missing authentication middlewar",
+          "state": "open",
+          "age_days": 58
+        },
+        {
+          "number": 12481,
+          "user": "jeremyclakson",
+          "title": "fix: add auth middleware to POST /api/reviews (Ref #743)",
+          "state": "open",
+          "age_days": 51
+        },
+        {
+          "number": 12693,
+          "user": "1234adi1234",
+          "title": "fix: POST /api/reviews endpoint missing authentication middleware",
+          "state": "open",
+          "age_days": 43
+        },
+        {
+          "number": 12732,
+          "user": "maciejfolgmann",
+          "title": "fix(api): require auth middleware for POST /api/reviews",
+          "state": "open",
+          "age_days": 38
+        },
+        {
+          "number": 12823,
+          "user": "HawkEyesz",
+          "title": "fix(api): require authMiddleware for POST /api/reviews endpoint",
+          "state": "open",
+          "age_days": 35
+        },
+        {
+          "number": 13337,
+          "user": "hatmmar280-png",
+          "title": "fix(api): require bearer auth to create reviews (resolves #2776)",
+          "state": "open",
+          "age_days": 21
+        },
+        {
+          "number": 13424,
+          "user": "whyst0ne",
+          "title": "fix(reviews): require authentication on review creation (fixes #13423)",
+          "state": "open",
+          "age_days": 16
+        },
+        {
+          "number": 13855,
+          "user": "shudongfengqi",
+          "title": "fix(api): require authMiddleware on POST /api/reviews (#2776)",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 13857,
+          "user": "Hemil369",
+          "title": "fix(api): require authentication for POST /api/reviews",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 13867,
+          "user": "Demobilizer",
+          "title": "Fix: Resolves #2776",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 13914,
+          "user": "Dungsky",
+          "title": "fix: resolve #2776 - POST /api/reviews endpoint missing authentication middlewar",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 5,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "13,913 PRs / 346 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "13,913 PR numbers issued against 346 stars (40.2:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "SecureBananaLabs/bug-bounty",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:23Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "5 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)",
+        "contested by 20 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-8c3a21e18b31eb19",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "getdozer/dozer#1690",
+      "title": "Sample: Dozer + LLM + Vector database + Langchain sample",
+      "url": "https://github.com/getdozer/dozer/issues/1690",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getdozer",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "getdozer/dozer",
+      "repo_archived": false,
+      "repo_last_push": "2024-06-18",
+      "contested_prs": 4,
+      "contest_detail": [
+        {
+          "number": 2492,
+          "user": "shaowei6",
+          "title": "Add LangChain vector sample",
+          "state": "open",
+          "age_days": 173
+        },
+        {
+          "number": 2508,
+          "user": "wanieldd",
+          "title": "docs: address issue #1690 (fixes #1690)",
+          "state": "open",
+          "age_days": 72
+        },
+        {
+          "number": 2511,
+          "user": "plurzs01",
+          "title": "add langchain vector sample",
+          "state": "open",
+          "age_days": 60
+        },
+        {
+          "number": 2516,
+          "user": "iprasen",
+          "title": "feat: add Dozer + LangChain + Vector RAG banking advisor sample (fixes #1690)",
+          "state": "open",
+          "age_days": 56
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 18,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getdozer/dozer",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:32Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 871d ago (> 90d)",
+        "contested by 4 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-f0c3bf26d6567e95",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "caley-io/marketing#1",
+      "title": "Multitenancy and Teams/Workspaces support",
+      "url": "https://github.com/caley-io/marketing/issues/1",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "caley-io",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "caley-io/marketing",
+      "repo_archived": false,
+      "repo_last_push": "2024-02-08",
+      "contested_prs": 7,
+      "contest_detail": [
+        {
+          "number": 29,
+          "user": "VexCode24",
+          "title": "Persist workspace creation and list workspaces",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 30,
+          "user": "oathis",
+          "title": "Add workspace-scoped mail and team management",
+          "state": "open",
+          "age_days": 159
+        },
+        {
+          "number": 43,
+          "user": "mini0n-ai",
+          "title": "fix: resolve multitenancy and teams/workspaces support (#1)",
+          "state": "open",
+          "age_days": 53
+        },
+        {
+          "number": 50,
+          "user": "taqiraza",
+          "title": "fix: resolve #1 - Multitenancy and Teams/Workspaces support",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 51,
+          "user": "huangji6693-max",
+          "title": "feat(workspaces): add multitenancy workspaces, team RBAC invitations, and worksp",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 55,
+          "user": "mau16ro",
+          "title": "fix: solution for #1 (Multitenancy and Teams/Workspaces support)",
+          "state": "open",
+          "age_days": 1
+        },
+        {
+          "number": 56,
+          "user": "cocvn157",
+          "title": "feat: add multitenancy workspaces, team role management, and multi-account suppo",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 4,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "caley-io/marketing",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:52Z",
+        "checked_files": [
+          "README.md",
+          "issue #14"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "4 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 1002d ago (> 90d)",
+        "contested by 7 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a625173ae4b97fa5",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "getdozer/dozer#1653",
+      "title": "WASM UDF support",
+      "url": "https://github.com/getdozer/dozer/issues/1653",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getdozer",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "getdozer/dozer",
+      "repo_archived": false,
+      "repo_last_push": "2024-06-18",
+      "contested_prs": 13,
+      "contest_detail": [
+        {
+          "number": 1654,
+          "user": "tachyonicbytes",
+          "title": "Add incipient wasm_udf support",
+          "state": "open",
+          "age_days": 1236
+        },
+        {
+          "number": 2491,
+          "user": "mySebbe",
+          "title": "Add WASM UDF expression support",
+          "state": "open",
+          "age_days": 174
+        },
+        {
+          "number": 2499,
+          "user": "jamilahmadzai",
+          "title": "Add WASM UDF support",
+          "state": "open",
+          "age_days": 167
+        },
+        {
+          "number": 2500,
+          "user": "sevencat2004",
+          "title": "Add WASM UDF support",
+          "state": "open",
+          "age_days": 157
+        },
+        {
+          "number": 2506,
+          "user": "silasbrookshaha",
+          "title": "Add WASM UDF support",
+          "state": "open",
+          "age_days": 109
+        },
+        {
+          "number": 2513,
+          "user": "ksushant6566",
+          "title": "feat(sql): add configurable WebAssembly scalar UDFs",
+          "state": "open",
+          "age_days": 58
+        },
+        {
+          "number": 2524,
+          "user": "QIU-Guanzong",
+          "title": "feat: run numeric WASM UDFs in SQL pipelines",
+          "state": "open",
+          "age_days": 41
+        },
+        {
+          "number": 2532,
+          "user": "open5588",
+          "title": "feat(sql): add WebAssembly (WASM) scalar UDF support",
+          "state": "open",
+          "age_days": 22
+        },
+        {
+          "number": 2542,
+          "user": "Xgoyeezy",
+          "title": "feat(sql): load local WASM UDFs at startup",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 2544,
+          "user": "nghoang1288",
+          "title": "fix: enable SQL UDFs implemented in WebAssembly (Fixes #1653)",
+          "state": "open",
+          "age_days": 5
+        },
+        {
+          "number": 2547,
+          "user": "zaidrain06",
+          "title": "feat(sql): add WebAssembly (WASM) UDF support",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 2548,
+          "user": "Aming9303",
+          "title": "feat: sandboxed numeric WASM SQL UDFs",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 2550,
+          "user": "mau16ro",
+          "title": "fix: solution for #1653 (WASM UDF support)",
+          "state": "open",
+          "age_days": 1
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getdozer/dozer",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:32Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "repo last push 871d ago (> 90d)",
+        "contested by 13 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-5a4ee1ea9ced8fd3",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "getdozer/dozer#1659",
+      "title": "Support for `IN` clause in streaming SQL",
+      "url": "https://github.com/getdozer/dozer/issues/1659",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getdozer",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "getdozer/dozer",
+      "repo_archived": false,
+      "repo_last_push": "2024-06-18",
+      "contested_prs": 4,
+      "contest_detail": [
+        {
+          "number": 2489,
+          "user": "Treasure520520",
+          "title": "feat(sql): lower IN subqueries into joins",
+          "state": "open",
+          "age_days": 178
+        },
+        {
+          "number": 2490,
+          "user": "Iineman2",
+          "title": "feat(sql): lower IN subqueries into joins",
+          "state": "open",
+          "age_days": 178
+        },
+        {
+          "number": 2494,
+          "user": "junn-dev",
+          "title": "fix: propagate NULL through IN list evaluation",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 2495,
+          "user": "NightVibes33",
+          "title": "feat(sql): support IN clauses in streaming SQL",
+          "state": "open",
+          "age_days": 170
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 1,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getdozer/dozer",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:32Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
+        "repo last push 871d ago (> 90d)",
+        "contested by 4 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-560400be06557283",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "tryabby/abby#68",
+      "title": "Vue Integration",
+      "url": "https://github.com/tryabby/abby/issues/68",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "tryabby",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "tryabby/abby",
+      "repo_archived": false,
+      "repo_last_push": "2025-07-24",
+      "contested_prs": 7,
+      "contest_detail": [
+        {
+          "number": 141,
+          "user": "feliciien",
+          "title": "feat: Add Vue integration for Abby with feature parity to React",
+          "state": "open",
+          "age_days": 890
+        },
+        {
+          "number": 167,
+          "user": "asd55667",
+          "title": "feat: add vue integration",
+          "state": "open",
+          "age_days": 725
+        },
+        {
+          "number": 179,
+          "user": "godd-ctrl",
+          "title": "feat: add Vue integration package",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 181,
+          "user": "Iineman2",
+          "title": "Add Vue integration package",
+          "state": "open",
+          "age_days": 179
+        },
+        {
+          "number": 189,
+          "user": "fadhelcarlos",
+          "title": "feat: add @tryabby/vue integration (#68)",
+          "state": "open",
+          "age_days": 122
+        },
+        {
+          "number": 190,
+          "user": "mini0n-ai",
+          "title": "feat(vue): implement @tryabby/vue integration package (#68)",
+          "state": "open",
+          "age_days": 62
+        },
+        {
+          "number": 191,
+          "user": "agoratap",
+          "title": "feat(vue): add @tryabby/vue integration",
+          "state": "open",
+          "age_days": 41
+        }
+      ],
+      "dead_attempts": 6,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "tryabby/abby",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:18Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "6 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 470d ago (> 90d)",
+        "contested by 7 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-d93a7a83031e80d2",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "TheSolaAI/sola-application#157",
+      "title": "Make blinks interaction Handsfree",
+      "url": "https://github.com/TheSolaAI/sola-application/issues/157",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "TheSolaAI",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "TheSolaAI/sola-application",
+      "repo_archived": false,
+      "repo_last_push": "2025-12-11",
+      "contested_prs": 13,
+      "contest_detail": [
+        {
+          "number": 482,
+          "user": "LoikStyle",
+          "title": "feat: add handsfree Blink action flow",
+          "state": "open",
+          "age_days": 179
+        },
+        {
+          "number": 484,
+          "user": "osopromadze",
+          "title": "feat: handsfree Blink action flow with custom UI handlers",
+          "state": "open",
+          "age_days": 60
+        },
+        {
+          "number": 485,
+          "user": "Doom-pixel",
+          "title": "feat: handsfree Blink interactions (#157)",
+          "state": "open",
+          "age_days": 60
+        },
+        {
+          "number": 487,
+          "user": "mini0n-ai",
+          "title": "feat: :sparkles: make blinks interaction handsfree (#157)",
+          "state": "open",
+          "age_days": 57
+        },
+        {
+          "number": 488,
+          "user": "RAZENWQ",
+          "title": "feat: make Blink interactions handsfree (#157)",
+          "state": "open",
+          "age_days": 51
+        },
+        {
+          "number": 491,
+          "user": "sergioprica",
+          "title": "feat(blinks): make blinks interaction handsfree with custom component & extended",
+          "state": "open",
+          "age_days": 38
+        },
+        {
+          "number": 493,
+          "user": "Ollie520",
+          "title": "fix: resolve #157 - [TheSolaAI/sola-application] Make blinks interaction Handsfr",
+          "state": "open",
+          "age_days": 25
+        },
+        {
+          "number": 494,
+          "user": "LuckyTurtleLabs",
+          "title": "Make blinks interaction Handsfree (#157)",
+          "state": "open",
+          "age_days": 25
+        },
+        {
+          "number": 495,
+          "user": "taqiraza",
+          "title": "fix: resolve #157 - Make blinks interaction Handsfree",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 496,
+          "user": "khoap1220-hue",
+          "title": "feat: implement custom handsfree BlinkMessageItem and extend getBlinks AI tool (",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 499,
+          "user": "garter-black",
+          "title": "feat(blinks): add hands-free voice command parser and confirmation gate for Sola",
+          "state": "open",
+          "age_days": 3
+        },
+        {
+          "number": 500,
+          "user": "cocvn157",
+          "title": "feat: :sparkles: add handsfree Blink component and AI action tool",
+          "state": "open",
+          "age_days": 0
+        },
+        {
+          "number": 501,
+          "user": "khuxaiphi-stack",
+          "title": "feat(blinks): add hands-free Solana Blinks / Actions executor for voice agents (",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 5,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "TheSolaAI/sola-application",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:07Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "5 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 330d ago (> 90d)",
+        "contested by 13 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-c97f59b5c70d9978",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "revertinc/revert#372",
+      "title": "[REVER-48] Workday Integration",
+      "url": "https://github.com/revertinc/revert/issues/372",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "revertinc",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "revertinc/revert",
+      "repo_archived": false,
+      "repo_last_push": "2025-04-07",
+      "contested_prs": 13,
+      "contest_detail": [
+        {
+          "number": 653,
+          "user": "maoshuorz",
+          "title": "feat: add Workday ATS integration",
+          "state": "open",
+          "age_days": 244
+        },
+        {
+          "number": 661,
+          "user": "Aduersarius",
+          "title": "feat: add Workday ATS integration",
+          "state": "open",
+          "age_days": 60
+        },
+        {
+          "number": 662,
+          "user": "iprasen",
+          "title": "feat: add Workday ATS integration",
+          "state": "open",
+          "age_days": 56
+        },
+        {
+          "number": 666,
+          "user": "projectcarbonfiber",
+          "title": "feat: add Workday ATS integration",
+          "state": "open",
+          "age_days": 46
+        },
+        {
+          "number": 668,
+          "user": "Ahmed5754",
+          "title": "feat: add Workday ATS integration",
+          "state": "open",
+          "age_days": 38
+        },
+        {
+          "number": 674,
+          "user": "sonofkratos92",
+          "title": "feat(ats): add Workday connection and OAuth credential support",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 675,
+          "user": "heroking777",
+          "title": "feat: add Workday ATS integration",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 676,
+          "user": "kazuyaroz",
+          "title": "feat(ats): add Workday integration [REVER-48]",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 680,
+          "user": "zaidrain06",
+          "title": "feat(ats): add Workday ATS integration",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 684,
+          "user": "garter-black",
+          "title": "feat(integrations): add Workday REST API v1 client and worker/job mappers (#372)",
+          "state": "open",
+          "age_days": 3
+        },
+        {
+          "number": 686,
+          "user": "cocvn157",
+          "title": "feat(ats): add Workday integration (#372)",
+          "state": "open",
+          "age_days": 2
+        },
+        {
+          "number": 687,
+          "user": "mau16ro",
+          "title": "fix: solution for #372 ([REVER-48] Workday Integration)",
+          "state": "open",
+          "age_days": 1
+        },
+        {
+          "number": 690,
+          "user": "khuxaiphi-stack",
+          "title": "feat(ats): add Workday unified ATS integration (#372)",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "revertinc/revert",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:10Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "repo last push 578d ago (> 90d)",
+        "contested by 13 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-936f62e7d0b75eb8",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "revertinc/revert#551",
+      "title": "[REVER-51] Workable Integration",
+      "url": "https://github.com/revertinc/revert/issues/551",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "revertinc",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "revertinc/revert",
+      "repo_archived": false,
+      "repo_last_push": "2025-04-07",
+      "contested_prs": 19,
+      "contest_detail": [
+        {
+          "number": 655,
+          "user": "nexiumbiz-debug",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 181
+        },
+        {
+          "number": 656,
+          "user": "tybrooks123",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 169
+        },
+        {
+          "number": 657,
+          "user": "saquibreja7-hash",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 163
+        },
+        {
+          "number": 660,
+          "user": "mini0n-ai",
+          "title": "feat(ats): support workable connection and oauth credentials (#551)",
+          "state": "open",
+          "age_days": 63
+        },
+        {
+          "number": 663,
+          "user": "iprasen",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 56
+        },
+        {
+          "number": 664,
+          "user": "priyeshrk03",
+          "title": "feat(ats): Workable ATS integration \u2014 /claim #551",
+          "state": "open",
+          "age_days": 51
+        },
+        {
+          "number": 667,
+          "user": "Ahmed5754",
+          "title": "feat(ats): add Workable integration",
+          "state": "open",
+          "age_days": 38
+        },
+        {
+          "number": 669,
+          "user": "Ollie520",
+          "title": "fix: resolve #551 - [revertinc/revert] [REVER-51] Workable Integration",
+          "state": "open",
+          "age_days": 26
+        },
+        {
+          "number": 670,
+          "user": "Mxtl7",
+          "title": "feat: Workable ATS integration (auth, services, transforms, UI + SDK)",
+          "state": "open",
+          "age_days": 26
+        },
+        {
+          "number": 671,
+          "user": "LuckyTurtleLabs",
+          "title": "feat(ats): add Workable integration (#551)",
+          "state": "open",
+          "age_days": 25
+        },
+        {
+          "number": 673,
+          "user": "sonofkratos92",
+          "title": "feat(ats): add Workable connection and OAuth credential support",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 677,
+          "user": "Saik2789",
+          "title": "feat(ats): implement Workable ATS integration (#551)",
+          "state": "open",
+          "age_days": 9
+        },
+        {
+          "number": 679,
+          "user": "thinhnx128",
+          "title": "feat(ats): [REVER-51] Workable Integration (#551)",
+          "state": "open",
+          "age_days": 6
+        },
+        {
+          "number": 681,
+          "user": "zaidrain06",
+          "title": "feat(ats): add Workable ATS integration",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 682,
+          "user": "DSP-AID",
+          "title": "feat(ats): [REVER-51] Workable Integration (closes #551)",
+          "state": "open",
+          "age_days": 3
+        },
+        {
+          "number": 683,
+          "user": "garter-black",
+          "title": "feat(ats): add Workable ATS integration client and unified mappers (#551)",
+          "state": "open",
+          "age_days": 3
+        },
+        {
+          "number": 685,
+          "user": "cocvn157",
+          "title": "feat(ats): add Workable integration (#551)",
+          "state": "open",
+          "age_days": 2
+        },
+        {
+          "number": 688,
+          "user": "mau16ro",
+          "title": "fix: solution for #551 ([REVER-51] Workable Integration)",
+          "state": "open",
+          "age_days": 1
+        },
+        {
+          "number": 689,
+          "user": "khuxaiphi-stack",
+          "title": "feat(ats): add Workable Unified ATS integration & test suite (#551)",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "revertinc/revert",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:10Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "repo last push 578d ago (> 90d)",
+        "contested by 19 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a0cb8a161eab08b6",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#273",
+      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-26",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 420,
+          "user": "Somnath-Mishra",
+          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
+          "state": "open",
+          "age_days": 673
+        },
+        {
+          "number": 433,
+          "user": "maoshuorz",
+          "title": "feat(vector-db): add Qdrant vector database support",
+          "state": "open",
+          "age_days": 244
+        },
+        {
+          "number": 456,
+          "user": "tarai-dl",
+          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
+          "state": "open",
+          "age_days": 201
+        },
+        {
+          "number": 463,
+          "user": "alceops",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 196
+        },
+        {
+          "number": 464,
+          "user": "moluscorichman-oss",
+          "title": "feat: add Qdrant vector database client",
+          "state": "open",
+          "age_days": 196
+        },
+        {
+          "number": 469,
+          "user": "frankyueng12",
+          "title": "Add Qdrant support to vector-db package",
+          "state": "open",
+          "age_days": 182
+        },
+        {
+          "number": 470,
+          "user": "mySebbe",
+          "title": "Add Qdrant REST support to vector-db SDK",
+          "state": "open",
+          "age_days": 180
+        },
+        {
+          "number": 472,
+          "user": "jchatelet",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 180
+        },
+        {
+          "number": 473,
+          "user": "apollo-jpg",
+          "title": "feat(js): add qdrant vector database client",
+          "state": "open",
+          "age_days": 179
+        },
+        {
+          "number": 478,
+          "user": "Recoveredd",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 179
+        },
+        {
+          "number": 479,
+          "user": "HunterCML",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 179
+        },
+        {
+          "number": 484,
+          "user": "milesfeldstein",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 179
+        },
+        {
+          "number": 485,
+          "user": "FlyawayDL",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 179
+        },
+        {
+          "number": 488,
+          "user": "richboyneedcash",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 178
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 159,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:41Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 11d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "last reply 159d ago (> 60d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-dd6d7fbe4f4b5516",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#3900",
+      "title": "[wildcard] Synthesize progress strategies for bounded, data-dependent task regions",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/3900",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-06",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "3,597 PRs / 23 stars / 24 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "3,597 PR numbers issued against 23 stars (156.4:1). Real projects attract readers roughly in proportion to contributors."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:12Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #3598"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-06",
+      "last_checked": "2026-11-06",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict CAUTION (wall requires CLEAN)"
+      ]
+    },
+    {
       "id": "bounty_sweep-23d7a0e815135e0b",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -12013,99 +13738,6 @@
         "no sats purse (negotiable/unknown)",
         "2 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "contested by 16 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-8c3a21e18b31eb19",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "getdozer/dozer#1690",
-      "title": "Sample: Dozer + LLM + Vector database + Langchain sample",
-      "url": "https://github.com/getdozer/dozer/issues/1690",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "getdozer",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "getdozer/dozer",
-      "repo_archived": false,
-      "repo_last_push": "2024-06-18",
-      "contested_prs": 4,
-      "contest_detail": [
-        {
-          "number": 2492,
-          "user": "shaowei6",
-          "title": "Add LangChain vector sample",
-          "state": "open",
-          "age_days": 173
-        },
-        {
-          "number": 2508,
-          "user": "wanieldd",
-          "title": "docs: address issue #1690 (fixes #1690)",
-          "state": "open",
-          "age_days": 72
-        },
-        {
-          "number": 2511,
-          "user": "plurzs01",
-          "title": "add langchain vector sample",
-          "state": "open",
-          "age_days": 60
-        },
-        {
-          "number": 2516,
-          "user": "iprasen",
-          "title": "feat: add Dozer + LangChain + Vector RAG banking advisor sample (fixes #1690)",
-          "state": "open",
-          "age_days": 56
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 18,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "getdozer/dozer",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:32Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 871d ago (> 90d)",
-        "contested by 4 open PRs (> 1)"
       ]
     },
     {
@@ -12527,195 +14159,6 @@
         "trap verdict CAUTION (wall requires CLEAN)",
         "repo last push 828d ago (> 90d)",
         "contested by 15 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-936f62e7d0b75eb8",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "revertinc/revert#551",
-      "title": "[REVER-51] Workable Integration",
-      "url": "https://github.com/revertinc/revert/issues/551",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "revertinc",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "revertinc/revert",
-      "repo_archived": false,
-      "repo_last_push": "2025-04-07",
-      "contested_prs": 18,
-      "contest_detail": [
-        {
-          "number": 655,
-          "user": "nexiumbiz-debug",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 181
-        },
-        {
-          "number": 656,
-          "user": "tybrooks123",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 169
-        },
-        {
-          "number": 657,
-          "user": "saquibreja7-hash",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 163
-        },
-        {
-          "number": 660,
-          "user": "mini0n-ai",
-          "title": "feat(ats): support workable connection and oauth credentials (#551)",
-          "state": "open",
-          "age_days": 63
-        },
-        {
-          "number": 663,
-          "user": "iprasen",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 56
-        },
-        {
-          "number": 664,
-          "user": "priyeshrk03",
-          "title": "feat(ats): Workable ATS integration \u2014 /claim #551",
-          "state": "open",
-          "age_days": 51
-        },
-        {
-          "number": 667,
-          "user": "Ahmed5754",
-          "title": "feat(ats): add Workable integration",
-          "state": "open",
-          "age_days": 38
-        },
-        {
-          "number": 669,
-          "user": "Ollie520",
-          "title": "fix: resolve #551 - [revertinc/revert] [REVER-51] Workable Integration",
-          "state": "open",
-          "age_days": 26
-        },
-        {
-          "number": 670,
-          "user": "Mxtl7",
-          "title": "feat: Workable ATS integration (auth, services, transforms, UI + SDK)",
-          "state": "open",
-          "age_days": 26
-        },
-        {
-          "number": 671,
-          "user": "LuckyTurtleLabs",
-          "title": "feat(ats): add Workable integration (#551)",
-          "state": "open",
-          "age_days": 25
-        },
-        {
-          "number": 673,
-          "user": "sonofkratos92",
-          "title": "feat(ats): add Workable connection and OAuth credential support",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 677,
-          "user": "Saik2789",
-          "title": "feat(ats): implement Workable ATS integration (#551)",
-          "state": "open",
-          "age_days": 9
-        },
-        {
-          "number": 679,
-          "user": "thinhnx128",
-          "title": "feat(ats): [REVER-51] Workable Integration (#551)",
-          "state": "open",
-          "age_days": 6
-        },
-        {
-          "number": 681,
-          "user": "zaidrain06",
-          "title": "feat(ats): add Workable ATS integration",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 682,
-          "user": "DSP-AID",
-          "title": "feat(ats): [REVER-51] Workable Integration (closes #551)",
-          "state": "open",
-          "age_days": 3
-        },
-        {
-          "number": 683,
-          "user": "garter-black",
-          "title": "feat(ats): add Workable ATS integration client and unified mappers (#551)",
-          "state": "open",
-          "age_days": 3
-        },
-        {
-          "number": 685,
-          "user": "cocvn157",
-          "title": "feat(ats): add Workable integration (#551)",
-          "state": "open",
-          "age_days": 2
-        },
-        {
-          "number": 688,
-          "user": "mau16ro",
-          "title": "fix: solution for #551 ([REVER-51] Workable Integration)",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "revertinc/revert",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:10Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "repo last push 578d ago (> 90d)",
-        "contested by 18 open PRs (> 1)"
       ]
     },
     {
@@ -13188,721 +14631,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-a625173ae4b97fa5",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "getdozer/dozer#1653",
-      "title": "WASM UDF support",
-      "url": "https://github.com/getdozer/dozer/issues/1653",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "getdozer",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "getdozer/dozer",
-      "repo_archived": false,
-      "repo_last_push": "2024-06-18",
-      "contested_prs": 13,
-      "contest_detail": [
-        {
-          "number": 1654,
-          "user": "tachyonicbytes",
-          "title": "Add incipient wasm_udf support",
-          "state": "open",
-          "age_days": 1236
-        },
-        {
-          "number": 2491,
-          "user": "mySebbe",
-          "title": "Add WASM UDF expression support",
-          "state": "open",
-          "age_days": 174
-        },
-        {
-          "number": 2499,
-          "user": "jamilahmadzai",
-          "title": "Add WASM UDF support",
-          "state": "open",
-          "age_days": 167
-        },
-        {
-          "number": 2500,
-          "user": "sevencat2004",
-          "title": "Add WASM UDF support",
-          "state": "open",
-          "age_days": 157
-        },
-        {
-          "number": 2506,
-          "user": "silasbrookshaha",
-          "title": "Add WASM UDF support",
-          "state": "open",
-          "age_days": 109
-        },
-        {
-          "number": 2513,
-          "user": "ksushant6566",
-          "title": "feat(sql): add configurable WebAssembly scalar UDFs",
-          "state": "open",
-          "age_days": 58
-        },
-        {
-          "number": 2524,
-          "user": "QIU-Guanzong",
-          "title": "feat: run numeric WASM UDFs in SQL pipelines",
-          "state": "open",
-          "age_days": 41
-        },
-        {
-          "number": 2532,
-          "user": "open5588",
-          "title": "feat(sql): add WebAssembly (WASM) scalar UDF support",
-          "state": "open",
-          "age_days": 22
-        },
-        {
-          "number": 2542,
-          "user": "Xgoyeezy",
-          "title": "feat(sql): load local WASM UDFs at startup",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 2544,
-          "user": "nghoang1288",
-          "title": "fix: enable SQL UDFs implemented in WebAssembly (Fixes #1653)",
-          "state": "open",
-          "age_days": 5
-        },
-        {
-          "number": 2547,
-          "user": "zaidrain06",
-          "title": "feat(sql): add WebAssembly (WASM) UDF support",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 2548,
-          "user": "Aming9303",
-          "title": "feat: sandboxed numeric WASM SQL UDFs",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 2550,
-          "user": "mau16ro",
-          "title": "fix: solution for #1653 (WASM UDF support)",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "getdozer/dozer",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:32Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "repo last push 871d ago (> 90d)",
-        "contested by 13 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-dea3e21ea4b472bc",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#290",
-      "title": "BOUNTY: integrate AWS Comprehend as a utility to redact data",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/290",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "arakoodev",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-26",
-      "contested_prs": 9,
-      "contest_detail": [
-        {
-          "number": 434,
-          "user": "maoshuorz",
-          "title": "feat: AWS Comprehend PII redaction utility for JS SDK",
-          "state": "open",
-          "age_days": 244
-        },
-        {
-          "number": 444,
-          "user": "juandirahelia-a11y",
-          "title": "feat: implement AWS Comprehend PII redaction utility #290",
-          "state": "open",
-          "age_days": 218
-        },
-        {
-          "number": 448,
-          "user": "alihani714",
-          "title": "feat: add AWS Comprehend PII redaction utility",
-          "state": "open",
-          "age_days": 210
-        },
-        {
-          "number": 454,
-          "user": "tarai-dl",
-          "title": "feat: integrate AWS Comprehend as a PII redaction utility (#290)",
-          "state": "open",
-          "age_days": 203
-        },
-        {
-          "number": 457,
-          "user": "atecnoco-arch",
-          "title": "feat(pii-redactor): Integrate AWS Comprehend RxJS Middleware + Repo Audit",
-          "state": "open",
-          "age_days": 200
-        },
-        {
-          "number": 459,
-          "user": "l8888888",
-          "title": "feat: AWS Comprehend PII redaction integration (#290)",
-          "state": "open",
-          "age_days": 199
-        },
-        {
-          "number": 461,
-          "user": "Pearltechie",
-          "title": "feat: integrate AWS Comprehend as a chainable PII redactor ",
-          "state": "open",
-          "age_days": 197
-        },
-        {
-          "number": 465,
-          "user": "alceops",
-          "title": "Add AWS Comprehend PII redaction utility",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 474,
-          "user": "apollo-jpg",
-          "title": "feat(js): add AWS Comprehend prompt redactor",
-          "state": "open",
-          "age_days": 179
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 161,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:41Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 11d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "last reply 161d ago (> 60d)",
-        "contested by 9 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-96b6e127c6a6387c",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#279",
-      "title": "BOUNTY: add support for Google Palm2 API in javascript/typescript",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/279",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "arakoodev",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-26",
-      "contested_prs": 6,
-      "contest_detail": [
-        {
-          "number": 432,
-          "user": "Myopes",
-          "title": "feat: add Palm2/Gemini API support (#279)",
-          "state": "open",
-          "age_days": 245
-        },
-        {
-          "number": 435,
-          "user": "maoshuorz",
-          "title": "feat: complete Gemini API support with types, tests, and jsonnet example",
-          "state": "open",
-          "age_days": 244
-        },
-        {
-          "number": 451,
-          "user": "Samir-atra",
-          "title": "feat: add Google PaLM 2 (Bison) API support #279",
-          "state": "open",
-          "age_days": 206
-        },
-        {
-          "number": 460,
-          "user": "l8888888",
-          "title": "Add Palm2-compatible Google AI provider",
-          "state": "open",
-          "age_days": 199
-        },
-        {
-          "number": 466,
-          "user": "alceops",
-          "title": "Add Google PaLM2 API support",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 475,
-          "user": "apollo-jpg",
-          "title": "feat(js): add Google PaLM2 API client",
-          "state": "open",
-          "age_days": 179
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 35,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:41Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 11d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 6 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-a0cb8a161eab08b6",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#273",
-      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "arakoodev",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-26",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 420,
-          "user": "Somnath-Mishra",
-          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
-          "state": "open",
-          "age_days": 673
-        },
-        {
-          "number": 433,
-          "user": "maoshuorz",
-          "title": "feat(vector-db): add Qdrant vector database support",
-          "state": "open",
-          "age_days": 244
-        },
-        {
-          "number": 456,
-          "user": "tarai-dl",
-          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
-          "state": "open",
-          "age_days": 201
-        },
-        {
-          "number": 463,
-          "user": "alceops",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 196
-        },
-        {
-          "number": 464,
-          "user": "moluscorichman-oss",
-          "title": "feat: add Qdrant vector database client",
-          "state": "open",
-          "age_days": 196
-        },
-        {
-          "number": 469,
-          "user": "frankyueng12",
-          "title": "Add Qdrant support to vector-db package",
-          "state": "open",
-          "age_days": 182
-        },
-        {
-          "number": 470,
-          "user": "mySebbe",
-          "title": "Add Qdrant REST support to vector-db SDK",
-          "state": "open",
-          "age_days": 180
-        },
-        {
-          "number": 472,
-          "user": "jchatelet",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 180
-        },
-        {
-          "number": 473,
-          "user": "apollo-jpg",
-          "title": "feat(js): add qdrant vector database client",
-          "state": "open",
-          "age_days": 179
-        },
-        {
-          "number": 478,
-          "user": "Recoveredd",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 179
-        },
-        {
-          "number": 479,
-          "user": "HunterCML",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 179
-        },
-        {
-          "number": 484,
-          "user": "milesfeldstein",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 179
-        },
-        {
-          "number": 485,
-          "user": "FlyawayDL",
-          "title": "Add Qdrant vector database client",
-          "state": "open",
-          "age_days": 179
-        },
-        {
-          "number": 488,
-          "user": "richboyneedcash",
-          "title": "Add Qdrant vector database support",
-          "state": "open",
-          "age_days": 178
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 159,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:41Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 11d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "last reply 159d ago (> 60d)",
-        "contested by 14 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-d93a7a83031e80d2",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "TheSolaAI/sola-application#157",
-      "title": "Make blinks interaction Handsfree",
-      "url": "https://github.com/TheSolaAI/sola-application/issues/157",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "TheSolaAI",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "TheSolaAI/sola-application",
-      "repo_archived": false,
-      "repo_last_push": "2025-12-11",
-      "contested_prs": 11,
-      "contest_detail": [
-        {
-          "number": 482,
-          "user": "LoikStyle",
-          "title": "feat: add handsfree Blink action flow",
-          "state": "open",
-          "age_days": 179
-        },
-        {
-          "number": 484,
-          "user": "osopromadze",
-          "title": "feat: handsfree Blink action flow with custom UI handlers",
-          "state": "open",
-          "age_days": 60
-        },
-        {
-          "number": 485,
-          "user": "Doom-pixel",
-          "title": "feat: handsfree Blink interactions (#157)",
-          "state": "open",
-          "age_days": 60
-        },
-        {
-          "number": 487,
-          "user": "mini0n-ai",
-          "title": "feat: :sparkles: make blinks interaction handsfree (#157)",
-          "state": "open",
-          "age_days": 57
-        },
-        {
-          "number": 488,
-          "user": "RAZENWQ",
-          "title": "feat: make Blink interactions handsfree (#157)",
-          "state": "open",
-          "age_days": 51
-        },
-        {
-          "number": 491,
-          "user": "sergioprica",
-          "title": "feat(blinks): make blinks interaction handsfree with custom component & extended",
-          "state": "open",
-          "age_days": 38
-        },
-        {
-          "number": 493,
-          "user": "Ollie520",
-          "title": "fix: resolve #157 - [TheSolaAI/sola-application] Make blinks interaction Handsfr",
-          "state": "open",
-          "age_days": 25
-        },
-        {
-          "number": 494,
-          "user": "LuckyTurtleLabs",
-          "title": "Make blinks interaction Handsfree (#157)",
-          "state": "open",
-          "age_days": 25
-        },
-        {
-          "number": 495,
-          "user": "taqiraza",
-          "title": "fix: resolve #157 - Make blinks interaction Handsfree",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 496,
-          "user": "khoap1220-hue",
-          "title": "feat: implement custom handsfree BlinkMessageItem and extend getBlinks AI tool (",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 499,
-          "user": "garter-black",
-          "title": "feat(blinks): add hands-free voice command parser and confirmation gate for Sola",
-          "state": "open",
-          "age_days": 3
-        }
-      ],
-      "dead_attempts": 5,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 3,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "TheSolaAI/sola-application",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:07Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "5 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 330d ago (> 90d)",
-        "contested by 11 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-d4ab0569644f9ec1",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -14072,464 +14800,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-5a4ee1ea9ced8fd3",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "getdozer/dozer#1659",
-      "title": "Support for `IN` clause in streaming SQL",
-      "url": "https://github.com/getdozer/dozer/issues/1659",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "getdozer",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "getdozer/dozer",
-      "repo_archived": false,
-      "repo_last_push": "2024-06-18",
-      "contested_prs": 4,
-      "contest_detail": [
-        {
-          "number": 2489,
-          "user": "Treasure520520",
-          "title": "feat(sql): lower IN subqueries into joins",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 2490,
-          "user": "Iineman2",
-          "title": "feat(sql): lower IN subqueries into joins",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 2494,
-          "user": "junn-dev",
-          "title": "fix: propagate NULL through IN list evaluation",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 2495,
-          "user": "NightVibes33",
-          "title": "feat(sql): support IN clauses in streaming SQL",
-          "state": "open",
-          "age_days": 170
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 1,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "getdozer/dozer",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:32Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "repo last push 871d ago (> 90d)",
-        "contested by 4 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-f0c3bf26d6567e95",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "caley-io/marketing#1",
-      "title": "Multitenancy and Teams/Workspaces support",
-      "url": "https://github.com/caley-io/marketing/issues/1",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "caley-io",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "caley-io/marketing",
-      "repo_archived": false,
-      "repo_last_push": "2024-02-08",
-      "contested_prs": 6,
-      "contest_detail": [
-        {
-          "number": 29,
-          "user": "VexCode24",
-          "title": "Persist workspace creation and list workspaces",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 30,
-          "user": "oathis",
-          "title": "Add workspace-scoped mail and team management",
-          "state": "open",
-          "age_days": 159
-        },
-        {
-          "number": 43,
-          "user": "mini0n-ai",
-          "title": "fix: resolve multitenancy and teams/workspaces support (#1)",
-          "state": "open",
-          "age_days": 53
-        },
-        {
-          "number": 50,
-          "user": "taqiraza",
-          "title": "fix: resolve #1 - Multitenancy and Teams/Workspaces support",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 51,
-          "user": "huangji6693-max",
-          "title": "feat(workspaces): add multitenancy workspaces, team RBAC invitations, and worksp",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 55,
-          "user": "mau16ro",
-          "title": "fix: solution for #1 (Multitenancy and Teams/Workspaces support)",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 4,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "caley-io/marketing",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:52Z",
-        "checked_files": [
-          "README.md",
-          "issue #14"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "4 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 1002d ago (> 90d)",
-        "contested by 6 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-560400be06557283",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "tryabby/abby#68",
-      "title": "Vue Integration",
-      "url": "https://github.com/tryabby/abby/issues/68",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "tryabby",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "tryabby/abby",
-      "repo_archived": false,
-      "repo_last_push": "2025-07-24",
-      "contested_prs": 7,
-      "contest_detail": [
-        {
-          "number": 141,
-          "user": "feliciien",
-          "title": "feat: Add Vue integration for Abby with feature parity to React",
-          "state": "open",
-          "age_days": 890
-        },
-        {
-          "number": 167,
-          "user": "asd55667",
-          "title": "feat: add vue integration",
-          "state": "open",
-          "age_days": 725
-        },
-        {
-          "number": 179,
-          "user": "godd-ctrl",
-          "title": "feat: add Vue integration package",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 181,
-          "user": "Iineman2",
-          "title": "Add Vue integration package",
-          "state": "open",
-          "age_days": 179
-        },
-        {
-          "number": 189,
-          "user": "fadhelcarlos",
-          "title": "feat: add @tryabby/vue integration (#68)",
-          "state": "open",
-          "age_days": 122
-        },
-        {
-          "number": 190,
-          "user": "mini0n-ai",
-          "title": "feat(vue): implement @tryabby/vue integration package (#68)",
-          "state": "open",
-          "age_days": 62
-        },
-        {
-          "number": 191,
-          "user": "agoratap",
-          "title": "feat(vue): add @tryabby/vue integration",
-          "state": "open",
-          "age_days": 41
-        }
-      ],
-      "dead_attempts": 6,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "tryabby/abby",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:18Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "6 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 470d ago (> 90d)",
-        "contested by 7 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-c97f59b5c70d9978",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "revertinc/revert#372",
-      "title": "[REVER-48] Workday Integration",
-      "url": "https://github.com/revertinc/revert/issues/372",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "revertinc",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "revertinc/revert",
-      "repo_archived": false,
-      "repo_last_push": "2025-04-07",
-      "contested_prs": 12,
-      "contest_detail": [
-        {
-          "number": 653,
-          "user": "maoshuorz",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 244
-        },
-        {
-          "number": 661,
-          "user": "Aduersarius",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 60
-        },
-        {
-          "number": 662,
-          "user": "iprasen",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 56
-        },
-        {
-          "number": 666,
-          "user": "projectcarbonfiber",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 46
-        },
-        {
-          "number": 668,
-          "user": "Ahmed5754",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 38
-        },
-        {
-          "number": 674,
-          "user": "sonofkratos92",
-          "title": "feat(ats): add Workday connection and OAuth credential support",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 675,
-          "user": "heroking777",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 676,
-          "user": "kazuyaroz",
-          "title": "feat(ats): add Workday integration [REVER-48]",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 680,
-          "user": "zaidrain06",
-          "title": "feat(ats): add Workday ATS integration",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 684,
-          "user": "garter-black",
-          "title": "feat(integrations): add Workday REST API v1 client and worker/job mappers (#372)",
-          "state": "open",
-          "age_days": 3
-        },
-        {
-          "number": 686,
-          "user": "cocvn157",
-          "title": "feat(ats): add Workday integration (#372)",
-          "state": "open",
-          "age_days": 2
-        },
-        {
-          "number": 687,
-          "user": "mau16ro",
-          "title": "fix: solution for #372 ([REVER-48] Workday Integration)",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "revertinc/revert",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:10Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "repo last push 578d ago (> 90d)",
-        "contested by 12 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-9836bf56e57122fd",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -14691,142 +14961,6 @@
         "trap verdict CAUTION (wall requires CLEAN)",
         "last reply 76d ago (> 60d)",
         "contested by 13 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-844f920de2cbbcc2",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "highlight/highlight#8032",
-      "title": "document sveltekit backend instrumentation",
-      "url": "https://github.com/highlight/highlight/issues/8032",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "highlight",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "highlight/highlight",
-      "repo_archived": false,
-      "repo_last_push": "2026-10-23",
-      "contested_prs": 10,
-      "contest_detail": [
-        {
-          "number": 10308,
-          "user": "Abhi-tupe",
-          "title": "docs: add SvelteKit backend instrumentation guide",
-          "state": "open",
-          "age_days": 269
-        },
-        {
-          "number": 10311,
-          "user": "V1ki",
-          "title": "docs(sveltekit): document backend instrumentation with H.runWithHeaders",
-          "state": "open",
-          "age_days": 256
-        },
-        {
-          "number": 10336,
-          "user": "Drgonzoh",
-          "title": "feat: document SvelteKit backend instrumentation",
-          "state": "open",
-          "age_days": 240
-        },
-        {
-          "number": 10386,
-          "user": "kmxunan",
-          "title": "docs: add SvelteKit backend instrumentation quickstart",
-          "state": "open",
-          "age_days": 204
-        },
-        {
-          "number": 10387,
-          "user": "tarai-dl",
-          "title": "docs: add SvelteKit backend instrumentation walkthrough",
-          "state": "open",
-          "age_days": 204
-        },
-        {
-          "number": 10412,
-          "user": "rafael81",
-          "title": "Add SvelteKit server instrumentation docs",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 10416,
-          "user": "JYZ-LESLIE",
-          "title": "docs(sveltekit): add backend instrumentation in hooks.server.ts",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 10427,
-          "user": "Auro-rium",
-          "title": "docs(sveltekit): add backend instrumentation guide",
-          "state": "open",
-          "age_days": 177
-        },
-        {
-          "number": 10428,
-          "user": "digzrow-coder",
-          "title": "docs: add SvelteKit backend instrumentation",
-          "state": "open",
-          "age_days": 177
-        },
-        {
-          "number": 10434,
-          "user": "chenchong0215",
-          "title": "docs: add SvelteKit server-side quickstart for backend instrumentation",
-          "state": "open",
-          "age_days": 175
-        }
-      ],
-      "dead_attempts": 5,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 132,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "highlight/highlight",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:44Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "CLAUDE.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-06",
-      "last_checked": "2026-11-06",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "repo pushed 14d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "5 prior attempts died unmerged (battle scars, D7)",
-        "last reply 132d ago (> 60d)",
-        "contested by 10 open PRs (> 1)"
       ]
     },
     {
@@ -15786,7 +15920,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-02",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 14,
       "contest_detail": [
         {
@@ -15929,7 +16063,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -15965,7 +16099,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-02",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 15,
       "contest_detail": [
         {
@@ -16115,7 +16249,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -16151,7 +16285,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-02",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 18,
       "contest_detail": [
         {
@@ -16322,7 +16456,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -17942,7 +18076,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-02",
+      "repo_last_push": "2026-11-06",
       "contested_prs": 19,
       "contest_detail": [
         {
@@ -18120,7 +18254,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -18240,7 +18374,7 @@
       "repo": "mohan-bee/curve",
       "repo_archived": false,
       "repo_last_push": "2025-11-26",
-      "contested_prs": 2,
+      "contested_prs": 3,
       "contest_detail": [
         {
           "number": 12,
@@ -18255,6 +18389,13 @@
           "title": "Refactor Curve frontend UI",
           "state": "open",
           "age_days": 169
+        },
+        {
+          "number": 15,
+          "user": "cocvn157",
+          "title": "feat: modernize frontend UI across landing, auth, topic discovery, and workspace",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 1,
@@ -18292,7 +18433,7 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "repo last push 345d ago (> 90d)",
-        "contested by 2 open PRs (> 1)"
+        "contested by 3 open PRs (> 1)"
       ]
     },
     {
