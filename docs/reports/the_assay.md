@@ -71,11 +71,11 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| lablab-ai | 1 | 0 | 0 | 0 | 0 |
 | getdozer | 3 | 0 | 0 | 1 | 1 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
 | speakers-in-tech | 2 | 0 | 0 | 1 | 1 |
 | revertinc | 2 | 0 | 0 | 0 | 0 |
-| lablab-ai | 1 | 0 | 0 | 0 | 0 |
 | javelin-anticheat | 2 | 0 | 0 | 1 | 1 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |

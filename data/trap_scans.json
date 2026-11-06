@@ -63,12 +63,12 @@
     "verdict": "CLEAN"
   },
   "Bu1ldTh3Futur3/bounty-hunter-test": {
-    "checked_at": "2026-10-29T18:30:17Z",
-    "checked_date": "2026-10-29",
+    "checked_at": "2026-11-06T06:09:58Z",
+    "checked_date": "2026-11-06",
     "checked_files": [],
     "rules": [
       {
-        "evidence": "0 of the last 23 closed pull requests were merged (all closed unmerged)",
+        "evidence": "0 of the last 27 closed pull requests were merged (all closed unmerged)",
         "rule": "NOTHING_EVER_MERGES",
         "severity": 15,
         "source": "repo metadata",
@@ -650,8 +650,8 @@
     "verdict": "CLEAN"
   },
   "mohan-bee/curve": {
-    "checked_at": "2026-10-29T18:30:13Z",
-    "checked_date": "2026-10-29",
+    "checked_at": "2026-11-06T06:10:02Z",
+    "checked_date": "2026-11-06",
     "checked_files": [
       "README.md",
       "issue #10",
