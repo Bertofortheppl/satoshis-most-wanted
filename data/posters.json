@@ -7370,7 +7370,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-06",
+      "repo_last_push": "2026-11-07",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -7417,7 +7417,7 @@
         "purse 10200 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -7497,7 +7497,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-06",
+      "repo_last_push": "2026-11-07",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -7544,7 +7544,7 @@
         "purse 2000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -8038,7 +8038,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-06",
+      "repo_last_push": "2026-11-07",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -8077,7 +8077,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -8111,7 +8111,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-06",
+      "repo_last_push": "2026-11-07",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -8158,7 +8158,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -11652,16 +11652,16 @@
       ]
     },
     {
-      "id": "bounty_sweep-a0cb8a161eab08b6",
+      "id": "bounty_sweep-c97f59b5c70d9978",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#273",
-      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
+      "external_id": "revertinc/revert#372",
+      "title": "[REVER-48] Workday Integration",
+      "url": "https://github.com/revertinc/revert/issues/372",
       "kind": "unranked",
       "sats": null,
       "escrow": null,
-      "rewarder": "arakoodev",
+      "rewarder": "revertinc",
       "claim_mechanics": {
         "steps": [
           "Wild listings: terms are whatever the issue says \u2014 read every",
@@ -11673,132 +11673,124 @@
         "negotiated": false,
         "paying_schedule": false
       },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
+      "language": "typescript",
+      "repo": "revertinc/revert",
       "repo_archived": false,
-      "repo_last_push": "2026-10-26",
+      "repo_last_push": "2025-04-07",
       "contested_prs": 14,
       "contest_detail": [
         {
-          "number": 420,
-          "user": "Somnath-Mishra",
-          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
-          "state": "open",
-          "age_days": 674
-        },
-        {
-          "number": 433,
+          "number": 653,
           "user": "maoshuorz",
-          "title": "feat(vector-db): add Qdrant vector database support",
+          "title": "feat: add Workday ATS integration",
           "state": "open",
           "age_days": 245
         },
         {
-          "number": 456,
-          "user": "tarai-dl",
-          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
+          "number": 661,
+          "user": "Aduersarius",
+          "title": "feat: add Workday ATS integration",
           "state": "open",
-          "age_days": 202
+          "age_days": 61
         },
         {
-          "number": 463,
-          "user": "alceops",
-          "title": "Add Qdrant vector database client",
+          "number": 662,
+          "user": "iprasen",
+          "title": "feat: add Workday ATS integration",
           "state": "open",
-          "age_days": 197
+          "age_days": 57
         },
         {
-          "number": 464,
-          "user": "moluscorichman-oss",
-          "title": "feat: add Qdrant vector database client",
+          "number": 666,
+          "user": "projectcarbonfiber",
+          "title": "feat: add Workday ATS integration",
           "state": "open",
-          "age_days": 197
+          "age_days": 47
         },
         {
-          "number": 469,
-          "user": "frankyueng12",
-          "title": "Add Qdrant support to vector-db package",
+          "number": 668,
+          "user": "Ahmed5754",
+          "title": "feat: add Workday ATS integration",
           "state": "open",
-          "age_days": 183
+          "age_days": 39
         },
         {
-          "number": 470,
-          "user": "mySebbe",
-          "title": "Add Qdrant REST support to vector-db SDK",
+          "number": 674,
+          "user": "sonofkratos92",
+          "title": "feat(ats): add Workday connection and OAuth credential support",
           "state": "open",
-          "age_days": 181
+          "age_days": 11
         },
         {
-          "number": 472,
-          "user": "jchatelet",
-          "title": "Add Qdrant vector database support",
+          "number": 675,
+          "user": "heroking777",
+          "title": "feat: add Workday ATS integration",
           "state": "open",
-          "age_days": 181
+          "age_days": 11
         },
         {
-          "number": 473,
-          "user": "apollo-jpg",
-          "title": "feat(js): add qdrant vector database client",
+          "number": 676,
+          "user": "kazuyaroz",
+          "title": "feat(ats): add Workday integration [REVER-48]",
           "state": "open",
-          "age_days": 180
+          "age_days": 11
         },
         {
-          "number": 478,
-          "user": "Recoveredd",
-          "title": "Add Qdrant vector database support",
+          "number": 680,
+          "user": "zaidrain06",
+          "title": "feat(ats): add Workday ATS integration",
           "state": "open",
-          "age_days": 180
+          "age_days": 5
         },
         {
-          "number": 479,
-          "user": "HunterCML",
-          "title": "Add Qdrant vector database client",
+          "number": 684,
+          "user": "garter-black",
+          "title": "feat(integrations): add Workday REST API v1 client and worker/job mappers (#372)",
           "state": "open",
-          "age_days": 180
+          "age_days": 4
         },
         {
-          "number": 484,
-          "user": "milesfeldstein",
-          "title": "Add Qdrant vector database client",
+          "number": 686,
+          "user": "cocvn157",
+          "title": "feat(ats): add Workday integration (#372)",
           "state": "open",
-          "age_days": 180
+          "age_days": 3
         },
         {
-          "number": 485,
-          "user": "FlyawayDL",
-          "title": "Add Qdrant vector database client",
+          "number": 687,
+          "user": "mau16ro",
+          "title": "fix: solution for #372 ([REVER-48] Workday Integration)",
           "state": "open",
-          "age_days": 180
+          "age_days": 2
         },
         {
-          "number": 488,
-          "user": "richboyneedcash",
-          "title": "Add Qdrant vector database support",
+          "number": 690,
+          "user": "khuxaiphi-stack",
+          "title": "feat(ats): add Workday unified ATS integration (#372)",
           "state": "open",
-          "age_days": 179
+          "age_days": 1
+        },
+        {
+          "number": 691,
+          "user": "jeffrey-graham",
+          "title": "feat(ats): add Workday OAuth2 authentication and token refresh handler",
+          "state": "open",
+          "age_days": 0
         }
       ],
-      "dead_attempts": 3,
+      "dead_attempts": 2,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 160,
+      "maintainer_last_reply_age_days": 0,
       "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "revertinc/revert",
         "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:41Z",
+        "checked_at": "2026-11-04T05:54:10Z",
         "checked_files": [
+          "CONTRIBUTING.md",
           "README.md"
         ]
       },
@@ -11810,15 +11802,461 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 12d ago",
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "repo last push 579d ago (> 90d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-936f62e7d0b75eb8",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "revertinc/revert#551",
+      "title": "[REVER-51] Workable Integration",
+      "url": "https://github.com/revertinc/revert/issues/551",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "revertinc",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "revertinc/revert",
+      "repo_archived": false,
+      "repo_last_push": "2025-04-07",
+      "contested_prs": 19,
+      "contest_detail": [
+        {
+          "number": 655,
+          "user": "nexiumbiz-debug",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 182
+        },
+        {
+          "number": 656,
+          "user": "tybrooks123",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 657,
+          "user": "saquibreja7-hash",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 164
+        },
+        {
+          "number": 660,
+          "user": "mini0n-ai",
+          "title": "feat(ats): support workable connection and oauth credentials (#551)",
+          "state": "open",
+          "age_days": 64
+        },
+        {
+          "number": 663,
+          "user": "iprasen",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 57
+        },
+        {
+          "number": 664,
+          "user": "priyeshrk03",
+          "title": "feat(ats): Workable ATS integration \u2014 /claim #551",
+          "state": "open",
+          "age_days": 52
+        },
+        {
+          "number": 667,
+          "user": "Ahmed5754",
+          "title": "feat(ats): add Workable integration",
+          "state": "open",
+          "age_days": 39
+        },
+        {
+          "number": 669,
+          "user": "Ollie520",
+          "title": "fix: resolve #551 - [revertinc/revert] [REVER-51] Workable Integration",
+          "state": "open",
+          "age_days": 27
+        },
+        {
+          "number": 670,
+          "user": "Mxtl7",
+          "title": "feat: Workable ATS integration (auth, services, transforms, UI + SDK)",
+          "state": "open",
+          "age_days": 27
+        },
+        {
+          "number": 671,
+          "user": "LuckyTurtleLabs",
+          "title": "feat(ats): add Workable integration (#551)",
+          "state": "open",
+          "age_days": 26
+        },
+        {
+          "number": 673,
+          "user": "sonofkratos92",
+          "title": "feat(ats): add Workable connection and OAuth credential support",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 677,
+          "user": "Saik2789",
+          "title": "feat(ats): implement Workable ATS integration (#551)",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 679,
+          "user": "thinhnx128",
+          "title": "feat(ats): [REVER-51] Workable Integration (#551)",
+          "state": "open",
+          "age_days": 7
+        },
+        {
+          "number": 681,
+          "user": "zaidrain06",
+          "title": "feat(ats): add Workable ATS integration",
+          "state": "open",
+          "age_days": 5
+        },
+        {
+          "number": 682,
+          "user": "DSP-AID",
+          "title": "feat(ats): [REVER-51] Workable Integration (closes #551)",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 683,
+          "user": "garter-black",
+          "title": "feat(ats): add Workable ATS integration client and unified mappers (#551)",
+          "state": "open",
+          "age_days": 4
+        },
+        {
+          "number": 685,
+          "user": "cocvn157",
+          "title": "feat(ats): add Workable integration (#551)",
+          "state": "open",
+          "age_days": 3
+        },
+        {
+          "number": 688,
+          "user": "mau16ro",
+          "title": "fix: solution for #551 ([REVER-51] Workable Integration)",
+          "state": "open",
+          "age_days": 2
+        },
+        {
+          "number": 689,
+          "user": "khuxaiphi-stack",
+          "title": "feat(ats): add Workable Unified ATS integration & test suite (#551)",
+          "state": "open",
+          "age_days": 1
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 1,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "revertinc/revert",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:10Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-07",
+      "last_checked": "2026-11-07",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "repo last push 579d ago (> 90d)",
+        "contested by 19 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-6ba66333394cbdf2",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "onyx-dot-app/onyx#2281",
+      "title": "Jira Service Management Connector",
+      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "onyx-dot-app",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "onyx-dot-app/onyx",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-07",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 8557,
+          "user": "jefferteleco",
+          "title": "feat: Add Jira Service Management Connector",
+          "state": "open",
+          "age_days": 262
+        }
+      ],
+      "dead_attempts": 6,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 233,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "onyx-dot-app/onyx",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:58Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-07",
+      "last_checked": "2026-11-07",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "6 prior attempts died unmerged (battle scars, D7)",
+        "last reply 233d ago (> 60d)",
+        "1 open PR but 262d old (> 30d)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-ba311ccebe490ba5",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "flydelabs/flyde#112",
+      "title": "Broken imports after moving files",
+      "url": "https://github.com/flydelabs/flyde/issues/112",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "flydelabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "flydelabs/flyde",
+      "repo_archived": false,
+      "repo_last_push": "2025-07-27",
+      "contested_prs": 16,
+      "contest_detail": [
+        {
+          "number": 256,
+          "user": "maoshuorz",
+          "title": "fix: update import paths when .flyde files are moved or renamed",
+          "state": "open",
+          "age_days": 245
+        },
+        {
+          "number": 259,
+          "user": "abisheik687",
+          "title": "Fix moved flow relative import resolution",
+          "state": "open",
+          "age_days": 185
+        },
+        {
+          "number": 260,
+          "user": "nexiumbiz-debug",
+          "title": "Keep Flyde imports working after file moves",
+          "state": "open",
+          "age_days": 182
+        },
+        {
+          "number": 261,
+          "user": "prashanthnimmagadda",
+          "title": "fix: resolve moved visual node imports",
+          "state": "open",
+          "age_days": 181
+        },
+        {
+          "number": 263,
+          "user": "ldthang0612",
+          "title": "fix(vscode): update Flyde imports after file moves",
+          "state": "open",
+          "age_days": 178
+        },
+        {
+          "number": 266,
+          "user": "dukunline-cyber",
+          "title": "fix(vscode): rewrite .flyde imports on file rename/move (#112)",
+          "state": "open",
+          "age_days": 175
+        },
+        {
+          "number": 267,
+          "user": "nam157",
+          "title": "fix(vscode): keep Flyde imports working after file moves",
+          "state": "open",
+          "age_days": 172
+        },
+        {
+          "number": 268,
+          "user": "ajjucoder",
+          "title": "Fix local Flyde imports after file moves",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 269,
+          "user": "Entr0zy",
+          "title": "Update Flyde imports after file rename",
+          "state": "open",
+          "age_days": 171
+        },
+        {
+          "number": 270,
+          "user": "SeanCordovaGit",
+          "title": "Resolve moved local node imports",
+          "state": "open",
+          "age_days": 170
+        },
+        {
+          "number": 271,
+          "user": "Catnap7",
+          "title": "Fix moved local Flyde imports",
+          "state": "open",
+          "age_days": 169
+        },
+        {
+          "number": 273,
+          "user": "jeremymu1506-prog",
+          "title": "fix(vscode): update local node paths after file moves",
+          "state": "open",
+          "age_days": 88
+        },
+        {
+          "number": 274,
+          "user": "MyTH-zyxeon",
+          "title": "fix: preserve flow references across VS Code file moves",
+          "state": "open",
+          "age_days": 61
+        },
+        {
+          "number": 275,
+          "user": "andrewscar34-ux",
+          "title": "fix(vscode): update Flyde imports when files move",
+          "state": "open",
+          "age_days": 61
+        },
+        {
+          "number": 276,
+          "user": "JoaquinBatser",
+          "title": "Update local flow imports before VS Code file and folder moves",
+          "state": "open",
+          "age_days": 61
+        },
+        {
+          "number": 277,
+          "user": "BreakYukino",
+          "title": "Preserve local flow imports when files or folders move in VS Code",
+          "state": "open",
+          "age_days": 60
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 25,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "flydelabs/flyde",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:35Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "CLAUDE.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-07",
+      "last_checked": "2026-11-07",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "last reply 160d ago (> 60d)",
-        "contested by 14 open PRs (> 1)"
+        "repo last push 468d ago (> 90d)",
+        "contested by 16 open PRs (> 1)"
       ]
     },
     {
@@ -12403,6 +12841,176 @@
         "6 prior attempts died unmerged (battle scars, D7)",
         "repo last push 471d ago (> 90d)",
         "contested by 7 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-a0cb8a161eab08b6",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#273",
+      "title": "BOUNTY: add support for qdrant vector database in javascript sdk",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/273",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-10-26",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 420,
+          "user": "Somnath-Mishra",
+          "title": "BOUNTY #273: add support for qdrant vector database in javascript sdk",
+          "state": "open",
+          "age_days": 674
+        },
+        {
+          "number": 433,
+          "user": "maoshuorz",
+          "title": "feat(vector-db): add Qdrant vector database support",
+          "state": "open",
+          "age_days": 245
+        },
+        {
+          "number": 456,
+          "user": "tarai-dl",
+          "title": "feat: add Qdrant vector database client for JavaScript SDK (#273)",
+          "state": "open",
+          "age_days": 202
+        },
+        {
+          "number": 463,
+          "user": "alceops",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 197
+        },
+        {
+          "number": 464,
+          "user": "moluscorichman-oss",
+          "title": "feat: add Qdrant vector database client",
+          "state": "open",
+          "age_days": 197
+        },
+        {
+          "number": 469,
+          "user": "frankyueng12",
+          "title": "Add Qdrant support to vector-db package",
+          "state": "open",
+          "age_days": 183
+        },
+        {
+          "number": 470,
+          "user": "mySebbe",
+          "title": "Add Qdrant REST support to vector-db SDK",
+          "state": "open",
+          "age_days": 181
+        },
+        {
+          "number": 472,
+          "user": "jchatelet",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 181
+        },
+        {
+          "number": 473,
+          "user": "apollo-jpg",
+          "title": "feat(js): add qdrant vector database client",
+          "state": "open",
+          "age_days": 180
+        },
+        {
+          "number": 478,
+          "user": "Recoveredd",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 180
+        },
+        {
+          "number": 479,
+          "user": "HunterCML",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 180
+        },
+        {
+          "number": 484,
+          "user": "milesfeldstein",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 180
+        },
+        {
+          "number": 485,
+          "user": "FlyawayDL",
+          "title": "Add Qdrant vector database client",
+          "state": "open",
+          "age_days": 180
+        },
+        {
+          "number": 488,
+          "user": "richboyneedcash",
+          "title": "Add Qdrant vector database support",
+          "state": "open",
+          "age_days": 179
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 160,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-04T05:54:41Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-07",
+      "last_checked": "2026-11-07",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 12d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "last reply 160d ago (> 60d)",
+        "contested by 14 open PRs (> 1)"
       ]
     },
     {
@@ -13782,183 +14390,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-ba311ccebe490ba5",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "flydelabs/flyde#112",
-      "title": "Broken imports after moving files",
-      "url": "https://github.com/flydelabs/flyde/issues/112",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "flydelabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "flydelabs/flyde",
-      "repo_archived": false,
-      "repo_last_push": "2025-07-27",
-      "contested_prs": 16,
-      "contest_detail": [
-        {
-          "number": 256,
-          "user": "maoshuorz",
-          "title": "fix: update import paths when .flyde files are moved or renamed",
-          "state": "open",
-          "age_days": 245
-        },
-        {
-          "number": 259,
-          "user": "abisheik687",
-          "title": "Fix moved flow relative import resolution",
-          "state": "open",
-          "age_days": 185
-        },
-        {
-          "number": 260,
-          "user": "nexiumbiz-debug",
-          "title": "Keep Flyde imports working after file moves",
-          "state": "open",
-          "age_days": 182
-        },
-        {
-          "number": 261,
-          "user": "prashanthnimmagadda",
-          "title": "fix: resolve moved visual node imports",
-          "state": "open",
-          "age_days": 181
-        },
-        {
-          "number": 263,
-          "user": "ldthang0612",
-          "title": "fix(vscode): update Flyde imports after file moves",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 266,
-          "user": "dukunline-cyber",
-          "title": "fix(vscode): rewrite .flyde imports on file rename/move (#112)",
-          "state": "open",
-          "age_days": 175
-        },
-        {
-          "number": 267,
-          "user": "nam157",
-          "title": "fix(vscode): keep Flyde imports working after file moves",
-          "state": "open",
-          "age_days": 172
-        },
-        {
-          "number": 268,
-          "user": "ajjucoder",
-          "title": "Fix local Flyde imports after file moves",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 269,
-          "user": "Entr0zy",
-          "title": "Update Flyde imports after file rename",
-          "state": "open",
-          "age_days": 171
-        },
-        {
-          "number": 270,
-          "user": "SeanCordovaGit",
-          "title": "Resolve moved local node imports",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 271,
-          "user": "Catnap7",
-          "title": "Fix moved local Flyde imports",
-          "state": "open",
-          "age_days": 169
-        },
-        {
-          "number": 273,
-          "user": "jeremymu1506-prog",
-          "title": "fix(vscode): update local node paths after file moves",
-          "state": "open",
-          "age_days": 88
-        },
-        {
-          "number": 274,
-          "user": "MyTH-zyxeon",
-          "title": "fix: preserve flow references across VS Code file moves",
-          "state": "open",
-          "age_days": 61
-        },
-        {
-          "number": 275,
-          "user": "andrewscar34-ux",
-          "title": "fix(vscode): update Flyde imports when files move",
-          "state": "open",
-          "age_days": 61
-        },
-        {
-          "number": 276,
-          "user": "JoaquinBatser",
-          "title": "Update local flow imports before VS Code file and folder moves",
-          "state": "open",
-          "age_days": 61
-        },
-        {
-          "number": 277,
-          "user": "BreakYukino",
-          "title": "Preserve local flow imports when files or folders move in VS Code",
-          "state": "open",
-          "age_days": 60
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 25,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "flydelabs/flyde",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:35Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "CLAUDE.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-07",
-      "last_checked": "2026-11-07",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 468d ago (> 90d)",
-        "contested by 16 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-d93a7a83031e80d2",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -14245,437 +14676,6 @@
         "4 prior attempts died unmerged (battle scars, D7)",
         "repo last push 1003d ago (> 90d)",
         "contested by 9 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-936f62e7d0b75eb8",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "revertinc/revert#551",
-      "title": "[REVER-51] Workable Integration",
-      "url": "https://github.com/revertinc/revert/issues/551",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "revertinc",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "revertinc/revert",
-      "repo_archived": false,
-      "repo_last_push": "2025-04-07",
-      "contested_prs": 19,
-      "contest_detail": [
-        {
-          "number": 655,
-          "user": "nexiumbiz-debug",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 182
-        },
-        {
-          "number": 656,
-          "user": "tybrooks123",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 170
-        },
-        {
-          "number": 657,
-          "user": "saquibreja7-hash",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 164
-        },
-        {
-          "number": 660,
-          "user": "mini0n-ai",
-          "title": "feat(ats): support workable connection and oauth credentials (#551)",
-          "state": "open",
-          "age_days": 64
-        },
-        {
-          "number": 663,
-          "user": "iprasen",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 57
-        },
-        {
-          "number": 664,
-          "user": "priyeshrk03",
-          "title": "feat(ats): Workable ATS integration \u2014 /claim #551",
-          "state": "open",
-          "age_days": 52
-        },
-        {
-          "number": 667,
-          "user": "Ahmed5754",
-          "title": "feat(ats): add Workable integration",
-          "state": "open",
-          "age_days": 39
-        },
-        {
-          "number": 669,
-          "user": "Ollie520",
-          "title": "fix: resolve #551 - [revertinc/revert] [REVER-51] Workable Integration",
-          "state": "open",
-          "age_days": 27
-        },
-        {
-          "number": 670,
-          "user": "Mxtl7",
-          "title": "feat: Workable ATS integration (auth, services, transforms, UI + SDK)",
-          "state": "open",
-          "age_days": 27
-        },
-        {
-          "number": 671,
-          "user": "LuckyTurtleLabs",
-          "title": "feat(ats): add Workable integration (#551)",
-          "state": "open",
-          "age_days": 26
-        },
-        {
-          "number": 673,
-          "user": "sonofkratos92",
-          "title": "feat(ats): add Workable connection and OAuth credential support",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 677,
-          "user": "Saik2789",
-          "title": "feat(ats): implement Workable ATS integration (#551)",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 679,
-          "user": "thinhnx128",
-          "title": "feat(ats): [REVER-51] Workable Integration (#551)",
-          "state": "open",
-          "age_days": 7
-        },
-        {
-          "number": 681,
-          "user": "zaidrain06",
-          "title": "feat(ats): add Workable ATS integration",
-          "state": "open",
-          "age_days": 5
-        },
-        {
-          "number": 682,
-          "user": "DSP-AID",
-          "title": "feat(ats): [REVER-51] Workable Integration (closes #551)",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 683,
-          "user": "garter-black",
-          "title": "feat(ats): add Workable ATS integration client and unified mappers (#551)",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 685,
-          "user": "cocvn157",
-          "title": "feat(ats): add Workable integration (#551)",
-          "state": "open",
-          "age_days": 3
-        },
-        {
-          "number": 688,
-          "user": "mau16ro",
-          "title": "fix: solution for #551 ([REVER-51] Workable Integration)",
-          "state": "open",
-          "age_days": 2
-        },
-        {
-          "number": 689,
-          "user": "khuxaiphi-stack",
-          "title": "feat(ats): add Workable Unified ATS integration & test suite (#551)",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "revertinc/revert",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:10Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-07",
-      "last_checked": "2026-11-07",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "repo last push 579d ago (> 90d)",
-        "contested by 19 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-c97f59b5c70d9978",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "revertinc/revert#372",
-      "title": "[REVER-48] Workday Integration",
-      "url": "https://github.com/revertinc/revert/issues/372",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "revertinc",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "revertinc/revert",
-      "repo_archived": false,
-      "repo_last_push": "2025-04-07",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 653,
-          "user": "maoshuorz",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 245
-        },
-        {
-          "number": 661,
-          "user": "Aduersarius",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 61
-        },
-        {
-          "number": 662,
-          "user": "iprasen",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 57
-        },
-        {
-          "number": 666,
-          "user": "projectcarbonfiber",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 47
-        },
-        {
-          "number": 668,
-          "user": "Ahmed5754",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 39
-        },
-        {
-          "number": 674,
-          "user": "sonofkratos92",
-          "title": "feat(ats): add Workday connection and OAuth credential support",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 675,
-          "user": "heroking777",
-          "title": "feat: add Workday ATS integration",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 676,
-          "user": "kazuyaroz",
-          "title": "feat(ats): add Workday integration [REVER-48]",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 680,
-          "user": "zaidrain06",
-          "title": "feat(ats): add Workday ATS integration",
-          "state": "open",
-          "age_days": 5
-        },
-        {
-          "number": 684,
-          "user": "garter-black",
-          "title": "feat(integrations): add Workday REST API v1 client and worker/job mappers (#372)",
-          "state": "open",
-          "age_days": 4
-        },
-        {
-          "number": 686,
-          "user": "cocvn157",
-          "title": "feat(ats): add Workday integration (#372)",
-          "state": "open",
-          "age_days": 3
-        },
-        {
-          "number": 687,
-          "user": "mau16ro",
-          "title": "fix: solution for #372 ([REVER-48] Workday Integration)",
-          "state": "open",
-          "age_days": 2
-        },
-        {
-          "number": 690,
-          "user": "khuxaiphi-stack",
-          "title": "feat(ats): add Workday unified ATS integration (#372)",
-          "state": "open",
-          "age_days": 1
-        },
-        {
-          "number": 691,
-          "user": "jeffrey-graham",
-          "title": "feat(ats): add Workday OAuth2 authentication and token refresh handler",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 0,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "revertinc/revert",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:10Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-07",
-      "last_checked": "2026-11-07",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "repo last push 579d ago (> 90d)",
-        "contested by 14 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-6ba66333394cbdf2",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "onyx-dot-app/onyx#2281",
-      "title": "Jira Service Management Connector",
-      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "onyx-dot-app",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "python",
-      "repo": "onyx-dot-app/onyx",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-07",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 8557,
-          "user": "jefferteleco",
-          "title": "feat: Add Jira Service Management Connector",
-          "state": "open",
-          "age_days": 262
-        }
-      ],
-      "dead_attempts": 6,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 233,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "onyx-dot-app/onyx",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-04T05:54:58Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "CLAUDE.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-07",
-      "last_checked": "2026-11-07",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "repo pushed 0d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "6 prior attempts died unmerged (battle scars, D7)",
-        "last reply 233d ago (> 60d)",
-        "1 open PR but 262d old (> 30d)"
       ]
     },
     {
