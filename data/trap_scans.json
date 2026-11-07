@@ -740,6 +740,19 @@
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
+  "scratchdata/scratchdata": {
+    "checked_at": "2026-11-07T10:02:53Z",
+    "checked_date": "2026-11-07",
+    "checked_files": [
+      "issue #170",
+      "issue #167"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "scratchdata/scratchdata",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
   "speakers-in-tech/conference-data": {
     "checked_at": "2026-11-04T05:55:04Z",
     "checked_date": "2026-11-04",
@@ -829,5 +842,17 @@
     "target": "tscircuit/pcb-viewer",
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CAUTION"
+  },
+  "tscircuit/template-api-fake": {
+    "checked_at": "2026-11-07T10:02:56Z",
+    "checked_date": "2026-11-07",
+    "checked_files": [
+      "README.md"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "tscircuit/template-api-fake",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
   }
 }
