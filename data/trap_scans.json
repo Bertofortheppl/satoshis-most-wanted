@@ -168,20 +168,20 @@
     "verdict": "TRAP"
   },
   "CodyTseng/jumble": {
-    "checked_at": "2026-10-31T05:10:11Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:33Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "README.md",
       "AGENTS.md",
       "CLAUDE.md",
+      "issue #890",
       "issue #886",
       "issue #875",
       "issue #874",
       "issue #868",
       "issue #866",
       "issue #865",
-      "issue #864",
-      "issue #863"
+      "issue #864"
     ],
     "rules": [],
     "score": 0,
@@ -190,8 +190,8 @@
     "verdict": "CLEAN"
   },
   "MagnivOrg/prompt-layer-library": {
-    "checked_at": "2026-10-31T05:10:07Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:30Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "README.md",
       "issue #358",
@@ -218,8 +218,8 @@
     "verdict": "CLEAN"
   },
   "PrimalHQ/primal-android-app": {
-    "checked_at": "2026-10-31T05:09:58Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:24Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -235,8 +235,8 @@
     "verdict": "CLEAN"
   },
   "PrimalHQ/primal-ios-app": {
-    "checked_at": "2026-10-31T05:09:54Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:21Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -250,8 +250,8 @@
     "verdict": "CLEAN"
   },
   "PrimalHQ/primal-web-app": {
-    "checked_at": "2026-10-31T05:10:02Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:27Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -417,8 +417,8 @@
     "verdict": "CLEAN"
   },
   "chainwayxyz/clementine": {
-    "checked_at": "2026-10-31T05:10:22Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:37Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "README.md",
       "SECURITY.md",
@@ -445,8 +445,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/ZapPlanner": {
-    "checked_at": "2026-10-31T05:10:46Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:59Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "README.md",
       "issue #84",
@@ -463,8 +463,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/bitcoin-connect": {
-    "checked_at": "2026-10-31T05:10:34Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:43Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -477,14 +477,14 @@
     "verdict": "CLEAN"
   },
   "getAlby/hub": {
-    "checked_at": "2026-10-31T05:10:42Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:53Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "README.md",
       "AGENTS.md",
       "CLAUDE.md",
       "SECURITY.md",
-      "issue #2665"
+      "issue #2698"
     ],
     "rules": [],
     "score": 0,
@@ -493,8 +493,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/lightning-browser-extension": {
-    "checked_at": "2026-10-31T05:10:38Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:47Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -509,8 +509,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/nostr-wallet-connect": {
-    "checked_at": "2026-10-31T05:10:51Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:49Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "README.md",
       "issue #275",
@@ -524,8 +524,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/pos": {
-    "checked_at": "2026-10-31T05:10:30Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:56Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "README.md",
       "issue #46",
@@ -555,8 +555,8 @@
     "verdict": "CLEAN"
   },
   "go-gitea/gitea": {
-    "checked_at": "2026-11-01T19:40:04Z",
-    "checked_date": "2026-11-01",
+    "checked_at": "2026-11-09T11:26:02Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -634,14 +634,13 @@
     "verdict": "CAUTION"
   },
   "lnbits/lnbits": {
-    "checked_at": "2026-10-31T05:10:26Z",
-    "checked_date": "2026-10-31",
+    "checked_at": "2026-11-09T11:25:40Z",
+    "checked_date": "2026-11-09",
     "checked_files": [
       "README.md",
       "AGENTS.md",
       "SECURITY.md",
-      "issue #4277",
-      "issue #4182"
+      "issue #4307"
     ],
     "rules": [],
     "score": 0,
