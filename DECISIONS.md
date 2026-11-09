@@ -4,6 +4,39 @@
 > the trigger to revisit. Append-only; new entries on top. Owner sign-off
 > recorded per entry. Ties to RESEARCH.md evidence by section.
 
+## D11 — Dead listings degrade, never kill the run — DECIDED (owner 2026-11-08, approved ship in session)
+
+**Context:** Three consecutive cron runs failed Nov 8 (exit 1, ~15 min in,
+before the commit step; nothing data-wise changed since the Nov 7 green
+runs). Root cause: `BrantaOps/branta-core` was deleted/made private on
+GitHub (404) while still an open 17,990-sat listing on the LB feed. Its
+Oct-31 verdict-ledger entry crossed the 7-day rescan window at midnight
+Nov 8, the rescan ran, trapcheck exited 1 with no JSON ("repo not found"),
+and the wrapper's RuntimeError was uncaught — one dead repo killed the
+whole board's update, deterministically, every 3 hours.
+
+**Decision:** a scan failure (repo gone, scanner timeout, bad output) is a
+per-listing degradation, not a run failure:
+1. `trap_scan` catches it, logs repo + reason to stderr (visible in CI
+   logs), and the run continues.
+2. The listing runs verdict-less; the bar honestly tracks it ("trap scan
+   missing" + "repo freshness unknown"). No status is invented — the LB
+   feed still says open, so it stays open-tracked until the platform says
+   otherwise.
+3. A stale ledger verdict is NOT reused when its rescan fails — a stale
+   verdict is not a verdict. The ledger keeps the old entry as auditable
+   history; nothing is invented.
+4. The vendored scanner is untouched (vendoring policy); the fix lives in
+   our wrapper layer (`run_engine.trap_scan`).
+
+**Pinned by tests:** `TrapScanResilienceTests` — the crash regression
+itself, stale-verdict dropped not reused, no ledger invention, fresh
+entries untouched. 60 tests green.
+
+**Revisit trigger:** if stderr noise from permanently-dead listings grows,
+mark "listing dead" at ingest (repo 404 during enrichment) instead of
+retrying the scan every run.
+
 ## D10 — Awarded/paid outcomes wired + the bounty-label sweep — DECIDED (owner 2026-10-25/27, "proceed with queue 1 and 2")
 
 **Context:** the third-party review's top two recommendations (confirmed

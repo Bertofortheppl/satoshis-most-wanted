@@ -132,7 +132,19 @@ def trap_scan(posters, scan_repo, workdir: Path, today=None, rescan_days=RESCAN_
             except ValueError:
                 fresh = False
         if not fresh:
-            trap = scan_repo(p.repo)
+            try:
+                trap = scan_repo(p.repo)
+            except Exception as e:
+                # 2026-11-08 incident: a repo deleted/private after listing
+                # (BrantaOps/branta-core, still open on the LB feed) made the
+                # scanner subprocess exit 1 with no JSON; the wrapper's
+                # RuntimeError killed three consecutive cron runs. A dead or
+                # unscannable listing degrades to tracked ("trap scan
+                # missing"), never kills the engine — and no verdict is
+                # invented for the ledger.
+                print(f"trap-scan failed for {p.repo}: "
+                      f"{type(e).__name__}: {e}", file=sys.stderr)
+                trap = None
             if trap is not None:
                 now_iso = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
                 cache[p.repo] = {
@@ -144,6 +156,11 @@ def trap_scan(posters, scan_repo, workdir: Path, today=None, rescan_days=RESCAN_
                     "checked_date": today,
                 }
                 hit = cache[p.repo]
+            elif hit:
+                # rescan was due but failed: a stale verdict is not a
+                # verdict. The poster runs verdict-less (tracked at the
+                # bar); the ledger keeps the old entry as auditable history.
+                hit = None
         if hit:
             p.trap = TrapScan(
                 verdict=hit["verdict"], score=hit["score"],

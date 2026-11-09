@@ -515,5 +515,96 @@ class LedgerHealingTests(unittest.TestCase):
         shutil.rmtree(wd, ignore_errors=True)
 
 
+class TrapScanResilienceTests(unittest.TestCase):
+    """2026-11-08 incident regression: BrantaOps/branta-core vanished from
+    GitHub (404) while still an open 17,990-sat listing on the LB feed. Its
+    verdict ledger entry went 8 days stale, the rescan raised the wrapper's
+    RuntimeError ('trapcheck produced no JSON'), and three consecutive cron
+    runs died with exit 1 before the commit step. A dead listing must
+    degrade to tracked-with-reasons, never kill the engine."""
+
+    TODAY = "2026-11-08"
+    STALE = "2026-10-31"   # 8 days before TODAY: rescan due
+
+    def _poster(self, repo):
+        from engine.schema import Poster, derive_id
+        p = Poster(
+            id=derive_id("lightning_bounties", f"lb-1-{repo}"),
+            source="lightning_bounties", source_label="Lightning Bounties",
+            external_id=f"lb-1-{repo}", title="Dead listing", url=f"https://lb/x-{repo}",
+            sats=20000, escrow=True, repo=repo, status="open",
+            first_seen=self.STALE, last_checked=self.TODAY)
+        p.rewarder = "veteran"
+        p.rewarder_trust = "ok"  # post-enrich state (set dynamically in enrich())
+        return p
+
+    def _seed_ledger(self, wd):
+        import json as J
+        entry = lambda date: {"verdict": "CLEAN", "score": 0, "rules": [],
+                              "target": "", "upstream_commit": "d56fd7d",
+                              "checked_at": f"{date}T00:00:00Z",
+                              "checked_files": [], "checked_date": date}
+        (wd / "data" / "trap_scans.json").write_text(J.dumps({
+            "acme/gone": entry(self.STALE),     # due for rescan, scan will die
+            "acme/fresh": entry(self.TODAY),    # fresh: must not be touched
+        }))
+
+    def test_scan_failure_degrades_to_tracked_not_crash(self):
+        from engine import bar
+        from engine.schema import TrapScan
+        wd = Path(tempfile.mkdtemp(prefix="smw-dead-"))
+        (wd / "data").mkdir(parents=True)
+        self._seed_ledger(wd)
+        gone, fresh = self._poster("acme/gone"), self._poster("acme/fresh")
+        scanned = []
+
+        def scan_repo(repo):
+            scanned.append(repo)
+            if repo == "acme/gone":
+                # exactly what the real wrapper raised on the 404 repo
+                raise RuntimeError("trapcheck produced no JSON (rc=1): "
+                                   " trapcheck: repo acme/gone not found")
+            return TrapScan(verdict="CLEAN", score=0, rules=[], target=repo)
+
+        out = run_engine.trap_scan([gone, fresh], scan_repo, wd, today=self.TODAY)
+
+        # the engine survived; only the due rescan was attempted
+        self.assertEqual(scanned, ["acme/gone"])
+        # dead listing: NO verdict — the stale one is dropped, not reused
+        self.assertIsNone(out[0].trap)
+        # fresh listing kept its ledger verdict untouched
+        self.assertEqual(out[1].trap.verdict, "CLEAN")
+        # the bar honestly tracks the unscannable repo with a reason
+        door, _passes, fails = bar.check(out[0])
+        self.assertEqual(door, "tracked")
+        self.assertTrue(any("trap scan missing" in f for f in fails))
+        # no verdict invented for the ledger; old entry kept as history
+        import json as J
+        ledger = J.loads((wd / "data" / "trap_scans.json").read_text())
+        self.assertEqual(ledger["acme/gone"]["checked_date"], self.STALE)
+        self.assertEqual(ledger["acme/fresh"]["checked_date"], self.TODAY)
+        shutil.rmtree(wd, ignore_errors=True)
+
+    def test_scan_failure_without_prior_ledger_also_tracks(self):
+        # new listing, scanner dies: no crash, no ledger entry, no verdict
+        from engine import bar
+        wd = Path(tempfile.mkdtemp(prefix="smw-dead2-"))
+        (wd / "data").mkdir(parents=True)
+        newbie = self._poster("acme/never-scanned")
+
+        def scan_repo(repo):
+            raise RuntimeError("trapcheck produced no JSON (rc=1)")
+
+        out = run_engine.trap_scan([newbie], scan_repo, wd, today=self.TODAY)
+        self.assertIsNone(out[0].trap)
+        door, _passes, fails = bar.check(out[0])
+        self.assertEqual(door, "tracked")
+        self.assertTrue(any("trap scan missing" in f for f in fails))
+        import json as J
+        ledger = J.loads((wd / "data" / "trap_scans.json").read_text())
+        self.assertEqual(ledger, {})
+        shutil.rmtree(wd, ignore_errors=True)
+
+
 if __name__ == "__main__":
     unittest.main()
