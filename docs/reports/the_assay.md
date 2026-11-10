@@ -71,11 +71,12 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
-| UnsafeLabs | 9 | 0 | 0 | 2 | 2 |
-| revertinc | 2 | 0 | 0 | 0 | 0 |
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
+| lablab-ai | 1 | 0 | 0 | 0 | 0 |
+| revertinc | 2 | 0 | 0 | 0 | 0 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
+| UnsafeLabs | 9 | 0 | 0 | 2 | 2 |
 | limitlessprojects | 10 | 0 | 0 | 2 | 2 |
 | SecureBananaLabs | 5 | 0 | 0 | 2 | 2 |
 | tryabby | 1 | 0 | 0 | 0 | 0 |
@@ -86,7 +87,6 @@
 | tine1117 | 1 | 0 | 0 | 0 | 0 |
 | ClankerNation | 39 | 0 | 0 | 0 | 0 |
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
-| lablab-ai | 1 | 0 | 0 | 0 | 0 |
 | PG-AGI | 2 | 0 | 0 | 0 | 0 |
 | caley-io | 1 | 0 | 0 | 0 | 0 |
 | outerbase | 1 | 0 | 0 | 0 | 0 |
