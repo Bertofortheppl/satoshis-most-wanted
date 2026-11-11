@@ -31,7 +31,7 @@
       "dead_attempts": 3,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 0,
+      "maintainer_last_reply_age_days": 175,
       "trap": {
         "verdict": "TRAP",
         "score": 178,
@@ -160,7 +160,7 @@
       "dead_attempts": 4,
       "merged_attempts": 0,
       "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 0,
+      "maintainer_last_reply_age_days": 175,
       "trap": {
         "verdict": "TRAP",
         "score": 178,
@@ -6697,7 +6697,7 @@
       "language": "typescript",
       "repo": "PrimalHQ/primal-web-app",
       "repo_archived": false,
-      "repo_last_push": "2026-11-10",
+      "repo_last_push": "2026-11-11",
       "contested_prs": 19,
       "contest_detail": [
         {
@@ -6864,7 +6864,7 @@
         "purse 50000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -9632,7 +9632,7 @@
       "language": "python",
       "repo": "lnbits/lnbits",
       "repo_archived": false,
-      "repo_last_push": "2026-11-10",
+      "repo_last_push": "2026-11-11",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 2,
@@ -9664,7 +9664,7 @@
         "purse 20000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -10606,7 +10606,7 @@
       "language": "go",
       "repo": "getAlby/hub",
       "repo_archived": false,
-      "repo_last_push": "2026-11-10",
+      "repo_last_push": "2026-11-11",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -10637,7 +10637,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -11063,7 +11063,7 @@
       "language": "go",
       "repo": "getAlby/hub",
       "repo_archived": false,
-      "repo_last_push": "2026-11-10",
+      "repo_last_push": "2026-11-11",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
@@ -11094,7 +11094,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -15400,7 +15400,7 @@
       "language": "typescript",
       "repo": "BAWES-Universe/workadventure-universe",
       "repo_archived": false,
-      "repo_last_push": "2026-11-10",
+      "repo_last_push": "2026-11-11",
       "contested_prs": 9,
       "contest_detail": [
         {
@@ -15507,7 +15507,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -19486,19 +19486,12 @@
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
       "repo_last_push": "2026-11-11",
-      "contested_prs": 4,
+      "contested_prs": 3,
       "contest_detail": [
         {
           "number": 1893,
           "user": "harmweber787-png",
           "title": "feat(spikes): add W-002 type-carried ownership capability spike (closes #279)",
-          "state": "open",
-          "age_days": 16
-        },
-        {
-          "number": 1951,
-          "user": "sezginkipel",
-          "title": "feat: represent ownership capability directly as a type property (#279)",
           "state": "open",
           "age_days": 16
         },
@@ -19517,7 +19510,7 @@
           "age_days": 6
         }
       ],
-      "dead_attempts": 2,
+      "dead_attempts": 3,
       "merged_attempts": 1,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 16,
@@ -19560,8 +19553,9 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
+        "3 prior attempts died unmerged (battle scars, D7)",
         "trap verdict CAUTION (wall requires CLEAN)",
-        "contested by 4 open PRs (> 1)"
+        "contested by 3 open PRs (> 1)"
       ]
     },
     {
