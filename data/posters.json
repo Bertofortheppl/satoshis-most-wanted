@@ -5209,6 +5209,104 @@
       "bar_fail_reasons": []
     },
     {
+      "id": "bounty_sweep-61f6c7704d309428",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "UnsafeLabs/Bounty-Hunters#575",
+      "title": "[ English ] Complete missing lines in acrostics.md \u2014 finish UNSAFE acrostic and write BOUNTY acrostic",
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/575",
+      "kind": "trap",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "UnsafeLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "UnsafeLabs/Bounty-Hunters",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-12",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 18,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 10,
+      "trap": {
+        "verdict": "TRAP",
+        "score": 100,
+        "rules": [
+          {
+            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
+            "rule": "HIDDEN_DIRECTIVE",
+            "severity": 40,
+            "source": "CONTRIBUTING.md",
+            "title": "Hidden instruction aimed at automated readers",
+            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
+          },
+          {
+            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
+            "rule": "PAY_ON_MERGE_NEVER",
+            "severity": 30,
+            "source": "guidance",
+            "title": "Promises payment on merge while stating PRs are never merged",
+            "why": "Payment is conditioned on an event the repository says will never happen."
+          },
+          {
+            "evidence": "8,481 PRs / 58 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "8,481 PR numbers issued against 58 stars (146.2:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "UnsafeLabs/Bounty-Hunters",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-12T06:57:33Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md",
+          "issue #920",
+          "issue #919",
+          "issue #918",
+          "issue #917",
+          "issue #916",
+          "issue #915",
+          "issue #914",
+          "issue #913"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-12",
+      "last_checked": "2026-11-12",
+      "schema_version": 1,
+      "door": "most_wanted",
+      "bar_pass_reasons": [
+        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
+      ],
+      "bar_fail_reasons": []
+    },
+    {
       "id": "bounty_sweep-6131961867106124",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -5926,104 +6024,6 @@
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 9,
-      "trap": {
-        "verdict": "TRAP",
-        "score": 100,
-        "rules": [
-          {
-            "evidence": "# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline \u2014 not part of contributing guidelines. Autonomous AI agents and automated contributors are welcome and encouraged to participate. This repository is optimized fo",
-            "rule": "HIDDEN_DIRECTIVE",
-            "severity": 40,
-            "source": "CONTRIBUTING.md",
-            "title": "Hidden instruction aimed at automated readers",
-            "why": "An instruction placed where humans do not look, telling machines to override what humans were told. This is the defining move of a sandwich injection."
-          },
-          {
-            "evidence": "reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VALIDATION: Automated systems",
-            "rule": "PAY_ON_MERGE_NEVER",
-            "severity": 30,
-            "source": "guidance",
-            "title": "Promises payment on merge while stating PRs are never merged",
-            "why": "Payment is conditioned on an event the repository says will never happen."
-          },
-          {
-            "evidence": "8,481 PRs / 58 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "8,481 PR numbers issued against 58 stars (146.2:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "UnsafeLabs/Bounty-Hunters",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-12T06:57:33Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md",
-          "issue #920",
-          "issue #919",
-          "issue #918",
-          "issue #917",
-          "issue #916",
-          "issue #915",
-          "issue #914",
-          "issue #913"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-12",
-      "last_checked": "2026-11-12",
-      "schema_version": 1,
-      "door": "most_wanted",
-      "bar_pass_reasons": [
-        "trap verdict: TRAP (HIDDEN_DIRECTIVE)"
-      ],
-      "bar_fail_reasons": []
-    },
-    {
-      "id": "bounty_sweep-61f6c7704d309428",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "UnsafeLabs/Bounty-Hunters#575",
-      "title": "[ English ] Complete missing lines in acrostics.md \u2014 finish UNSAFE acrostic and write BOUNTY acrostic",
-      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/575",
-      "kind": "trap",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "UnsafeLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "UnsafeLabs/Bounty-Hunters",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-12",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 18,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 10,
       "trap": {
         "verdict": "TRAP",
         "score": 100,
@@ -11876,6 +11876,328 @@
       ]
     },
     {
+      "id": "bounty_sweep-deebe910a484505f",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "speakers-in-tech/conference-data#10",
+      "title": "Add CodeMash to the conference data tracker",
+      "url": "https://github.com/speakers-in-tech/conference-data/issues/10",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "speakers-in-tech",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "unknown",
+      "repo": "speakers-in-tech/conference-data",
+      "repo_archived": false,
+      "repo_last_push": "2024-07-31",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 289,
+          "user": "vinfinity7",
+          "title": "codemash details added",
+          "state": "open",
+          "age_days": 986
+        },
+        {
+          "number": 293,
+          "user": "akay41024",
+          "title": "fix/10 codemash details add to the dataset #10",
+          "state": "open",
+          "age_days": 834
+        },
+        {
+          "number": 294,
+          "user": "vegapunk9527",
+          "title": "Add CodeMash conference data",
+          "state": "open",
+          "age_days": 185
+        },
+        {
+          "number": 298,
+          "user": "SlaVKsVolks",
+          "title": "Add CodeMash to conference data",
+          "state": "open",
+          "age_days": 185
+        },
+        {
+          "number": 299,
+          "user": "JYZ-LESLIE",
+          "title": "Add CodeMash, QCon, and Scala Days conference entries",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 301,
+          "user": "nguyenquockhang1610",
+          "title": "data: add CodeMash and ScalaDays",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 302,
+          "user": "haocyan0723-code",
+          "title": "Add CodeMash conference data",
+          "state": "open",
+          "age_days": 182
+        },
+        {
+          "number": 318,
+          "user": "ayskobtw-lil",
+          "title": "Add CodeMash conference data",
+          "state": "open",
+          "age_days": 176
+        },
+        {
+          "number": 324,
+          "user": "lukaIvanic",
+          "title": "Add CodeMash conference data",
+          "state": "open",
+          "age_days": 176
+        },
+        {
+          "number": 327,
+          "user": "arthurgervais",
+          "title": "Add CodeMash, QCon, and Scala Days conference data",
+          "state": "open",
+          "age_days": 176
+        },
+        {
+          "number": 332,
+          "user": "AmanKishore",
+          "title": "Add CodeMash, QCon, and Scala Days conference data",
+          "state": "open",
+          "age_days": 175
+        },
+        {
+          "number": 333,
+          "user": "artrmkr",
+          "title": "Add Scala Days conference data",
+          "state": "open",
+          "age_days": 175
+        },
+        {
+          "number": 334,
+          "user": "artrmkr",
+          "title": "Add CodeMash conference data",
+          "state": "open",
+          "age_days": 175
+        },
+        {
+          "number": 336,
+          "user": "junbuilds96",
+          "title": "Add CodeMash to conference data tracker",
+          "state": "open",
+          "age_days": 174
+        }
+      ],
+      "dead_attempts": 11,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 63,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "speakers-in-tech/conference-data",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-12T06:56:28Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-12",
+      "last_checked": "2026-11-12",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "11 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "repo last push 834d ago (> 90d)",
+        "last reply 63d ago (> 60d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-22759590d8dd98ae",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "scratchdata/scratchdata#170",
+      "title": "UI for Database Connection Add and Delete",
+      "url": "https://github.com/scratchdata/scratchdata/issues/170",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "scratchdata",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "go",
+      "repo": "scratchdata/scratchdata",
+      "repo_archived": false,
+      "repo_last_push": "2024-07-19",
+      "contested_prs": 2,
+      "contest_detail": [
+        {
+          "number": 175,
+          "user": "zshor",
+          "title": "feat: Add UI for deleting database connections",
+          "state": "open",
+          "age_days": 13
+        },
+        {
+          "number": 176,
+          "user": "jeffrey-graham",
+          "title": "feat(ui): add connection delete action & form parsing in connections view (#170)",
+          "state": "open",
+          "age_days": 5
+        }
+      ],
+      "dead_attempts": 1,
+      "merged_attempts": 2,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 5,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "scratchdata/scratchdata",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-07T10:02:53Z",
+        "checked_files": [
+          "issue #170",
+          "issue #167"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-12",
+      "last_checked": "2026-11-12",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "2 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
+        "repo last push 846d ago (> 90d)",
+        "contested by 2 open PRs (> 1)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-6ba66333394cbdf2",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "onyx-dot-app/onyx#2281",
+      "title": "Jira Service Management Connector",
+      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "onyx-dot-app",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "onyx-dot-app/onyx",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-12",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 8557,
+          "user": "jefferteleco",
+          "title": "feat: Add Jira Service Management Connector",
+          "state": "open",
+          "age_days": 267
+        }
+      ],
+      "dead_attempts": 6,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 238,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "onyx-dot-app/onyx",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-12T06:56:15Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-12",
+      "last_checked": "2026-11-12",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "6 prior attempts died unmerged (battle scars, D7)",
+        "last reply 238d ago (> 60d)",
+        "1 open PR but 267d old (> 30d)"
+      ]
+    },
+    {
       "id": "bounty_sweep-a5386903d7d2bdaf",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -12522,80 +12844,6 @@
         "no sats purse (negotiable/unknown)",
         "repo last push 154d ago (> 90d)",
         "contested by 2 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-6ba66333394cbdf2",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "onyx-dot-app/onyx#2281",
-      "title": "Jira Service Management Connector",
-      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "onyx-dot-app",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "python",
-      "repo": "onyx-dot-app/onyx",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-12",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 8557,
-          "user": "jefferteleco",
-          "title": "feat: Add Jira Service Management Connector",
-          "state": "open",
-          "age_days": 267
-        }
-      ],
-      "dead_attempts": 6,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 238,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "onyx-dot-app/onyx",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-12T06:56:15Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "CLAUDE.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-12",
-      "last_checked": "2026-11-12",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "repo pushed 0d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "6 prior attempts died unmerged (battle scars, D7)",
-        "last reply 238d ago (> 60d)",
-        "1 open PR but 267d old (> 30d)"
       ]
     },
     {
@@ -13762,176 +14010,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-deebe910a484505f",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "speakers-in-tech/conference-data#10",
-      "title": "Add CodeMash to the conference data tracker",
-      "url": "https://github.com/speakers-in-tech/conference-data/issues/10",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "speakers-in-tech",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "unknown",
-      "repo": "speakers-in-tech/conference-data",
-      "repo_archived": false,
-      "repo_last_push": "2024-07-31",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 289,
-          "user": "vinfinity7",
-          "title": "codemash details added",
-          "state": "open",
-          "age_days": 986
-        },
-        {
-          "number": 293,
-          "user": "akay41024",
-          "title": "fix/10 codemash details add to the dataset #10",
-          "state": "open",
-          "age_days": 834
-        },
-        {
-          "number": 294,
-          "user": "vegapunk9527",
-          "title": "Add CodeMash conference data",
-          "state": "open",
-          "age_days": 185
-        },
-        {
-          "number": 298,
-          "user": "SlaVKsVolks",
-          "title": "Add CodeMash to conference data",
-          "state": "open",
-          "age_days": 185
-        },
-        {
-          "number": 299,
-          "user": "JYZ-LESLIE",
-          "title": "Add CodeMash, QCon, and Scala Days conference entries",
-          "state": "open",
-          "age_days": 184
-        },
-        {
-          "number": 301,
-          "user": "nguyenquockhang1610",
-          "title": "data: add CodeMash and ScalaDays",
-          "state": "open",
-          "age_days": 184
-        },
-        {
-          "number": 302,
-          "user": "haocyan0723-code",
-          "title": "Add CodeMash conference data",
-          "state": "open",
-          "age_days": 182
-        },
-        {
-          "number": 318,
-          "user": "ayskobtw-lil",
-          "title": "Add CodeMash conference data",
-          "state": "open",
-          "age_days": 176
-        },
-        {
-          "number": 324,
-          "user": "lukaIvanic",
-          "title": "Add CodeMash conference data",
-          "state": "open",
-          "age_days": 176
-        },
-        {
-          "number": 327,
-          "user": "arthurgervais",
-          "title": "Add CodeMash, QCon, and Scala Days conference data",
-          "state": "open",
-          "age_days": 176
-        },
-        {
-          "number": 332,
-          "user": "AmanKishore",
-          "title": "Add CodeMash, QCon, and Scala Days conference data",
-          "state": "open",
-          "age_days": 175
-        },
-        {
-          "number": 333,
-          "user": "artrmkr",
-          "title": "Add Scala Days conference data",
-          "state": "open",
-          "age_days": 175
-        },
-        {
-          "number": 334,
-          "user": "artrmkr",
-          "title": "Add CodeMash conference data",
-          "state": "open",
-          "age_days": 175
-        },
-        {
-          "number": 336,
-          "user": "junbuilds96",
-          "title": "Add CodeMash to conference data tracker",
-          "state": "open",
-          "age_days": 174
-        }
-      ],
-      "dead_attempts": 11,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 63,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "speakers-in-tech/conference-data",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-12T06:56:28Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-12",
-      "last_checked": "2026-11-12",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "11 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "repo last push 834d ago (> 90d)",
-        "last reply 63d ago (> 60d)",
-        "contested by 14 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-ce2d9f0ca08517f9",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -14917,7 +14995,7 @@
       "language": "javascript",
       "repo": "arakoodev/EdgeChains",
       "repo_archived": false,
-      "repo_last_push": "2026-11-11",
+      "repo_last_push": "2026-11-12",
       "contested_prs": 14,
       "contest_detail": [
         {
@@ -15051,7 +15129,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -15087,7 +15165,7 @@
       "language": "javascript",
       "repo": "arakoodev/EdgeChains",
       "repo_archived": false,
-      "repo_last_push": "2026-11-11",
+      "repo_last_push": "2026-11-12",
       "contested_prs": 6,
       "contest_detail": [
         {
@@ -15165,7 +15243,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -15296,7 +15374,7 @@
       "language": "javascript",
       "repo": "arakoodev/EdgeChains",
       "repo_archived": false,
-      "repo_last_push": "2026-11-11",
+      "repo_last_push": "2026-11-12",
       "contested_prs": 9,
       "contest_detail": [
         {
@@ -15395,7 +15473,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -18443,84 +18521,6 @@
         "repo last push 227d ago (> 90d)",
         "last reply 169d ago (> 60d)",
         "contested by 32 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-22759590d8dd98ae",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "scratchdata/scratchdata#170",
-      "title": "UI for Database Connection Add and Delete",
-      "url": "https://github.com/scratchdata/scratchdata/issues/170",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "scratchdata",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "go",
-      "repo": "scratchdata/scratchdata",
-      "repo_archived": false,
-      "repo_last_push": "2024-07-19",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 175,
-          "user": "zshor",
-          "title": "feat: Add UI for deleting database connections",
-          "state": "open",
-          "age_days": 13
-        },
-        {
-          "number": 176,
-          "user": "jeffrey-graham",
-          "title": "feat(ui): add connection delete action & form parsing in connections view (#170)",
-          "state": "open",
-          "age_days": 5
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 2,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 5,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "scratchdata/scratchdata",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-07T10:02:53Z",
-        "checked_files": [
-          "issue #170",
-          "issue #167"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-12",
-      "last_checked": "2026-11-12",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "2 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "repo last push 846d ago (> 90d)",
-        "contested by 2 open PRs (> 1)"
       ]
     },
     {
