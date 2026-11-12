@@ -71,7 +71,10 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| getdozer | 3 | 0 | 0 | 1 | 1 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
+| tscircuit | 3 | 0 | 0 | 1 | 1 |
+| tine1117 | 1 | 0 | 0 | 0 | 0 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
 | lablab-ai | 1 | 0 | 0 | 0 | 0 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
@@ -85,14 +88,11 @@
 | outerbase | 1 | 0 | 0 | 0 | 0 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
 | javelin-anticheat | 2 | 0 | 0 | 1 | 1 |
-| tscircuit | 3 | 0 | 0 | 1 | 1 |
 | ClankerNation | 40 | 0 | 0 | 0 | 0 |
-| tine1117 | 1 | 0 | 0 | 0 | 0 |
 | limitlessprojects | 10 | 0 | 0 | 2 | 2 |
 | UnsafeLabs | 9 | 0 | 0 | 2 | 2 |
 | SecureBananaLabs | 5 | 0 | 0 | 2 | 2 |
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
-| getdozer | 3 | 0 | 0 | 1 | 1 |
 | ApexOpsStudio | 2 | 0 | 0 | 1 | 1 |
 | Bu1ldTh3Futur3 | 1 | 0 | 0 | 0 | 0 |
 | scratchdata | 1 | 0 | 0 | 0 | 0 |
