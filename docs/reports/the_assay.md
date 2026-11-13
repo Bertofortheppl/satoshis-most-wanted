@@ -72,6 +72,7 @@
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
 | javelin-anticheat | 2 | 0 | 0 | 1 | 1 |
+| SecureBananaLabs | 10 | 0 | 0 | 7 | 7 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
 | scratchdata | 1 | 0 | 0 | 0 | 0 |
 | UnsafeLabs | 9 | 0 | 0 | 2 | 2 |
@@ -91,9 +92,8 @@
 | revertinc | 2 | 0 | 0 | 0 | 0 |
 | tryabby | 1 | 0 | 0 | 0 | 0 |
 | outerbase | 1 | 0 | 0 | 0 | 0 |
-| ClankerNation | 40 | 0 | 0 | 0 | 0 |
+| ClankerNation | 35 | 0 | 0 | 0 | 0 |
 | limitlessprojects | 10 | 0 | 0 | 2 | 2 |
-| SecureBananaLabs | 5 | 0 | 0 | 2 | 2 |
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
 | ApexOpsStudio | 2 | 0 | 0 | 1 | 1 |
 | Bu1ldTh3Futur3 | 1 | 0 | 0 | 0 | 0 |
