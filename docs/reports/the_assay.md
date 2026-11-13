@@ -71,11 +71,11 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| javelin-anticheat | 2 | 0 | 0 | 1 | 1 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
 | scratchdata | 1 | 0 | 0 | 0 | 0 |
 | UnsafeLabs | 9 | 0 | 0 | 2 | 2 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
-| javelin-anticheat | 2 | 0 | 0 | 1 | 1 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
 | WillSmithTE | 2 | 0 | 0 | 1 | 1 |
 | PG-AGI | 2 | 0 | 0 | 0 | 0 |
