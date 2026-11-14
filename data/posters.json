@@ -26,17 +26,9 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-11-14",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 6370,
-          "user": "kingoftheland",
-          "title": "fix(TaskRouter): use SafeERC20 for ERC-20 payouts (#181)",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 28,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 29,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 0,
@@ -10966,6 +10958,186 @@
       ]
     },
     {
+      "id": "bounty_sweep-c970cace871fe0be",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "SecureBananaLabs/bug-bounty#1742",
+      "title": "fix: prevent admin role self-assignment during registration",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1742",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "SecureBananaLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-13",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 1744,
+          "user": "eutv2022",
+          "title": "fix: prevent admin role self-assignment during registration",
+          "state": "open",
+          "age_days": 168
+        },
+        {
+          "number": 2834,
+          "user": "oathis",
+          "title": "fix: prevent admin role self-assignment",
+          "state": "open",
+          "age_days": 167
+        },
+        {
+          "number": 3830,
+          "user": "skyfire707",
+          "title": "fix: prevent admin role self-assignment during registration",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 5688,
+          "user": "dallasnetprofu02-design",
+          "title": "fix(auth): reject admin role in public registration",
+          "state": "open",
+          "age_days": 159
+        },
+        {
+          "number": 5976,
+          "user": "poem123123",
+          "title": "Prevent public admin role registration",
+          "state": "open",
+          "age_days": 158
+        },
+        {
+          "number": 6705,
+          "user": "zhuy93431-maker",
+          "title": "fix: prevent admin role self-assignment during registration (Closes #1742)",
+          "state": "open",
+          "age_days": 156
+        },
+        {
+          "number": 7400,
+          "user": "XananasX7",
+          "title": "fix: comprehensive API hardening \u2014 auth, validation, id injection, CORS, rate li",
+          "state": "open",
+          "age_days": 151
+        },
+        {
+          "number": 7438,
+          "user": "XananasX7",
+          "title": "fix(critical): auth \u2014 JWT sub/id mismatch; admin self-assignment; free tokens on",
+          "state": "open",
+          "age_days": 151
+        },
+        {
+          "number": 7821,
+          "user": "XananasX7",
+          "title": "fix: block admin role self-assignment in registerSchema",
+          "state": "open",
+          "age_days": 150
+        },
+        {
+          "number": 9156,
+          "user": "sureshchouksey8",
+          "title": "fix(api): resolve auth and user creation security vulnerabilities",
+          "state": "open",
+          "age_days": 138
+        },
+        {
+          "number": 10864,
+          "user": "sureshchouksey8",
+          "title": "fix: align user ID generation logic with state management store",
+          "state": "open",
+          "age_days": 132
+        },
+        {
+          "number": 12396,
+          "user": "TaherEzzi",
+          "title": "fix: resolve #1742 - fix: prevent admin role self-assignment during registration",
+          "state": "open",
+          "age_days": 66
+        },
+        {
+          "number": 12697,
+          "user": "vandurmedries",
+          "title": "Fix #1742: fix: prevent admin role self-assignment during registration",
+          "state": "open",
+          "age_days": 51
+        },
+        {
+          "number": 13961,
+          "user": "Dungsky",
+          "title": "fix: resolve #1742 - fix: prevent admin role self-assignment during registration",
+          "state": "open",
+          "age_days": 1
+        }
+      ],
+      "dead_attempts": 1,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "13,948 PRs / 345 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "13,948 PR numbers issued against 345 stars (40.4:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "SecureBananaLabs/bug-bounty",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-12T06:57:37Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "issue #13945",
+          "issue #13938"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-14",
+      "last_checked": "2026-11-14",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 1d ago",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-844f920de2cbbcc2",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -13216,186 +13388,6 @@
         "3 prior attempts died unmerged (battle scars, D7)",
         "repo last push 879d ago (> 90d)",
         "contested by 4 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-c970cace871fe0be",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "SecureBananaLabs/bug-bounty#1742",
-      "title": "fix: prevent admin role self-assignment during registration",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/1742",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "SecureBananaLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "SecureBananaLabs/bug-bounty",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-13",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 1744,
-          "user": "eutv2022",
-          "title": "fix: prevent admin role self-assignment during registration",
-          "state": "open",
-          "age_days": 168
-        },
-        {
-          "number": 2834,
-          "user": "oathis",
-          "title": "fix: prevent admin role self-assignment",
-          "state": "open",
-          "age_days": 167
-        },
-        {
-          "number": 3830,
-          "user": "skyfire707",
-          "title": "fix: prevent admin role self-assignment during registration",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 5688,
-          "user": "dallasnetprofu02-design",
-          "title": "fix(auth): reject admin role in public registration",
-          "state": "open",
-          "age_days": 159
-        },
-        {
-          "number": 5976,
-          "user": "poem123123",
-          "title": "Prevent public admin role registration",
-          "state": "open",
-          "age_days": 158
-        },
-        {
-          "number": 6705,
-          "user": "zhuy93431-maker",
-          "title": "fix: prevent admin role self-assignment during registration (Closes #1742)",
-          "state": "open",
-          "age_days": 156
-        },
-        {
-          "number": 7400,
-          "user": "XananasX7",
-          "title": "fix: comprehensive API hardening \u2014 auth, validation, id injection, CORS, rate li",
-          "state": "open",
-          "age_days": 151
-        },
-        {
-          "number": 7438,
-          "user": "XananasX7",
-          "title": "fix(critical): auth \u2014 JWT sub/id mismatch; admin self-assignment; free tokens on",
-          "state": "open",
-          "age_days": 151
-        },
-        {
-          "number": 7821,
-          "user": "XananasX7",
-          "title": "fix: block admin role self-assignment in registerSchema",
-          "state": "open",
-          "age_days": 150
-        },
-        {
-          "number": 9156,
-          "user": "sureshchouksey8",
-          "title": "fix(api): resolve auth and user creation security vulnerabilities",
-          "state": "open",
-          "age_days": 138
-        },
-        {
-          "number": 10864,
-          "user": "sureshchouksey8",
-          "title": "fix: align user ID generation logic with state management store",
-          "state": "open",
-          "age_days": 132
-        },
-        {
-          "number": 12396,
-          "user": "TaherEzzi",
-          "title": "fix: resolve #1742 - fix: prevent admin role self-assignment during registration",
-          "state": "open",
-          "age_days": 66
-        },
-        {
-          "number": 12697,
-          "user": "vandurmedries",
-          "title": "Fix #1742: fix: prevent admin role self-assignment during registration",
-          "state": "open",
-          "age_days": 51
-        },
-        {
-          "number": 13961,
-          "user": "Dungsky",
-          "title": "fix: resolve #1742 - fix: prevent admin role self-assignment during registration",
-          "state": "open",
-          "age_days": 1
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 1,
-      "trap": {
-        "verdict": "SUSPICIOUS",
-        "score": 30,
-        "rules": [
-          {
-            "evidence": "13,948 PRs / 345 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "13,948 PR numbers issued against 345 stars (40.4:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "SecureBananaLabs/bug-bounty",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-12T06:57:37Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "issue #13945",
-          "issue #13938"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-14",
-      "last_checked": "2026-11-14",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 1d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict SUSPICIOUS (wall requires CLEAN)",
-        "contested by 14 open PRs (> 1)"
       ]
     },
     {
@@ -16858,7 +16850,7 @@
       "repo": "revertinc/revert",
       "repo_archived": false,
       "repo_last_push": "2025-04-07",
-      "contested_prs": 15,
+      "contested_prs": 16,
       "contest_detail": [
         {
           "number": 653,
@@ -16964,6 +16956,13 @@
           "title": "feat(ats): add Workday REST v1 integration, OAuth2 token handler & unified mappe",
           "state": "open",
           "age_days": 3
+        },
+        {
+          "number": 706,
+          "user": "hussain-alsaibai",
+          "title": "feat(ats): wire Workday into the ATS services and OAuth flow",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 5,
@@ -16998,7 +16997,7 @@
         "no sats purse (negotiable/unknown)",
         "5 prior attempts died unmerged (battle scars, D7)",
         "repo last push 586d ago (> 90d)",
-        "contested by 15 open PRs (> 1)"
+        "contested by 16 open PRs (> 1)"
       ]
     },
     {
@@ -17138,7 +17137,7 @@
       "language": "typescript",
       "repo": "tscircuit/pcb-viewer",
       "repo_archived": false,
-      "repo_last_push": "2026-11-06",
+      "repo_last_push": "2026-11-14",
       "contested_prs": 13,
       "contest_detail": [
         {
@@ -17266,7 +17265,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 8d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [

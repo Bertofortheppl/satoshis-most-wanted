@@ -71,11 +71,11 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| SecureBananaLabs | 11 | 0 | 0 | 7 | 7 |
 | ClankerNation | 33 | 0 | 0 | 0 | 0 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
 | scratchdata | 2 | 0 | 0 | 0 | 0 |
-| SecureBananaLabs | 11 | 0 | 0 | 7 | 7 |
 | outerbase | 1 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
 | javelin-anticheat | 2 | 0 | 0 | 1 | 1 |
