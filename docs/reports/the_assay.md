@@ -71,6 +71,7 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| ClankerNation | 33 | 0 | 0 | 0 | 0 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
 | scratchdata | 2 | 0 | 0 | 0 | 0 |
@@ -92,7 +93,6 @@
 | lablab-ai | 1 | 0 | 0 | 0 | 0 |
 | mohan-bee | 1 | 0 | 0 | 0 | 0 |
 | tryabby | 1 | 0 | 0 | 0 | 0 |
-| ClankerNation | 33 | 0 | 0 | 0 | 0 |
 | limitlessprojects | 10 | 0 | 0 | 2 | 2 |
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
 | ApexOpsStudio | 2 | 0 | 0 | 1 | 1 |
