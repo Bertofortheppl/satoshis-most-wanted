@@ -71,6 +71,9 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| getdozer | 3 | 0 | 0 | 1 | 1 |
+| limitlessprojects | 10 | 0 | 0 | 1 | 1 |
+| ClankerNation | 33 | 0 | 0 | 0 | 0 |
 | caley-io | 1 | 0 | 0 | 0 | 0 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
@@ -78,11 +81,9 @@
 | highlight | 1 | 0 | 0 | 0 | 0 |
 | scratchdata | 2 | 0 | 0 | 0 | 0 |
 | SecureBananaLabs | 11 | 0 | 0 | 7 | 7 |
-| ClankerNation | 33 | 0 | 0 | 0 | 0 |
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
 | javelin-anticheat | 2 | 0 | 0 | 1 | 1 |
 | revertinc | 2 | 0 | 0 | 0 | 0 |
-| getdozer | 3 | 0 | 0 | 1 | 1 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
 | UnsafeLabs | 9 | 0 | 0 | 2 | 2 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
@@ -93,8 +94,7 @@
 | lablab-ai | 1 | 0 | 0 | 0 | 0 |
 | mohan-bee | 1 | 0 | 0 | 0 | 0 |
 | tryabby | 1 | 0 | 0 | 0 | 0 |
-| limitlessprojects | 10 | 0 | 0 | 2 | 2 |
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
 | ApexOpsStudio | 2 | 0 | 0 | 1 | 1 |
 | Bu1ldTh3Futur3 | 1 | 0 | 0 | 0 | 0 |
-| unknown | 0 | 0 | 0 | 66 | 66 |
+| unknown | 0 | 0 | 0 | 70 | 70 |
