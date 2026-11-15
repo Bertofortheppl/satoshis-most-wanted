@@ -741,11 +741,12 @@
     "verdict": "CLEAN"
   },
   "scratchdata/scratchdata": {
-    "checked_at": "2026-11-07T10:02:53Z",
-    "checked_date": "2026-11-07",
+    "checked_at": "2026-11-15T00:55:37Z",
+    "checked_date": "2026-11-15",
     "checked_files": [
       "issue #170",
-      "issue #167"
+      "issue #167",
+      "issue #164"
     ],
     "rules": [],
     "score": 0,
@@ -844,8 +845,8 @@
     "verdict": "CAUTION"
   },
   "tscircuit/template-api-fake": {
-    "checked_at": "2026-11-07T10:02:56Z",
-    "checked_date": "2026-11-07",
+    "checked_at": "2026-11-15T00:55:40Z",
+    "checked_date": "2026-11-15",
     "checked_files": [
       "README.md"
     ],
