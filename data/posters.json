@@ -5459,7 +5459,7 @@
       "language": "typescript",
       "repo": "PrimalHQ/primal-web-app",
       "repo_archived": false,
-      "repo_last_push": "2026-11-13",
+      "repo_last_push": "2026-11-17",
       "contested_prs": 22,
       "contest_detail": [
         {
@@ -5647,7 +5647,7 @@
         "purse 50000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 4d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -6356,7 +6356,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-15",
+      "repo_last_push": "2026-11-17",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -6401,7 +6401,7 @@
         "purse 10200 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 2d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -6481,7 +6481,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-15",
+      "repo_last_push": "2026-11-17",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -6526,7 +6526,7 @@
         "purse 2000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 2d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -7020,7 +7020,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-15",
+      "repo_last_push": "2026-11-17",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -7057,7 +7057,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 2d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -7091,7 +7091,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-15",
+      "repo_last_push": "2026-11-17",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -7136,7 +7136,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 2d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -8407,7 +8407,7 @@
       "language": "python",
       "repo": "lnbits/lnbits",
       "repo_archived": false,
-      "repo_last_push": "2026-11-16",
+      "repo_last_push": "2026-11-17",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 2,
@@ -8438,7 +8438,7 @@
         "purse 20000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -10613,6 +10613,99 @@
       ]
     },
     {
+      "id": "bounty_sweep-5a4ee1ea9ced8fd3",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "getdozer/dozer#1659",
+      "title": "Support for `IN` clause in streaming SQL",
+      "url": "https://github.com/getdozer/dozer/issues/1659",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "getdozer",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "getdozer/dozer",
+      "repo_archived": false,
+      "repo_last_push": "2024-06-18",
+      "contested_prs": 4,
+      "contest_detail": [
+        {
+          "number": 2489,
+          "user": "Treasure520520",
+          "title": "feat(sql): lower IN subqueries into joins",
+          "state": "open",
+          "age_days": 189
+        },
+        {
+          "number": 2490,
+          "user": "Iineman2",
+          "title": "feat(sql): lower IN subqueries into joins",
+          "state": "open",
+          "age_days": 189
+        },
+        {
+          "number": 2494,
+          "user": "junn-dev",
+          "title": "fix: propagate NULL through IN list evaluation",
+          "state": "open",
+          "age_days": 181
+        },
+        {
+          "number": 2495,
+          "user": "NightVibes33",
+          "title": "feat(sql): support IN clauses in streaming SQL",
+          "state": "open",
+          "age_days": 181
+        }
+      ],
+      "dead_attempts": 2,
+      "merged_attempts": 1,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "getdozer/dozer",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-12T06:56:11Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-17",
+      "last_checked": "2026-11-17",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
+        "repo last push 882d ago (> 90d)",
+        "contested by 4 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-6ba66333394cbdf2",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -11715,99 +11808,6 @@
         "trap verdict CAUTION (wall requires CLEAN)",
         "repo last push 839d ago (> 90d)",
         "contested by 13 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-5a4ee1ea9ced8fd3",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "getdozer/dozer#1659",
-      "title": "Support for `IN` clause in streaming SQL",
-      "url": "https://github.com/getdozer/dozer/issues/1659",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "getdozer",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "getdozer/dozer",
-      "repo_archived": false,
-      "repo_last_push": "2024-06-18",
-      "contested_prs": 4,
-      "contest_detail": [
-        {
-          "number": 2489,
-          "user": "Treasure520520",
-          "title": "feat(sql): lower IN subqueries into joins",
-          "state": "open",
-          "age_days": 189
-        },
-        {
-          "number": 2490,
-          "user": "Iineman2",
-          "title": "feat(sql): lower IN subqueries into joins",
-          "state": "open",
-          "age_days": 189
-        },
-        {
-          "number": 2494,
-          "user": "junn-dev",
-          "title": "fix: propagate NULL through IN list evaluation",
-          "state": "open",
-          "age_days": 181
-        },
-        {
-          "number": 2495,
-          "user": "NightVibes33",
-          "title": "feat(sql): support IN clauses in streaming SQL",
-          "state": "open",
-          "age_days": 181
-        }
-      ],
-      "dead_attempts": 2,
-      "merged_attempts": 1,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 11,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "getdozer/dozer",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-12T06:56:11Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-17",
-      "last_checked": "2026-11-17",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "1 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
-        "repo last push 882d ago (> 90d)",
-        "contested by 4 open PRs (> 1)"
       ]
     },
     {
@@ -17681,7 +17681,7 @@
       "language": "typescript",
       "repo": "BAWES-Universe/workadventure-universe",
       "repo_archived": false,
-      "repo_last_push": "2026-11-16",
+      "repo_last_push": "2026-11-17",
       "contested_prs": 9,
       "contest_detail": [
         {
@@ -17790,7 +17790,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],

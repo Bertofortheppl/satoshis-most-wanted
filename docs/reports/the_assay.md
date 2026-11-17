@@ -71,12 +71,12 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| getdozer | 3 | 0 | 0 | 1 | 1 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
 | lablab-ai | 4 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
 | UnsafeLabs | 9 | 0 | 0 | 2 | 2 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
-| getdozer | 3 | 0 | 0 | 1 | 1 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
 | tscircuit | 3 | 0 | 0 | 1 | 1 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
