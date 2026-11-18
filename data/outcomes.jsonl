@@ -378,3 +378,17 @@
 {"ts": "2026-11-17T07:40:00Z", "id": "bounty_sweep-3547f1be953574ec", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
 {"ts": "2026-11-17T07:40:00Z", "id": "bounty_sweep-bc0eac15162f5d5f", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
 {"ts": "2026-11-17T07:40:00Z", "id": "bounty_sweep-f797e8cf759ae8d3", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-67b1683878076ddd", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-ca3420a8aa78b6e9", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-7fbfbb47d39f98bc", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-06028dd032e6b29c", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-494b614e7d2c41b8", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-bc426205f5218d48", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-3547f1be953574ec", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-4718b12f8a09fc88", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-9746c659e905bdb8", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-5ba57b550ef98c12", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-3f30f0ba411db901", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-2817f9ebfa2d1462", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-15b60ed23330d9a4", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-18T11:40:35Z", "id": "bounty_sweep-f610f8d7ec48dee9", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
