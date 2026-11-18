@@ -71,8 +71,9 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
-| limitlessprojects | 8 | 0 | 0 | 1 | 1 |
-| ClankerNation | 35 | 0 | 0 | 4 | 4 |
+| flydelabs | 1 | 0 | 0 | 0 | 0 |
+| limitlessprojects | 10 | 0 | 0 | 1 | 1 |
+| ClankerNation | 33 | 0 | 0 | 4 | 4 |
 | SecureBananaLabs | 9 | 0 | 0 | 7 | 7 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
@@ -80,7 +81,6 @@
 | getdozer | 3 | 0 | 0 | 1 | 1 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
 | UnsafeLabs | 8 | 0 | 0 | 2 | 2 |
-| flydelabs | 1 | 0 | 0 | 0 | 0 |
 | tscircuit | 3 | 0 | 0 | 1 | 1 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
 | outerbase | 1 | 0 | 0 | 0 | 0 |
@@ -97,4 +97,4 @@
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
 | ApexOpsStudio | 2 | 0 | 0 | 1 | 1 |
 | Bu1ldTh3Futur3 | 1 | 0 | 0 | 0 | 0 |
-| unknown | 0 | 0 | 0 | 76 | 76 |
+| unknown | 0 | 0 | 0 | 79 | 79 |
