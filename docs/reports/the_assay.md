@@ -71,6 +71,7 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| highlight | 1 | 0 | 0 | 0 | 0 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
 | limitlessprojects | 10 | 0 | 0 | 1 | 1 |
 | ClankerNation | 33 | 0 | 0 | 4 | 4 |
@@ -82,7 +83,6 @@
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
 | UnsafeLabs | 8 | 0 | 0 | 2 | 2 |
 | tscircuit | 3 | 0 | 0 | 1 | 1 |
-| highlight | 1 | 0 | 0 | 0 | 0 |
 | outerbase | 1 | 0 | 0 | 0 | 0 |
 | revertinc | 2 | 0 | 0 | 0 | 0 |
 | caley-io | 1 | 0 | 0 | 0 | 0 |
