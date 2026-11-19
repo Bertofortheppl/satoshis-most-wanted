@@ -398,3 +398,7 @@
 {"ts": "2026-11-18T20:33:59Z", "id": "bounty_sweep-b62a2a227d4c397a", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
 {"ts": "2026-11-18T20:33:59Z", "id": "bounty_sweep-cc626e56fe00dd1e", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
 {"ts": "2026-11-18T20:33:59Z", "id": "bounty_sweep-7dba5fb919229c18", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-19T11:40:50Z", "id": "bounty_sweep-07059f160eb7044f", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-19T11:40:50Z", "id": "bounty_sweep-0d29807f1fd3c023", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-19T11:40:50Z", "id": "bounty_sweep-0933d347697bf423", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-19T11:40:50Z", "id": "bounty_sweep-aa54acbb57b2a9dc", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}

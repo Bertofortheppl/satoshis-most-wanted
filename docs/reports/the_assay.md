@@ -71,10 +71,11 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| limitlessprojects | 12 | 0 | 0 | 1 | 1 |
+| revertinc | 2 | 0 | 0 | 0 | 0 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
-| limitlessprojects | 10 | 0 | 0 | 1 | 1 |
-| ClankerNation | 33 | 0 | 0 | 4 | 4 |
+| ClankerNation | 31 | 0 | 0 | 4 | 4 |
 | SecureBananaLabs | 9 | 0 | 0 | 7 | 7 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
@@ -84,7 +85,6 @@
 | UnsafeLabs | 8 | 0 | 0 | 2 | 2 |
 | tscircuit | 3 | 0 | 0 | 1 | 1 |
 | outerbase | 1 | 0 | 0 | 0 | 0 |
-| revertinc | 2 | 0 | 0 | 0 | 0 |
 | caley-io | 1 | 0 | 0 | 0 | 0 |
 | scratchdata | 2 | 0 | 0 | 0 | 0 |
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
@@ -97,4 +97,4 @@
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
 | ApexOpsStudio | 2 | 0 | 0 | 1 | 1 |
 | Bu1ldTh3Futur3 | 1 | 0 | 0 | 0 | 0 |
-| unknown | 0 | 0 | 0 | 79 | 79 |
+| unknown | 0 | 0 | 0 | 81 | 81 |
