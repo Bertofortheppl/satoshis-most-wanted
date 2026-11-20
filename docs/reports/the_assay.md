@@ -71,9 +71,9 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| SecureBananaLabs | 10 | 0 | 0 | 8 | 8 |
 | ClankerNation | 30 | 0 | 0 | 4 | 4 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
-| SecureBananaLabs | 10 | 0 | 0 | 8 | 8 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
 | limitlessprojects | 12 | 0 | 0 | 0 | 0 |

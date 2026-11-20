@@ -5362,7 +5362,7 @@
       "repo": "PrimalHQ/primal-web-app",
       "repo_archived": false,
       "repo_last_push": "2026-11-17",
-      "contested_prs": 22,
+      "contested_prs": 23,
       "contest_detail": [
         {
           "number": 201,
@@ -5517,6 +5517,13 @@
           "title": "Translate post to user language (inline note translation)",
           "state": "open",
           "age_days": 4
+        },
+        {
+          "number": 242,
+          "user": "iIshigaami",
+          "title": "feat: translate post to user language (closes #133)",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 5,
@@ -5555,7 +5562,7 @@
       ],
       "bar_fail_reasons": [
         "5 prior attempts died unmerged (battle scars, D7)",
-        "contested by 22 open PRs (> 1)"
+        "contested by 23 open PRs (> 1)"
       ]
     },
     {
@@ -9349,7 +9356,7 @@
       "language": "go",
       "repo": "getAlby/hub",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -9383,7 +9390,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -9748,7 +9755,7 @@
       "language": "go",
       "repo": "getAlby/hub",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 1,
@@ -9782,7 +9789,7 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -10515,6 +10522,186 @@
       ]
     },
     {
+      "id": "bounty_sweep-3f30f0ba411db901",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "SecureBananaLabs/bug-bounty#76",
+      "title": "Technical Poem Generation and Content Creation",
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "SecureBananaLabs",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "SecureBananaLabs/bug-bounty",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-20",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 88,
+          "user": "AI26king",
+          "title": "Add original technical poem",
+          "state": "open",
+          "age_days": 187
+        },
+        {
+          "number": 91,
+          "user": "komyunghan",
+          "title": "Add security-research poem in terza rima [closes #76]",
+          "state": "open",
+          "age_days": 187
+        },
+        {
+          "number": 94,
+          "user": "jianmosier",
+          "title": "Add original technical poem",
+          "state": "open",
+          "age_days": 187
+        },
+        {
+          "number": 104,
+          "user": "Adamchaua",
+          "title": "Add original project poem",
+          "state": "open",
+          "age_days": 187
+        },
+        {
+          "number": 117,
+          "user": "dzkjdxhbgog",
+          "title": "feat: add original technical poem for issue 76",
+          "state": "open",
+          "age_days": 187
+        },
+        {
+          "number": 132,
+          "user": "LZG3530606141",
+          "title": "\ud83d\udcdc Poem: Code and Soil (Issue #76)",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 133,
+          "user": "growthstudioworks",
+          "title": "Add handshake protocol poem",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 137,
+          "user": "nexicturbo",
+          "title": "Add release room poem",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 139,
+          "user": "freshtemp-labs",
+          "title": "feat: Add poem - The Architect's Loom (#76)",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 147,
+          "user": "WuMingDa-10",
+          "title": "Technical Poem: The Digital Symphony",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 148,
+          "user": "JeremyZeng77",
+          "title": "Add original technical poem",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 151,
+          "user": "liujun2586",
+          "title": "feat: Technical Poem - Silicon Dreams",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 159,
+          "user": "Yang122333",
+          "title": "Add differential tide poem",
+          "state": "open",
+          "age_days": 186
+        },
+        {
+          "number": 162,
+          "user": "piaopiao78",
+          "title": "Add technical poem for FreelanceFlow project",
+          "state": "open",
+          "age_days": 186
+        }
+      ],
+      "dead_attempts": 16,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 184,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "13,966 PRs / 346 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "13,966 PR numbers issued against 346 stars (40.4:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "SecureBananaLabs/bug-bounty",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-20T02:11:45Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "issue #13958"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-20",
+      "last_checked": "2026-11-20",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "16 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)",
+        "last reply 184d ago (> 60d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-6ba66333394cbdf2",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -10613,7 +10800,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 15,
       "contest_detail": [
         {
@@ -10764,7 +10951,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -10773,186 +10960,6 @@
         "trap verdict SUSPICIOUS (wall requires CLEAN)",
         "last reply 177d ago (> 60d)",
         "contested by 15 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-3f30f0ba411db901",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "SecureBananaLabs/bug-bounty#76",
-      "title": "Technical Poem Generation and Content Creation",
-      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "SecureBananaLabs",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "SecureBananaLabs/bug-bounty",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-19",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 88,
-          "user": "AI26king",
-          "title": "Add original technical poem",
-          "state": "open",
-          "age_days": 187
-        },
-        {
-          "number": 91,
-          "user": "komyunghan",
-          "title": "Add security-research poem in terza rima [closes #76]",
-          "state": "open",
-          "age_days": 187
-        },
-        {
-          "number": 94,
-          "user": "jianmosier",
-          "title": "Add original technical poem",
-          "state": "open",
-          "age_days": 187
-        },
-        {
-          "number": 104,
-          "user": "Adamchaua",
-          "title": "Add original project poem",
-          "state": "open",
-          "age_days": 187
-        },
-        {
-          "number": 117,
-          "user": "dzkjdxhbgog",
-          "title": "feat: add original technical poem for issue 76",
-          "state": "open",
-          "age_days": 187
-        },
-        {
-          "number": 132,
-          "user": "LZG3530606141",
-          "title": "\ud83d\udcdc Poem: Code and Soil (Issue #76)",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 133,
-          "user": "growthstudioworks",
-          "title": "Add handshake protocol poem",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 137,
-          "user": "nexicturbo",
-          "title": "Add release room poem",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 139,
-          "user": "freshtemp-labs",
-          "title": "feat: Add poem - The Architect's Loom (#76)",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 147,
-          "user": "WuMingDa-10",
-          "title": "Technical Poem: The Digital Symphony",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 148,
-          "user": "JeremyZeng77",
-          "title": "Add original technical poem",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 151,
-          "user": "liujun2586",
-          "title": "feat: Technical Poem - Silicon Dreams",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 159,
-          "user": "Yang122333",
-          "title": "Add differential tide poem",
-          "state": "open",
-          "age_days": 186
-        },
-        {
-          "number": 162,
-          "user": "piaopiao78",
-          "title": "Add technical poem for FreelanceFlow project",
-          "state": "open",
-          "age_days": 186
-        }
-      ],
-      "dead_attempts": 16,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 184,
-      "trap": {
-        "verdict": "SUSPICIOUS",
-        "score": 30,
-        "rules": [
-          {
-            "evidence": "13,966 PRs / 346 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "13,966 PR numbers issued against 346 stars (40.4:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "SecureBananaLabs/bug-bounty",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-20T02:11:45Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "issue #13958"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-20",
-      "last_checked": "2026-11-20",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 1d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "16 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict SUSPICIOUS (wall requires CLEAN)",
-        "last reply 184d ago (> 60d)",
-        "contested by 14 open PRs (> 1)"
       ]
     },
     {
@@ -12284,7 +12291,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 19,
       "contest_detail": [
         {
@@ -12463,7 +12470,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -13010,7 +13017,7 @@
       "repo": "lablab-ai/community-content",
       "repo_archived": false,
       "repo_last_push": "2026-10-12",
-      "contested_prs": 16,
+      "contested_prs": 17,
       "contest_detail": [
         {
           "number": 1001,
@@ -13074,6 +13081,13 @@
           "title": "Add comprehensive tutorial for Vectara Chat (#462)",
           "state": "open",
           "age_days": 23
+        },
+        {
+          "number": 1101,
+          "user": "aap0410",
+          "title": "docs(tutorials): Crafting a Comprehensive Tutorial for Vectara Chat (#462)",
+          "state": "open",
+          "age_days": 21
         },
         {
           "number": 1102,
@@ -13157,7 +13171,7 @@
         "no sats purse (negotiable/unknown)",
         "2 merged fix attempt(s) \u2014 purse likely already claimed (D7)",
         "5 prior attempts died unmerged (battle scars, D7)",
-        "contested by 16 open PRs (> 1)"
+        "contested by 17 open PRs (> 1)"
       ]
     },
     {
@@ -14671,7 +14685,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 14,
       "contest_detail": [
         {
@@ -14815,7 +14829,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -15033,7 +15047,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 27,
       "contest_detail": [
         {
@@ -15268,7 +15282,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -15304,7 +15318,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 20,
       "contest_detail": [
         {
@@ -15490,7 +15504,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -16181,7 +16195,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 24,
       "contest_detail": [
         {
@@ -16395,7 +16409,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -16431,7 +16445,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 22,
       "contest_detail": [
         {
@@ -16631,7 +16645,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -16667,7 +16681,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 12,
       "contest_detail": [
         {
@@ -16797,7 +16811,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -18358,7 +18372,7 @@
       "language": "javascript",
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
-      "repo_last_push": "2026-11-19",
+      "repo_last_push": "2026-11-20",
       "contested_prs": 14,
       "contest_detail": [
         {
@@ -18502,7 +18516,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
