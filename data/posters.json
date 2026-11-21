@@ -26,17 +26,9 @@
       "repo": "ClankerNation/OpenAgents",
       "repo_archived": false,
       "repo_last_push": "2026-11-21",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 6374,
-          "user": "KonstantinPythonLab",
-          "title": "fix: Secure rate limiter against IP spoofing with sliding window and persistence",
-          "state": "open",
-          "age_days": 0
-        }
-      ],
-      "dead_attempts": 3,
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 4,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 0,
@@ -3933,7 +3925,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-11-18",
+      "repo_last_push": "2026-11-21",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 48,
@@ -4031,7 +4023,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-11-18",
+      "repo_last_push": "2026-11-21",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 39,
@@ -4129,7 +4121,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-11-18",
+      "repo_last_push": "2026-11-21",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 19,
@@ -4227,7 +4219,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-11-18",
+      "repo_last_push": "2026-11-21",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 45,
@@ -4325,7 +4317,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-11-18",
+      "repo_last_push": "2026-11-21",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 40,
@@ -4423,7 +4415,7 @@
       "language": "typescript",
       "repo": "UnsafeLabs/Bounty-Hunters",
       "repo_archived": false,
-      "repo_last_push": "2026-11-18",
+      "repo_last_push": "2026-11-21",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 9,
@@ -10502,6 +10494,217 @@
       ]
     },
     {
+      "id": "bounty_sweep-936f62e7d0b75eb8",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "revertinc/revert#551",
+      "title": "[REVER-51] Workable Integration",
+      "url": "https://github.com/revertinc/revert/issues/551",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "revertinc",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "typescript",
+      "repo": "revertinc/revert",
+      "repo_archived": false,
+      "repo_last_push": "2025-04-07",
+      "contested_prs": 21,
+      "contest_detail": [
+        {
+          "number": 655,
+          "user": "nexiumbiz-debug",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 196
+        },
+        {
+          "number": 656,
+          "user": "tybrooks123",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 660,
+          "user": "mini0n-ai",
+          "title": "feat(ats): support workable connection and oauth credentials (#551)",
+          "state": "open",
+          "age_days": 78
+        },
+        {
+          "number": 663,
+          "user": "iprasen",
+          "title": "feat: add Workable ATS integration",
+          "state": "open",
+          "age_days": 71
+        },
+        {
+          "number": 664,
+          "user": "priyeshrk03",
+          "title": "feat(ats): Workable ATS integration \u2014 /claim #551",
+          "state": "open",
+          "age_days": 66
+        },
+        {
+          "number": 667,
+          "user": "Ahmed5754",
+          "title": "feat(ats): add Workable integration",
+          "state": "open",
+          "age_days": 53
+        },
+        {
+          "number": 669,
+          "user": "Ollie520",
+          "title": "fix: resolve #551 - [revertinc/revert] [REVER-51] Workable Integration",
+          "state": "open",
+          "age_days": 41
+        },
+        {
+          "number": 670,
+          "user": "Mxtl7",
+          "title": "feat: Workable ATS integration (auth, services, transforms, UI + SDK)",
+          "state": "open",
+          "age_days": 41
+        },
+        {
+          "number": 671,
+          "user": "LuckyTurtleLabs",
+          "title": "feat(ats): add Workable integration (#551)",
+          "state": "open",
+          "age_days": 40
+        },
+        {
+          "number": 673,
+          "user": "sonofkratos92",
+          "title": "feat(ats): add Workable connection and OAuth credential support",
+          "state": "open",
+          "age_days": 25
+        },
+        {
+          "number": 677,
+          "user": "Saik2789",
+          "title": "feat(ats): implement Workable ATS integration (#551)",
+          "state": "open",
+          "age_days": 24
+        },
+        {
+          "number": 682,
+          "user": "DSP-AID",
+          "title": "feat(ats): [REVER-51] Workable Integration (closes #551)",
+          "state": "open",
+          "age_days": 18
+        },
+        {
+          "number": 683,
+          "user": "garter-black",
+          "title": "feat(ats): add Workable ATS integration client and unified mappers (#551)",
+          "state": "open",
+          "age_days": 18
+        },
+        {
+          "number": 688,
+          "user": "mau16ro",
+          "title": "fix: solution for #551 ([REVER-51] Workable Integration)",
+          "state": "open",
+          "age_days": 16
+        },
+        {
+          "number": 689,
+          "user": "khuxaiphi-stack",
+          "title": "feat(ats): add Workable Unified ATS integration & test suite (#551)",
+          "state": "open",
+          "age_days": 15
+        },
+        {
+          "number": 694,
+          "user": "ossamartinaaron09-ui",
+          "title": "feat(ats): add Workable and Workday adapters (#551, #372)",
+          "state": "open",
+          "age_days": 14
+        },
+        {
+          "number": 697,
+          "user": "TylerHFitzpatrick",
+          "title": "feat(ats): add Workable integration",
+          "state": "open",
+          "age_days": 12
+        },
+        {
+          "number": 699,
+          "user": "almagas",
+          "title": "feat(ats): [REVER-51] Workable Integration (#551)",
+          "state": "open",
+          "age_days": 11
+        },
+        {
+          "number": 704,
+          "user": "satoshinakamoto666666",
+          "title": "feat(ats): add Workable ATS integration, OAuth handler, unified mappers & tests ",
+          "state": "open",
+          "age_days": 10
+        },
+        {
+          "number": 705,
+          "user": "nikolais123",
+          "title": "[REVER-51] Add Workable ATS integration",
+          "state": "open",
+          "age_days": 8
+        },
+        {
+          "number": 709,
+          "user": "rumangsanya",
+          "title": "feat(ats): [REVER-51] add Workable ATS integration",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
+      "dead_attempts": 9,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "revertinc/revert",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-20T02:11:40Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-21",
+      "last_checked": "2026-11-21",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "9 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 593d ago (> 90d)",
+        "contested by 21 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-2817f9ebfa2d1462",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -11747,217 +11950,6 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "trap verdict SUSPICIOUS (wall requires CLEAN)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-936f62e7d0b75eb8",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "revertinc/revert#551",
-      "title": "[REVER-51] Workable Integration",
-      "url": "https://github.com/revertinc/revert/issues/551",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "revertinc",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "typescript",
-      "repo": "revertinc/revert",
-      "repo_archived": false,
-      "repo_last_push": "2025-04-07",
-      "contested_prs": 21,
-      "contest_detail": [
-        {
-          "number": 655,
-          "user": "nexiumbiz-debug",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 196
-        },
-        {
-          "number": 656,
-          "user": "tybrooks123",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 184
-        },
-        {
-          "number": 657,
-          "user": "saquibreja7-hash",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 660,
-          "user": "mini0n-ai",
-          "title": "feat(ats): support workable connection and oauth credentials (#551)",
-          "state": "open",
-          "age_days": 78
-        },
-        {
-          "number": 663,
-          "user": "iprasen",
-          "title": "feat: add Workable ATS integration",
-          "state": "open",
-          "age_days": 71
-        },
-        {
-          "number": 664,
-          "user": "priyeshrk03",
-          "title": "feat(ats): Workable ATS integration \u2014 /claim #551",
-          "state": "open",
-          "age_days": 66
-        },
-        {
-          "number": 667,
-          "user": "Ahmed5754",
-          "title": "feat(ats): add Workable integration",
-          "state": "open",
-          "age_days": 53
-        },
-        {
-          "number": 669,
-          "user": "Ollie520",
-          "title": "fix: resolve #551 - [revertinc/revert] [REVER-51] Workable Integration",
-          "state": "open",
-          "age_days": 41
-        },
-        {
-          "number": 670,
-          "user": "Mxtl7",
-          "title": "feat: Workable ATS integration (auth, services, transforms, UI + SDK)",
-          "state": "open",
-          "age_days": 41
-        },
-        {
-          "number": 671,
-          "user": "LuckyTurtleLabs",
-          "title": "feat(ats): add Workable integration (#551)",
-          "state": "open",
-          "age_days": 40
-        },
-        {
-          "number": 673,
-          "user": "sonofkratos92",
-          "title": "feat(ats): add Workable connection and OAuth credential support",
-          "state": "open",
-          "age_days": 25
-        },
-        {
-          "number": 677,
-          "user": "Saik2789",
-          "title": "feat(ats): implement Workable ATS integration (#551)",
-          "state": "open",
-          "age_days": 24
-        },
-        {
-          "number": 682,
-          "user": "DSP-AID",
-          "title": "feat(ats): [REVER-51] Workable Integration (closes #551)",
-          "state": "open",
-          "age_days": 18
-        },
-        {
-          "number": 683,
-          "user": "garter-black",
-          "title": "feat(ats): add Workable ATS integration client and unified mappers (#551)",
-          "state": "open",
-          "age_days": 18
-        },
-        {
-          "number": 688,
-          "user": "mau16ro",
-          "title": "fix: solution for #551 ([REVER-51] Workable Integration)",
-          "state": "open",
-          "age_days": 16
-        },
-        {
-          "number": 689,
-          "user": "khuxaiphi-stack",
-          "title": "feat(ats): add Workable Unified ATS integration & test suite (#551)",
-          "state": "open",
-          "age_days": 15
-        },
-        {
-          "number": 694,
-          "user": "ossamartinaaron09-ui",
-          "title": "feat(ats): add Workable and Workday adapters (#551, #372)",
-          "state": "open",
-          "age_days": 14
-        },
-        {
-          "number": 697,
-          "user": "TylerHFitzpatrick",
-          "title": "feat(ats): add Workable integration",
-          "state": "open",
-          "age_days": 12
-        },
-        {
-          "number": 699,
-          "user": "almagas",
-          "title": "feat(ats): [REVER-51] Workable Integration (#551)",
-          "state": "open",
-          "age_days": 11
-        },
-        {
-          "number": 704,
-          "user": "satoshinakamoto666666",
-          "title": "feat(ats): add Workable ATS integration, OAuth handler, unified mappers & tests ",
-          "state": "open",
-          "age_days": 10
-        },
-        {
-          "number": 705,
-          "user": "nikolais123",
-          "title": "[REVER-51] Add Workable ATS integration",
-          "state": "open",
-          "age_days": 8
-        }
-      ],
-      "dead_attempts": 8,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 2,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "revertinc/revert",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-20T02:11:40Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-21",
-      "last_checked": "2026-11-21",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "8 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 593d ago (> 90d)",
-        "contested by 21 open PRs (> 1)"
       ]
     },
     {

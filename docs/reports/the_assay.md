@@ -72,12 +72,12 @@
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
 | limitlessprojects | 13 | 0 | 0 | 0 | 0 |
+| revertinc | 2 | 0 | 0 | 0 | 0 |
 | SecureBananaLabs | 11 | 0 | 0 | 9 | 9 |
 | ClankerNation | 30 | 0 | 0 | 4 | 4 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
 | speakers-in-tech | 4 | 0 | 0 | 2 | 2 |
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
-| revertinc | 2 | 0 | 0 | 0 | 0 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
 | lablab-ai | 4 | 0 | 0 | 0 | 0 |
