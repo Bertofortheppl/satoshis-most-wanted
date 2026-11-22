@@ -10228,6 +10228,336 @@
       ]
     },
     {
+      "id": "bounty_sweep-72d2c0fb940b755d",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#4656",
+      "title": "[wildcard] Carry Tier-0 decisions across edits by rechecking the facts they used",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4656",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-22",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "4,599 PRs / 32 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "4,599 PR numbers issued against 32 stars (143.7:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-20T02:11:36Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #4597",
+          "issue #4596",
+          "issue #4593"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-22",
+      "last_checked": "2026-11-22",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-b217fb8aa710de88",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#4655",
+      "title": "[wildcard] Zero-Allocation Task Graph Certification: Compile-Time Heap-Freedom Proofs via Static Region Epicycles",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4655",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-22",
+      "contested_prs": 0,
+      "contest_detail": [],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "4,599 PRs / 32 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "4,599 PR numbers issued against 32 stars (143.7:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-20T02:11:36Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #4597",
+          "issue #4596",
+          "issue #4593"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-22",
+      "last_checked": "2026-11-22",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "uncontested",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-d4ab0569644f9ec1",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "PG-AGI/toingg-jarvis#13",
+      "title": "[Feature]:  Cross-platform packaging and native installers for Windows, Linux, and macOS",
+      "url": "https://github.com/PG-AGI/toingg-jarvis/issues/13",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "PG-AGI",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "PG-AGI/toingg-jarvis",
+      "repo_archived": false,
+      "repo_last_push": "2026-07-02",
+      "contested_prs": 14,
+      "contest_detail": [
+        {
+          "number": 60,
+          "user": "SyntaxHQDEV",
+          "title": "Add cross-platform release packaging",
+          "state": "open",
+          "age_days": 165
+        },
+        {
+          "number": 70,
+          "user": "MoonTree26",
+          "title": "Add cross-platform packaging workflow",
+          "state": "open",
+          "age_days": 138
+        },
+        {
+          "number": 72,
+          "user": "JulianaIan2025",
+          "title": "Add verified native installers for Windows, Linux, and macOS",
+          "state": "open",
+          "age_days": 100
+        },
+        {
+          "number": 73,
+          "user": "ESTEBANTRAN",
+          "title": "feat: add native packaging pipelines for Windows, Linux and macOS",
+          "state": "open",
+          "age_days": 92
+        },
+        {
+          "number": 75,
+          "user": "galmousselhassan-arch",
+          "title": "Add cross-platform packaging workflow",
+          "state": "open",
+          "age_days": 76
+        },
+        {
+          "number": 84,
+          "user": "Gautham-AI-dev",
+          "title": "feat(packaging): Windows installer slice (PyInstaller + Inno + GHA) for #13",
+          "state": "open",
+          "age_days": 56
+        },
+        {
+          "number": 86,
+          "user": "LuckyTurtleLabs",
+          "title": "[Feature]:  Cross-platform packaging and native installers for Windows",
+          "state": "open",
+          "age_days": 39
+        },
+        {
+          "number": 88,
+          "user": "rohitkaswan",
+          "title": "Fix #13: [Feature]:  Cross-platform packaging and native installers f",
+          "state": "open",
+          "age_days": 38
+        },
+        {
+          "number": 89,
+          "user": "isaacsamual994-lang",
+          "title": "feat(packaging): native Windows/Linux/macOS installers with CI (#13)",
+          "state": "open",
+          "age_days": 31
+        },
+        {
+          "number": 92,
+          "user": "khoap1220-hue",
+          "title": "feat(installers): add cross-platform native installers (.exe, .deb, .dmg) and re",
+          "state": "open",
+          "age_days": 28
+        },
+        {
+          "number": 99,
+          "user": "hornsandhalos619",
+          "title": "feat(packaging): add cross-platform build scripts, native installers, and CI rel",
+          "state": "open",
+          "age_days": 27
+        },
+        {
+          "number": 100,
+          "user": "robertlestak",
+          "title": "Add native installers for Windows, Linux and macOS",
+          "state": "open",
+          "age_days": 26
+        },
+        {
+          "number": 101,
+          "user": "maxwswann-ops",
+          "title": "feat(installers): add cross-platform packaging and native installers for Windows",
+          "state": "open",
+          "age_days": 25
+        },
+        {
+          "number": 102,
+          "user": "Kirilka4345",
+          "title": "feat(packaging): add cross-platform PyInstaller builder, native manifests, and t",
+          "state": "open",
+          "age_days": 24
+        }
+      ],
+      "dead_attempts": 18,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 0,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "PG-AGI/toingg-jarvis",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-20T02:12:23Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-22",
+      "last_checked": "2026-11-22",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "responded recently",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "18 prior attempts died unmerged (battle scars, D7)",
+        "repo last push 143d ago (> 90d)",
+        "contested by 14 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-dea3e21ea4b472bc",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -17739,168 +18069,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-d4ab0569644f9ec1",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "PG-AGI/toingg-jarvis#13",
-      "title": "[Feature]:  Cross-platform packaging and native installers for Windows, Linux, and macOS",
-      "url": "https://github.com/PG-AGI/toingg-jarvis/issues/13",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "PG-AGI",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "python",
-      "repo": "PG-AGI/toingg-jarvis",
-      "repo_archived": false,
-      "repo_last_push": "2026-07-02",
-      "contested_prs": 14,
-      "contest_detail": [
-        {
-          "number": 60,
-          "user": "SyntaxHQDEV",
-          "title": "Add cross-platform release packaging",
-          "state": "open",
-          "age_days": 165
-        },
-        {
-          "number": 70,
-          "user": "MoonTree26",
-          "title": "Add cross-platform packaging workflow",
-          "state": "open",
-          "age_days": 138
-        },
-        {
-          "number": 72,
-          "user": "JulianaIan2025",
-          "title": "Add verified native installers for Windows, Linux, and macOS",
-          "state": "open",
-          "age_days": 100
-        },
-        {
-          "number": 73,
-          "user": "ESTEBANTRAN",
-          "title": "feat: add native packaging pipelines for Windows, Linux and macOS",
-          "state": "open",
-          "age_days": 92
-        },
-        {
-          "number": 75,
-          "user": "galmousselhassan-arch",
-          "title": "Add cross-platform packaging workflow",
-          "state": "open",
-          "age_days": 76
-        },
-        {
-          "number": 84,
-          "user": "Gautham-AI-dev",
-          "title": "feat(packaging): Windows installer slice (PyInstaller + Inno + GHA) for #13",
-          "state": "open",
-          "age_days": 56
-        },
-        {
-          "number": 86,
-          "user": "LuckyTurtleLabs",
-          "title": "[Feature]:  Cross-platform packaging and native installers for Windows",
-          "state": "open",
-          "age_days": 39
-        },
-        {
-          "number": 88,
-          "user": "rohitkaswan",
-          "title": "Fix #13: [Feature]:  Cross-platform packaging and native installers f",
-          "state": "open",
-          "age_days": 38
-        },
-        {
-          "number": 89,
-          "user": "isaacsamual994-lang",
-          "title": "feat(packaging): native Windows/Linux/macOS installers with CI (#13)",
-          "state": "open",
-          "age_days": 31
-        },
-        {
-          "number": 92,
-          "user": "khoap1220-hue",
-          "title": "feat(installers): add cross-platform native installers (.exe, .deb, .dmg) and re",
-          "state": "open",
-          "age_days": 28
-        },
-        {
-          "number": 99,
-          "user": "hornsandhalos619",
-          "title": "feat(packaging): add cross-platform build scripts, native installers, and CI rel",
-          "state": "open",
-          "age_days": 27
-        },
-        {
-          "number": 100,
-          "user": "robertlestak",
-          "title": "Add native installers for Windows, Linux and macOS",
-          "state": "open",
-          "age_days": 26
-        },
-        {
-          "number": 101,
-          "user": "maxwswann-ops",
-          "title": "feat(installers): add cross-platform packaging and native installers for Windows",
-          "state": "open",
-          "age_days": 25
-        },
-        {
-          "number": 102,
-          "user": "Kirilka4345",
-          "title": "feat(packaging): add cross-platform PyInstaller builder, native manifests, and t",
-          "state": "open",
-          "age_days": 24
-        }
-      ],
-      "dead_attempts": 18,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 24,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "PG-AGI/toingg-jarvis",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-20T02:12:23Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-22",
-      "last_checked": "2026-11-22",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "18 prior attempts died unmerged (battle scars, D7)",
-        "repo last push 143d ago (> 90d)",
-        "contested by 14 open PRs (> 1)"
-      ]
-    },
-    {
       "id": "bounty_sweep-2600edf1482c884b",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -19292,429 +19460,6 @@
         "4 prior attempts died unmerged (battle scars, D7)",
         "repo last push 887d ago (> 90d)",
         "contested by 13 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-a7e3c1a960afe0a0",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#1669",
-      "title": "[wildcard] Structured Task Scopes & Affine Cancellation Tokens: eliminating goroutine leaks from GUARANTEES.md Row 12",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/1669",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-22",
-      "contested_prs": 2,
-      "contest_detail": [
-        {
-          "number": 1856,
-          "user": "harmweber787-png",
-          "title": "feat(spikes): add structured task scopes & affine JoinHandle spike (closes #1669",
-          "state": "open",
-          "age_days": 27
-        },
-        {
-          "number": 2280,
-          "user": "SuperPiIot",
-          "title": "feat: introduce structured task scopes and affine cancellation tokens",
-          "state": "open",
-          "age_days": 23
-        }
-      ],
-      "dead_attempts": 1,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 15,
-      "trap": {
-        "verdict": "SUSPICIOUS",
-        "score": 30,
-        "rules": [
-          {
-            "evidence": "4,599 PRs / 32 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "4,599 PR numbers issued against 32 stars (143.7:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-20T02:11:36Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #4597",
-          "issue #4596",
-          "issue #4593"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-22",
-      "last_checked": "2026-11-22",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict SUSPICIOUS (wall requires CLEAN)",
-        "contested by 2 open PRs (> 1)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-3b2576b60e58503d",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "ApexOpsStudio/ai-gitops-test-target#1",
-      "title": "Add --json output format",
-      "url": "https://github.com/ApexOpsStudio/ai-gitops-test-target/issues/1",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "ApexOpsStudio",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "python",
-      "repo": "ApexOpsStudio/ai-gitops-test-target",
-      "repo_archived": false,
-      "repo_last_push": "2025-11-28",
-      "contested_prs": 36,
-      "contest_detail": [
-        {
-          "number": 7,
-          "user": "thecafetron-ctrl",
-          "title": "Add --json output format",
-          "state": "open",
-          "age_days": 287
-        },
-        {
-          "number": 18,
-          "user": "redwing509",
-          "title": "feat: add --json output flag to all commands",
-          "state": "open",
-          "age_days": 251
-        },
-        {
-          "number": 24,
-          "user": "chengfei-gh",
-          "title": "feat: add --json output flag to all commands (closes #1)",
-          "state": "open",
-          "age_days": 249
-        },
-        {
-          "number": 25,
-          "user": "sofia-willow",
-          "title": "feat: Add --json output flag to all commands",
-          "state": "open",
-          "age_days": 249
-        },
-        {
-          "number": 38,
-          "user": "rainlee",
-          "title": "feat: add --json output flag to all commands",
-          "state": "open",
-          "age_days": 240
-        },
-        {
-          "number": 44,
-          "user": "SyedHannanMehdi",
-          "title": "feat: Add --json output format to all CLI commands",
-          "state": "open",
-          "age_days": 238
-        },
-        {
-          "number": 47,
-          "user": "sungdark",
-          "title": "feat: add --json output flag to all commands",
-          "state": "open",
-          "age_days": 238
-        },
-        {
-          "number": 48,
-          "user": "PurdueDM",
-          "title": "feat: add --json output format to all CLI commands",
-          "state": "open",
-          "age_days": 234
-        },
-        {
-          "number": 49,
-          "user": "Guaiyu11",
-          "title": "Add --json flag to all commands (Issue #1)",
-          "state": "open",
-          "age_days": 222
-        },
-        {
-          "number": 53,
-          "user": "hummusonrails",
-          "title": "Add --json output support for add/list/done",
-          "state": "open",
-          "age_days": 221
-        },
-        {
-          "number": 54,
-          "user": "alexanderxfgl-bit",
-          "title": "feat: add --json output flag to all commands (Closes #1)",
-          "state": "open",
-          "age_days": 221
-        },
-        {
-          "number": 58,
-          "user": "tarai-dl",
-          "title": "feat: #1 add --json output format for all commands",
-          "state": "open",
-          "age_days": 219
-        },
-        {
-          "number": 64,
-          "user": "ideook",
-          "title": "feat: add json output mode",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 66,
-          "user": "usmcff1985",
-          "title": "Add JSON output format",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 67,
-          "user": "goodnamenotbad",
-          "title": "Add JSON output and default config handling",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 69,
-          "user": "iamguyi897",
-          "title": "feat: add json output support",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 70,
-          "user": "criticalconnections",
-          "title": "feat: add json output and default config",
-          "state": "open",
-          "age_days": 195
-        },
-        {
-          "number": 74,
-          "user": "thunderisme",
-          "title": "Add JSON output mode",
-          "state": "open",
-          "age_days": 194
-        },
-        {
-          "number": 77,
-          "user": "nguyenquockhang1610",
-          "title": "feat: add --json output format to all commands",
-          "state": "open",
-          "age_days": 194
-        },
-        {
-          "number": 79,
-          "user": "letrquan",
-          "title": "Add JSON output mode",
-          "state": "open",
-          "age_days": 194
-        },
-        {
-          "number": 81,
-          "user": "dazer1234",
-          "title": "Add JSON output support to task CLI",
-          "state": "open",
-          "age_days": 194
-        },
-        {
-          "number": 83,
-          "user": "realkoreanbeef",
-          "title": "feat: add --json output format",
-          "state": "open",
-          "age_days": 194
-        },
-        {
-          "number": 85,
-          "user": "xiaopeng215-sys",
-          "title": "Add JSON output format",
-          "state": "open",
-          "age_days": 194
-        },
-        {
-          "number": 86,
-          "user": "darioandyoshi-tech",
-          "title": "Add JSON output format",
-          "state": "open",
-          "age_days": 194
-        },
-        {
-          "number": 89,
-          "user": "Wheezily",
-          "title": "Add JSON output for task list",
-          "state": "open",
-          "age_days": 193
-        },
-        {
-          "number": 92,
-          "user": "darshan-Jahagirdar",
-          "title": "Add JSON output mode",
-          "state": "open",
-          "age_days": 193
-        },
-        {
-          "number": 93,
-          "user": "autochamchikim-pixel",
-          "title": "feat: add JSON output format",
-          "state": "open",
-          "age_days": 193
-        },
-        {
-          "number": 98,
-          "user": "nicovaleops",
-          "title": "feat: add JSON output mode",
-          "state": "open",
-          "age_days": 193
-        },
-        {
-          "number": 102,
-          "user": "sureshchouksey8",
-          "title": "Add JSON output format",
-          "state": "open",
-          "age_days": 192
-        },
-        {
-          "number": 103,
-          "user": "iota3-cell",
-          "title": "[iota] Add JSON output, safe config, and shared validators",
-          "state": "open",
-          "age_days": 191
-        },
-        {
-          "number": 106,
-          "user": "lout33",
-          "title": "Add --json output format to all CLI commands",
-          "state": "open",
-          "age_days": 190
-        },
-        {
-          "number": 108,
-          "user": "ZiPengWei",
-          "title": "Add JSON output format for task CLI commands",
-          "state": "open",
-          "age_days": 188
-        },
-        {
-          "number": 112,
-          "user": "nguyenduchuyhd",
-          "title": "Add JSON output format",
-          "state": "open",
-          "age_days": 178
-        },
-        {
-          "number": 118,
-          "user": "NONONO3199",
-          "title": "feat: add --json output format to all commands",
-          "state": "open",
-          "age_days": 163
-        },
-        {
-          "number": 120,
-          "user": "pocikode",
-          "title": "feat: add --json output format to list command",
-          "state": "open",
-          "age_days": 133
-        },
-        {
-          "number": 131,
-          "user": "mercenary7-agent",
-          "title": "feat: add --json output flag to add/list/done commands",
-          "state": "open",
-          "age_days": 12
-        }
-      ],
-      "dead_attempts": 6,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 15,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 23 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "ApexOpsStudio/ai-gitops-test-target",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-20T02:12:38Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-22",
-      "last_checked": "2026-11-22",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "responded recently",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "6 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "repo last push 359d ago (> 90d)",
-        "contested by 36 open PRs (> 1)"
       ]
     }
   ]
