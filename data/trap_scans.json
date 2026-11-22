@@ -59,8 +59,8 @@
     "verdict": "CLEAN"
   },
   "Bu1ldTh3Futur3/bounty-hunter-test": {
-    "checked_at": "2026-11-14T06:01:54Z",
-    "checked_date": "2026-11-14",
+    "checked_at": "2026-11-22T01:20:56Z",
+    "checked_date": "2026-11-22",
     "checked_files": [],
     "rules": [
       {
@@ -655,13 +655,14 @@
     "verdict": "CLEAN"
   },
   "mohan-bee/curve": {
-    "checked_at": "2026-11-14T06:01:50Z",
-    "checked_date": "2026-11-14",
+    "checked_at": "2026-11-22T01:20:52Z",
+    "checked_date": "2026-11-22",
     "checked_files": [
       "README.md",
       "issue #10",
       "issue #9",
-      "issue #8"
+      "issue #8",
+      "issue #7"
     ],
     "rules": [],
     "score": 0,
