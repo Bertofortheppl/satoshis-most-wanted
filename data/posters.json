@@ -8022,7 +8022,7 @@
       "language": "python",
       "repo": "lnbits/lnbits",
       "repo_archived": false,
-      "repo_last_push": "2026-11-20",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 2,
@@ -8053,7 +8053,7 @@
         "purse 20000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 3d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -10228,6 +10228,80 @@
       ]
     },
     {
+      "id": "bounty_sweep-6ba66333394cbdf2",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "onyx-dot-app/onyx#2281",
+      "title": "Jira Service Management Connector",
+      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "onyx-dot-app",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "python",
+      "repo": "onyx-dot-app/onyx",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-23",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 8557,
+          "user": "jefferteleco",
+          "title": "feat: Add Jira Service Management Connector",
+          "state": "open",
+          "age_days": 278
+        }
+      ],
+      "dead_attempts": 6,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 249,
+      "trap": {
+        "verdict": "CLEAN",
+        "score": 0,
+        "rules": [],
+        "target": "onyx-dot-app/onyx",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-20T02:11:58Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "CLAUDE.md",
+          "SECURITY.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-23",
+      "last_checked": "2026-11-23",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "trap scan CLEAN",
+        "repo pushed 0d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "6 prior attempts died unmerged (battle scars, D7)",
+        "last reply 249d ago (> 60d)",
+        "1 open PR but 278d old (> 30d)"
+      ]
+    },
+    {
       "id": "bounty_sweep-82aba29d0b808966",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -10252,7 +10326,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -10301,7 +10375,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -10336,7 +10410,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -10385,7 +10459,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -10420,7 +10494,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -10469,7 +10543,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -11242,80 +11316,6 @@
       ]
     },
     {
-      "id": "bounty_sweep-6ba66333394cbdf2",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "onyx-dot-app/onyx#2281",
-      "title": "Jira Service Management Connector",
-      "url": "https://github.com/onyx-dot-app/onyx/issues/2281",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "onyx-dot-app",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "python",
-      "repo": "onyx-dot-app/onyx",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-22",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 8557,
-          "user": "jefferteleco",
-          "title": "feat: Add Jira Service Management Connector",
-          "state": "open",
-          "age_days": 278
-        }
-      ],
-      "dead_attempts": 6,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 249,
-      "trap": {
-        "verdict": "CLEAN",
-        "score": 0,
-        "rules": [],
-        "target": "onyx-dot-app/onyx",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-20T02:11:58Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "CLAUDE.md",
-          "SECURITY.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-23",
-      "last_checked": "2026-11-23",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "trap scan CLEAN",
-        "repo pushed 1d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "6 prior attempts died unmerged (battle scars, D7)",
-        "last reply 249d ago (> 60d)",
-        "1 open PR but 278d old (> 30d)"
-      ]
-    },
-    {
       "id": "bounty_sweep-15b55424482e56ef",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -11340,9 +11340,17 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
-      "contested_prs": 0,
-      "contest_detail": [],
+      "repo_last_push": "2026-11-23",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 4691,
+          "user": "jonny898989",
+          "title": "spike(#4644): caller-observation completion, sound rule against the midpoint sho",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": true,
@@ -11389,9 +11397,9 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
-        "uncontested",
+        "lightly contested (1 fresh PR)",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -11424,9 +11432,17 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
-      "contested_prs": 0,
-      "contest_detail": [],
+      "repo_last_push": "2026-11-23",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 4690,
+          "user": "jonny898989",
+          "title": "spike(#4642): orientation evidence bound to revision, triple and coordinates",
+          "state": "open",
+          "age_days": 0
+        }
+      ],
       "dead_attempts": 0,
       "merged_attempts": 0,
       "maintainer_responded": false,
@@ -11473,8 +11489,8 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
-        "uncontested",
+        "repo pushed 0d ago",
+        "lightly contested (1 fresh PR)",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -11508,7 +11524,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -11557,7 +11573,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -11592,7 +11608,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -11641,7 +11657,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -11676,7 +11692,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -11725,7 +11741,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -12893,7 +12909,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -12942,7 +12958,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -12977,7 +12993,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -13026,7 +13042,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -13061,7 +13077,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -13110,7 +13126,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -13281,7 +13297,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -13330,7 +13346,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -13365,7 +13381,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -13422,7 +13438,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "lightly contested (1 fresh PR)",
         "rewarder ok/unknown"
@@ -13457,7 +13473,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -13506,7 +13522,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -14887,7 +14903,7 @@
       "language": "typescript",
       "repo": "tscircuit/pcb-viewer",
       "repo_archived": false,
-      "repo_last_push": "2026-11-21",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 13,
       "contest_detail": [
         {
@@ -15015,7 +15031,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 2d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -15405,7 +15421,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -15462,7 +15478,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "lightly contested (1 fresh PR)",
         "rewarder ok/unknown"
@@ -15497,7 +15513,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -15546,7 +15562,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -18721,7 +18737,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 2,
       "contest_detail": [
         {
@@ -18785,7 +18801,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -18999,7 +19015,7 @@
       "language": "rust",
       "repo": "limitlessprojects/Go-Hybrid",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -19056,7 +19072,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "lightly contested (1 fresh PR)",
         "rewarder ok/unknown"
@@ -19091,7 +19107,7 @@
       "language": "typescript",
       "repo": "BAWES-Universe/workadventure-universe",
       "repo_archived": false,
-      "repo_last_push": "2026-11-22",
+      "repo_last_push": "2026-11-23",
       "contested_prs": 9,
       "contest_detail": [
         {
@@ -19194,7 +19210,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
