@@ -71,9 +71,10 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| limitlessprojects | 20 | 0 | 0 | 0 | 0 |
+| outerbase | 1 | 0 | 0 | 0 | 0 |
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
-| limitlessprojects | 18 | 0 | 0 | 0 | 0 |
-| PG-AGI | 2 | 0 | 0 | 0 | 0 |
+| PG-AGI | 1 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
 | tine1117 | 1 | 0 | 0 | 0 | 0 |
 | revertinc | 2 | 0 | 0 | 0 | 0 |
@@ -83,10 +84,9 @@
 | flydelabs | 1 | 0 | 0 | 0 | 0 |
 | highlight | 1 | 0 | 0 | 0 | 0 |
 | lablab-ai | 4 | 0 | 0 | 0 | 0 |
-| getdozer | 3 | 0 | 0 | 1 | 1 |
+| getdozer | 2 | 0 | 0 | 1 | 1 |
 | UnsafeLabs | 5 | 0 | 0 | 1 | 1 |
 | tscircuit | 3 | 0 | 0 | 1 | 1 |
-| outerbase | 1 | 0 | 0 | 0 | 0 |
 | caley-io | 1 | 0 | 0 | 0 | 0 |
 | scratchdata | 2 | 0 | 0 | 0 | 0 |
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
@@ -95,4 +95,4 @@
 | mohan-bee | 1 | 0 | 0 | 0 | 0 |
 | tryabby | 1 | 0 | 0 | 0 | 0 |
 | BAWES-Universe | 1 | 0 | 0 | 0 | 0 |
-| unknown | 0 | 0 | 0 | 96 | 96 |
+| unknown | 0 | 0 | 0 | 98 | 98 |

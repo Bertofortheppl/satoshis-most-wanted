@@ -4,13 +4,13 @@
 
 ## The Young Gun — freshest clean listing
 
-- **[Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-11-23
+- **[Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161)** — negotiable 🤝, getAlby bounty program, uncontested, first seen 2026-11-24
 
 ## The wall
 
 | Score | Listing | Purse | Source | Contest | Scars | Repo pushed |
 |---|---|---|---|---|---|---|
-| 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-11-12 |
+| 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-11-23 |
 | 42 | [Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 27 | [Add support for NIP-47 notifications](https://github.com/getAlby/pos/issues/40) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-23 |
 | 27 | [Add proper connection page for LNC connect](https://github.com/getAlby/bitcoin-connect/issues/84) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-20 |
