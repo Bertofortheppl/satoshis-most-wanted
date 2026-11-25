@@ -654,6 +654,18 @@
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
     "verdict": "CLEAN"
   },
+  "madin-ll/bounty-pipeline-e2e-verify": {
+    "checked_at": "2026-11-25T00:04:15Z",
+    "checked_date": "2026-11-24",
+    "checked_files": [
+      "issue #1"
+    ],
+    "rules": [],
+    "score": 0,
+    "target": "madin-ll/bounty-pipeline-e2e-verify",
+    "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+    "verdict": "CLEAN"
+  },
   "mohan-bee/curve": {
     "checked_at": "2026-11-22T01:20:52Z",
     "checked_date": "2026-11-22",
