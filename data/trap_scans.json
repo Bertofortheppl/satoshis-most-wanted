@@ -165,18 +165,15 @@
     "verdict": "TRAP"
   },
   "CodyTseng/jumble": {
-    "checked_at": "2026-11-17T07:39:13Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:10:58Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "README.md",
       "AGENTS.md",
       "CLAUDE.md",
       "issue #886",
       "issue #875",
-      "issue #874",
-      "issue #868",
-      "issue #866",
-      "issue #865"
+      "issue #874"
     ],
     "rules": [],
     "score": 0,
@@ -185,8 +182,8 @@
     "verdict": "CLEAN"
   },
   "MagnivOrg/prompt-layer-library": {
-    "checked_at": "2026-11-17T07:39:07Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:10:51Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "README.md",
       "issue #358",
@@ -213,8 +210,8 @@
     "verdict": "CLEAN"
   },
   "PrimalHQ/primal-android-app": {
-    "checked_at": "2026-11-17T07:38:55Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:10:38Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -229,8 +226,8 @@
     "verdict": "CLEAN"
   },
   "PrimalHQ/primal-ios-app": {
-    "checked_at": "2026-11-17T07:38:49Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:10:32Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -243,14 +240,12 @@
     "verdict": "CLEAN"
   },
   "PrimalHQ/primal-web-app": {
-    "checked_at": "2026-11-17T07:39:01Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:10:45Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
-      "issue #236",
-      "issue #235",
-      "issue #233"
+      "issue #243"
     ],
     "rules": [],
     "score": 0,
@@ -410,12 +405,18 @@
     "verdict": "CLEAN"
   },
   "chainwayxyz/clementine": {
-    "checked_at": "2026-11-17T07:39:19Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:11:05Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "README.md",
       "SECURITY.md",
-      "issue #1277"
+      "issue #1277",
+      "issue #1269",
+      "issue #1263",
+      "issue #1176",
+      "issue #1174",
+      "issue #1119",
+      "issue #1094"
     ],
     "rules": [],
     "score": 0,
@@ -438,8 +439,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/ZapPlanner": {
-    "checked_at": "2026-11-17T07:40:00Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:11:51Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "README.md",
       "issue #84",
@@ -456,8 +457,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/bitcoin-connect": {
-    "checked_at": "2026-11-17T07:39:31Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:11:18Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -471,17 +472,15 @@
     "verdict": "CLEAN"
   },
   "getAlby/hub": {
-    "checked_at": "2026-11-17T07:39:49Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:11:37Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "README.md",
       "AGENTS.md",
       "CLAUDE.md",
       "SECURITY.md",
-      "issue #2722",
-      "issue #2720",
-      "issue #2706",
-      "issue #2699"
+      "issue #2750",
+      "issue #2749"
     ],
     "rules": [],
     "score": 0,
@@ -490,8 +489,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/lightning-browser-extension": {
-    "checked_at": "2026-11-17T07:39:37Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:11:24Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -506,8 +505,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/nostr-wallet-connect": {
-    "checked_at": "2026-11-17T07:39:43Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:11:31Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "README.md",
       "issue #275",
@@ -521,8 +520,8 @@
     "verdict": "CLEAN"
   },
   "getAlby/pos": {
-    "checked_at": "2026-11-17T07:39:54Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:11:44Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "README.md",
       "issue #46",
@@ -641,12 +640,15 @@
     "verdict": "SUSPICIOUS"
   },
   "lnbits/lnbits": {
-    "checked_at": "2026-11-17T07:39:25Z",
-    "checked_date": "2026-11-17",
+    "checked_at": "2026-11-25T08:11:11Z",
+    "checked_date": "2026-11-25",
     "checked_files": [
       "README.md",
       "AGENTS.md",
-      "SECURITY.md"
+      "SECURITY.md",
+      "issue #4363",
+      "issue #4357",
+      "issue #4354"
     ],
     "rules": [],
     "score": 0,
