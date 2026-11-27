@@ -5274,7 +5274,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-26",
+      "repo_last_push": "2026-11-27",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -5316,7 +5316,7 @@
         "purse 10200 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -5396,7 +5396,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-26",
+      "repo_last_push": "2026-11-27",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -5438,7 +5438,7 @@
         "purse 2000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "rewarder ok/unknown"
       ],
@@ -5932,7 +5932,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-26",
+      "repo_last_push": "2026-11-27",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 0,
@@ -5966,7 +5966,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "uncontested",
         "rewarder ok/unknown"
       ],
@@ -6000,7 +6000,7 @@
       "language": "typescript",
       "repo": "CodyTseng/jumble",
       "repo_archived": false,
-      "repo_last_push": "2026-11-26",
+      "repo_last_push": "2026-11-27",
       "contested_prs": 1,
       "contest_detail": [
         {
@@ -6042,7 +6042,7 @@
         "purse 3000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
@@ -7319,7 +7319,7 @@
       "language": "python",
       "repo": "lnbits/lnbits",
       "repo_archived": false,
-      "repo_last_push": "2026-11-26",
+      "repo_last_push": "2026-11-27",
       "contested_prs": 0,
       "contest_detail": [],
       "dead_attempts": 2,
@@ -7353,7 +7353,7 @@
         "purse 20000 sats",
         "purse locked in escrow",
         "trap scan CLEAN",
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "responded recently",
         "uncontested",
         "rewarder ok/unknown"
@@ -9524,6 +9524,233 @@
       ]
     },
     {
+      "id": "bounty_sweep-82aba29d0b808966",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "limitlessprojects/Go-Hybrid#4617",
+      "title": "[wildcard] Let worker counts change without changing the bits of a floating-point sum",
+      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4617",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "limitlessprojects",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "rust",
+      "repo": "limitlessprojects/Go-Hybrid",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-27",
+      "contested_prs": 1,
+      "contest_detail": [
+        {
+          "number": 4736,
+          "user": "SuperPiIot",
+          "title": "spikes: W-4617 exact floating-point summation with worker-count independence",
+          "state": "open",
+          "age_days": 3
+        }
+      ],
+      "dead_attempts": 0,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 2,
+      "trap": {
+        "verdict": "SUSPICIOUS",
+        "score": 30,
+        "rules": [
+          {
+            "evidence": "4,599 PRs / 32 stars / 0 of last 30 merged",
+            "rule": "VOLUME_NO_RECEPTION",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "Huge PR volume, almost no audience",
+            "why": "4,599 PR numbers issued against 32 stars (143.7:1). Real projects attract readers roughly in proportion to contributors."
+          },
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "limitlessprojects/Go-Hybrid",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-20T02:11:36Z",
+        "checked_files": [
+          "CONTRIBUTING.md",
+          "README.md",
+          "AGENTS.md",
+          "SECURITY.md",
+          "issue #4597",
+          "issue #4596",
+          "issue #4593"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-27",
+      "last_checked": "2026-11-27",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 0d ago",
+        "responded recently",
+        "lightly contested (1 fresh PR)",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "trap verdict SUSPICIOUS (wall requires CLEAN)"
+      ]
+    },
+    {
+      "id": "bounty_sweep-dea3e21ea4b472bc",
+      "source": "bounty_sweep",
+      "source_label": "Bounty-label sweep (GitHub-wide)",
+      "external_id": "arakoodev/EdgeChains#290",
+      "title": "BOUNTY: integrate AWS Comprehend as a utility to redact data",
+      "url": "https://github.com/arakoodev/EdgeChains/issues/290",
+      "kind": "unranked",
+      "sats": null,
+      "escrow": null,
+      "rewarder": "arakoodev",
+      "claim_mechanics": {
+        "steps": [
+          "Wild listings: terms are whatever the issue says \u2014 read every",
+          "requirement carefully; run the repo through a trap scan",
+          "(that is what this board is for) before committing anything."
+        ],
+        "payment": "varies by issuer; unverified",
+        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
+        "negotiated": false,
+        "paying_schedule": false
+      },
+      "language": "javascript",
+      "repo": "arakoodev/EdgeChains",
+      "repo_archived": false,
+      "repo_last_push": "2026-11-23",
+      "contested_prs": 9,
+      "contest_detail": [
+        {
+          "number": 434,
+          "user": "maoshuorz",
+          "title": "feat: AWS Comprehend PII redaction utility for JS SDK",
+          "state": "open",
+          "age_days": 265
+        },
+        {
+          "number": 444,
+          "user": "juandirahelia-a11y",
+          "title": "feat: implement AWS Comprehend PII redaction utility #290",
+          "state": "open",
+          "age_days": 239
+        },
+        {
+          "number": 448,
+          "user": "alihani714",
+          "title": "feat: add AWS Comprehend PII redaction utility",
+          "state": "open",
+          "age_days": 231
+        },
+        {
+          "number": 454,
+          "user": "tarai-dl",
+          "title": "feat: integrate AWS Comprehend as a PII redaction utility (#290)",
+          "state": "open",
+          "age_days": 224
+        },
+        {
+          "number": 457,
+          "user": "atecnoco-arch",
+          "title": "feat(pii-redactor): Integrate AWS Comprehend RxJS Middleware + Repo Audit",
+          "state": "open",
+          "age_days": 221
+        },
+        {
+          "number": 459,
+          "user": "l8888888",
+          "title": "feat: AWS Comprehend PII redaction integration (#290)",
+          "state": "open",
+          "age_days": 220
+        },
+        {
+          "number": 461,
+          "user": "Pearltechie",
+          "title": "feat: integrate AWS Comprehend as a chainable PII redactor ",
+          "state": "open",
+          "age_days": 218
+        },
+        {
+          "number": 465,
+          "user": "alceops",
+          "title": "Add AWS Comprehend PII redaction utility",
+          "state": "open",
+          "age_days": 216
+        },
+        {
+          "number": 474,
+          "user": "apollo-jpg",
+          "title": "feat(js): add AWS Comprehend prompt redactor",
+          "state": "open",
+          "age_days": 200
+        }
+      ],
+      "dead_attempts": 3,
+      "merged_attempts": 0,
+      "maintainer_responded": true,
+      "maintainer_last_reply_age_days": 182,
+      "trap": {
+        "verdict": "CAUTION",
+        "score": 15,
+        "rules": [
+          {
+            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+            "rule": "NOTHING_EVER_MERGES",
+            "severity": 15,
+            "source": "repo metadata",
+            "title": "No recently-closed pull request was merged",
+            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+          }
+        ],
+        "target": "arakoodev/EdgeChains",
+        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
+        "checked_at": "2026-11-20T02:11:48Z",
+        "checked_files": [
+          "README.md"
+        ]
+      },
+      "score": null,
+      "score_breakdown": {},
+      "status": "open",
+      "first_seen": "2026-11-27",
+      "last_checked": "2026-11-27",
+      "schema_version": 1,
+      "door": "tracked",
+      "bar_pass_reasons": [
+        "repo pushed 4d ago",
+        "rewarder ok/unknown"
+      ],
+      "bar_fail_reasons": [
+        "no sats purse (negotiable/unknown)",
+        "3 prior attempts died unmerged (battle scars, D7)",
+        "trap verdict CAUTION (wall requires CLEAN)",
+        "last reply 182d ago (> 60d)",
+        "contested by 9 open PRs (> 1)"
+      ]
+    },
+    {
       "id": "bounty_sweep-23d7a0e815135e0b",
       "source": "bounty_sweep",
       "source_label": "Bounty-label sweep (GitHub-wide)",
@@ -9810,141 +10037,6 @@
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
         "trap verdict SUSPICIOUS (wall requires CLEAN)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-dea3e21ea4b472bc",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "arakoodev/EdgeChains#290",
-      "title": "BOUNTY: integrate AWS Comprehend as a utility to redact data",
-      "url": "https://github.com/arakoodev/EdgeChains/issues/290",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "arakoodev",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "javascript",
-      "repo": "arakoodev/EdgeChains",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-23",
-      "contested_prs": 9,
-      "contest_detail": [
-        {
-          "number": 434,
-          "user": "maoshuorz",
-          "title": "feat: AWS Comprehend PII redaction utility for JS SDK",
-          "state": "open",
-          "age_days": 265
-        },
-        {
-          "number": 444,
-          "user": "juandirahelia-a11y",
-          "title": "feat: implement AWS Comprehend PII redaction utility #290",
-          "state": "open",
-          "age_days": 239
-        },
-        {
-          "number": 448,
-          "user": "alihani714",
-          "title": "feat: add AWS Comprehend PII redaction utility",
-          "state": "open",
-          "age_days": 231
-        },
-        {
-          "number": 454,
-          "user": "tarai-dl",
-          "title": "feat: integrate AWS Comprehend as a PII redaction utility (#290)",
-          "state": "open",
-          "age_days": 224
-        },
-        {
-          "number": 457,
-          "user": "atecnoco-arch",
-          "title": "feat(pii-redactor): Integrate AWS Comprehend RxJS Middleware + Repo Audit",
-          "state": "open",
-          "age_days": 221
-        },
-        {
-          "number": 459,
-          "user": "l8888888",
-          "title": "feat: AWS Comprehend PII redaction integration (#290)",
-          "state": "open",
-          "age_days": 220
-        },
-        {
-          "number": 461,
-          "user": "Pearltechie",
-          "title": "feat: integrate AWS Comprehend as a chainable PII redactor ",
-          "state": "open",
-          "age_days": 218
-        },
-        {
-          "number": 465,
-          "user": "alceops",
-          "title": "Add AWS Comprehend PII redaction utility",
-          "state": "open",
-          "age_days": 216
-        },
-        {
-          "number": 474,
-          "user": "apollo-jpg",
-          "title": "feat(js): add AWS Comprehend prompt redactor",
-          "state": "open",
-          "age_days": 200
-        }
-      ],
-      "dead_attempts": 3,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 182,
-      "trap": {
-        "verdict": "CAUTION",
-        "score": 15,
-        "rules": [
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "arakoodev/EdgeChains",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-20T02:11:48Z",
-        "checked_files": [
-          "README.md"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-27",
-      "last_checked": "2026-11-27",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 4d ago",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "3 prior attempts died unmerged (battle scars, D7)",
-        "trap verdict CAUTION (wall requires CLEAN)",
-        "last reply 182d ago (> 60d)",
-        "contested by 9 open PRs (> 1)"
       ]
     },
     {
@@ -10607,7 +10699,7 @@
       "repo": "madin-ll/bounty-pipeline-e2e-verify",
       "repo_archived": false,
       "repo_last_push": "2026-11-24",
-      "contested_prs": 7,
+      "contested_prs": 8,
       "contest_detail": [
         {
           "number": 3,
@@ -10657,6 +10749,13 @@
           "title": "fix: Add a new entry for the 'd' unit in the _UNITS dictionary and update the te",
           "state": "open",
           "age_days": 1
+        },
+        {
+          "number": 11,
+          "user": "AidenChan2025",
+          "title": "fix: support days (d) unit in parse_duration (#1)",
+          "state": "open",
+          "age_days": 0
         }
       ],
       "dead_attempts": 0,
@@ -10688,7 +10787,7 @@
       ],
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
-        "contested by 7 open PRs (> 1)",
+        "contested by 8 open PRs (> 1)",
         "low-trust rewarder"
       ]
     },
@@ -11823,98 +11922,6 @@
           "title": "spikes: W-4699 deterministic artifact manifests (#4699)",
           "state": "open",
           "age_days": 4
-        }
-      ],
-      "dead_attempts": 0,
-      "merged_attempts": 0,
-      "maintainer_responded": true,
-      "maintainer_last_reply_age_days": 2,
-      "trap": {
-        "verdict": "SUSPICIOUS",
-        "score": 30,
-        "rules": [
-          {
-            "evidence": "4,599 PRs / 32 stars / 0 of last 30 merged",
-            "rule": "VOLUME_NO_RECEPTION",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "Huge PR volume, almost no audience",
-            "why": "4,599 PR numbers issued against 32 stars (143.7:1). Real projects attract readers roughly in proportion to contributors."
-          },
-          {
-            "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-            "rule": "NOTHING_EVER_MERGES",
-            "severity": 15,
-            "source": "repo metadata",
-            "title": "No recently-closed pull request was merged",
-            "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
-          }
-        ],
-        "target": "limitlessprojects/Go-Hybrid",
-        "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-        "checked_at": "2026-11-20T02:11:36Z",
-        "checked_files": [
-          "CONTRIBUTING.md",
-          "README.md",
-          "AGENTS.md",
-          "SECURITY.md",
-          "issue #4597",
-          "issue #4596",
-          "issue #4593"
-        ]
-      },
-      "score": null,
-      "score_breakdown": {},
-      "status": "open",
-      "first_seen": "2026-11-27",
-      "last_checked": "2026-11-27",
-      "schema_version": 1,
-      "door": "tracked",
-      "bar_pass_reasons": [
-        "repo pushed 0d ago",
-        "responded recently",
-        "lightly contested (1 fresh PR)",
-        "rewarder ok/unknown"
-      ],
-      "bar_fail_reasons": [
-        "no sats purse (negotiable/unknown)",
-        "trap verdict SUSPICIOUS (wall requires CLEAN)"
-      ]
-    },
-    {
-      "id": "bounty_sweep-82aba29d0b808966",
-      "source": "bounty_sweep",
-      "source_label": "Bounty-label sweep (GitHub-wide)",
-      "external_id": "limitlessprojects/Go-Hybrid#4617",
-      "title": "[wildcard] Let worker counts change without changing the bits of a floating-point sum",
-      "url": "https://github.com/limitlessprojects/Go-Hybrid/issues/4617",
-      "kind": "unranked",
-      "sats": null,
-      "escrow": null,
-      "rewarder": "limitlessprojects",
-      "claim_mechanics": {
-        "steps": [
-          "Wild listings: terms are whatever the issue says \u2014 read every",
-          "requirement carefully; run the repo through a trap scan",
-          "(that is what this board is for) before committing anything."
-        ],
-        "payment": "varies by issuer; unverified",
-        "gotchas": "this corpus is where the prompt-harvest traps live; never paste your agent configuration into a PR",
-        "negotiated": false,
-        "paying_schedule": false
-      },
-      "language": "rust",
-      "repo": "limitlessprojects/Go-Hybrid",
-      "repo_archived": false,
-      "repo_last_push": "2026-11-27",
-      "contested_prs": 1,
-      "contest_detail": [
-        {
-          "number": 4736,
-          "user": "SuperPiIot",
-          "title": "spikes: W-4617 exact floating-point summation with worker-count independence",
-          "state": "open",
-          "age_days": 3
         }
       ],
       "dead_attempts": 0,
@@ -13904,9 +13911,115 @@
       "repo": "SecureBananaLabs/bug-bounty",
       "repo_archived": false,
       "repo_last_push": "2026-11-26",
-      "contested_prs": 0,
-      "contest_detail": [],
-      "dead_attempts": 0,
+      "contested_prs": 15,
+      "contest_detail": [
+        {
+          "number": 747,
+          "user": "giaphutran12",
+          "title": "Add low-hanging-fruit issue automation",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 756,
+          "user": "Mickey123123",
+          "title": "Add recursive low-hanging-fruit issue scout",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 758,
+          "user": "Mickey123123",
+          "title": "Fix production JWT secret fallback",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 765,
+          "user": "yokuisiti",
+          "title": "fix: validate EVM wallet address format in faucet endpoint (bounty #743)",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 771,
+          "user": "adliebe",
+          "title": "fix: keep registration token subject aligned",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 780,
+          "user": "szw9999",
+          "title": "fix(api): validate job budget range",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 784,
+          "user": "iccccccccccccc",
+          "title": "fix: validate refresh tokens before reissuing access",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 788,
+          "user": "jtc268",
+          "title": "Fix review rating validation",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 791,
+          "user": "adliebe",
+          "title": "fix: validate message creation payloads",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 794,
+          "user": "Lucas-FManager",
+          "title": "Validate proposal creation payloads",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 801,
+          "user": "Lucas-FManager",
+          "title": "Validate notification creation payloads",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 803,
+          "user": "Lucas-FManager",
+          "title": "Validate user creation payloads",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 804,
+          "user": "crowniteto",
+          "title": "fix(auth): add role-based access control for admin routes",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 805,
+          "user": "crowniteto",
+          "title": "fix(jobs): add budgetMax >= budgetMin cross-field validation",
+          "state": "open",
+          "age_days": 184
+        },
+        {
+          "number": 806,
+          "user": "crowniteto",
+          "title": "fix(auth): remove admin from register schema \u2014 prevent privilege escalation",
+          "state": "open",
+          "age_days": 184
+        }
+      ],
+      "dead_attempts": 5,
       "merged_attempts": 0,
       "maintainer_responded": true,
       "maintainer_last_reply_age_days": 184,
@@ -13949,13 +14062,14 @@
       "door": "tracked",
       "bar_pass_reasons": [
         "repo pushed 1d ago",
-        "uncontested",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
         "no sats purse (negotiable/unknown)",
+        "5 prior attempts died unmerged (battle scars, D7)",
         "trap verdict SUSPICIOUS (wall requires CLEAN)",
-        "last reply 184d ago (> 60d)"
+        "last reply 184d ago (> 60d)",
+        "contested by 15 open PRs (> 1)"
       ]
     },
     {
@@ -16013,7 +16127,7 @@
       "language": "typescript",
       "repo": "tscircuit/pcb-viewer",
       "repo_archived": false,
-      "repo_last_push": "2026-11-26",
+      "repo_last_push": "2026-11-27",
       "contested_prs": 13,
       "contest_detail": [
         {
@@ -16141,7 +16255,7 @@
       "schema_version": 1,
       "door": "tracked",
       "bar_pass_reasons": [
-        "repo pushed 1d ago",
+        "repo pushed 0d ago",
         "rewarder ok/unknown"
       ],
       "bar_fail_reasons": [
