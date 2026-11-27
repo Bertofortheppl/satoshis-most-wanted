@@ -71,6 +71,7 @@
 | keith-gardner | 1 | 0 | 0 | 0 | 0 |
 | sbddesign | 1 | 0 | 0 | 0 | 0 |
 | getAlby | 30 | 0 | 0 | 0 | 0 |
+| lablab-ai | 4 | 0 | 0 | 0 | 0 |
 | limitlessprojects | 26 | 0 | 0 | 0 | 0 |
 | arakoodev | 3 | 0 | 0 | 0 | 0 |
 | TheSolaAI | 1 | 0 | 0 | 0 | 0 |
@@ -82,7 +83,6 @@
 | onyx-dot-app | 1 | 0 | 0 | 0 | 0 |
 | javelin-anticheat | 2 | 0 | 0 | 1 | 1 |
 | outerbase | 1 | 0 | 0 | 0 | 0 |
-| lablab-ai | 4 | 0 | 0 | 0 | 0 |
 | PG-AGI | 1 | 0 | 0 | 0 | 0 |
 | SecureBananaLabs | 10 | 0 | 0 | 8 | 8 |
 | ClankerNation | 26 | 0 | 0 | 4 | 4 |
