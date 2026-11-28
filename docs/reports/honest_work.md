@@ -1,6 +1,6 @@
 # Honest Work — verified clean opportunities
 
-> 5 posters passed the strict bar. Strict bar (DECISIONS.md D6): escrow or documented paying schedule, trap scan CLEAN, repo alive and pushed recently, someone responded recently, contest at most one fresh PR, rewarder not low-trust, purse at least 2000 sats. Fail any gate and the item is tracked in open data without a poster.
+> 6 posters passed the strict bar. Strict bar (DECISIONS.md D6): escrow or documented paying schedule, trap scan CLEAN, repo alive and pushed recently, someone responded recently, contest at most one fresh PR, rewarder not low-trust, purse at least 2000 sats. Fail any gate and the item is tracked in open data without a poster.
 
 ## The Young Gun — freshest clean listing
 
@@ -11,6 +11,7 @@
 | Score | Listing | Purse | Source | Contest | Scars | Repo pushed |
 |---|---|---|---|---|---|---|
 | 52 | [Export modal for (Zeus/BlueWallet) accounts: Link to docs](https://github.com/getAlby/lightning-browser-extension/issues/1161) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-11-23 |
+| 42 | [Minor borders/transparency update](https://github.com/getAlby/bitcoin-connect/issues/144) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 42 | [Add Blink Wallet connector](https://github.com/getAlby/bitcoin-connect/issues/114) | negotiable 🤝 | getAlby bounty program | clean | — | 2026-10-20 |
 | 27 | [Add support for NIP-47 notifications](https://github.com/getAlby/pos/issues/40) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-23 |
 | 27 | [Add proper connection page for LNC connect](https://github.com/getAlby/bitcoin-connect/issues/84) | negotiable 🤝 | getAlby bounty program | 1 PR | — | 2026-10-20 |

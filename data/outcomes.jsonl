@@ -454,3 +454,11 @@
 {"ts": "2026-11-26T16:55:55Z", "id": "bounty_sweep-a5e33a799f008198", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
 {"ts": "2026-11-28T03:29:04Z", "id": "bounty_sweep-8346fc46d86b3d47", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
 {"ts": "2026-11-28T03:29:04Z", "id": "bounty_sweep-687e2000fed8270f", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-28T15:32:58Z", "id": "bounty_sweep-9746c659e905bdb8", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-28T15:32:58Z", "id": "bounty_sweep-cf2b91a5209be99b", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-28T15:32:58Z", "id": "bounty_sweep-2fdda1e81b129ebe", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-28T15:32:58Z", "id": "bounty_sweep-6131961867106124", "event": "first_seen", "to": "open", "source": "bounty_sweep"}
+{"ts": "2026-11-28T15:32:58Z", "id": "bounty_sweep-341d3a4c447aae86", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-28T15:32:58Z", "id": "bounty_sweep-b33ee7af13ca5357", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-28T15:32:58Z", "id": "bounty_sweep-a6caa94574106698", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
+{"ts": "2026-11-28T15:32:58Z", "id": "bounty_sweep-560400be06557283", "event": "status", "from": "open", "to": "expired", "source": "bounty_sweep"}
