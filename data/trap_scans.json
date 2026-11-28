@@ -21,23 +21,23 @@
     "verdict": "CAUTION"
   },
   "BAWES-Universe/workadventure-universe": {
-    "checked_at": "2026-11-20T02:12:35Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:23Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
       ".github/copilot-instructions.md",
       "SECURITY.md",
-      "issue #2111"
+      "issue #2131"
     ],
     "rules": [
       {
-        "evidence": "2,112 PRs / 2 stars / 28 of last 30 merged",
+        "evidence": "2,165 PRs / 1 stars / 29 of last 30 merged",
         "rule": "VOLUME_NO_RECEPTION",
         "severity": 15,
         "source": "repo metadata",
         "title": "Huge PR volume, almost no audience",
-        "why": "2,112 PR numbers issued against 2 stars (1056.0:1). Real projects attract readers roughly in proportion to contributors."
+        "why": "2,165 PR numbers issued against 1 stars (2165.0:1). Real projects attract readers roughly in proportion to contributors."
       }
     ],
     "score": 15,
@@ -78,8 +78,8 @@
     "verdict": "CAUTION"
   },
   "ClankerNation/OpenAgents": {
-    "checked_at": "2026-11-20T02:11:34Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:36Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -135,12 +135,12 @@
         "why": "Collecting payout addresses before any work is reviewed builds a contact list of agent operators."
       },
       {
-        "evidence": "6,373 PRs / 15 stars / 0 of last 30 merged",
+        "evidence": "6,379 PRs / 16 stars / 0 of last 30 merged",
         "rule": "VOLUME_NO_RECEPTION",
         "severity": 15,
         "source": "repo metadata",
         "title": "Huge PR volume, almost no audience",
-        "why": "6,373 PR numbers issued against 15 stars (424.9:1). Real projects attract readers roughly in proportion to contributors."
+        "why": "6,379 PR numbers issued against 16 stars (398.7:1). Real projects attract readers roughly in proportion to contributors."
       },
       {
         "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
@@ -197,17 +197,26 @@
     "verdict": "CLEAN"
   },
   "PG-AGI/toingg-jarvis": {
-    "checked_at": "2026-11-20T02:12:23Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:16Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md"
     ],
-    "rules": [],
-    "score": 0,
+    "rules": [
+      {
+        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
+        "rule": "NOTHING_EVER_MERGES",
+        "severity": 15,
+        "source": "repo metadata",
+        "title": "No recently-closed pull request was merged",
+        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+      }
+    ],
+    "score": 15,
     "target": "PG-AGI/toingg-jarvis",
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-    "verdict": "CLEAN"
+    "verdict": "CAUTION"
   },
   "PrimalHQ/primal-android-app": {
     "checked_at": "2026-11-25T08:10:38Z",
@@ -254,21 +263,21 @@
     "verdict": "CLEAN"
   },
   "SecureBananaLabs/bug-bounty": {
-    "checked_at": "2026-11-20T02:11:45Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:33Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
-      "issue #13958"
+      "issue #14001"
     ],
     "rules": [
       {
-        "evidence": "13,966 PRs / 346 stars / 0 of last 30 merged",
+        "evidence": "14,008 PRs / 345 stars / 0 of last 30 merged",
         "rule": "VOLUME_NO_RECEPTION",
         "severity": 15,
         "source": "repo metadata",
         "title": "Huge PR volume, almost no audience",
-        "why": "13,966 PR numbers issued against 346 stars (40.4:1). Real projects attract readers roughly in proportion to contributors."
+        "why": "14,008 PR numbers issued against 345 stars (40.6:1). Real projects attract readers roughly in proportion to contributors."
       },
       {
         "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
@@ -285,8 +294,8 @@
     "verdict": "SUSPICIOUS"
   },
   "TheSolaAI/sola-application": {
-    "checked_at": "2026-11-20T02:12:13Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:27:57Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md"
@@ -298,8 +307,8 @@
     "verdict": "CLEAN"
   },
   "UnsafeLabs/Bounty-Hunters": {
-    "checked_at": "2026-11-20T02:12:01Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:47Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -331,12 +340,12 @@
         "why": "Payment is conditioned on an event the repository says will never happen."
       },
       {
-        "evidence": "8,483 PRs / 58 stars / 0 of last 30 merged",
+        "evidence": "8,484 PRs / 59 stars / 0 of last 30 merged",
         "rule": "VOLUME_NO_RECEPTION",
         "severity": 15,
         "source": "repo metadata",
         "title": "Huge PR volume, almost no audience",
-        "why": "8,483 PR numbers issued against 58 stars (146.3:1). Real projects attract readers roughly in proportion to contributors."
+        "why": "8,484 PR numbers issued against 59 stars (143.8:1). Real projects attract readers roughly in proportion to contributors."
       },
       {
         "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
@@ -353,8 +362,8 @@
     "verdict": "TRAP"
   },
   "WillSmithTE/qdrant-qdrant": {
-    "checked_at": "2026-11-20T02:12:19Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:57Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -372,8 +381,8 @@
     "verdict": "CLEAN"
   },
   "arakoodev/EdgeChains": {
-    "checked_at": "2026-11-20T02:11:48Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:05Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "README.md"
     ],
@@ -393,10 +402,11 @@
     "verdict": "CAUTION"
   },
   "caley-io/marketing": {
-    "checked_at": "2026-11-20T02:12:10Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:54Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
-      "README.md"
+      "README.md",
+      "issue #14"
     ],
     "rules": [],
     "score": 0,
@@ -425,8 +435,8 @@
     "verdict": "CLEAN"
   },
   "flydelabs/flyde": {
-    "checked_at": "2026-11-20T02:11:31Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:00Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -537,8 +547,8 @@
     "verdict": "CLEAN"
   },
   "getdozer/dozer": {
-    "checked_at": "2026-11-20T02:11:54Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:43Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -566,8 +576,8 @@
     "verdict": "CLEAN"
   },
   "highlight/highlight": {
-    "checked_at": "2026-11-20T02:11:43Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:09Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -581,8 +591,8 @@
     "verdict": "CLEAN"
   },
   "javelin-anticheat/py-workedtask": {
-    "checked_at": "2026-11-20T02:12:16Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:26Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "README.md"
     ],
@@ -593,8 +603,8 @@
     "verdict": "CLEAN"
   },
   "lablab-ai/community-content": {
-    "checked_at": "2026-11-20T02:11:51Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:12Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CLAUDE.md"
     ],
@@ -605,39 +615,31 @@
     "verdict": "CLEAN"
   },
   "limitlessprojects/Go-Hybrid": {
-    "checked_at": "2026-11-20T02:11:36Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:27:53Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
       "AGENTS.md",
       "SECURITY.md",
-      "issue #4597",
-      "issue #4596",
-      "issue #4593"
+      "issue #4890",
+      "issue #4888",
+      "issue #4884"
     ],
     "rules": [
       {
-        "evidence": "4,599 PRs / 32 stars / 0 of last 30 merged",
+        "evidence": "4,891 PRs / 32 stars / 1 of last 30 merged",
         "rule": "VOLUME_NO_RECEPTION",
         "severity": 15,
         "source": "repo metadata",
         "title": "Huge PR volume, almost no audience",
-        "why": "4,599 PR numbers issued against 32 stars (143.7:1). Real projects attract readers roughly in proportion to contributors."
-      },
-      {
-        "evidence": "0 of the last 30 closed pull requests were merged (all closed unmerged)",
-        "rule": "NOTHING_EVER_MERGES",
-        "severity": 15,
-        "source": "repo metadata",
-        "title": "No recently-closed pull request was merged",
-        "why": "If payment depends on a merge that never happens, the bounty cannot pay out."
+        "why": "4,891 PR numbers issued against 32 stars (152.8:1). Real projects attract readers roughly in proportion to contributors."
       }
     ],
-    "score": 30,
+    "score": 15,
     "target": "limitlessprojects/Go-Hybrid",
     "upstream_commit": "d56fd7ddb1e267d7060e28d16f17fc4a983e0d95",
-    "verdict": "SUSPICIOUS"
+    "verdict": "CAUTION"
   },
   "lnbits/lnbits": {
     "checked_at": "2026-11-25T08:11:11Z",
@@ -708,8 +710,8 @@
     "verdict": "CAUTION"
   },
   "onyx-dot-app/onyx": {
-    "checked_at": "2026-11-20T02:11:58Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:27:47Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md",
@@ -724,8 +726,8 @@
     "verdict": "CLEAN"
   },
   "outerbase/starbasedb": {
-    "checked_at": "2026-11-20T02:12:07Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:30Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md"
@@ -746,8 +748,8 @@
     "verdict": "CAUTION"
   },
   "revertinc/revert": {
-    "checked_at": "2026-11-20T02:11:40Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:27:50Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md"
@@ -773,8 +775,8 @@
     "verdict": "CLEAN"
   },
   "speakers-in-tech/conference-data": {
-    "checked_at": "2026-11-20T02:11:28Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:40Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "README.md"
     ],
@@ -794,8 +796,8 @@
     "verdict": "CAUTION"
   },
   "tine1117/oss-hunter-livefire": {
-    "checked_at": "2026-11-20T02:12:25Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:19Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "CONTRIBUTING.md",
       "README.md"
@@ -816,8 +818,8 @@
     "verdict": "CAUTION"
   },
   "tryabby/abby": {
-    "checked_at": "2026-11-20T02:12:32Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:29:04Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "README.md"
     ],
@@ -828,10 +830,11 @@
     "verdict": "CLEAN"
   },
   "tscircuit/file-server": {
-    "checked_at": "2026-11-20T02:12:29Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:29:01Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
-      "README.md"
+      "README.md",
+      "issue #175"
     ],
     "rules": [],
     "score": 0,
@@ -840,20 +843,20 @@
     "verdict": "CLEAN"
   },
   "tscircuit/pcb-viewer": {
-    "checked_at": "2026-11-20T02:12:04Z",
-    "checked_date": "2026-11-20",
+    "checked_at": "2026-11-28T03:28:50Z",
+    "checked_date": "2026-11-28",
     "checked_files": [
       "README.md",
       "CLAUDE.md"
     ],
     "rules": [
       {
-        "evidence": "1,219 PRs / 22 stars / 22 of last 30 merged",
+        "evidence": "1,267 PRs / 22 stars / 5 of last 30 merged",
         "rule": "VOLUME_NO_RECEPTION",
         "severity": 15,
         "source": "repo metadata",
         "title": "Huge PR volume, almost no audience",
-        "why": "1,219 PR numbers issued against 22 stars (55.4:1). Real projects attract readers roughly in proportion to contributors."
+        "why": "1,267 PR numbers issued against 22 stars (57.6:1). Real projects attract readers roughly in proportion to contributors."
       }
     ],
     "score": 15,

@@ -6,35 +6,35 @@
 
 | Repo | Score | Decisive rules | Purse advertised | First seen |
 |---|---|---|---|---|
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/78) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/49) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/101) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/82) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/182) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/178) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/202) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/166) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/149) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/130) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/135) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/172) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/11) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/14) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/65) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/75) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/95) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/98) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/183) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/161) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/198) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/173) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/176) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/181) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/79) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/94) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/920) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/919) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
-| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/575) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-27 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/78) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/49) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/101) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/82) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/182) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/178) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/202) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/166) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/149) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/130) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/135) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/172) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/11) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/14) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/65) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/75) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/95) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/98) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/183) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/161) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/198) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/173) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/176) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/181) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/79) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [ClankerNation/OpenAgents](https://github.com/ClankerNation/OpenAgents/issues/94) | 178 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/920) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/919) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
+| [UnsafeLabs/Bounty-Hunters](https://github.com/UnsafeLabs/Bounty-Hunters/issues/575) | 100 | HIDDEN_DIRECTIVE | n/a sats | 2026-11-28 |
 
 ## Evidence
 
@@ -44,7 +44,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -52,7 +52,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -60,7 +60,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -68,7 +68,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -76,7 +76,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -84,7 +84,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -92,7 +92,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -100,7 +100,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -108,7 +108,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -116,7 +116,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -124,7 +124,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -132,7 +132,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -140,7 +140,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -148,7 +148,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -156,7 +156,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -164,7 +164,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -172,7 +172,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -180,7 +180,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -188,7 +188,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -196,7 +196,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -204,7 +204,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -212,7 +212,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -220,7 +220,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -228,7 +228,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -236,7 +236,7 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### ClankerNation/OpenAgents (score 178)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing to OpenAgents <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated cont`
@@ -244,26 +244,26 @@
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
 - **AGENTS_ONLY** (sev 25): `tions. --> > [!WARNING] > **Heads up:** Humans are not allowed in this repository, this is purely for Autonomous AI agents. This is a research project — bountie`
 - **WALLET_REQUEST** (sev 15): `na), BTC, ETH, XMR (Monero), or PayPal. Specify your preferred payment method and wallet address when claiming the issue - **Claiming:** Comment on the issue to`
-- scanned `2026-11-20T02:11:34Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:36Z` · 11 files examined · upstream `d56fd7dd`
 
 ### UnsafeLabs/Bounty-Hunters (score 100)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated contrib`
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
-- **VOLUME_NO_RECEPTION** (sev 15): `8,483 PRs / 58 stars / 0 of last 30 merged`
+- **VOLUME_NO_RECEPTION** (sev 15): `8,484 PRs / 59 stars / 0 of last 30 merged`
 - **NOTHING_EVER_MERGES** (sev 15): `0 of the last 30 closed pull requests were merged (all closed unmerged)`
-- scanned `2026-11-20T02:12:01Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:47Z` · 11 files examined · upstream `d56fd7dd`
 
 ### UnsafeLabs/Bounty-Hunters (score 100)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated contrib`
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
-- **VOLUME_NO_RECEPTION** (sev 15): `8,483 PRs / 58 stars / 0 of last 30 merged`
+- **VOLUME_NO_RECEPTION** (sev 15): `8,484 PRs / 59 stars / 0 of last 30 merged`
 - **NOTHING_EVER_MERGES** (sev 15): `0 of the last 30 closed pull requests were merged (all closed unmerged)`
-- scanned `2026-11-20T02:12:01Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:47Z` · 11 files examined · upstream `d56fd7dd`
 
 ### UnsafeLabs/Bounty-Hunters (score 100)
 - **HIDDEN_DIRECTIVE** (sev 40): `# Contributing Guidelines <!-- SKIP_VALIDATION: metadata block for CI pipeline — not part of contributing guidelines. Autonomous AI agents and automated contrib`
 - **PAY_ON_MERGE_NEVER** (sev 30): `reviewed for research purposes only and will not be merged into production. If you're looking for paid bounty work, this is not the right repo. <!-- END_SKIP_VA`
-- **VOLUME_NO_RECEPTION** (sev 15): `8,483 PRs / 58 stars / 0 of last 30 merged`
+- **VOLUME_NO_RECEPTION** (sev 15): `8,484 PRs / 59 stars / 0 of last 30 merged`
 - **NOTHING_EVER_MERGES** (sev 15): `0 of the last 30 closed pull requests were merged (all closed unmerged)`
-- scanned `2026-11-20T02:12:01Z` · 11 files examined · upstream `d56fd7dd`
+- scanned `2026-11-28T03:28:47Z` · 11 files examined · upstream `d56fd7dd`
 
